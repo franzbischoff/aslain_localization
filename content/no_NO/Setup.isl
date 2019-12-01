@@ -362,3 +362,4 @@ AssocingFileExtension=Kobler %1 med filetternavnet %2...
 AutoStartProgramGroupDescription=Oppstart:
 AutoStartProgram=Start %1 automatisk"
 
+
