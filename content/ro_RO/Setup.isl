@@ -333,3 +333,4 @@ UninstalledMost=Dezinstalare completã a %1.%n%nAnumite elemente nu au putut fi 
 UninstalledAndNeedsRestart=Pentru a termina dezinstalarea %1, calculatorul trebuie repornit.%n%nVrei sã fie repornit acum?
 UninstallDataCorrupted="Fila \"%1\" este stricatã (coruptã). Dezinstalarea nu poate fi fãcutã"
 
+

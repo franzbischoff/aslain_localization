@@ -356,3 +356,4 @@ LaunchProgram=გაუშვი %1
 AssocFileExtension=&მიაბი %1-ის გაფართოება  %2-ს
 AssocingFileExtension=ვაბამ %1-ს %2-ზე..."
 
+

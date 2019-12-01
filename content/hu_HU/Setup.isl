@@ -333,3 +333,4 @@ UninstalledMost=A(z) %1 eltávolítása befejezõdött.%n%nNéhány elemet nem l
 UninstalledAndNeedsRestart=A(z) %1 eltávolításának befejezéséhez újra kell indítania a számítógépét.%n%nÚjraindítja most?
 UninstallDataCorrupted="A(z) \"%1\" fájl sérült. Nem távolítható el."
 
+

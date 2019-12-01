@@ -333,3 +333,4 @@ UninstalledMost=%1 卸载完成。%n%n有一些内容不能被删除。您可以
 UninstalledAndNeedsRestart=要完成 %1 的卸载，您的电脑必须重新启动。%n%n您现在想重新启动电脑吗？
 UninstallDataCorrupted="“%1”文件被破坏，不能卸载"
 
+

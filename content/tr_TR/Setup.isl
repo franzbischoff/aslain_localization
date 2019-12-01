@@ -458,3 +458,4 @@ AssocingFileExtension=%1 uygulamasý ile %2 dosya uzantýsý iliþkilendiriliyor
 AutoStartProgramGroupDescription=Baþlangýç:
 AutoStartProgram=%1 otomatik olarak baþlatýlsýn"
 
+

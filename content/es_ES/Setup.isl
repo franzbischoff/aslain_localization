@@ -333,3 +333,4 @@ UninstalledMost=La desinstalación de %1 ha sido completada.%n%nAlgunos elemento
 UninstalledAndNeedsRestart=Para completar la desinstalación de %1, su sistema debe reiniciarse.%n%n¿Desea reiniciarlo ahora?
 UninstallDataCorrupted="El archivo \"%1\" está dañado. No puede desinstalarse"
 
+

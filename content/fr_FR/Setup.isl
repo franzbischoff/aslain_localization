@@ -333,3 +333,4 @@ UninstalledMost=La désinstallation de %1 est terminée.%n%nCertains éléments 
 UninstalledAndNeedsRestart=Vous devez redémarrer l'ordinateur pour terminer la désinstallation de %1.%n%nVoulez-vous redémarrer maintenant ?
 UninstallDataCorrupted="Le ficher \"%1\" est altéré. Impossible de désinstaller"
 
+

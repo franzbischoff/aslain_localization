@@ -333,3 +333,4 @@ UninstalledMost=Desinstalação do %1 completa.%n%nAlguns elementos não puderam
 UninstalledAndNeedsRestart=Pra completar a desinstalação do %1, seu computador deve ser reiniciado.%n%nVocê gostaria de reiniciar agora?
 UninstallDataCorrupted="O arquivo \"%1\" está corrompido. Não consegue desinstalar"
 
+

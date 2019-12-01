@@ -333,3 +333,4 @@ UninstalledMost=Produkt %1 byl odinstalován.%n%nNìkteré jeho souèásti se od
 UninstalledAndNeedsRestart=K dokonèení odinstalace produktu %1 je nezbytné, aby prùvodce odinstalací restartoval Vá poèítaè.%n%nChcete jej restartovat nyní?
 UninstallDataCorrupted="Soubor \"%1\" je pokozen. Produkt nelze odinstalovat"
 
+
