@@ -151,7 +151,7 @@ WizardSelectDir=选择目标位置
 SelectDirDesc=您想将 [name] 安装在什么地方？
 SelectDirLabel3=安装程序将安装 [name] 到下列文件夹中。
 SelectDirBrowseLabel=单击“下一步”继续。如果您想选择其它文件夹，单击“浏览”。
-DiskSpaceGBLabel=At least [gb] GB of free disk space is required.
+DiskSpaceGBLabel=至少需要有 [gb] GB 的可用磁盘空间。
 DiskSpaceMBLabel=至少需要有 [mb] MB 的可用磁盘空间。
 CannotInstallToNetworkDrive=安装程序无法安装到一个网络驱动器。
 CannotInstallToUNCPath=安装程序无法安装到一个UNC路径。
@@ -179,7 +179,7 @@ NoUninstallWarningTitle=组件存在
 NoUninstallWarning=安装程序侦测到下列组件已在您的电脑中安装。:%n%n%1%n%n取消选定这些组件将不能卸载它们。%n%n您一定要继续吗？
 ComponentSize1=%1 KB
 ComponentSize2=%1 MB
-ComponentsDiskSpaceGBLabel=Current selection requires at least [gb] GB of disk space.
+ComponentsDiskSpaceGBLabel=当前选择的组件至少需要 [gb] GB 的磁盘空间。
 ComponentsDiskSpaceMBLabel=当前选择的组件至少需要 [mb] MB 的磁盘空间。
 
 ; *** "Select Additional Tasks" wizard page
@@ -220,7 +220,7 @@ ApplicationsFound2=下列应用程序正在使用的文件需要更新设置。�
 CloseApplications=自动关闭该应用程序(&A)
 DontCloseApplications=不要关闭该应用程序(D)
 ErrorCloseApplications=安装程序无法自动关闭所有应用程序。在继续之前，我们建议您关闭所有使用需要更新的安装程序文件。
-PrepareToInstallNeedsRestart=Setup must restart your computer. After restarting your computer, run Setup again to complete the installation of [name].%n%nWould you like to restart now?
+PrepareToInstallNeedsRestart=安装程序必须重新启动您的计算机。重新启动计算机后，再次运行安装程序以完成 [name] 的安装。%n%n您想现在重新启动吗？
 
 ; *** "Installing" wizard page
 WizardInstalling=正在安装
