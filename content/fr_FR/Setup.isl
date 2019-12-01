@@ -334,3 +334,4 @@ UninstalledAndNeedsRestart=Vous devez redémarrer l'ordinateur pour terminer la 
 UninstallDataCorrupted="Le ficher \"%1\" est altéré. Impossible de désinstaller"
 
 
+
