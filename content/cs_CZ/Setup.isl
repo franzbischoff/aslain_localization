@@ -374,3 +374,4 @@ AddonHostProgramNotFound=Aplikace %1 nebyla ve Vámi zvolené složce nalezena.%
 
 
 
+
