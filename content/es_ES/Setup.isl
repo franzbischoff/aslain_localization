@@ -332,3 +332,4 @@ UninstalledAll=%1 se desinstaló satisfactoriamente de su sistema.
 UninstalledMost=La desinstalación de %1 ha sido completada.%n%nAlgunos elementos no pudieron eliminarse, pero podrá eliminarlos manualmente si lo desea.
 UninstalledAndNeedsRestart=Para completar la desinstalación de %1, su sistema debe reiniciarse.%n%n¿Desea reiniciarlo ahora?
 UninstallDataCorrupted="El archivo \"%1\" está dañado. No puede desinstalarse"
+
