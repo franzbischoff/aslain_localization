@@ -13,7 +13,7 @@
 ; understand the '[LangOptions] section' topic in the help file.
 LanguageName=<0423><043A><0440><0430><0457><043D><0441><044C><043A><0430>
 LanguageID=$0422
-LanguageCodePage=1251
+LanguageCodePage=0
 ; If the language you are translating to requires special font faces or
 ; sizes, uncomment any of the following entries and change them accordingly.
 DialogFontName=Tahoma
@@ -28,340 +28,340 @@ CopyrightFontSize=8
 [Messages]
 
 ; *** Application titles
-SetupAppTitle=Âñòàíîâëåííÿ
-SetupWindowTitle=Âñòàíîâëåííÿ  %1
-UninstallAppTitle=Âèäàëåííÿ
-UninstallAppFullTitle=Âèäàëåííÿ  %1
+SetupAppTitle=Встановлення
+SetupWindowTitle=Встановлення — %1
+UninstallAppTitle=Видалення
+UninstallAppFullTitle=Видалення — %1
 
 ; *** Misc. common
-InformationTitle=²íôîðìàö³ÿ
-ConfirmTitle=Ï³äòâåðäæåííÿ
-ErrorTitle=Ïîìèëêà
+InformationTitle=Інформація
+ConfirmTitle=Підтвердження
+ErrorTitle=Помилка
 
 ; *** SetupLdr messages
-SetupLdrStartupMessage=Öÿ ïðîãðàìà âñòàíîâèòü %1 íà âàø êîìï'þòåð, áàæàºòå ïðîäîâæèòè?
-LdrCannotCreateTemp=Íåìîæëèâî ñòâîðèòè òèì÷àñîâèé ôàéë. Âñòàíîâëåííÿ ïåðåðâàíî
-LdrCannotExecTemp=Íåìîæëèâî âèêîíàòè ôàéë â òèì÷àñîâ³é ïàïö³. Âñòàíîâëåííÿ ïåðåðâàíî
+SetupLdrStartupMessage=Ця програма встановить %1 на ваш комп'ютер, бажаєте продовжити?
+LdrCannotCreateTemp=Неможливо створити тимчасовий файл. Встановлення перервано
+LdrCannotExecTemp=Неможливо виконати файл в тимчасовій папці. Встановлення перервано
 HelpTextNote=
 
 ; *** Startup error messages
-LastErrorMessage=%1.%n%nÏîìèëêà %2: %3
-SetupFileMissing=Ôàéë %1 â³äñóòí³é â ïàïö³ âñòàíîâëåííÿ. Áóäü ëàñêà, âèïðàâòå öþ ïîìèëêó àáî îòðèìàéòå íîâó êîï³þ ïðîãðàìè.
-SetupFileCorrupt=Ôàéëè âñòàíîâëåííÿ ïîøêîäæåí³. Áóäü ëàñêà, îòðèìàéòå íîâó êîï³þ ïðîãðàìè.
-SetupFileCorruptOrWrongVer=Ôàéëè âñòàíîâëåííÿ ïîøêîäæåí³ àáî íåñóì³ñí³ ç ö³ºþ âåðñ³ºþ ïðîãðàìè âñòàíîâëåííÿ. Áóäü ëàñêà, âèïðàâòå öþ ïîìèëêó àáî îòðèìàéòå íîâó êîï³þ ïðîãðàìè.
-InvalidParameter=Êîìàíäíèé ðÿäîê ì³ñòèòü íåäîïóñòèìèé ïàðàìåòð:%n%n%1
-SetupAlreadyRunning=Ïðîãðàìà âñòàíîâëåííÿ âæå çàïóùåíà.
-WindowsVersionNotSupported=Öÿ ïðîãðàìà íå ï³äòðèìóº âåðñ³þ Windows, âñòàíîâëåíó íà öüîìó êîìï'þòåð³.
-WindowsServicePackRequired=Öÿ ïðîãðàìà âèìàãàº %1 Service Pack %2 àáî á³ëüø ï³çíþ âåðñ³þ.
-NotOnThisPlatform=Öÿ ïðîãðàìà íå áóäå ïðàöþâàòè ï³ä %1.
-OnlyOnThisPlatform=Öÿ ïðîãðàìà ïîâèííà áóòè â³äêðèòà ï³ä %1.
-OnlyOnTheseArchitectures=Öÿ ïðîãðàìà ìîæå áóòè âñòàíîâëåíà ëèøå íà êîìï'þòåðàõ ï³ä óïðàâë³ííÿì Windows äëÿ íàñòóïíèõ àðõ³òåêòóð ïðîöåñîð³â:%n%n%1
-WinVersionTooLowError=Öÿ ïðîãðàìà âèìàãàº %1 âåðñ³¿ %2 àáî á³ëüø ï³çíþ âåðñ³þ.
-WinVersionTooHighError=Öÿ ïðîãðàìà íå ìîæå áóòè âñòàíîâëåíà íà %1 âåðñ³¿ %2 àáî á³ëüø ï³çíþ âåðñ³þ.
-AdminPrivilegesRequired=Ùîá âñòàíîâèòè öþ ïðîãðàìó âè ïîâèíí³ óâ³éòè äî ñèñòåìè ÿê àäì³í³ñòðàòîð.
-PowerUserPrivilegesRequired=Ùîá âñòàíîâèòè öþ ïðîãðàìó âè ïîâèíí³ óâ³éòè äî ñèñòåìè ÿê àäì³í³ñòðàòîð àáî ÿê ÷ëåí ãðóïè «Äîñâ³ä÷åí³ êîðèñòóâà÷³».
-SetupAppRunningError=Âèÿâëåíî, ùî %1 âæå â³äêðèòà.%n%nÁóäü ëàñêà, çàêðèéòå âñ³ êîï³¿ ïðîãðàìè òà íàòèñí³òü «OK» äëÿ ïðîäîâæåííÿ, àáî «Ñêàñóâàòè» äëÿ âèõîäó.
-UninstallAppRunningError=Âèÿâëåíî, ùî %1 âæå â³äêðèòà.%n%nÁóäü ëàñêà, çàêðèéòå âñ³ êîï³¿ ïðîãðàìè òà íàòèñí³òü «OK» äëÿ ïðîäîâæåííÿ, àáî «Ñêàñóâàòè» äëÿ âèõîäó.
+LastErrorMessage=%1.%n%nПомилка %2: %3
+SetupFileMissing=Файл %1 відсутній в папці встановлення. Будь ласка, виправте цю помилку або отримайте нову копію програми.
+SetupFileCorrupt=Файли встановлення пошкоджені. Будь ласка, отримайте нову копію програми.
+SetupFileCorruptOrWrongVer=Файли встановлення пошкоджені або несумісні з цією версією програми встановлення. Будь ласка, виправте цю помилку або отримайте нову копію програми.
+InvalidParameter=Командний рядок містить недопустимий параметр:%n%n%1
+SetupAlreadyRunning=Програма встановлення вже запущена.
+WindowsVersionNotSupported=Ця програма не підтримує версію Windows, встановлену на цьому комп'ютері.
+WindowsServicePackRequired=Ця програма вимагає %1 Service Pack %2 або більш пізню версію.
+NotOnThisPlatform=Ця програма не буде працювати під %1.
+OnlyOnThisPlatform=Ця програма повинна бути відкрита під %1.
+OnlyOnTheseArchitectures=Ця програма може бути встановлена лише на комп'ютерах під управлінням Windows для наступних архітектур процесорів:%n%n%1
+WinVersionTooLowError=Ця програма вимагає %1 версії %2 або більш пізню версію.
+WinVersionTooHighError=Ця програма не може бути встановлена на %1 версії %2 або більш пізню версію.
+AdminPrivilegesRequired=Щоб встановити цю програму ви повинні увійти до системи як адміністратор.
+PowerUserPrivilegesRequired=Щоб встановити цю програму ви повинні увійти до системи як адміністратор або як член групи «Досвідчені користувачі».
+SetupAppRunningError=Виявлено, що %1 вже відкрита.%n%nБудь ласка, закрийте всі копії програми та натисніть «OK» для продовження, або «Скасувати» для виходу.
+UninstallAppRunningError=Виявлено, що %1 вже відкрита.%n%nБудь ласка, закрийте всі копії програми та натисніть «OK» для продовження, або «Скасувати» для виходу.
 
 ; *** Startup questions
-PrivilegesRequiredOverrideTitle=Âèá³ð ðåæèìó âñòàíîâëåííÿ
-PrivilegesRequiredOverrideInstruction=Âèáåð³òü ðåæèì âñòàíîâëåííÿ
-PrivilegesRequiredOverrideText1=%1 ìîæå áóòè âñòàíîâëåíî äëÿ âñ³õ êîðèñòóâà÷³â (ïîòðåáóº ïðàâà àäì³í³ñòðàòîðà), àáî ò³ëüêè äëÿ âàñ.
-PrivilegesRequiredOverrideText2=%1 ìîæå áóòè âñòàíîâëåíî ò³ëüêè äëÿ âàñ, àáî äëÿ âñ³õ êîðèñòóâà÷³â (ïîòðåáóº ïðàâà àäì³í³ñòðàòîðà).
-PrivilegesRequiredOverrideAllUsers=Âñòàíîâèòè äëÿ &âñ³õ êîðèñòóâà÷³â
-PrivilegesRequiredOverrideAllUsersRecommended=Âñòàíîâèòè äëÿ &âñ³õ êîðèñòóâà÷³â (ðåêîìåíäóºòüñÿ)
-PrivilegesRequiredOverrideCurrentUser=Âñòàíîâèòè ò³ëüêè äëÿ ìåíå
-PrivilegesRequiredOverrideCurrentUserRecommended=Âñòàíîâèòè ò³ëüêè äëÿ &ìåíå (ðåêîìåíäóºòüñÿ)
+PrivilegesRequiredOverrideTitle=Вибір режиму встановлення
+PrivilegesRequiredOverrideInstruction=Виберіть режим встановлення
+PrivilegesRequiredOverrideText1=%1 може бути встановлено для всіх користувачів (потребує права адміністратора), або тільки для вас.
+PrivilegesRequiredOverrideText2=%1 може бути встановлено тільки для вас, або для всіх користувачів (потребує права адміністратора).
+PrivilegesRequiredOverrideAllUsers=Встановити для &всіх користувачів
+PrivilegesRequiredOverrideAllUsersRecommended=Встановити для &всіх користувачів (рекомендується)
+PrivilegesRequiredOverrideCurrentUser=Встановити тільки для мене
+PrivilegesRequiredOverrideCurrentUserRecommended=Встановити тільки для &мене (рекомендується)
 
 ; *** Misc. errors
-ErrorCreatingDir=Ïðîãðàì³ âñòàíîâëåííÿ íå âäàëîñÿ ñòâîðèòè ïàïêó "%1"
-ErrorTooManyFilesInDir=Ïðîãðàì³ âñòàíîâëåííÿ íå âäàëîñÿ ñòâîðèòè ôàéë â ïàïö³ "%1", òîìó ùî â íüîìó çàíàäòî áàãàòî ôàéë³â
+ErrorCreatingDir=Програмі встановлення не вдалося створити папку "%1"
+ErrorTooManyFilesInDir=Програмі встановлення не вдалося створити файл в папці "%1", тому що в ньому занадто багато файлів
 
 ; *** Setup common messages
-ExitSetupTitle=Âèõ³ä ç ïðîãðàìè âñòàíîâëåííÿ
-ExitSetupMessage=Âñòàíîâëåííÿ íå çàê³í÷åíî. ßêùî âè âèéäåòå çàðàç, ïðîãðàìó íå áóäå âñòàíîâëåíî.%n%nÂè ìîæåòå â³äêðèòè ïðîãðàìó âñòàíîâëåííÿ â ³íøèé ÷àñ.%n%nÂèéòè ç ïðîãðàìè âñòàíîâëåííÿ?
-AboutSetupMenuItem=&Ïðî ïðîãðàìó âñòàíîâëåííÿ...
-AboutSetupTitle=Ïðî ïðîãðàìó âñòàíîâëåííÿ
-AboutSetupMessage=%1 âåðñ³ÿ %2%n%3%n%n%1 äîìàøíÿ ñòîð³íêà:%n%4
+ExitSetupTitle=Вихід з програми встановлення
+ExitSetupMessage=Встановлення не закінчено. Якщо ви вийдете зараз, програму не буде встановлено.%n%nВи можете відкрити програму встановлення в інший час.%n%nВийти з програми встановлення?
+AboutSetupMenuItem=&Про програму встановлення...
+AboutSetupTitle=Про програму встановлення
+AboutSetupMessage=%1 версія %2%n%3%n%n%1 домашня сторінка:%n%4
 AboutSetupNote=
 TranslatorNote=
 
 ; *** Buttons
-ButtonBack=< &Íàçàä
-ButtonNext=&Äàë³ >
-ButtonInstall=&Âñòàíîâèòè
+ButtonBack=< &Назад
+ButtonNext=&Далі >
+ButtonInstall=&Встановити
 ButtonOK=OK
-ButtonCancel=Ñêàñóâàòè
-ButtonYes=&Òàê
-ButtonYesToAll=Òàê äëÿ &Âñ³õ
-ButtonNo=&Í³
-ButtonNoToAll=Í&³ äëÿ Âñ³õ
-ButtonFinish=&Ãîòîâî
-ButtonBrowse=&Îãëÿä...
-ButtonWizardBrowse=Î&ãëÿä...
-ButtonNewFolder=&Ñòâîðèòè ïàïêó
+ButtonCancel=Скасувати
+ButtonYes=&Так
+ButtonYesToAll=Так для &Всіх
+ButtonNo=&Ні
+ButtonNoToAll=Н&і для Всіх
+ButtonFinish=&Готово
+ButtonBrowse=&Огляд...
+ButtonWizardBrowse=О&гляд...
+ButtonNewFolder=&Створити папку
 
 ; *** "Select Language" dialog messages
-SelectLanguageTitle=Âèáåð³òü ìîâó âñòàíîâëåííÿ
-SelectLanguageLabel=Âèáåð³òü ìîâó, ÿêà áóäå âèêîðèñòîâóâàòèñÿ ï³ä ÷àñ âñòàíîâëåííÿ.
+SelectLanguageTitle=Виберіть мову встановлення
+SelectLanguageLabel=Виберіть мову, яка буде використовуватися під час встановлення.
 
 ; *** Common wizard text
-ClickNext=Íàòèñí³òü «Äàë³», ùîá ïðîäîâæèòè, àáî «Ñêàñóâàòè» äëÿ âèõîäó ç ïðîãðàìè âñòàíîâëåííÿ.
+ClickNext=Натисніть «Далі», щоб продовжити, або «Скасувати» для виходу з програми встановлення.
 BeveledLabel=
-BrowseDialogTitle=Îãëÿä ïàïîê
-BrowseDialogLabel=Âèáåð³òü ïàïêó ç³ ñïèñêó òà íàòèñí³òü «ÎÊ».
-NewFolderName=Íîâà ïàïêà
+BrowseDialogTitle=Огляд папок
+BrowseDialogLabel=Виберіть папку зі списку та натисніть «ОК».
+NewFolderName=Нова папка
 
 ; *** "Welcome" wizard page
-WelcomeLabel1=Ëàñêàâî ïðîñèìî äî ïðîãðàìè âñòàíîâëåííÿ [name].
-WelcomeLabel2=Öÿ ïðîãðàìà âñòàíîâèòü [name/ver] íà âàø êîìïþòåð.%n%nÐåêîìåíäóºòüñÿ çàêðèòè âñ³ ³íø³ ïðîãðàìè ïåðåä ïðîäîâæåííÿì.
+WelcomeLabel1=Ласкаво просимо до програми встановлення [name].
+WelcomeLabel2=Ця програма встановить [name/ver] на ваш комп’ютер.%n%nРекомендується закрити всі інші програми перед продовженням.
 
 ; *** "Password" wizard page
-WizardPassword=Ïàðîëü
-PasswordLabel1=Öÿ ïðîãðàìà âñòàíîâëåííÿ çàõèùåíà ïàðîëåì.
-PasswordLabel3=Áóäü ëàñêà, ââåä³òü ïàðîëü òà íàòèñí³òü «Äàë³», ùîá ïðîäîâæèòè. Ïàðîëü ÷óòëèâèé äî ðåã³ñòðó.
-PasswordEditLabel=&Ïàðîëü:
-IncorrectPassword=Âè ââåëè íåïðàâèëüíèé ïàðîëü. Áóäü ëàñêà, ñïðîáóéòå ùå ðàç.
+WizardPassword=Пароль
+PasswordLabel1=Ця програма встановлення захищена паролем.
+PasswordLabel3=Будь ласка, введіть пароль та натисніть «Далі», щоб продовжити. Пароль чутливий до регістру.
+PasswordEditLabel=&Пароль:
+IncorrectPassword=Ви ввели неправильний пароль. Будь ласка, спробуйте ще раз.
 
 ; *** "License Agreement" wizard page
-WizardLicense=Ë³öåíç³éíà óãîäà
-LicenseLabel=Áóäü ëàñêà, ïðî÷èòàéòå ë³öåíç³éíó óãîäó.
-LicenseLabel3=Áóäü ëàñêà, ïðî÷èòàéòå ë³öåíç³éíó óãîäó. Âè ïîâèíí³ ïðèéíÿòè óìîâè ö³º¿ óãîäè, ïåðø í³æ ïðîäîâæèòè âñòàíîâëåííÿ.
-LicenseAccepted=ß &ïðèéìàþ óìîâè óãîäè
-LicenseNotAccepted=ß &íå ïðèéìàþ óìîâè óãîäè
+WizardLicense=Ліцензійна угода
+LicenseLabel=Будь ласка, прочитайте ліцензійну угоду.
+LicenseLabel3=Будь ласка, прочитайте ліцензійну угоду. Ви повинні прийняти умови цієї угоди, перш ніж продовжити встановлення.
+LicenseAccepted=Я &приймаю умови угоди
+LicenseNotAccepted=Я &не приймаю умови угоди
 
 ; *** "Information" wizard pages
-WizardInfoBefore=²íôîðìàö³ÿ
-InfoBeforeLabel=Áóäü ëàñêà, ïðî÷èòàéòå íàñòóïíó âàæëèâó ³íôîðìàö³þ, ïåðø í³æ ïðîäîâæèòè.
-InfoBeforeClickLabel=ßêùî âè ãîòîâ³ ïðîäîâæèòè âñòàíîâëåííÿ, íàòèñí³òü «Äàë³».
-WizardInfoAfter=²íôîðìàö³ÿ
-InfoAfterLabel=Áóäü ëàñêà, ïðî÷èòàéòå íàñòóïíó âàæëèâó ³íôîðìàö³þ, ïåðø í³æ ïðîäîâæèòè.
-InfoAfterClickLabel=ßêùî âè ãîòîâ³ ïðîäîâæèòè âñòàíîâëåííÿ, íàòèñí³òü «Äàë³».
+WizardInfoBefore=Інформація
+InfoBeforeLabel=Будь ласка, прочитайте наступну важливу інформацію, перш ніж продовжити.
+InfoBeforeClickLabel=Якщо ви готові продовжити встановлення, натисніть «Далі».
+WizardInfoAfter=Інформація
+InfoAfterLabel=Будь ласка, прочитайте наступну важливу інформацію, перш ніж продовжити.
+InfoAfterClickLabel=Якщо ви готові продовжити встановлення, натисніть «Далі».
 
 ; *** "User Information" wizard page
-WizardUserInfo=²íôîðìàö³ÿ ïðî êîðèñòóâà÷à
-UserInfoDesc=Áóäü ëàñêà, ââåä³òü äàí³ ïðî ñåáå.
-UserInfoName=&²ìÿ êîðèñòóâà÷à:
-UserInfoOrg=&Îðãàí³çàö³ÿ:
-UserInfoSerial=&Ñåð³éíèé íîìåð:
-UserInfoNameRequired=Âè ïîâèíí³ ââåñòè ³ì'ÿ.
+WizardUserInfo=Інформація про користувача
+UserInfoDesc=Будь ласка, введіть дані про себе.
+UserInfoName=&Ім’я користувача:
+UserInfoOrg=&Організація:
+UserInfoSerial=&Серійний номер:
+UserInfoNameRequired=Ви повинні ввести ім'я.
 
 ; *** "Select Destination Location" wizard page
-WizardSelectDir=Âèá³ð øëÿõó âñòàíîâëåííÿ
-SelectDirDesc=Êóäè âè áàæàºòå âñòàíîâèòè [name]?
-SelectDirLabel3=Ïðîãðàìà âñòàíîâèòü [name] ó íàñòóïíó ïàïêó.
-SelectDirBrowseLabel=Íàòèñí³òü «Äàë³», ùîá ïðîäîâæèòè. ßêùî âè áàæàºòå âèáðàòè ³íøó ïàïêó, íàòèñí³òü «Îãëÿä».
-DiskSpaceGBLabel=Íåîáõ³äíî ÿê ì³í³ìóì [gb] Ãá â³ëüíîãî äèñêîâîãî ïðîñòîðó.
-DiskSpaceMBLabel=Íåîáõ³äíî ÿê ì³í³ìóì [mb] Má â³ëüíîãî äèñêîâîãî ïðîñòîðó.
-CannotInstallToNetworkDrive=Âñòàíîâëåííÿ íå ìîæå ïðîâîäèòèñÿ íà ìåðåæåâèé äèñê.
-CannotInstallToUNCPath=Âñòàíîâëåííÿ íå ìîæå ïðîâîäèòèñÿ ïî ìåðåæåâîìó øëÿõó.
-InvalidPath=Âè ïîâèíí³ âêàçàòè ïîâíèé øëÿõ ç áóêâîþ äèñêó, íàïðèêëàä:%n%nC:\APP%n%nàáî â ôîðìàò³ UNC:%n%n\\ñåðâåð\ðåñóðñ ; for example:%n%nC:\APP%n%nor a UNC path in the form:%n%n\\server\share
-InvalidDrive=Îáðàíèé Âàìè äèñê ÷è ìåðåæåâèé øëÿõ íå ³ñíóº, àáî íå äîñòóïíèé. Áóäü ëàñêà, âèáåð³òü ³íøèé.
-DiskSpaceWarningTitle=Íåäîñòàòíüî äèñêîâîãî ïðîñòîðó
-DiskSpaceWarning=Äëÿ âñòàíîâëåííÿ íåîáõ³äíî ÿê ì³í³ìóì %1 Êá â³ëüíîãî ïðîñòîðó, à íà âèáðàíîìó äèñêó äîñòóïíî ëèøå %2 Êá.%n%nÂè âñå îäíî áàæàºòå ïðîäîâæèòè?
-DirNameTooLong=²ì'ÿ ïàïêè àáî øëÿõ äî íå¿ ïåðåâèùóþòü äîïóñòèìó äîâæèíó.
-InvalidDirName=Âêàçàíå ³ìÿ ïàïêè íåäîïóñòèìå.
-BadDirName32=²ì'ÿ ïàïêè íå ìîæå âêëþ÷àòè íàñòóïí³ ñèìâîëè:%n%n%1
-DirExistsTitle=Ïàïêà ³ñíóº
-DirExists=Ïàïêà:%n%n%1%n%nâæå ³ñíóº. Âè âñå îäíî áàæàºòå âñòàíîâèòè â öþ ïàïêó?
-DirDoesntExistTitle=Ïàïêà íå ³ñíóº
-DirDoesntExist=Ïàïêà:%n%n%1%n%níå ³ñíóº. Âè áàæàºòå ñòâîðèòè ¿¿?
+WizardSelectDir=Вибір шляху встановлення
+SelectDirDesc=Куди ви бажаєте встановити [name]?
+SelectDirLabel3=Програма встановить [name] у наступну папку.
+SelectDirBrowseLabel=Натисніть «Далі», щоб продовжити. Якщо ви бажаєте вибрати іншу папку, натисніть «Огляд».
+DiskSpaceGBLabel=Необхідно як мінімум [gb] Гб вільного дискового простору.
+DiskSpaceMBLabel=Необхідно як мінімум [mb] Mб вільного дискового простору.
+CannotInstallToNetworkDrive=Встановлення не може проводитися на мережевий диск.
+CannotInstallToUNCPath=Встановлення не може проводитися по мережевому шляху.
+InvalidPath=Ви повинні вказати повний шлях з буквою диску, наприклад:%n%nC:\APP%n%nабо в форматі UNC:%n%n\\сервер\ресурс ; for example:%n%nC:\APP%n%nor a UNC path in the form:%n%n\\server\share
+InvalidDrive=Обраний Вами диск чи мережевий шлях не існує, або не доступний. Будь ласка, виберіть інший.
+DiskSpaceWarningTitle=Недостатньо дискового простору
+DiskSpaceWarning=Для встановлення необхідно як мінімум %1 Кб вільного простору, а на вибраному диску доступно лише %2 Кб.%n%nВи все одно бажаєте продовжити?
+DirNameTooLong=Ім'я папки або шлях до неї перевищують допустиму довжину.
+InvalidDirName=Вказане ім’я папки недопустиме.
+BadDirName32=Ім'я папки не може включати наступні символи:%n%n%1
+DirExistsTitle=Папка існує
+DirExists=Папка:%n%n%1%n%nвже існує. Ви все одно бажаєте встановити в цю папку?
+DirDoesntExistTitle=Папка не існує
+DirDoesntExist=Папка:%n%n%1%n%nне існує. Ви бажаєте створити її?
 
 ; *** "Select Components" wizard page
-WizardSelectComponents=Âèá³ð êîìïîíåíò³â
-SelectComponentsDesc=ßê³ êîìïîíåíòè âè áàæàºòå âñòàíîâèòè?
-SelectComponentsLabel2=Âèáåð³òü êîìïîíåíòè ÿê³ âè áàæàºòå âñòàíîâèòè ; clear the components you do not want to install. Click Next when you are ready to continue.
-FullInstallation=Ïîâíå âñòàíîâëåííÿ
+WizardSelectComponents=Вибір компонентів
+SelectComponentsDesc=Які компоненти ви бажаєте встановити?
+SelectComponentsLabel2=Виберіть компоненти які ви бажаєте встановити ; clear the components you do not want to install. Click Next when you are ready to continue.
+FullInstallation=Повне встановлення
 ; if possible don't translate 'Compact' as 'Minimal' (I mean 'Minimal' in your language)
-CompactInstallation=Êîìïàêòíå âñòàíîâëåííÿ
-CustomInstallation=Âèá³ðêîâå âñòàíîâëåííÿ
-NoUninstallWarningTitle=Êîìïîíåíòè ³ñíóþòü
-NoUninstallWarning=Âèÿâëåíî, ùî íàñòóïí³ êîìïîíåíòè âæå âñòàíîâëåíí³ íà âàøîìó êîìïþòåð³:%n%n%1%n%nÂ³äì³íà âèáîðó öèõ êîìïîíåíò³â íå âèäàëèòü ¿õ.%n%nÂè áàæàºòå ïðîäîâæèòè?
-ComponentSize1=%1 Ká
-ComponentSize2=%1 Má
-ComponentsDiskSpaceGBLabel=Äàíèé âèá³ð âèìàãàº ÿê ì³í³ìóì [gb] Ãá äèñêîâîãî ïðîñòîðó.
-ComponentsDiskSpaceMBLabel=Äàíèé âèá³ð âèìàãàº ÿê ì³í³ìóì [mb] Má äèñêîâîãî ïðîñòîðó.
+CompactInstallation=Компактне встановлення
+CustomInstallation=Вибіркове встановлення
+NoUninstallWarningTitle=Компоненти існують
+NoUninstallWarning=Виявлено, що наступні компоненти вже встановленні на вашому комп’ютері:%n%n%1%n%nВідміна вибору цих компонентів не видалить їх.%n%nВи бажаєте продовжити?
+ComponentSize1=%1 Kб
+ComponentSize2=%1 Mб
+ComponentsDiskSpaceGBLabel=Даний вибір вимагає як мінімум [gb] Гб дискового простору.
+ComponentsDiskSpaceMBLabel=Даний вибір вимагає як мінімум [mb] Mб дискового простору.
 
 ; *** "Select Additional Tasks" wizard page
-WizardSelectTasks=Âèá³ð äîäàòêîâèõ çàâäàíü
-SelectTasksDesc=ßê³ äîäàòêîâ³ çàâäàííÿ âè áàæàºòå âèêîíàòè?
-SelectTasksLabel2=Âèáåð³òü äîäàòêîâ³ çàâäàííÿ ÿê³ ïðîãðàìà âñòàíîâëåííÿ [name] ïîâèííà âèêîíàòè, ïîò³ì íàòèñí³òü «Äàë³».
+WizardSelectTasks=Вибір додаткових завдань
+SelectTasksDesc=Які додаткові завдання ви бажаєте виконати?
+SelectTasksLabel2=Виберіть додаткові завдання які програма встановлення [name] повинна виконати, потім натисніть «Далі».
 
 ; *** "Select Start Menu Folder" wizard page
-WizardSelectProgramGroup=Âèá³ð ïàïêè â ìåíþ «Ïóñê»
-SelectStartMenuFolderDesc=Äå âè áàæàºòå ñòâîðèòè ÿðëèêè?
-SelectStartMenuFolderLabel3=Ïðîãðàìà âñòàíîâëåííÿ ñòâîðèòü ÿðëèêè ó íàñòóïí³é ïàïö³ ìåíþ «Ïóñê».
-SelectStartMenuFolderBrowseLabel=Íàòèñí³òü «Äàë³», ùîá ïðîäîâæèòè. ßêùî âè áàæàºòå âèáðàòè ³íøó ïàïêó, íàòèñí³òü «Îãëÿä».
-MustEnterGroupName=Âè ïîâèíí³ ââåñòè ³ì'ÿ ïàïêè.
-GroupNameTooLong=²ìÿ ïàïêè àáî øëÿõ äî íå¿ ïåðåâèùóþòü äîïóñòèìó äîâæèíó.
-InvalidGroupName=Âêàçàíå ³ìÿ ïàïêè íåäîïóñòèìå.
-BadGroupName=²ì'ÿ ïàïêè íå ìîæå âêëþ÷àòè íàñòóïí³ ñèìâîëè:%n%n%1
-NoProgramGroupCheck2=&Íå ñòâîðþâàòè ïàïêó â ìåíþ «Ïóñê»
+WizardSelectProgramGroup=Вибір папки в меню «Пуск»
+SelectStartMenuFolderDesc=Де ви бажаєте створити ярлики?
+SelectStartMenuFolderLabel3=Програма встановлення створить ярлики у наступній папці меню «Пуск».
+SelectStartMenuFolderBrowseLabel=Натисніть «Далі», щоб продовжити. Якщо ви бажаєте вибрати іншу папку, натисніть «Огляд».
+MustEnterGroupName=Ви повинні ввести ім'я папки.
+GroupNameTooLong=Ім’я папки або шлях до неї перевищують допустиму довжину.
+InvalidGroupName=Вказане ім’я папки недопустиме.
+BadGroupName=Ім'я папки не може включати наступні символи:%n%n%1
+NoProgramGroupCheck2=&Не створювати папку в меню «Пуск»
 
 ; *** "Ready to Install" wizard page
-WizardReady=Óñå ãîòîâî äî âñòàíîâëåííÿ
-ReadyLabel1=Ïðîãðàìà ãîòîâà ðîçïî÷àòè âñòàíîâëåííÿ [name] íà âàø êîìïþòåð.
-ReadyLabel2a=Íàòèñí³òü «Âñòàíîâèòè» äëÿ ïðîäîâæåííÿ âñòàíîâëåííÿ, àáî «Íàçàä», ÿêùî âè áàæàºòå ïåðåãëÿíóòè àáî çì³íèòè íàëàøòóâàííÿ âñòàíîâëåííÿ.
-ReadyLabel2b=Íàòèñí³òü «Âñòàíîâèòè» äëÿ ïðîäîâæåííÿ.
-ReadyMemoUserInfo=Äàí³ ïðî êîðèñòóâà÷à:
-ReadyMemoDir=Øëÿõ âñòàíîâëåííÿ:
-ReadyMemoType=Òèï âñòàíîâëåííÿ:
-ReadyMemoComponents=Âèáðàí³ êîìïîíåíòè:
-ReadyMemoGroup=Ïàïêà â ìåíþ «Ïóñê»:
-ReadyMemoTasks=Äîäàòêîâ³ çàâäàííÿ:
+WizardReady=Усе готово до встановлення
+ReadyLabel1=Програма готова розпочати встановлення [name] на ваш комп’ютер.
+ReadyLabel2a=Натисніть «Встановити» для продовження встановлення, або «Назад», якщо ви бажаєте переглянути або змінити налаштування встановлення.
+ReadyLabel2b=Натисніть «Встановити» для продовження.
+ReadyMemoUserInfo=Дані про користувача:
+ReadyMemoDir=Шлях встановлення:
+ReadyMemoType=Тип встановлення:
+ReadyMemoComponents=Вибрані компоненти:
+ReadyMemoGroup=Папка в меню «Пуск»:
+ReadyMemoTasks=Додаткові завдання:
 
 ; *** "Preparing to Install" wizard page
-WizardPreparing=Ï³äãîòîâêà äî âñòàíîâëåííÿ
-PreparingDesc=Ïðîãðàìà âñòàíîâëåííÿ ãîòóºòüñÿ äî âñòàíîâëåííÿ [name] íà âàø êîìïþòåð.
-PreviousInstallNotCompleted=Âñòàíîâëåííÿ àáî âèäàëåííÿ ïîïåðåäíüî¿ ïðîãðàìè íå áóëî çàê³í÷åíî. Âàì ïîòð³áíî ïåðåçàâàíòàæèòè âàø êîìïþòåð äëÿ çàâåðøåííÿ ìèíóëîãî âñòàíîâëåííÿ.%n%nÏ³ñëÿ ïåðåçàâàíòàæåííÿ â³äêðèéòå ïðîãðàìó âñòàíîâëåííÿ çíîâó, ùîá çàâåðøèòè âñòàíîâëåííÿ [name].
-CannotContinue=Âñòàíîâëåííÿ íåìîæëèâî ïðîäîâæèòè. Áóäü ëàñêà, íàòèñí³òü «Ñêàñóâàòè» äëÿ âèõîäó.
-ApplicationsFound=Íàñòóïí³ ïðîãðàìè âèêîðèñòîâóþòü ôàéëè, ÿê³ ïîâèíí³ áóòè îíîâëåí³ ïðîãðàìîþ âñòàíîâëåííÿ. Ðåêîìåíäóºòüñÿ äîçâîëèëè ïðîãðàì³ âñòàíîâëåííÿ àâòîìàòè÷íî çàêðèòè ö³ ïðîãðàìè.
-ApplicationsFound2=Íàñòóïí³ ïðîãðàìè âèêîðèñòîâóþòü ôàéëè, ÿê³ ïîâèíí³ áóòè îíîâëåí³ ïðîãðàìîþ âñòàíîâëåííÿ. Ðåêîìåíäóºòüñÿ äîçâîëèëè ïðîãðàì³ âñòàíîâëåííÿ àâòîìàòè÷íî çàêðèòè ö³ ïðîãðàìè. Ï³ñëÿ çàâåðøåííÿ âñòàíîâëåííÿ, ïðîãðàìà âñòàíîâëåííÿ ñïðîáóº çíîâó çàïóñòèòè ¿õ.
-CloseApplications=&Àâòîìàòè÷íî çàêðèòè ïðîãðàìè
-DontCloseApplications=&Íå çàêðèâàòè ïðîãðàìè
-ErrorCloseApplications=Ïðîãðàìà âñòàíîâëåííÿ íå ìîæå àâòîìàòè÷íî çàêðèòè âñ³ ïðîãðàìè. Ðåêîìåíäóºòüñÿ çàêðèòè âñ³ ïðîãðàìè, ùî âèêîðèñòîâóþòü ôàéëè, ÿê³ ïîâèíí³ áóòè îíîâëåí³ ïðîãðàìîþ âñòàíîâëåííÿ, ïåðø í³æ ïðîäîâæèòè.
-PrepareToInstallNeedsRestart=Ïðîãðàì³ âñòàíîâëåííÿ íåîáõ³äíî ïåðåçàâàíòàæèòè âàø ÏÊ. Ï³ñëÿ ïåðåçàâàíòàæåííÿ ÏÊ, çàïóñò³òü âñòàíîâëåííÿ çíîâó äëÿ çàâåðøåííÿ âñòàíîâëåííÿ [name]%n%nÂè áàæàºòå ïåðåçàâàíòàæèòè çàðàç?
+WizardPreparing=Підготовка до встановлення
+PreparingDesc=Програма встановлення готується до встановлення [name] на ваш комп’ютер.
+PreviousInstallNotCompleted=Встановлення або видалення попередньої програми не було закінчено. Вам потрібно перезавантажити ваш комп’ютер для завершення минулого встановлення.%n%nПісля перезавантаження відкрийте програму встановлення знову, щоб завершити встановлення [name].
+CannotContinue=Встановлення неможливо продовжити. Будь ласка, натисніть «Скасувати» для виходу.
+ApplicationsFound=Наступні програми використовують файли, які повинні бути оновлені програмою встановлення. Рекомендується дозволили програмі встановлення автоматично закрити ці програми.
+ApplicationsFound2=Наступні програми використовують файли, які повинні бути оновлені програмою встановлення. Рекомендується дозволили програмі встановлення автоматично закрити ці програми. Після завершення встановлення, програма встановлення спробує знову запустити їх.
+CloseApplications=&Автоматично закрити програми
+DontCloseApplications=&Не закривати програми
+ErrorCloseApplications=Програма встановлення не може автоматично закрити всі програми. Рекомендується закрити всі програми, що використовують файли, які повинні бути оновлені програмою встановлення, перш ніж продовжити.
+PrepareToInstallNeedsRestart=Програмі встановлення необхідно перезавантажити ваш ПК. Після перезавантаження ПК, запустіть встановлення знову для завершення встановлення [name]%n%nВи бажаєте перезавантажити зараз?
 
 ; *** "Installing" wizard page
-WizardInstalling=Âñòàíîâëåííÿ
-InstallingLabel=Áóäü ëàñêà, çà÷åêàéòå, ïîêè [name] âñòàíîâèòüñÿ íà âàø êîìï'þòåð.
+WizardInstalling=Встановлення
+InstallingLabel=Будь ласка, зачекайте, поки [name] встановиться на ваш комп'ютер.
 
 ; *** "Setup Completed" wizard page
-FinishedHeadingLabel=Çàâåðøåííÿ âñòàíîâëåííÿ [name]
-FinishedLabelNoIcons=Âñòàíîâëåííÿ [name] íà âàø êîìïþòåð çàê³í÷åíî.
-FinishedLabel=Âñòàíîâëåííÿ [name] íà âàø êîìïþòåð çàê³í÷åíî. Âñòàíîâëåí³ ïðîãðàìè ìîæíà â³äêðèòè çà äîïîìîãîþ ñòâîðåíèõ ÿðëèê³â.
-ClickFinish=Íàòèñí³òü «Ãîòîâî» äëÿ âèõîäó ç ïðîãðàìè âñòàíîâëåííÿ.
-FinishedRestartLabel=Äëÿ çàâåðøåííÿ âñòàíîâëåííÿ [name] íåîáõ³äíî ïåðåçàâàíòàæèòè âàø êîìïþòåð. Ïåðåçàâàíòàæèòè êîìïþòåð çàðàç?
-FinishedRestartMessage=Äëÿ çàâåðøåííÿ âñòàíîâëåííÿ [name] íåîáõ³äíî ïåðåçàâàíòàæèòè âàø êîìïþòåð.%n%nÏåðåçàâàíòàæèòè êîìïþòåð çàðàç?
-ShowReadmeCheck=Òàê, ÿ õî÷ó ïåðåãëÿíóòè ôàéë README
-YesRadio=&Òàê, ïåðåçàâàíòàæèòè êîìïþòåð çàðàç
-NoRadio=&Í³, ÿ ïåðåçàâàíòàæó êîìïþòåð ï³çí³øå
+FinishedHeadingLabel=Завершення встановлення [name]
+FinishedLabelNoIcons=Встановлення [name] на ваш комп’ютер закінчено.
+FinishedLabel=Встановлення [name] на ваш комп’ютер закінчено. Встановлені програми можна відкрити за допомогою створених ярликів.
+ClickFinish=Натисніть «Готово» для виходу з програми встановлення.
+FinishedRestartLabel=Для завершення встановлення [name] необхідно перезавантажити ваш комп’ютер. Перезавантажити комп’ютер зараз?
+FinishedRestartMessage=Для завершення встановлення [name] необхідно перезавантажити ваш комп’ютер.%n%nПерезавантажити комп’ютер зараз?
+ShowReadmeCheck=Так, я хочу переглянути файл README
+YesRadio=&Так, перезавантажити комп’ютер зараз
+NoRadio=&Ні, я перезавантажу комп’ютер пізніше
 ; used for example as 'Run MyProg.exe'
-RunEntryExec=Â³äêðèòè %1
+RunEntryExec=Відкрити %1
 ; used for example as 'View Readme.txt'
-RunEntryShellExec=Ïåðåãëÿíóòè %1
+RunEntryShellExec=Переглянути %1
 
 ; *** "Setup Needs the Next Disk" stuff
-ChangeDiskTitle=Íåîáõ³äíî âñòàâèòè íàñòóïíèé äèñê
-SelectDiskLabel2=Áóäü ëàñêà, âñòàâòå äèñê %1 ³ íàòèñí³òü «OK».%n%nßêùî ïîòð³áí³ ôàéëè ìîæóòü çíàõîäèòèñÿ â ³íø³é ïàïö³, íà â³äì³íó â³ä âêàçàíî¿ íèæ÷å, ââåä³òü ïðàâèëüíèé øëÿõ àáî íàòèñí³òü «Îãëÿä».
-PathLabel=&Øëÿõ:
-FileNotInDir2=Ôàéë "%1" íå çíàéäåíèé â "%2". Áóäü ëàñêà, âñòàâòå íàëåæíèé äèñê àáî âêàæ³òü ³íøó ïàïêó.
-SelectDirectoryLabel=Áóäü ëàñêà, âêàæ³òü øëÿõ äî íàñòóïíîãî äèñêó.
+ChangeDiskTitle=Необхідно вставити наступний диск
+SelectDiskLabel2=Будь ласка, вставте диск %1 і натисніть «OK».%n%nЯкщо потрібні файли можуть знаходитися в іншій папці, на відміну від вказаної нижче, введіть правильний шлях або натисніть «Огляд».
+PathLabel=&Шлях:
+FileNotInDir2=Файл "%1" не знайдений в "%2". Будь ласка, вставте належний диск або вкажіть іншу папку.
+SelectDirectoryLabel=Будь ласка, вкажіть шлях до наступного диску.
 
 ; *** Installation phase messages
-SetupAborted=Âñòàíîâëåííÿ íå çàâåðøåíî.%n%nÁóäü ëàñêà, óñóíüòå ïðîáëåìó ³ â³äêðèéòå ïðîãðàìó âñòàíîâëåííÿ çíîâó.
-AbortRetryIgnoreSelectAction=Âèáåð³òü ä³þ
-AbortRetryIgnoreRetry=&Ñïðîáóâàòè çíîâó
-AbortRetryIgnoreIgnore=&²ãíîðóâàòè ïîìèëêó òà ïðîäîâæèòè
-AbortRetryIgnoreCancel=Â³äì³íèòè âñòàíîâëåííÿ
+SetupAborted=Встановлення не завершено.%n%nБудь ласка, усуньте проблему і відкрийте програму встановлення знову.
+AbortRetryIgnoreSelectAction=Виберіть дію
+AbortRetryIgnoreRetry=&Спробувати знову
+AbortRetryIgnoreIgnore=&Ігнорувати помилку та продовжити
+AbortRetryIgnoreCancel=Відмінити встановлення
 
 ; *** Installation status messages
-StatusClosingApplications=Çàêðèòòÿ ïðîãðàì...
-StatusCreateDirs=Ñòâîðåííÿ ïàïîê...
-StatusExtractFiles=Ðîçïàêóâàííÿ ôàéë³â...
-StatusCreateIcons=Ñòâîðåííÿ ÿðëèê³â...
-StatusCreateIniEntries=Ñòâîðåííÿ INI çàïèñ³â...
-StatusCreateRegistryEntries=Ñòâîðåííÿ çàïèñ³â ðåºñòðó...
-StatusRegisterFiles=Ðåºñòðàö³ÿ ôàéë³â...
-StatusSavingUninstall=Çáåðåæåííÿ ³íôîðìàö³¿ äëÿ âèäàëåííÿ...
-StatusRunProgram=Çàâåðøåííÿ âñòàíîâëåííÿ...
-StatusRestartingApplications=Ïåðåçàïóñê ïðîãðàì...
-StatusRollback=Ñêàñóâàííÿ çì³í...
+StatusClosingApplications=Закриття програм...
+StatusCreateDirs=Створення папок...
+StatusExtractFiles=Розпакування файлів...
+StatusCreateIcons=Створення ярликів...
+StatusCreateIniEntries=Створення INI записів...
+StatusCreateRegistryEntries=Створення записів реєстру...
+StatusRegisterFiles=Реєстрація файлів...
+StatusSavingUninstall=Збереження інформації для видалення...
+StatusRunProgram=Завершення встановлення...
+StatusRestartingApplications=Перезапуск програм...
+StatusRollback=Скасування змін...
 
 ; *** Misc. errors
-ErrorInternal2=Âíóòð³øíÿ ïîìèëêà: %1
-ErrorFunctionFailedNoCode=%1 çá³é
-ErrorFunctionFailed=%1 çá³é ; code %2
-ErrorFunctionFailedWithMessage=%1 çá³é ; code %2.%n%3
-ErrorExecutingProgram=Íåìîæëèâî âèêîíàòè ôàéë:%n%1
+ErrorInternal2=Внутрішня помилка: %1
+ErrorFunctionFailedNoCode=%1 збій
+ErrorFunctionFailed=%1 збій ; code %2
+ErrorFunctionFailedWithMessage=%1 збій ; code %2.%n%3
+ErrorExecutingProgram=Неможливо виконати файл:%n%1
 
 ; *** Registry errors
-ErrorRegOpenKey=Ïîìèëêà â³äêðèòòÿ êëþ÷à ðåºñòðó:%n%1\%2
-ErrorRegCreateKey=Ïîìèëêà ñòâîðåííÿ êëþ÷à ðåºñòðó:%n%1\%2
-ErrorRegWriteKey=Ïîìèëêà çàïèñó â êëþ÷ ðåºñòðó:%n%1\%2
+ErrorRegOpenKey=Помилка відкриття ключа реєстру:%n%1\%2
+ErrorRegCreateKey=Помилка створення ключа реєстру:%n%1\%2
+ErrorRegWriteKey=Помилка запису в ключ реєстру:%n%1\%2
 
 ; *** INI errors
-ErrorIniEntry=Ïîìèëêà ïðè ñòâîðåíí³ çàïèñó â INI-ôàéë³ "%1".
+ErrorIniEntry=Помилка при створенні запису в INI-файлі "%1".
 
 ; *** File copying errors
-FileAbortRetryIgnoreSkipNotRecommended=&Ïðîïóñòèòè ôàéë (íå ðåêîìåíäóºòüñÿ)
-FileAbortRetryIgnoreIgnoreNotRecommended=&²ãíîðóâàòè ïîìèëêó òà ïðîäîâæèòè (íå ðåêîìåíäóºòüñÿ)
-SourceIsCorrupted=Âèõ³äíèé ôàéë ïîøêîäæåíèé
-SourceDoesntExist=Âèõ³äíèé ôàéë "%1" íå ³ñíóº
-ExistingFileReadOnly2=Íåìîæëèâî çàì³íèòè ³ñíóþ÷èé ôàéë, îñê³ëüêè â³í ïîçíà÷åíèé ëèøå äëÿ ÷èòàííÿ.
-ExistingFileReadOnlyRetry=&Âèäàëèòè àòðèáóò "ëèøå ÷èòàííÿ" òà ñïðîáóâàòè çíîâó
-ExistingFileReadOnlyKeepExisting=&Çàëèøèòè ³ñíóþ÷èé ôàéë
-ErrorReadingExistingDest=Âèíèêëà ïîìèëêà ïðè ñïðîá³ ÷èòàííÿ ³ñíóþ÷îãî ôàéëó:
-FileExists=Ôàéë âæå ³ñíóº.%n%nÏåðåçàïèñàòè éîãî?
-ExistingFileNewer=²ñíóþ÷èé ôàéë íîâ³øèé, ÷èì âñòàíîâëþâàíèé. Ðåêîìåíäóºòüñÿ çáåðåãòè ³ñíóþ÷èé ôàéë.%n%nÂè áàæàºòå çáåðåãòè ³ñíóþ÷èé ôàéë?
-ErrorChangingAttr=Âèíèêëà ïîìèëêà ïðè ñïðîá³ çì³íè àòðèáóò³â ³ñíóþ÷îãî ôàéëó:
-ErrorCreatingTemp=Âèíèêëà ïîìèëêà ïðè ñïðîá³ ñòâîðåííÿ ôàéëó â ïàïö³ âñòàíîâëåííÿ:
-ErrorReadingSource=Âèíèêëà ïîìèëêà ïðè ñïðîá³ ÷èòàííÿ âèõ³äíîãî ôàéëó:
-ErrorCopying=Âèíèêëà ïîìèëêà ïðè ñïðîá³ êîï³þâàííÿ ôàéëó:
-ErrorReplacingExistingFile=Âèíèêëà ïîìèëêà ïðè ñïðîá³ çàì³íè ³ñíóþ÷îãî ôàéëó:
-ErrorRestartReplace=Ïîìèëêà RestartReplace:
-ErrorRenamingTemp=Âèíèêëà ïîìèëêà ïðè ñïðîá³ ïåðåéìåíóâàííÿ ôàéëó â ïàïö³ âñòàíîâëåííÿ:
-ErrorRegisterServer=Íåìîæëèâî çàðåºñòðóâàòè DLL/OCX: %1
-ErrorRegSvr32Failed=Ïîìèëêà ïðè âèêîíàíí³ RegSvr32, êîä ïîâåðíåííÿ %1
-ErrorRegisterTypeLib=Íåìîæëèâî çàðåºñòðóâàòè á³áë³îòåêó òèï³â: %1
+FileAbortRetryIgnoreSkipNotRecommended=&Пропустити файл (не рекомендується)
+FileAbortRetryIgnoreIgnoreNotRecommended=&Ігнорувати помилку та продовжити (не рекомендується)
+SourceIsCorrupted=Вихідний файл пошкоджений
+SourceDoesntExist=Вихідний файл "%1" не існує
+ExistingFileReadOnly2=Неможливо замінити існуючий файл, оскільки він позначений лише для читання.
+ExistingFileReadOnlyRetry=&Видалити атрибут "лише читання" та спробувати знову
+ExistingFileReadOnlyKeepExisting=&Залишити існуючий файл
+ErrorReadingExistingDest=Виникла помилка при спробі читання існуючого файлу:
+FileExists=Файл вже існує.%n%nПерезаписати його?
+ExistingFileNewer=Існуючий файл новіший, чим встановлюваний. Рекомендується зберегти існуючий файл.%n%nВи бажаєте зберегти існуючий файл?
+ErrorChangingAttr=Виникла помилка при спробі зміни атрибутів існуючого файлу:
+ErrorCreatingTemp=Виникла помилка при спробі створення файлу в папці встановлення:
+ErrorReadingSource=Виникла помилка при спробі читання вихідного файлу:
+ErrorCopying=Виникла помилка при спробі копіювання файлу:
+ErrorReplacingExistingFile=Виникла помилка при спробі заміни існуючого файлу:
+ErrorRestartReplace=Помилка RestartReplace:
+ErrorRenamingTemp=Виникла помилка при спробі перейменування файлу в папці встановлення:
+ErrorRegisterServer=Неможливо зареєструвати DLL/OCX: %1
+ErrorRegSvr32Failed=Помилка при виконанні RegSvr32, код повернення %1
+ErrorRegisterTypeLib=Неможливо зареєструвати бібліотеку типів: %1
 
 ; *** Uninstall display name markings
 ; used for example as 'My Program (32-bit)'
 UninstallDisplayNameMark=%1 (%2)
 ; used for example as 'My Program (32-bit, All users)'
 UninstallDisplayNameMarks=%1 (%2, %3)
-UninstallDisplayNameMark32Bit=32-á³ò
-UninstallDisplayNameMark64Bit=64-á³ò
-UninstallDisplayNameMarkAllUsers=Âñ³ êîðèñòóâà÷³
-UninstallDisplayNameMarkCurrentUser=Ïîòî÷íèé êîðèñòóâà÷
+UninstallDisplayNameMark32Bit=32-біт
+UninstallDisplayNameMark64Bit=64-біт
+UninstallDisplayNameMarkAllUsers=Всі користувачі
+UninstallDisplayNameMarkCurrentUser=Поточний користувач
 
 ; *** Post-installation errors
-ErrorOpeningReadme=Âèíèêëà ïîìèëêà ïðè ñïðîá³ â³äêðèòòÿ ôàéëó README.
-ErrorRestartingComputer=Ïðîãðàì³ âñòàíîâëåííÿ íå âäàëîñÿ ïåðåçàâàíòàæèòè êîìï'þòåð. Áóäü ëàñêà, âèêîíàéòå öå ñàìîñò³éíî.
+ErrorOpeningReadme=Виникла помилка при спробі відкриття файлу README.
+ErrorRestartingComputer=Програмі встановлення не вдалося перезавантажити комп'ютер. Будь ласка, виконайте це самостійно.
 
 ; *** Uninstaller messages
-UninstallNotFound=Ôàéë "%1" íå ³ñíóº, âèäàëåííÿ íåìîæëèâå.
-UninstallOpenError=Íåìîæëèâî â³äêðèòè ôàéë "%1". Âèäàëåííÿ íåìîæëèâå
-UninstallUnsupportedVer=Ôàéë ïðîòîêîëó äëÿ âèäàëåííÿ "%1" íå ðîçï³çíàíèé äàíîþ âåðñ³ºþ ïðîãðàìè âèäàëåííÿ. Âèäàëåííÿ íåìîæëèâå
-UninstallUnknownEntry=Íåâ³äîìèé çàïèñ (%1) â ôàéë³ ïðîòîêîëó äëÿ âèäàëåííÿ
-ConfirmUninstall=Âè âïåâíåí³, ùî áàæàºòå âèäàëèòè %1 ³ âñ³ éîãî êîìïîíåíòè?
-UninstallOnlyOnWin64=Öþ ïðîãðàìó ìîæëèâî âèäàëèòè ëèøå ó ñåðåäîâèù³ 64-á³òíî¿ âåðñ³¿ Windows.
-OnlyAdminCanUninstall=Öÿ ïðîãðàìà ìîæå áóòè âèäàëåíà ëèøå êîðèñòóâà÷åì ç ïðàâàìè àäì³í³ñòðàòîðà.
-UninstallStatusLabel=Áóäü ëàñêà, çà÷åêàéòå, ïîêè %1 âèäàëèòüñÿ ç âàøîãî êîìï'þòåðà.
-UninstalledAll=%1 óñï³øíî âèäàëåíî ç âàøîãî êîìï'þòåðà.
-UninstalledMost=Âèäàëåííÿ %1 çàê³í÷åíî.%n%nÄåÿê³ åëåìåíò íåìîæëèâî âèäàëèòè. Âè ìîæåòå âèäàëèòè ¿õ âðó÷íó.
-UninstalledAndNeedsRestart=Äëÿ çàâåðøåííÿ âèäàëåííÿ %1 íåîáõ³äíî ïåðåçàâàíòàæèòè âàø êîìïþòåð.%n%nÏåðåçàâàíòàæèòè êîìïþòåð çàðàç?
-UninstallDataCorrupted=Ôàéë "%1" ïîøêîäæåíèé. Âèäàëåííÿ íåìîæëèâå
+UninstallNotFound=Файл "%1" не існує, видалення неможливе.
+UninstallOpenError=Неможливо відкрити файл "%1". Видалення неможливе
+UninstallUnsupportedVer=Файл протоколу для видалення "%1" не розпізнаний даною версією програми видалення. Видалення неможливе
+UninstallUnknownEntry=Невідомий запис (%1) в файлі протоколу для видалення
+ConfirmUninstall=Ви впевнені, що бажаєте видалити %1 і всі його компоненти?
+UninstallOnlyOnWin64=Цю програму можливо видалити лише у середовищі 64-бітної версії Windows.
+OnlyAdminCanUninstall=Ця програма може бути видалена лише користувачем з правами адміністратора.
+UninstallStatusLabel=Будь ласка, зачекайте, поки %1 видалиться з вашого комп'ютера.
+UninstalledAll=%1 успішно видалено з вашого комп'ютера.
+UninstalledMost=Видалення %1 закінчено.%n%nДеякі елемент неможливо видалити. Ви можете видалити їх вручну.
+UninstalledAndNeedsRestart=Для завершення видалення %1 необхідно перезавантажити ваш комп’ютер.%n%nПерезавантажити комп’ютер зараз?
+UninstallDataCorrupted=Файл "%1" пошкоджений. Видалення неможливе
 
 ; *** Uninstallation phase messages
-ConfirmDeleteSharedFileTitle=Remove Shared File?
-ConfirmDeleteSharedFile2=The system indicates that the following shared file is no longer in use by any programs. Would you like for Uninstall to remove this shared file?%n%nIf any programs are still using this file and it is removed, those programs may not function properly. If you are unsure, choose No. Leaving the file on your system will not cause any harm.
-SharedFileNameLabel=File name:
-SharedFileLocationLabel=Location:
-WizardUninstalling=Uninstall Status
-StatusUninstalling=Uninstalling %1...
+ConfirmDeleteSharedFileTitle=Видалити загальні файли?
+ConfirmDeleteSharedFile2=Система свідчить, що наступний спільний файл більше не використовується іншими програмами. Ви бажаєте видалити цей спільний файл?%n%nЯкщо інші програми все ще використовують цей файл і він видалиться, то ці програми можуть функціонувати неправильно. Якщо ви не впевнені, виберіть «Ні». Залишений файл не нашкодить вашій системі.
+SharedFileNameLabel=Ім'я файлу:
+SharedFileLocationLabel=Розміщення:
+WizardUninstalling=Стан видалення
+StatusUninstalling=Видалення %1...
 
 ; *** Shutdown block reasons
-ShutdownBlockReasonInstallingApp=Installing %1.
-ShutdownBlockReasonUninstallingApp=Uninstalling %1.
+ShutdownBlockReasonInstallingApp=Встановлення %1.
+ShutdownBlockReasonUninstallingApp=Видалення %1.
 
 ; The custom messages below aren't used by Setup itself, but if you make
 ; use of them in your scripts, you'll want to translate them.
 
 [CustomMessages]
 
-NameAndVersion=%1 version %2
-AdditionalIcons=Additional shortcuts:
-CreateDesktopIcon=Create a &desktop shortcut
-CreateQuickLaunchIcon=Create a &Quick Launch shortcut
-ProgramOnTheWeb=%1 on the Web
-UninstallProgram=Uninstall %1
-LaunchProgram=Launch %1
-AssocFileExtension=&Associate %1 with the %2 file extension
-AssocingFileExtension=Associating %1 with the %2 file extension...
-AutoStartProgramGroupDescription=Startup:
-AutoStartProgram=Automatically start %1
-AddonHostProgramNotFound=%1 could not be located in the folder you selected.%n%nDo you want to continue anyway?"
+NameAndVersion=%1, версія %2
+AdditionalIcons=Додаткові ярлики:
+CreateDesktopIcon=Створити ярлики на &Робочому столі
+CreateQuickLaunchIcon=Створити ярлики на &Панелі швидкого запуску
+ProgramOnTheWeb=Сайт %1 в Інтернеті
+UninstallProgram=Видалити %1
+LaunchProgram=Відкрити %1
+AssocFileExtension=&Асоціювати %1 з розширенням файлу %2
+AssocingFileExtension=Асоціювання %1 з розширенням файлу %2...
+AutoStartProgramGroupDescription=Автозавантаження:
+AutoStartProgram=Автоматично завантажувати %1
+AddonHostProgramNotFound=%1 не знайдений у вказаній вами папці%n%nВи все одно бажаєте продовжити?
 
 
 
