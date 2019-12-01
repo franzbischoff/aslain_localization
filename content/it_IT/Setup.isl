@@ -332,3 +332,4 @@ UninstalledAll=Disinstallazione di %1 completata.
 UninstalledMost=Disinstallazione di %1 completata.%n%nAlcuni elementi non possono essere rimossi.%n%nDovranno essere rimossi manualmente.
 UninstalledAndNeedsRestart=Per completare la disinstallazione di %1, è necessario riavviare il sistema.%n%nVuoi riavviare il sistema adesso?
 UninstallDataCorrupted="Il file \"%1\" è danneggiato. Impossibile disinstallare"
+
