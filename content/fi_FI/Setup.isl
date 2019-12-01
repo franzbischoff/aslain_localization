@@ -332,3 +332,4 @@ UninstalledAll=%1 poistettiin onnistuneesti.
 UninstalledMost=%1 poistettiin koneelta.%n%nJoitakin osia ei voitu poistaa. Voit poistaa osat itse.
 UninstalledAndNeedsRestart=Kone täytyy käynnistää uudelleen, jotta %1 voidaan poistaa kokonaan.%n%nHaluatko käynnistää koneen uudeelleen nyt?
 UninstallDataCorrupted="Tiedosto \"%1\" on vaurioitunut. Asennuksen poisto ei onnistu."
+
