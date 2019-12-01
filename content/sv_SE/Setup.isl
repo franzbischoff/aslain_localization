@@ -13,7 +13,7 @@
 ; understand the '[LangOptions] section' topic in the help file.
 LanguageName=Svenska
 LanguageID=$041D
-LanguageCodePage=1252
+LanguageCodePage=0
 ; If the language you are translating to requires special font faces or
 ; sizes, uncomment any of the following entries and change them accordingly.
 DialogFontName=Tahoma
@@ -334,16 +334,16 @@ UninstalledAndNeedsRestart=För att slutföra avinstallationen av %1 måste dato
 UninstallDataCorrupted=Filen "%1" är felaktig. Kan inte avinstallera
 
 ; *** Uninstallation phase messages
-ConfirmDeleteSharedFileTitle=Remove Shared File?
-ConfirmDeleteSharedFile2=The system indicates that the following shared file is no longer in use by any programs. Would you like for Uninstall to remove this shared file?%n%nIf any programs are still using this file and it is removed, those programs may not function properly. If you are unsure, choose No. Leaving the file on your system will not cause any harm.
-SharedFileNameLabel=File name:
-SharedFileLocationLabel=Location:
-WizardUninstalling=Uninstall Status
-StatusUninstalling=Uninstalling %1...
+ConfirmDeleteSharedFileTitle=Ta bort delad fil?
+ConfirmDeleteSharedFile2=Systemet indikerar att följande delade fil inte längre används av några program. Vill du ta bort den delade filen?%n%n%1%n%nOm något program fortfarande använder denna fil och den raderas, kommer programmet kanske att sluta fungera. Om du är osäker, välj Nej. Att låta filen ligga kvar i systemet kommer inte att orsaka någon skada.
+SharedFileNameLabel=Filnamn:
+SharedFileLocationLabel=Plats:
+WizardUninstalling=Avinstallationsstatus
+StatusUninstalling=Avinstallerar %1...
 
 ; *** Shutdown block reasons
-ShutdownBlockReasonInstallingApp=Installing %1.
-ShutdownBlockReasonUninstallingApp=Uninstalling %1.
+ShutdownBlockReasonInstallingApp=Installerar %1.
+ShutdownBlockReasonUninstallingApp=Avinstallerar %1.
 
 ; The custom messages below aren't used by Setup itself, but if you make
 ; use of them in your scripts, you'll want to translate them.
@@ -351,17 +351,17 @@ ShutdownBlockReasonUninstallingApp=Uninstalling %1.
 [CustomMessages]
 
 NameAndVersion=%1 version %2
-AdditionalIcons=Additional shortcuts:
-CreateDesktopIcon=Create a &desktop shortcut
-CreateQuickLaunchIcon=Create a &Quick Launch shortcut
-ProgramOnTheWeb=%1 on the Web
-UninstallProgram=Uninstall %1
-LaunchProgram=Launch %1
-AssocFileExtension=&Associate %1 with the %2 file extension
-AssocingFileExtension=Associating %1 with the %2 file extension...
-AutoStartProgramGroupDescription=Startup:
-AutoStartProgram=Automatically start %1
-AddonHostProgramNotFound=%1 could not be located in the folder you selected.%n%nDo you want to continue anyway?"
+AdditionalIcons=Återstående ikoner:
+CreateDesktopIcon=Skapa en ikon på skrivbordet
+CreateQuickLaunchIcon=Skapa en ikon i Snabbstartfältet
+ProgramOnTheWeb=%1 på Webben
+UninstallProgram=Avinstallera %1
+LaunchProgram=Starta %1
+AssocFileExtension=Associera %1 med %2 filnamnstillägg
+AssocingFileExtension=Associerar %1 med %2 filnamnstillägg...
+AutoStartProgramGroupDescription=Autostart:
+AutoStartProgram=Starta automatiskt %1
+AddonHostProgramNotFound=%1 kunde inte hittas i katalogen du valde.%n%nVill du fortsätta ändå?
 
 
 
