@@ -324,7 +324,7 @@ ErrorRestartingComputer=Das Setup konnte den Computer nicht neu starten. Bitte f
 
 ; *** Uninstaller messages
 UninstallNotFound=Die Datei "
-ErrorRenamingTemp=Fehler beim Erstellen einer Datei im Ziel-Ordner:
+ErrorRenamingTemp=Fehler beim Versuch, eine Datei im Zielverzeichnis umzubenennen:
 ErrorRegisterServer=DLL/OCX konnte nicht registriert werden: %1
 ErrorRegSvr32Failed=RegSvr32 fehlgeschlagen mit Exit-Code %1
 ErrorRegisterTypeLib=Die Typ-Bibliothek konnte nicht registriert werden: %1
@@ -340,11 +340,11 @@ UninstallDisplayNameMarkAllUsers=Alle Benutzer
 UninstallDisplayNameMarkCurrentUser=Aktueller Benutzer
 
 ; *** Post-installation errors
-ErrorOpeningReadme=An error occurred while trying to open the README file.
-ErrorRestartingComputer=Setup was unable to restart the computer. Please do this manually.
+ErrorOpeningReadme=Fehler beim Versuch, die README-Datei zu öffnen.
+ErrorRestartingComputer=Die Einrichtung konnte den Computer nicht neu starten. Bitte tun Sie dies manuell.
 
 ; *** Uninstaller messages
-UninstallNotFound=File "%1" does not exist. Cannot uninstall.
+UninstallNotFound=Datei "%1" existiert nicht. Deinstallation nicht möglich.
 UninstallOpenError=Die Datei "%1" konnte nicht geöffnet werden. Entfernen der Anwendung fehlgeschlagen.
 UninstallUnsupportedVer=Das Format der Deinstallations-Datei "%1" konnte nicht erkannt werden. Entfernen der Anwendung fehlgeschlagen
 UninstallUnknownEntry=In der Deinstallations-Datei wurde ein unbekannter Eintrag (%1) gefunden
