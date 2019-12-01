@@ -34,7 +34,7 @@ UninstallAppTitle=Entfernen
 UninstallAppFullTitle=%1 entfernen
 
 ; *** Misc. common
-InformationTitle=Information
+InformationTitle=Informationen
 ConfirmTitle=Bestätigen
 ErrorTitle=Fehler
 
@@ -111,8 +111,8 @@ BeveledLabel=
 BrowseDialogTitle=Ordner suchen
 BrowseDialogLabel=Wählen Sie einen Ordner aus, und klicken Sie danach auf "
 BeveledLabel=
-BrowseDialogTitle=Browse For Folder
-BrowseDialogLabel=Select a folder in the list below, then click OK.
+BrowseDialogTitle=Ordner durchsuchen
+BrowseDialogLabel=Wählen Sie einen Ordner in der Liste unten, dann klicken Sie auf OK.
 NewFolderName=Neuer Ordner
 
 ; *** "Welcome" wizard page
@@ -134,10 +134,10 @@ LicenseAccepted=Ich &akzeptiere die Vereinbarung
 LicenseNotAccepted=Ich &lehne die Vereinbarung ab
 
 ; *** "Information" wizard pages
-WizardInfoBefore=Information
+WizardInfoBefore=Informationen
 InfoBeforeLabel=Lesen Sie bitte folgende, wichtige Informationen bevor Sie fortfahren.
 InfoBeforeClickLabel=Klicken Sie auf "Weiter", sobald Sie bereit sind mit dem Setup fortzufahren.
-WizardInfoAfter=Information
+WizardInfoAfter=Informationen
 InfoAfterLabel=Lesen Sie bitte folgende, wichtige Informationen bevor Sie fortfahren.
 InfoAfterClickLabel=Klicken Sie auf "Weiter", sobald Sie bereit sind mit dem Setup fortzufahren.
 
@@ -223,7 +223,7 @@ ApplicationsFound2=Die folgenden Anwendungen benutzen Dateien, die aktualisiert 
 CloseApplications=&Schließe die Anwendungen automatisch
 DontCloseApplications=Schließe die A&nwendungen nicht
 ErrorCloseApplications=Das Setup konnte nicht alle Anwendungen automatisch schließen. Es wird empfohlen, alle Anwendungen zu schließen, die Dateien benutzen, die vom Setup vor einer Fortsetzung aktualisiert werden müssen.
-PrepareToInstallNeedsRestart=Setup must restart your computer. After restarting your computer, run Setup again to complete the installation of [name].%n%nWould you like to restart now?
+PrepareToInstallNeedsRestart=Setup muss Ihren Computer neu starten. Nach dem Neustart des Computers starten Sie Setup erneut, um die Installation von [name] abzuschließen.%n%nMöchten Sie jetzt neu starten?
 
 ; *** "Installing" wizard page
 WizardInstalling=Installiere ...
@@ -324,10 +324,10 @@ ErrorRestartingComputer=Das Setup konnte den Computer nicht neu starten. Bitte f
 
 ; *** Uninstaller messages
 UninstallNotFound=Die Datei "
-ErrorRenamingTemp=An error occurred while trying to rename a file in the destination directory:
-ErrorRegisterServer=Unable to register the DLL/OCX: %1
-ErrorRegSvr32Failed=RegSvr32 failed with exit code %1
-ErrorRegisterTypeLib=Unable to register the type library: %1
+ErrorRenamingTemp=Fehler beim Erstellen einer Datei im Ziel-Ordner:
+ErrorRegisterServer=DLL/OCX konnte nicht registriert werden: %1
+ErrorRegSvr32Failed=RegSvr32 fehlgeschlagen mit Exit-Code %1
+ErrorRegisterTypeLib=Die Typ-Bibliothek konnte nicht registriert werden: %1
 
 ; *** Uninstall display name markings
 ; used for example as 'My Program (32-bit)'
@@ -336,8 +336,8 @@ UninstallDisplayNameMark=%1 (%2)
 UninstallDisplayNameMarks=%1 (%2, %3)
 UninstallDisplayNameMark32Bit=32-bit
 UninstallDisplayNameMark64Bit=64-bit
-UninstallDisplayNameMarkAllUsers=All users
-UninstallDisplayNameMarkCurrentUser=Current user
+UninstallDisplayNameMarkAllUsers=Alle Benutzer
+UninstallDisplayNameMarkCurrentUser=Aktueller Benutzer
 
 ; *** Post-installation errors
 ErrorOpeningReadme=An error occurred while trying to open the README file.
