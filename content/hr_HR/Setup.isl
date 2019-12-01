@@ -13,7 +13,7 @@
 ; understand the '[LangOptions] section' topic in the help file.
 LanguageName=Hrvatski
 LanguageID=$041a
-LanguageCodePage=1250
+LanguageCodePage=0
 ; If the language you are translating to requires special font faces or
 ; sizes, uncomment any of the following entries and change them accordingly.
 DialogFontName=Tahoma
@@ -340,32 +340,32 @@ ConfirmDeleteSharedFile2=Sustav ukazuje na to, da sljedeće dijeljenu datoteku n
 ; *** Uninstallation phase messages
 ConfirmDeleteSharedFileTitle=Remove Shared File?
 ConfirmDeleteSharedFile2=The system indicates that the following shared file is no longer in use by any programs. Would you like for Uninstall to remove this shared file?%n%nIf any programs are still using this file and it is removed, those programs may not function properly. If you are unsure, choose No. Leaving the file on your system will not cause any harm.
-SharedFileNameLabel=File name:
-SharedFileLocationLabel=Location:
-WizardUninstalling=Uninstall Status
-StatusUninstalling=Uninstalling %1...
+SharedFileNameLabel=Datoteka:
+SharedFileLocationLabel=Mjesto:
+WizardUninstalling=Stanje deinstalacije
+StatusUninstalling=%1 deinstaliranje …
 
 ; *** Shutdown block reasons
-ShutdownBlockReasonInstallingApp=Installing %1.
-ShutdownBlockReasonUninstallingApp=Uninstalling %1.
+ShutdownBlockReasonInstallingApp=%1 instaliranje.
+ShutdownBlockReasonUninstallingApp=%1 deinstaliranje.
 
 ; The custom messages below aren't used by Setup itself, but if you make
 ; use of them in your scripts, you'll want to translate them.
 
 [CustomMessages]
 
-NameAndVersion=%1 version %2
-AdditionalIcons=Additional shortcuts:
-CreateDesktopIcon=Create a &desktop shortcut
-CreateQuickLaunchIcon=Create a &Quick Launch shortcut
-ProgramOnTheWeb=%1 on the Web
-UninstallProgram=Uninstall %1
-LaunchProgram=Launch %1
-AssocFileExtension=&Associate %1 with the %2 file extension
-AssocingFileExtension=Associating %1 with the %2 file extension...
-AutoStartProgramGroupDescription=Startup:
-AutoStartProgram=Automatically start %1
-AddonHostProgramNotFound=%1 could not be located in the folder you selected.%n%nDo you want to continue anyway?"
+NameAndVersion=%1 verzija %2
+AdditionalIcons=Dodatni prečaci:
+CreateDesktopIcon=Stvori prečac na ra&dnoj površini
+CreateQuickLaunchIcon=Stvori prečac u traci za &brzo pokretanje
+ProgramOnTheWeb=%1 na internetu
+UninstallProgram=Deinstaliraj %1
+LaunchProgram=Pokreni %1
+AssocFileExtension=&Poveži program %1 s datotečnim nastavkom %2
+AssocingFileExtension=Povezivanje programa %1 s datotečnim nastavkom %2 …
+AutoStartProgramGroupDescription=Pokretanje:
+AutoStartProgram=Automatski pokreni %1
+AddonHostProgramNotFound=%1 nije nađen u odabranoj mapi.%n%nŽelite li svejedno nastaviti?
 
 
 
