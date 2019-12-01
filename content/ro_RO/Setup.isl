@@ -334,3 +334,4 @@ UninstalledAndNeedsRestart=Pentru a termina dezinstalarea %1, calculatorul trebu
 UninstallDataCorrupted="Fila \"%1\" este stricatã (coruptã). Dezinstalarea nu poate fi fãcutã"
 
 
+
