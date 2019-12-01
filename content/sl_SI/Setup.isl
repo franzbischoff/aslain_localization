@@ -334,3 +334,4 @@ UninstalledAndNeedsRestart=Za dokonèanje odstranitve programa %1 morate raèuna
 UninstallDataCorrupted="Datoteka »%1« je okvarjena. Odstranitev ni mona"
 
 
+
