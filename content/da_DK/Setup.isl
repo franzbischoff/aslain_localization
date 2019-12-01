@@ -332,3 +332,4 @@ UninstalledAll=%1 er nu fjernet fra computeren.
 UninstalledMost=%1 afinstallation er fuldført.%n%nNogle elementer kunne ikke fjernes. De kan fjernes manuelt.
 UninstalledAndNeedsRestart=Computeren skal genstartes for at fuldføre afinstallation af %1.%n%nVil du genstarte nu?
 UninstallDataCorrupted="Filen \"%1\" er beskadiget. Kan ikke afinstallere"
+
