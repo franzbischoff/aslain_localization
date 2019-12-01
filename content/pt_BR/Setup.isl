@@ -55,7 +55,7 @@ WindowsVersionNotSupported=Este programa não suporta a versão do Windows que s
 WindowsServicePackRequired=Este programa requer o %1 Service Pack %2 ou superior.
 NotOnThisPlatform=Este programa não executará no %1.
 OnlyOnThisPlatform=Este programa deve ser executado no %1.
-OnlyOnTheseArchitectures=Este programa só pode ser instalado em versões do Windows projetadas para as seguintes arquiteturas de processadores:%n%n% 1
+OnlyOnTheseArchitectures=Este programa só pode ser instalado em versões do Windows projetadas para as seguintes arquiteturas de processadores:%n%n%1
 WinVersionTooLowError=Este programa requer a %1 versão %2 ou superior.
 WinVersionTooHighError=Este programa não pode ser instalado na %1 versão %2 ou superior.
 AdminPrivilegesRequired=Você deve estar logado como administrador quando instalar este programa.
@@ -103,7 +103,7 @@ ButtonNewFolder=&Criar Nova Pasta
 
 ; *** "Select Language" dialog messages
 SelectLanguageTitle=Selecione o Idioma do Instalador
-SelectLanguageLabel=Selecione o idioma pra usar durante a instalação:
+SelectLanguageLabel=Selecione o idioma para usar durante a instalação.
 
 ; *** Common wizard text
 ClickNext=Clique em Próximo pra continuar ou em Cancelar pra sair do Instalador.
@@ -151,14 +151,14 @@ WizardSelectDir=Selecione o Local de Destino
 SelectDirDesc=Aonde o [name] deve ser instalado?
 SelectDirLabel3=O Instalador instalará o [name] na seguinte pasta.
 SelectDirBrowseLabel=Pra continuar clique em Próximo. Se você gostaria de selecionar uma pasta diferente, clique em Procurar.
-DiskSpaceGBLabel=At least [gb] GB of free disk space is required.
-DiskSpaceMBLabel=Pelo menos [mb] MBs de espaço livre em disco são requeridos.
+DiskSpaceGBLabel=Pelo menos [gb] GB de espaço livre em disco é necessário.
+DiskSpaceMBLabel=Pelo menos [mb] MB de espaço livre em disco são requeridos.
 CannotInstallToNetworkDrive=O instalador não pode instalar em um drive de rede.
 CannotInstallToUNCPath=O instalador não pode instalar em um caminho UNC.
 InvalidPath=Você deve inserir um caminho completo com a letra do drive ; for example:%n%nC:\APP%n%nor a UNC path in the form:%n%n\\server\share
 InvalidDrive=O drive ou compartilhamento UNC que você selecionou não existe ou não está acessível. Por favor selecione outro.
 DiskSpaceWarningTitle=Sem Espaço em Disco o Bastante
-DiskSpaceWarning=O Instalador requer pelo menos %1 KBs de espaço livre pra instalar mas o drive selecionado só tem %2 KBs disponíveis.%n%nVocê quer continuar de qualquer maneira?
+DiskSpaceWarning=O Instalador requer pelo menos %1 KB de espaço livre pra instalar mas o drive selecionado só tem %2 KBs disponíveis.%n%nVocê quer continuar de qualquer maneira?
 DirNameTooLong=O nome ou caminho da pasta é muito longo.
 InvalidDirName=O nome da pasta não é válido.
 BadDirName32=Os nomes das pastas não pode incluir quaisquer dos seguintes caracteres:%n%n%1
@@ -177,10 +177,10 @@ CompactInstallation=Instalação compacta
 CustomInstallation=Instalação personalizada
 NoUninstallWarningTitle=O Componente Existe
 NoUninstallWarning=O Instalador detectou que os seguintes componentes já estão instalados no seu computador:%n%n%1%n%nNão selecionar estes componentes não desinstalará eles.%n%nVocê gostaria de continuar de qualquer maneira?
-ComponentSize1=%1 KBs
-ComponentSize2=%1 MBs
-ComponentsDiskSpaceGBLabel=Current selection requires at least [gb] GB of disk space.
-ComponentsDiskSpaceMBLabel=A seleção atual requer pelo menos [mb] MBs de espaço em disco.
+ComponentSize1=%1 KB
+ComponentSize2=%1 MB
+ComponentsDiskSpaceGBLabel=A seleção atual necessita de pelo menos [gb] GB de espaço em disco.
+ComponentsDiskSpaceMBLabel=A seleção atual requer pelo menos [mb] MB de espaço em disco.
 
 ; *** "Select Additional Tasks" wizard page
 WizardSelectTasks=Selecionar Tarefas Adicionais
@@ -220,7 +220,7 @@ ApplicationsFound2=Os aplicativos a seguir estão usando arquivos que precisam s
 CloseApplications=&Fechar os aplicativos automaticamente
 DontCloseApplications=&Não fechar os aplicativos
 ErrorCloseApplications=O instalador foi incapaz de fechar automaticamente todos os aplicativos. É recomendado que você feche todos os aplicativos usando os arquivos que precisam ser atualizados pelo Instalador antes de continuar.
-PrepareToInstallNeedsRestart=Setup must restart your computer. After restarting your computer, run Setup again to complete the installation of [name].%n%nWould you like to restart now?
+PrepareToInstallNeedsRestart=O Instalador necessita reiniciar o seu computador. Depois de reiniciar o computador, execute novamente o Instalador para completar a instalação do [name].%n%nDeseja reiniciar agora?
 
 ; *** "Installing" wizard page
 WizardInstalling=Instalando
@@ -288,7 +288,7 @@ FileAbortRetryIgnoreSkipNotRecommended=&Ignorar este arquivo (não recomendado)
 FileAbortRetryIgnoreIgnoreNotRecommended=&Ignorar o erro e continuar (não recomendado)
 SourceIsCorrupted=O arquivo de origem está corrompido
 SourceDoesntExist=O arquivo de origem "%1" não existe
-ExistingFileReadOnly2=O arquivo existente não pôde ser substituído porque está marcado como somente-leitura.
+ExistingFileReadOnly2=O arquivo existente não pôde ser substituído porque está marcado como somente leitura.
 ExistingFileReadOnlyRetry=&Remover o atributo somente-leitura e tentar de novo
 ExistingFileReadOnlyKeepExisting=&Manter o arquivo existente
 ErrorReadingExistingDest=Um erro ocorreu enquanto tentava ler o arquivo existente:
@@ -299,7 +299,7 @@ ErrorCreatingTemp=Um erro ocorreu enquanto tentava criar um arquivo no diretóri
 ErrorReadingSource=Um erro ocorreu enquanto tentava ler o arquivo de origem:
 ErrorCopying=Um erro ocorreu enquanto tentava copiar um arquivo:
 ErrorReplacingExistingFile=Um erro ocorreu enquanto tentava substituir o arquivo existente:
-ErrorRestartReplace=ReiniciarSubstituir falhou:
+ErrorRestartReplace=RestartReplace falhou:
 ErrorRenamingTemp=Um erro ocorreu enquanto tentava renomear um arquivo no diretório destino:
 ErrorRegisterServer=Incapaz de registrar a DLL/OCX: %1
 ErrorRegSvr32Failed=O RegSvr32 falhou com o código de saída %1
@@ -334,34 +334,34 @@ UninstalledAndNeedsRestart=Pra completar a desinstalação do %1, seu computador
 UninstallDataCorrupted=O arquivo "%1" está corrompido. Não consegue desinstalar
 
 ; *** Uninstallation phase messages
-ConfirmDeleteSharedFileTitle=Remove Shared File?
-ConfirmDeleteSharedFile2=The system indicates that the following shared file is no longer in use by any programs. Would you like for Uninstall to remove this shared file?%n%nIf any programs are still using this file and it is removed, those programs may not function properly. If you are unsure, choose No. Leaving the file on your system will not cause any harm.
-SharedFileNameLabel=File name:
-SharedFileLocationLabel=Location:
-WizardUninstalling=Uninstall Status
-StatusUninstalling=Uninstalling %1...
+ConfirmDeleteSharedFileTitle=Remover Arquivo Compartilhado?
+ConfirmDeleteSharedFile2=O sistema indica que o seguinte arquivo compartilhado não está mais em uso por nenhum programa. Gostaria de desinstalar este arquivo compartilhado?%n%nse algum programa ainda estiver usando este arquivo e ele for removido, esses programas podem não funcionar corretamente. Se você não tiver certeza, escolha Não. Deixar o arquivo em seu sistema não causará nenhum mal.
+SharedFileNameLabel=Nome do arquivo:
+SharedFileLocationLabel=Localização:
+WizardUninstalling=Status de desinstalação
+StatusUninstalling=Desinstalando %1...
 
 ; *** Shutdown block reasons
-ShutdownBlockReasonInstallingApp=Installing %1.
-ShutdownBlockReasonUninstallingApp=Uninstalling %1.
+ShutdownBlockReasonInstallingApp=Instalando %1.
+ShutdownBlockReasonUninstallingApp=Desinstalando %1.
 
 ; The custom messages below aren't used by Setup itself, but if you make
 ; use of them in your scripts, you'll want to translate them.
 
 [CustomMessages]
 
-NameAndVersion=%1 version %2
-AdditionalIcons=Additional shortcuts:
-CreateDesktopIcon=Create a &desktop shortcut
-CreateQuickLaunchIcon=Create a &Quick Launch shortcut
-ProgramOnTheWeb=%1 on the Web
-UninstallProgram=Uninstall %1
-LaunchProgram=Launch %1
-AssocFileExtension=&Associate %1 with the %2 file extension
-AssocingFileExtension=Associating %1 with the %2 file extension...
-AutoStartProgramGroupDescription=Startup:
-AutoStartProgram=Automatically start %1
-AddonHostProgramNotFound=%1 could not be located in the folder you selected.%n%nDo you want to continue anyway?"
+NameAndVersion=%1 versão %2
+AdditionalIcons=Atalhos adicionais:
+CreateDesktopIcon=Criar um atalho para &desktop
+CreateQuickLaunchIcon=Criar um atalho para &iniciar rápido
+ProgramOnTheWeb=%1 na Web
+UninstallProgram=Desinstalar %1
+LaunchProgram=Iniciar %1
+AssocFileExtension=&Associar %1 com a extensão do arquivo %2
+AssocingFileExtension=Associando %1 com a extensão de arquivo %2...
+AutoStartProgramGroupDescription=Iniciar:
+AutoStartProgram=Iniciar automaticamente %1
+AddonHostProgramNotFound=%1 não pôde ser localizado na pasta selecionada.%n%nDeseja continuar mesmo assim?"
 
 
 
