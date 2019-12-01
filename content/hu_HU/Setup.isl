@@ -1,4 +1,4 @@
-﻿; *** Inno Setup version 6.0.3+ English messages ***
+; *** Inno Setup version 6.0.3+ English messages ***
 ;
 ; To download user-contributed translations of this file, go to:
 ;   http://www.jrsoftware.org/files/istrans/
@@ -362,6 +362,7 @@ AssocingFileExtension=A(z) %1 társítása a(z) %2 fájlkiterjesztéssel...
 AutoStartProgramGroupDescription=Indítópult:
 AutoStartProgram=%1 automatikus indítása
 AddonHostProgramNotFound=A(z) %1 nem található a kiválasztott mappában.%n%nMindenképpen folytatni kívánja?
+
 
 
 
