@@ -1,4 +1,4 @@
-﻿; *** Inno Setup version 6.0.3+ English messages ***
+; *** Inno Setup version 6.0.3+ English messages ***
 ;
 ; To download user-contributed translations of this file, go to:
 ;   http://www.jrsoftware.org/files/istrans/
@@ -362,6 +362,7 @@ AssocingFileExtension=Yhdistetään %1 tiedostopäätteeseen %2 ...
 AutoStartProgramGroupDescription=Käynnistys:
 AutoStartProgram=Käynnistä %1 automaattisesti
 AddonHostProgramNotFound=%1 ei ole valitsemassasi kansiossa.%n%nHaluatko jatkaa tästä huolimatta?
+
 
 
 
