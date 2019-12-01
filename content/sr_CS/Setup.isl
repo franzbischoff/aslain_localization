@@ -334,3 +334,4 @@ UninstalledAndNeedsRestart=Potrebno je ponovno pokretanje raèunara da bi se ins
 UninstallDataCorrupted="Datoteka %1 je oteæena. Ne mogu da deinstaliram program."
 
 
+
