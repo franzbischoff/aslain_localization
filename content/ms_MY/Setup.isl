@@ -332,3 +332,4 @@ UninstalledAll=%1 Berjaya dikeluarkan dari Komputer anda.
 UninstalledMost=Pengeluaran %1 telah selesai%n%nSesetengah fail tidak boleh dikeluarkan. Ianya boleh dikeluarkan secara manual..
 UninstalledAndNeedsRestart=Untuk melengkapkan pengeluaran %1, komputer anda mesti dimulakan kembali.%n%nMahukah ada memulakan komputer kembali Sekarang?
 UninstallDataCorrupted="Fail \"%1\" didapati rosak. Pengeluaran tidak boleh dilakukan."
+

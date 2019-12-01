@@ -332,3 +332,4 @@ UninstalledAll=Produkt %1 byl z Vaeho poèítaèe úspìnì odinstalován.
 UninstalledMost=Produkt %1 byl odinstalován.%n%nNìkteré jeho souèásti se odinstalovat nepodaøilo. Mùete je vak odstranit ruènì.
 UninstalledAndNeedsRestart=K dokonèení odinstalace produktu %1 je nezbytné, aby prùvodce odinstalací restartoval Vá poèítaè.%n%nChcete jej restartovat nyní?
 UninstallDataCorrupted="Soubor \"%1\" je pokozen. Produkt nelze odinstalovat"
+

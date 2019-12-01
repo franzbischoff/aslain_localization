@@ -360,3 +360,4 @@ UninstallDataCorrupted="%1\"-Datei ist beschädigt. Entfernen der Anwendung fehl
 ; *** Uninstallation phase messages
 ConfirmDeleteSharedFileTitle=Gemeinsame Datei entfernen?
 ConfirmDeleteSharedFile2=Das System zeigt an, dass die folgende gemeinsame Datei von keinem anderen Programm mehr benutzt wird. Möchten Sie diese Datei entfernen lassen?%nSollte es doch noch Programme geben, die diese Datei benutzen, und sie wird entfernt, funktionieren diese Programme vielleicht nicht mehr richtig. Wenn Sie unsicher sind, wählen Sie "
+

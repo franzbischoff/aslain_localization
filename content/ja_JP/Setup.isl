@@ -332,3 +332,4 @@ UninstalledAll=%1 はご使用のコンピューターから正常に削除さ�
 UninstalledMost=%1 のアンインストールが完了しました。%n%nいくつかの項目が削除できませんでした。手動で削除してください。
 UninstalledAndNeedsRestart=%1 の削除を完了するためには、コンピューターを再起動する必要があります。すぐに再起動しますか？
 UninstallDataCorrupted="ファイル \"%1\" が壊れています。アンインストールを実行できません。"
+

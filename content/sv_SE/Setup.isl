@@ -332,3 +332,4 @@ UninstalledAll=%1 är nu borttaget från din dator.
 UninstalledMost=Avinstallationen av %1 är nu klar.%n%nEn del filer/kataloger gick ej att ta bort. Dessa kan tas bort manuellt.
 UninstalledAndNeedsRestart=För att slutföra avinstallationen av %1 måste datorn startas om.%n%nVill du starta om nu?
 UninstallDataCorrupted="Filen \"%1\" är felaktig. Kan inte avinstallera"
+
