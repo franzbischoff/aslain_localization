@@ -188,7 +188,7 @@ SelectTasksDesc=Które zadania dodatkowe mają zostać wykonane?
 SelectTasksLabel2=Zaznacz dodatkowe zadania, które instalator ma wykonać podczas instalacji aplikacji [name], a następnie kliknij przycisk Dalej, aby kontynuować.
 
 ; *** "Select Start Menu Folder" wizard page
-WizardSelectProgramGroup=Folder Menu Start
+WizardSelectProgramGroup=Wybierz Folder Menu Start
 SelectStartMenuFolderDesc=Gdzie mają zostać umieszczone skróty do aplikacji?
 SelectStartMenuFolderLabel3=Instalator utworzy skróty do aplikacji we wskazanym poniżej folderze Menu Start.
 SelectStartMenuFolderBrowseLabel=Kliknij przycisk Dalej, aby kontynuować. Jeśli chcesz wskazać inny folder, kliknij przycisk Przeglądaj.
