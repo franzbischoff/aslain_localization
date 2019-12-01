@@ -11,9 +11,9 @@
 [LangOptions]
 ; The following three entries are very important. Be sure to read and
 ; understand the '[LangOptions] section' topic in the help file.
-LanguageName=English
-LanguageID=$0409
-LanguageCodePage=0
+LanguageName=Dansk
+LanguageID=$0406
+LanguageCodePage=1252
 ; If the language you are translating to requires special font faces or
 ; sizes, uncomment any of the following entries and change them accordingly.
 DialogFontName=Tahoma
@@ -28,282 +28,282 @@ CopyrightFontSize=8
 [Messages]
 
 ; *** Application titles
-SetupAppTitle=Setup
-SetupWindowTitle=Setup - %1
-UninstallAppTitle=Uninstall
-UninstallAppFullTitle=%1 Uninstall
+SetupAppTitle=Installationsguide
+SetupWindowTitle=Installationsguide - %1
+UninstallAppTitle=Afinstallér
+UninstallAppFullTitle=Afinstallerer %1
 
 ; *** Misc. common
 InformationTitle=Information
-ConfirmTitle=Confirm
-ErrorTitle=Error
+ConfirmTitle=Bekræft
+ErrorTitle=Fejl
 
 ; *** SetupLdr messages
-SetupLdrStartupMessage=This will install %1. Do you wish to continue?
-LdrCannotCreateTemp=Unable to create a temporary file. Setup aborted
-LdrCannotExecTemp=Unable to execute file in the temporary directory. Setup aborted
+SetupLdrStartupMessage=Denne guide installerer %1. Vil du fortsætte?
+LdrCannotCreateTemp=Kan ikke oprette en midlertidig fil. Installationen afbrydes
+LdrCannotExecTemp=Kan ikke køre et program i den midlertidige mappe. Installationen afbrydes
 HelpTextNote=
 
 ; *** Startup error messages
-LastErrorMessage=%1.%n%nError %2: %3
-SetupFileMissing=The file %1 is missing from the installation directory. Please correct the problem or obtain a new copy of the program.
-SetupFileCorrupt=The setup files are corrupted. Please obtain a new copy of the program.
-SetupFileCorruptOrWrongVer=The setup files are corrupted, or are incompatible with this version of Setup. Please correct the problem or obtain a new copy of the program.
-InvalidParameter=An invalid parameter was passed on the command line:%n%n%1
-SetupAlreadyRunning=Setup is already running.
-WindowsVersionNotSupported=This program does not support the version of Windows your computer is running.
-WindowsServicePackRequired=This program requires %1 Service Pack %2 or later.
-NotOnThisPlatform=This program will not run on %1.
-OnlyOnThisPlatform=This program must be run on %1.
-OnlyOnTheseArchitectures=This program can only be installed on versions of Windows designed for the following processor architectures:%n%n%1
-WinVersionTooLowError=This program requires %1 version %2 or later.
-WinVersionTooHighError=This program cannot be installed on %1 version %2 or later.
-AdminPrivilegesRequired=You must be logged in as an administrator when installing this program.
-PowerUserPrivilegesRequired=You must be logged in as an administrator or as a member of the Power Users group when installing this program.
-SetupAppRunningError=Setup has detected that %1 is currently running.%n%nPlease close all instances of it now, then click OK to continue, or Cancel to exit.
-UninstallAppRunningError=Uninstall has detected that %1 is currently running.%n%nPlease close all instances of it now, then click OK to continue, or Cancel to exit.
+LastErrorMessage=%1.%n%nFejl %2: %3
+SetupFileMissing=Filen %1 mangler i installationsmappen. Ret venligst problemet eller få en ny kopi af programmet.
+SetupFileCorrupt=Installationsfilerne er beskadiget. Få venligst en ny kopi af installationsprogrammet.
+SetupFileCorruptOrWrongVer=Installationsfilerne er beskadiget, eller også er de ikke kompatible med denne version af installationsprogrammet. Ret venligst problemet eller få en ny kopi af installationsprogrammet.
+InvalidParameter=En ugyldig parameter blev angivet på kommandolinjen:%n%n%1
+SetupAlreadyRunning=Installationsprogrammet kører allerede.
+WindowsVersionNotSupported=Programmet understøtter ikke den version af Windows, som denne computer kører.
+WindowsServicePackRequired=Programmet kræver %1 med Service Pack %2 eller senere.
+NotOnThisPlatform=Programmet kan ikke anvendes på %1.
+OnlyOnThisPlatform=Programmet kan kun anvendes på %1.
+OnlyOnTheseArchitectures=Programmet kan kun installeres på versioner af Windows der anvender disse processor-arkitekturer:%n%n%1
+WinVersionTooLowError=Programmet kræver %1 version %2 eller senere.
+WinVersionTooHighError=Programmet kan ikke installeres på %1 version %2 eller senere.
+AdminPrivilegesRequired=Du skal være logget på som administrator imens programmet installeres.
+PowerUserPrivilegesRequired=Du skal være logget på som administrator eller være medlem af gruppen Superbrugere imens programmet installeres.
+SetupAppRunningError=Installationsprogrammet har registreret at %1 kører.%n%nLuk venligst alle forekomster af programmet, og klik så OK for at fortsætte, eller Annuller for at afbryde.
+UninstallAppRunningError=Afinstallationsprogrammet har registreret at %1 kører.%n%nLuk venligst alle forekomster af programmet, og klik så OK for at fortsætte, eller Annuller for at afbryde.
 
 ; *** Startup questions
-PrivilegesRequiredOverrideTitle=Select Setup Install Mode
-PrivilegesRequiredOverrideInstruction=Select install mode
-PrivilegesRequiredOverrideText1=%1 can be installed for all users (requires administrative privileges), or for you only.
-PrivilegesRequiredOverrideText2=%1 can be installed for you only, or for all users (requires administrative privileges).
-PrivilegesRequiredOverrideAllUsers=Install for &all users
-PrivilegesRequiredOverrideAllUsersRecommended=Install for &all users (recommended)
-PrivilegesRequiredOverrideCurrentUser=Install for &me only
-PrivilegesRequiredOverrideCurrentUserRecommended=Install for &me only (recommended)
+PrivilegesRequiredOverrideTitle=Vælg guidens installationsmåde
+PrivilegesRequiredOverrideInstruction=Vælg installationsmåde
+PrivilegesRequiredOverrideText1=%1 kan installeres for alle brugere (kræver administrator-rettigheder), eller for dig alene.
+PrivilegesRequiredOverrideText2=%1 kan installeres for dig alene, eller for alle brugere på computeren (sidstnævnte kræver administrator-rettigheder).
+PrivilegesRequiredOverrideAllUsers=Installer for &alle brugere
+PrivilegesRequiredOverrideAllUsersRecommended=Installer for &alle brugere (anbefales)
+PrivilegesRequiredOverrideCurrentUser=Installer for &mig alene
+PrivilegesRequiredOverrideCurrentUserRecommended=Installer for &mig alene (anbefales)
 
 ; *** Misc. errors
-ErrorCreatingDir=Setup was unable to create the directory "%1"
-ErrorTooManyFilesInDir=Unable to create a file in the directory "%1" because it contains too many files
+ErrorCreatingDir=Installationsprogrammet kan ikke oprette mappen "%1"
+ErrorTooManyFilesInDir=Kan ikke oprette en fil i mappen "%1". Mappen indeholder for mange filer
 
 ; *** Setup common messages
-ExitSetupTitle=Exit Setup
-ExitSetupMessage=Setup is not complete. If you exit now, the program will not be installed.%n%nYou may run Setup again at another time to complete the installation.%n%nExit Setup?
-AboutSetupMenuItem=&About Setup...
-AboutSetupTitle=About Setup
-AboutSetupMessage=%1 version %2%n%3%n%n%1 home page:%n%4
+ExitSetupTitle=Afbryd installationen
+ExitSetupMessage=Installationen er ikke fuldført. Programmet installeres ikke, hvis du afbryder nu.%n%nDu kan køre installationsprogrammet igen på et andet tidspunkt for at udføre installationen.%n%nSkal installationen afbrydes?
+AboutSetupMenuItem=&Om installationsprogrammet...
+AboutSetupTitle=Om installationsprogrammet
+AboutSetupMessage=%1 version %2%n%3%n%n%1 hjemmeside:%n%4
 AboutSetupNote=
 TranslatorNote=
 
 ; *** Buttons
-ButtonBack=< &Back
-ButtonNext=&Next >
-ButtonInstall=&Install
-ButtonOK=OK
-ButtonCancel=Cancel
-ButtonYes=&Yes
-ButtonYesToAll=Yes to &All
-ButtonNo=&No
-ButtonNoToAll=N&o to All
-ButtonFinish=&Finish
-ButtonBrowse=&Browse...
-ButtonWizardBrowse=B&rowse...
-ButtonNewFolder=&Make New Folder
+ButtonBack=< &Tilbage
+ButtonNext=Næ&ste >
+ButtonInstall=&Installer
+ButtonOK=&OK
+ButtonCancel=&Annuller
+ButtonYes=&Ja
+ButtonYesToAll=Ja til a&lle
+ButtonNo=&Nej
+ButtonNoToAll=Nej t&il alle
+ButtonFinish=&Færdig
+ButtonBrowse=&Gennemse...
+ButtonWizardBrowse=G&ennemse...
+ButtonNewFolder=&Opret ny mappe
 
 ; *** "Select Language" dialog messages
-SelectLanguageTitle=Select Setup Language
-SelectLanguageLabel=Select the language to use during the installation.
+SelectLanguageTitle=Vælg installationssprog
+SelectLanguageLabel=Vælg det sprog der skal vises under installationen.
 
 ; *** Common wizard text
-ClickNext=Click Next to continue, or Cancel to exit Setup.
+ClickNext=Klik på Næste for at fortsætte, eller Annuller for at afbryde installationen.
 BeveledLabel=
-BrowseDialogTitle=Browse For Folder
-BrowseDialogLabel=Select a folder in the list below, then click OK.
-NewFolderName=New Folder
+BrowseDialogTitle=Vælg mappe
+BrowseDialogLabel=Vælg en mappe fra nedenstående liste og klik på OK.
+NewFolderName=Ny mappe
 
 ; *** "Welcome" wizard page
-WelcomeLabel1=Welcome to the [name] Setup Wizard
-WelcomeLabel2=This will install [name/ver] on your computer.%n%nIt is recommended that you close all other applications before continuing.
+WelcomeLabel1=Velkommen til installationsguiden for [name]
+WelcomeLabel2=Guiden installerer [name/ver] på computeren.%n%nDet anbefales at lukke alle andre programmer inden du fortsætter.
 
 ; *** "Password" wizard page
-WizardPassword=Password
-PasswordLabel1=This installation is password protected.
-PasswordLabel3=Please provide the password, then click Next to continue. Passwords are case-sensitive.
-PasswordEditLabel=&Password:
-IncorrectPassword=The password you entered is not correct. Please try again.
+WizardPassword=Adgangskode
+PasswordLabel1=Installationen er beskyttet med adgangskode.
+PasswordLabel3=Indtast venligst adgangskoden og klik på Næste for at fortsætte. Der skelnes mellem store og små bogstaver.
+PasswordEditLabel=&Adgangskode:
+IncorrectPassword=Den indtastede kode er forkert. Prøv venligst igen.
 
 ; *** "License Agreement" wizard page
-WizardLicense=License Agreement
-LicenseLabel=Please read the following important information before continuing.
-LicenseLabel3=Please read the following License Agreement. You must accept the terms of this agreement before continuing with the installation.
-LicenseAccepted=I &accept the agreement
-LicenseNotAccepted=I &do not accept the agreement
+WizardLicense=Licensaftale
+LicenseLabel=Læs venligst følgende vigtige oplysninger inden du fortsætter.
+LicenseLabel3=Læs venligst licensaftalen. Du skal acceptere betingelserne i aftalen for at fortsætte installationen.
+LicenseAccepted=Jeg &accepterer aftalen
+LicenseNotAccepted=Jeg accepterer &ikke aftalen
 
 ; *** "Information" wizard pages
 WizardInfoBefore=Information
-InfoBeforeLabel=Please read the following important information before continuing.
-InfoBeforeClickLabel=When you are ready to continue with Setup, click Next.
+InfoBeforeLabel=Læs venligst følgende information inden du fortsætter.
+InfoBeforeClickLabel=Klik på Næste, når du er klar til at fortsætte installationen.
 WizardInfoAfter=Information
-InfoAfterLabel=Please read the following important information before continuing.
-InfoAfterClickLabel=When you are ready to continue with Setup, click Next.
+InfoAfterLabel=Læs venligst følgende information inden du fortsætter.
+InfoAfterClickLabel=Klik på Næste, når du er klar til at fortsætte installationen.
 
 ; *** "User Information" wizard page
-WizardUserInfo=User Information
-UserInfoDesc=Please enter your information.
-UserInfoName=&User Name:
-UserInfoOrg=&Organization:
-UserInfoSerial=&Serial Number:
-UserInfoNameRequired=You must enter a name.
+WizardUserInfo=Brugerinformation
+UserInfoDesc=Indtast venligst dine oplysninger.
+UserInfoName=&Brugernavn:
+UserInfoOrg=&Organisation:
+UserInfoSerial=&Serienummer:
+UserInfoNameRequired=Du skal indtaste et navn.
 
 ; *** "Select Destination Location" wizard page
-WizardSelectDir=Select Destination Location
-SelectDirDesc=Where should [name] be installed?
-SelectDirLabel3=Setup will install [name] into the following folder.
-SelectDirBrowseLabel=To continue, click Next. If you would like to select a different folder, click Browse.
-DiskSpaceGBLabel=At least [gb] GB of free disk space is required.
-DiskSpaceMBLabel=At least [mb] MB of free disk space is required.
-CannotInstallToNetworkDrive=Setup cannot install to a network drive.
-CannotInstallToUNCPath=Setup cannot install to a UNC path.
-InvalidPath=You must enter a full path with drive letter ; for example:%n%nC:\APP%n%nor a UNC path in the form:%n%n\\server\share
-InvalidDrive=The drive or UNC share you selected does not exist or is not accessible. Please select another.
-DiskSpaceWarningTitle=Not Enough Disk Space
-DiskSpaceWarning=Setup requires at least %1 KB of free space to install, but the selected drive only has %2 KB available.%n%nDo you want to continue anyway?
-DirNameTooLong=The folder name or path is too long.
-InvalidDirName=The folder name is not valid.
-BadDirName32=Folder names cannot include any of the following characters:%n%n%1
-DirExistsTitle=Folder Exists
-DirExists=The folder:%n%n%1%n%nalready exists. Would you like to install to that folder anyway?
-DirDoesntExistTitle=Folder Does Not Exist
-DirDoesntExist=The folder:%n%n%1%n%ndoes not exist. Would you like the folder to be created?
+WizardSelectDir=Vælg installationsmappe
+SelectDirDesc=Hvor skal [name] installeres?
+SelectDirLabel3=Installationsprogrammet installerer [name] i følgende mappe.
+SelectDirBrowseLabel=Klik på Næste for at fortsætte. Klik på Gennemse, hvis du vil vælge en anden mappe.
+DiskSpaceGBLabel=Der skal være mindst [gb] GB fri diskplads.
+DiskSpaceMBLabel=Der skal være mindst [mb] MB fri diskplads.
+CannotInstallToNetworkDrive=Guiden kan ikke installere programmet på et netværksdrev.
+CannotInstallToUNCPath=Guiden kan ikke installere programmet til en UNC-sti.
+InvalidPath=Du skal indtaste en komplet sti med drevbogstav, f.eks.:%n%nC:\Program%n%neller et UNC-stinavn i formatet:%n%n\\server\share ; for example:%n%nC:\APP%n%nor a UNC path in the form:%n%n\\server\share
+InvalidDrive=Drevet eller UNC-stien du valgte findes ikke, eller der er ikke adgang til det lige nu. Vælg venligst en anden placering.
+DiskSpaceWarningTitle=Ikke nok ledig diskplads.
+DiskSpaceWarning=Guiden kræver mindst %1 KB ledig diskplads for at kunne installere programmet, men det valgte drev har kun %2 KB ledig diskplads.%n%nVil du alligevel fortsætte installationen?
+DirNameTooLong=Navnet på mappen eller stien er for langt.
+InvalidDirName=Navnet på mappen er ikke tilladt.
+BadDirName32=Mappenavne må ikke indeholde følgende tegn:%n%n%1
+DirExistsTitle=Mappen findes
+DirExists=Mappen:%n%n%1%n%nfindes allerede. Vil du alligevel installere i denne mappe?
+DirDoesntExistTitle=Mappen findes ikke.
+DirDoesntExist=Mappen:%n%n%1%n%nfindes ikke. Vil du oprette mappen?
 
 ; *** "Select Components" wizard page
-WizardSelectComponents=Select Components
-SelectComponentsDesc=Which components should be installed?
-SelectComponentsLabel2=Select the components you want to install ; clear the components you do not want to install. Click Next when you are ready to continue.
-FullInstallation=Full installation
+WizardSelectComponents=Vælg Komponenter
+SelectComponentsDesc=Hvilke komponenter skal installeres?
+SelectComponentsLabel2=Vælg de komponenter der skal installeres, og fjern markering fra dem der ikke skal installeres. Klik så på Næste for at fortsætte. ; clear the components you do not want to install. Click Next when you are ready to continue.
+FullInstallation=Fuld installation
 ; if possible don't translate 'Compact' as 'Minimal' (I mean 'Minimal' in your language)
-CompactInstallation=Compact installation
-CustomInstallation=Custom installation
-NoUninstallWarningTitle=Components Exist
-NoUninstallWarning=Setup has detected that the following components are already installed on your computer:%n%n%1%n%nDeselecting these components will not uninstall them.%n%nWould you like to continue anyway?
+CompactInstallation=Kompakt installation
+CustomInstallation=Tilpasset installation
+NoUninstallWarningTitle=Komponenterne er installeret
+NoUninstallWarning=Installationsprogrammet har registreret at følgende komponenter allerede er installeret på computeren:%n%n%1%n%nKomponenterne bliver ikke afinstalleret hvis de fravælges.%n%nFortsæt alligevel?
 ComponentSize1=%1 KB
 ComponentSize2=%1 MB
-ComponentsDiskSpaceGBLabel=Current selection requires at least [gb] GB of disk space.
-ComponentsDiskSpaceMBLabel=Current selection requires at least [mb] MB of disk space.
+ComponentsDiskSpaceGBLabel=De nuværende valg kræver mindst [gb] GB ledig diskplads.
+ComponentsDiskSpaceMBLabel=De nuværende valg kræver mindst [mb] MB ledig diskplads.
 
 ; *** "Select Additional Tasks" wizard page
-WizardSelectTasks=Select Additional Tasks
-SelectTasksDesc=Which additional tasks should be performed?
-SelectTasksLabel2=Select the additional tasks you would like Setup to perform while installing [name], then click Next.
+WizardSelectTasks=Vælg supplerende opgaver
+SelectTasksDesc=Hvilke supplerende opgaver skal udføres?
+SelectTasksLabel2=Vælg de supplerende opgaver du vil have guiden til at udføre under installationen af [name] og klik på Næste.
 
 ; *** "Select Start Menu Folder" wizard page
-WizardSelectProgramGroup=Select Start Menu Folder
-SelectStartMenuFolderDesc=Where should Setup place the program's shortcuts?
-SelectStartMenuFolderLabel3=Setup will create the program's shortcuts in the following Start Menu folder.
-SelectStartMenuFolderBrowseLabel=To continue, click Next. If you would like to select a different folder, click Browse.
-MustEnterGroupName=You must enter a folder name.
-GroupNameTooLong=The folder name or path is too long.
-InvalidGroupName=The folder name is not valid.
-BadGroupName=The folder name cannot include any of the following characters:%n%n%1
-NoProgramGroupCheck2=&Don't create a Start Menu folder
+WizardSelectProgramGroup=Vælg mappe i menuen Start
+SelectStartMenuFolderDesc=Hvor skal installationsprogrammet oprette genveje til programmet?
+SelectStartMenuFolderLabel3=Installationsprogrammet opretter genveje til programmet i følgende mappe i menuen Start.
+SelectStartMenuFolderBrowseLabel=Klik på Næste for at fortsætte. Klik på Gennemse, hvis du vil vælge en anden mappe.
+MustEnterGroupName=Du skal indtaste et mappenavn.
+GroupNameTooLong=Mappens eller stiens navn er for langt.
+InvalidGroupName=Mappenavnet er ugyldigt.
+BadGroupName=Navnet på en programgruppe må ikke indeholde følgende tegn: %1. Angiv andet navn.
+NoProgramGroupCheck2=Opret &ingen programgruppe i menuen Start
 
 ; *** "Ready to Install" wizard page
-WizardReady=Ready to Install
-ReadyLabel1=Setup is now ready to begin installing [name] on your computer.
-ReadyLabel2a=Click Install to continue with the installation, or click Back if you want to review or change any settings.
-ReadyLabel2b=Click Install to continue with the installation.
-ReadyMemoUserInfo=User information:
-ReadyMemoDir=Destination location:
-ReadyMemoType=Setup type:
-ReadyMemoComponents=Selected components:
-ReadyMemoGroup=Start Menu folder:
-ReadyMemoTasks=Additional tasks:
+WizardReady=Klar til at installere
+ReadyLabel1=Installationsprogrammet er nu klar til at installere [name] på computeren.
+ReadyLabel2a=Klik på Installer for at fortsætte med installationen, eller klik på Tilbage hvis du vil se eller ændre indstillingerne.
+ReadyLabel2b=Klik på Installer for at fortsætte med installationen.
+ReadyMemoUserInfo=Brugerinformation:
+ReadyMemoDir=Installationsmappe:
+ReadyMemoType=Installationstype:
+ReadyMemoComponents=Valgte komponenter:
+ReadyMemoGroup=Mappe i menuen Start:
+ReadyMemoTasks=Valgte supplerende opgaver:
 
 ; *** "Preparing to Install" wizard page
-WizardPreparing=Preparing to Install
-PreparingDesc=Setup is preparing to install [name] on your computer.
-PreviousInstallNotCompleted=The installation/removal of a previous program was not completed. You will need to restart your computer to complete that installation.%n%nAfter restarting your computer, run Setup again to complete the installation of [name].
-CannotContinue=Setup cannot continue. Please click Cancel to exit.
-ApplicationsFound=The following applications are using files that need to be updated by Setup. It is recommended that you allow Setup to automatically close these applications.
-ApplicationsFound2=The following applications are using files that need to be updated by Setup. It is recommended that you allow Setup to automatically close these applications. After the installation has completed, Setup will attempt to restart the applications.
-CloseApplications=&Automatically close the applications
-DontCloseApplications=&Do not close the applications
-ErrorCloseApplications=Setup was unable to automatically close all applications. It is recommended that you close all applications using files that need to be updated by Setup before continuing.
-PrepareToInstallNeedsRestart=Setup must restart your computer. After restarting your computer, run Setup again to complete the installation of [name].%n%nWould you like to restart now?
+WizardPreparing=Klargøring af installationen
+PreparingDesc=Installationsprogrammet gør klar til at installere [name] på din computer.
+PreviousInstallNotCompleted=Installation eller afinstallation af et program er ikke afsluttet. Du skal genstarte computeren for at afslutte den foregående installation.%n%nNår computeren er genstartet skal du køre installationsprogrammet til [name] igen.
+CannotContinue=Installationsprogrammet kan ikke fortsætte. Klik venligst på Fortryd for at afslutte.
+ApplicationsFound=Følgende programmer bruger filer som skal opdateres. Det anbefales at du giver installationsprogrammet tilladelse til automatisk at lukke programmerne.
+ApplicationsFound2=Følgende programmer bruger filer som skal opdateres. Det anbefales at du giver installationsprogrammet tilladelse til automatisk at lukke programmerne. Installationsguiden vil forsøge at genstarte programmerne når installationen er fuldført.
+CloseApplications=&Luk programmerne automatisk
+DontCloseApplications=Luk &ikke programmerne
+ErrorCloseApplications=Installationsprogrammet kunne ikke lukke alle programmerne automatisk. Det anbefales at du lukker alle programmer som bruger filer der skal opdateres, inden installationsprogrammet fortsætter.
+PrepareToInstallNeedsRestart=Installationsprogrammet er nødt til at genstarte computeren. Efter genstarten skal du køre installationsprogrammet igen for at færdiggøre installation af [name].%n%nVil du at genstarte nu?
 
 ; *** "Installing" wizard page
-WizardInstalling=Installing
-InstallingLabel=Please wait while Setup installs [name] on your computer.
+WizardInstalling=Installerer
+InstallingLabel=Vent venligst mens installationsprogrammet installerer [name] på computeren.
 
 ; *** "Setup Completed" wizard page
-FinishedHeadingLabel=Completing the [name] Setup Wizard
-FinishedLabelNoIcons=Setup has finished installing [name] on your computer.
-FinishedLabel=Setup has finished installing [name] on your computer. The application may be launched by selecting the installed shortcuts.
-ClickFinish=Click Finish to exit Setup.
-FinishedRestartLabel=To complete the installation of [name], Setup must restart your computer. Would you like to restart now?
-FinishedRestartMessage=To complete the installation of [name], Setup must restart your computer.%n%nWould you like to restart now?
-ShowReadmeCheck=Yes, I would like to view the README file
-YesRadio=&Yes, restart the computer now
-NoRadio=&No, I will restart the computer later
+FinishedHeadingLabel=Fuldfører installation af [name]
+FinishedLabelNoIcons=Installationsguiden har fuldført installation af [name] på computeren.
+FinishedLabel=Installationsguiden har fuldført installation af [name] på computeren. Programmet kan startes ved at vælge de oprettede ikoner.
+ClickFinish=Klik på Færdig for at afslutte installationsprogrammet.
+FinishedRestartLabel=Computeren skal genstartes for at fuldføre installation af [name]. Vil du genstarte computeren nu?
+FinishedRestartMessage=Computeren skal genstartes for at fuldføre installation af [name].%n%nVil du genstarte computeren nu?
+ShowReadmeCheck=Ja, jeg vil gerne se README-filen
+YesRadio=&Ja, genstart computeren nu
+NoRadio=&Nej, jeg genstarter computeren senere
 ; used for example as 'Run MyProg.exe'
-RunEntryExec=Run %1
+RunEntryExec=Kør %1
 ; used for example as 'View Readme.txt'
-RunEntryShellExec=View %1
+RunEntryShellExec=Vis %1
 
 ; *** "Setup Needs the Next Disk" stuff
-ChangeDiskTitle=Setup Needs the Next Disk
-SelectDiskLabel2=Please insert Disk %1 and click OK.%n%nIf the files on this disk can be found in a folder other than the one displayed below, enter the correct path or click Browse.
-PathLabel=&Path:
-FileNotInDir2=The file "%1" could not be located in "%2". Please insert the correct disk or select another folder.
-SelectDirectoryLabel=Please specify the location of the next disk.
+ChangeDiskTitle=Installationsprogrammet skal bruge den næste disk
+SelectDiskLabel2=Indsæt disk %1 og klik på OK.%n%nHvis filerne findes i en anden mappe end den viste, så indtast stien eller klik Gennemse.
+PathLabel=&Sti:
+FileNotInDir2=Filen "%1" blev ikke fundet i "%2". Indsæt venligst den korrekte disk, eller vælg en anden mappe.
+SelectDirectoryLabel=Angiv venligst placeringen af den næste disk.
 
 ; *** Installation phase messages
-SetupAborted=Setup was not completed.%n%nPlease correct the problem and run Setup again.
-AbortRetryIgnoreSelectAction=Select action
-AbortRetryIgnoreRetry=&Try again
-AbortRetryIgnoreIgnore=&Ignore the error and continue
-AbortRetryIgnoreCancel=Cancel installation
+SetupAborted=Installationen blev ikke fuldført.%n%nRet venligst de fundne problemer og kør installationsprogrammet igen.
+AbortRetryIgnoreSelectAction=Vælg ønsket handling
+AbortRetryIgnoreRetry=&Forsøg igen
+AbortRetryIgnoreIgnore=&Ignorer fejlen og fortsæt
+AbortRetryIgnoreCancel=Afbryd installationen
 
 ; *** Installation status messages
-StatusClosingApplications=Closing applications...
-StatusCreateDirs=Creating directories...
-StatusExtractFiles=Extracting files...
-StatusCreateIcons=Creating shortcuts...
-StatusCreateIniEntries=Creating INI entries...
-StatusCreateRegistryEntries=Creating registry entries...
-StatusRegisterFiles=Registering files...
-StatusSavingUninstall=Saving uninstall information...
-StatusRunProgram=Finishing installation...
-StatusRestartingApplications=Restarting applications...
-StatusRollback=Rolling back changes...
+StatusClosingApplications=Lukker programmer...
+StatusCreateDirs=Opretter mapper...
+StatusExtractFiles=Udpakker filer...
+StatusCreateIcons=Opretter genveje...
+StatusCreateIniEntries=Opretter poster i INI-filer...
+StatusCreateRegistryEntries=Opretter poster i registreringsdatabasen...
+StatusRegisterFiles=Registrerer filer...
+StatusSavingUninstall=Gemmer information om afinstallation...
+StatusRunProgram=Fuldfører installation...
+StatusRestartingApplications=Genstarter programmer...
+StatusRollback=Fjerner ændringer...
 
 ; *** Misc. errors
-ErrorInternal2=Internal error: %1
-ErrorFunctionFailedNoCode=%1 failed
-ErrorFunctionFailed=%1 failed ; code %2
-ErrorFunctionFailedWithMessage=%1 failed ; code %2.%n%3
-ErrorExecutingProgram=Unable to execute file:%n%1
+ErrorInternal2=Intern fejl: %1
+ErrorFunctionFailedNoCode=%1 fejlede
+ErrorFunctionFailed=%1 fejlede ; code %2
+ErrorFunctionFailedWithMessage=%1 fejlede ; code %2.%n%3
+ErrorExecutingProgram=Kan ikke køre programfilen:%n%1
 
 ; *** Registry errors
-ErrorRegOpenKey=Error opening registry key:%n%1\%2
-ErrorRegCreateKey=Error creating registry key:%n%1\%2
-ErrorRegWriteKey=Error writing to registry key:%n%1\%2
+ErrorRegOpenKey=Fejl ved åbning af nøgle i registreringsdatabase:%n%1\%2
+ErrorRegCreateKey=Fejl ved oprettelse af nøgle i registreringsdatabase:%n%1\%2
+ErrorRegWriteKey=Fejl ved skrivning til nøgle i registreringsdatabase:%n%1\%2
 
 ; *** INI errors
-ErrorIniEntry=Error creating INI entry in file "%1".
+ErrorIniEntry=Fejl ved oprettelse af post i INI-filen "%1".
 
 ; *** File copying errors
-FileAbortRetryIgnoreSkipNotRecommended=&Skip this file (not recommended)
-FileAbortRetryIgnoreIgnoreNotRecommended=&Ignore the error and continue (not recommended)
-SourceIsCorrupted=The source file is corrupted
-SourceDoesntExist=The source file "%1" does not exist
-ExistingFileReadOnly2=The existing file could not be replaced because it is marked read-only.
-ExistingFileReadOnlyRetry=&Remove the read-only attribute and try again
-ExistingFileReadOnlyKeepExisting=&Keep the existing file
-ErrorReadingExistingDest=An error occurred while trying to read the existing file:
-FileExists=The file already exists.%n%nWould you like Setup to overwrite it?
-ExistingFileNewer=The existing file is newer than the one Setup is trying to install. It is recommended that you keep the existing file.%n%nDo you want to keep the existing file?
-ErrorChangingAttr=An error occurred while trying to change the attributes of the existing file:
-ErrorCreatingTemp=An error occurred while trying to create a file in the destination directory:
-ErrorReadingSource=An error occurred while trying to read the source file:
-ErrorCopying=An error occurred while trying to copy a file:
-ErrorReplacingExistingFile=An error occurred while trying to replace the existing file:
-ErrorRestartReplace=RestartReplace failed:
-ErrorRenamingTemp=An error occurred while trying to rename a file in the destination directory:
-ErrorRegisterServer=Unable to register the DLL/OCX: %1
-ErrorRegSvr32Failed=RegSvr32 failed with exit code %1
-ErrorRegisterTypeLib=Unable to register the type library: %1
+FileAbortRetryIgnoreSkipNotRecommended=&Spring over denne fil (anbefales ikke)
+FileAbortRetryIgnoreIgnoreNotRecommended=&Ignorer fejlen og fortsæt (anbefales ikke)
+SourceIsCorrupted=Kildefilen er beskadiget
+SourceDoesntExist=Kildefilen "%1" findes ikke
+ExistingFileReadOnly2=Den eksisterende fil er skrivebeskyttet og kan derfor ikke overskrives.
+ExistingFileReadOnlyRetry=&Fjern skrivebeskyttelsen og forsøg igen
+ExistingFileReadOnlyKeepExisting=&Behold den eksisterende fil
+ErrorReadingExistingDest=Der opstod en fejl ved læsning af den eksisterende fil:
+FileExists=Filen findes allerede.%n%nSkal installationsprogrammet overskrive den?
+ExistingFileNewer=Den eksisterende fil er nyere end den installationsprogrammet forsøger at installere. Det anbefales at beholde den eksisterende fil.%n%n Skal den eksisterende fil beholdes?
+ErrorChangingAttr=Der opstod en fejl ved ændring af attributter for den eksisterende fil:
+ErrorCreatingTemp=Der opstod en fejl ved oprettelse af en fil i mappen:
+ErrorReadingSource=Der opstod en fejl ved læsning af kildefilen:
+ErrorCopying=Der opstod en fejl ved kopiering af en fil:
+ErrorReplacingExistingFile=Der opstod en fejl ved forsøg på at erstatte den eksisterende fil:
+ErrorRestartReplace=Erstatning af fil ved genstart mislykkedes:
+ErrorRenamingTemp=Der opstod en fejl ved forsøg på at omdøbe en fil i installationsmappen:
+ErrorRegisterServer=Kan ikke registrere DLL/OCX: %1
+ErrorRegSvr32Failed=RegSvr32 fejlede med exit kode %1
+ErrorRegisterTypeLib=Kan ikke registrere typebiblioteket: %1
 
 ; *** Uninstall display name markings
 ; used for example as 'My Program (32-bit)'
@@ -312,26 +312,26 @@ UninstallDisplayNameMark=%1 (%2)
 UninstallDisplayNameMarks=%1 (%2, %3)
 UninstallDisplayNameMark32Bit=32-bit
 UninstallDisplayNameMark64Bit=64-bit
-UninstallDisplayNameMarkAllUsers=All users
-UninstallDisplayNameMarkCurrentUser=Current user
+UninstallDisplayNameMarkAllUsers=Alle brugere
+UninstallDisplayNameMarkCurrentUser=Nuværende bruger
 
 ; *** Post-installation errors
-ErrorOpeningReadme=An error occurred while trying to open the README file.
-ErrorRestartingComputer=Setup was unable to restart the computer. Please do this manually.
+ErrorOpeningReadme=Der opstod en fejl ved forsøg på at åbne README-filen.
+ErrorRestartingComputer=Installationsprogrammet kunne ikke genstarte computeren. Genstart venligst computeren manuelt.
 
 ; *** Uninstaller messages
-UninstallNotFound=File "%1" does not exist. Cannot uninstall.
-UninstallOpenError=File "%1" could not be opened. Cannot uninstall
-UninstallUnsupportedVer=The uninstall log file "%1" is in a format not recognized by this version of the uninstaller. Cannot uninstall
-UninstallUnknownEntry=An unknown entry (%1) was encountered in the uninstall log
-ConfirmUninstall=Are you sure you want to completely remove %1 and all of its components?
-UninstallOnlyOnWin64=This installation can only be uninstalled on 64-bit Windows.
-OnlyAdminCanUninstall=This installation can only be uninstalled by a user with administrative privileges.
-UninstallStatusLabel=Please wait while %1 is removed from your computer.
-UninstalledAll=%1 was successfully removed from your computer.
-UninstalledMost=%1 uninstall complete.%n%nSome elements could not be removed. These can be removed manually.
-UninstalledAndNeedsRestart=To complete the uninstallation of %1, your computer must be restarted.%n%nWould you like to restart now?
-UninstallDataCorrupted=File "%1" is corrupted. Cannot uninstall
+UninstallNotFound=Filen "%1" findes ikke. Kan ikke afinstalleres.
+UninstallOpenError=Filen "%1" kunne ikke åbnes. Kan ikke afinstalleres
+UninstallUnsupportedVer=Afinstallations-logfilen "%1" er i et format der ikke  genkendes af denne version af afinstallations-guiden. Afinstallationen afbrydes
+UninstallUnknownEntry=Der er en ukendt post (%1) i afinstallerings-logfilen.
+ConfirmUninstall=Er du sikker på at du vil fjerne %1 og alle tilhørende komponenter?
+UninstallOnlyOnWin64=Denne installation kan kun afinstalleres på 64-bit Windows-versioner
+OnlyAdminCanUninstall=Programmet kan kun afinstalleres af en bruger med administratorrettigheder.
+UninstallStatusLabel=Vent venligst imens %1 afinstalleres fra computeren.
+UninstalledAll=%1 er nu fjernet fra computeren.
+UninstalledMost=%1 afinstallation er fuldført.%n%nNogle elementer kunne ikke fjernes. De kan fjernes manuelt.
+UninstalledAndNeedsRestart=Computeren skal genstartes for at fuldføre afinstallation af %1.%n%nVil du genstarte nu?
+UninstallDataCorrupted=Filen "%1" er beskadiget. Kan ikke afinstallere
 
 ; *** Uninstallation phase messages
 ConfirmDeleteSharedFileTitle=Remove Shared File?
@@ -362,6 +362,7 @@ AssocingFileExtension=Associating %1 with the %2 file extension...
 AutoStartProgramGroupDescription=Startup:
 AutoStartProgram=Automatically start %1
 AddonHostProgramNotFound=%1 could not be located in the folder you selected.%n%nDo you want to continue anyway?"
+
 
 
 

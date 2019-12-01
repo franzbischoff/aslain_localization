@@ -11,9 +11,9 @@
 [LangOptions]
 ; The following three entries are very important. Be sure to read and
 ; understand the '[LangOptions] section' topic in the help file.
-LanguageName=English
-LanguageID=$0409
-LanguageCodePage=0
+LanguageName=Hrvatski
+LanguageID=$041a
+LanguageCodePage=1250
 ; If the language you are translating to requires special font faces or
 ; sizes, uncomment any of the following entries and change them accordingly.
 DialogFontName=Tahoma
@@ -28,310 +28,314 @@ CopyrightFontSize=8
 [Messages]
 
 ; *** Application titles
-SetupAppTitle=Setup
-SetupWindowTitle=Setup - %1
-UninstallAppTitle=Uninstall
-UninstallAppFullTitle=%1 Uninstall
+SetupAppTitle=Instalacija
+SetupWindowTitle=Instalacija – %1
+UninstallAppTitle=Deinstalacija
+UninstallAppFullTitle=Deinstalacija programa %1
 
 ; *** Misc. common
-InformationTitle=Information
-ConfirmTitle=Confirm
-ErrorTitle=Error
+InformationTitle=Informacija
+ConfirmTitle=Potvrda
+ErrorTitle=Greška
 
 ; *** SetupLdr messages
-SetupLdrStartupMessage=This will install %1. Do you wish to continue?
-LdrCannotCreateTemp=Unable to create a temporary file. Setup aborted
-LdrCannotExecTemp=Unable to execute file in the temporary directory. Setup aborted
+SetupLdrStartupMessage=Ovime ćeš instalirati %1. Želiš li nastaviti?
+LdrCannotCreateTemp=Nije moguće stvoriti privremenu datoteku. Instalacija je prekinuta
+LdrCannotExecTemp=Nije moguće pokrenuti datoteku u privremenoj mapi. Instalacija je prekinuta
 HelpTextNote=
 
 ; *** Startup error messages
-LastErrorMessage=%1.%n%nError %2: %3
-SetupFileMissing=The file %1 is missing from the installation directory. Please correct the problem or obtain a new copy of the program.
-SetupFileCorrupt=The setup files are corrupted. Please obtain a new copy of the program.
-SetupFileCorruptOrWrongVer=The setup files are corrupted, or are incompatible with this version of Setup. Please correct the problem or obtain a new copy of the program.
-InvalidParameter=An invalid parameter was passed on the command line:%n%n%1
-SetupAlreadyRunning=Setup is already running.
-WindowsVersionNotSupported=This program does not support the version of Windows your computer is running.
-WindowsServicePackRequired=This program requires %1 Service Pack %2 or later.
-NotOnThisPlatform=This program will not run on %1.
-OnlyOnThisPlatform=This program must be run on %1.
-OnlyOnTheseArchitectures=This program can only be installed on versions of Windows designed for the following processor architectures:%n%n%1
-WinVersionTooLowError=This program requires %1 version %2 or later.
-WinVersionTooHighError=This program cannot be installed on %1 version %2 or later.
-AdminPrivilegesRequired=You must be logged in as an administrator when installing this program.
-PowerUserPrivilegesRequired=You must be logged in as an administrator or as a member of the Power Users group when installing this program.
-SetupAppRunningError=Setup has detected that %1 is currently running.%n%nPlease close all instances of it now, then click OK to continue, or Cancel to exit.
-UninstallAppRunningError=Uninstall has detected that %1 is currently running.%n%nPlease close all instances of it now, then click OK to continue, or Cancel to exit.
+LastErrorMessage=%1.%n%nnGreška %2: %3
+SetupFileMissing=Datoteka %1 se ne nalazi u mapi instalacije. Ispravi problem ili nabavi novu kopiju programa.
+SetupFileCorrupt=Datoteke instalacije su oštećene. Nabavi novu kopiju programa.
+SetupFileCorruptOrWrongVer=Datoteke instalacije su oštećene ili nisu kompatibilne s ovom verzijom instalacije. Ispravi problem ili nabavi novu kopiju programa.
+InvalidParameter=Neispravan parametar je prenijet u naredbenom retku:%n%n%1
+SetupAlreadyRunning=Instalacija je već pokrenuta.
+WindowsVersionNotSupported=Program ne podržava verziju Windowsa koju koristite.
+WindowsServicePackRequired=Program zahtijeva %1 servisni paket %2 ili noviji.
+NotOnThisPlatform=Ovaj program neće raditi na %1.
+OnlyOnThisPlatform=Ovaj program se mora pokrenuti na %1.
+OnlyOnTheseArchitectures=Ovaj program može biti instaliran na verziji Windowsa dizajniranim za sljedeću procesorsku arhitekturu:%n%n%1
+WinVersionTooLowError=Ovaj program zahtijeva %1 verziju %2 ili noviju.
+WinVersionTooHighError=Ovaj program se ne može instalirati na %1 verziji %2 ili novijoj.
+AdminPrivilegesRequired=Morate biti prijavljeni kao administrator prilikom instaliranja ovog programa.
+PowerUserPrivilegesRequired=Morate biti prijavljeni kao administrator ili član grupe naprednih korisnika prilikom instaliranja ovog programa.
+SetupAppRunningError=Instalacija je otkrila da je %1 pokrenut.%n%nZatvorite program i potom kliknite "Dalje" za nastavak ili "Odustani" za prekid instalacije.
+UninstallAppRunningError=Deinstalacija je otkrila da je %1 pokrenut.%n%nZatvorite program i potom kliknite "Dalje" za nastavak ili "Odustani" za prekid instalacije.
 
 ; *** Startup questions
-PrivilegesRequiredOverrideTitle=Select Setup Install Mode
-PrivilegesRequiredOverrideInstruction=Select install mode
-PrivilegesRequiredOverrideText1=%1 can be installed for all users (requires administrative privileges), or for you only.
-PrivilegesRequiredOverrideText2=%1 can be installed for you only, or for all users (requires administrative privileges).
-PrivilegesRequiredOverrideAllUsers=Install for &all users
-PrivilegesRequiredOverrideAllUsersRecommended=Install for &all users (recommended)
-PrivilegesRequiredOverrideCurrentUser=Install for &me only
-PrivilegesRequiredOverrideCurrentUserRecommended=Install for &me only (recommended)
+PrivilegesRequiredOverrideTitle=Odaberite način instaliranja
+PrivilegesRequiredOverrideInstruction=Odaberite način instaliranja
+PrivilegesRequiredOverrideText1=%1 se može instalirati za sve korisnike (zahtijeva administrativna prava) ili samo za vas.
+PrivilegesRequiredOverrideText2=%1 se može instalirati samo za vas ili za sve korisnike (zahtijeva administrativna prava).
+PrivilegesRequiredOverrideAllUsers=Instaliraj z&a sve korisnike
+PrivilegesRequiredOverrideAllUsersRecommended=Instaliraj z&a sve korisnike (preporučeno)
+PrivilegesRequiredOverrideCurrentUser=Instaliraj samo za &mene
+PrivilegesRequiredOverrideCurrentUserRecommended=Instaliraj samo za &mene (preporučeno)
 
 ; *** Misc. errors
-ErrorCreatingDir=Setup was unable to create the directory "%1"
-ErrorTooManyFilesInDir=Unable to create a file in the directory "%1" because it contains too many files
+ErrorCreatingDir=Instalacija nije mogla stvoriti mapu "%1"
+ErrorTooManyFilesInDir=Nemoguće stvaranje datoteke u mapi "%1", jer ona sadrži previše datoteka
 
 ; *** Setup common messages
-ExitSetupTitle=Exit Setup
-ExitSetupMessage=Setup is not complete. If you exit now, the program will not be installed.%n%nYou may run Setup again at another time to complete the installation.%n%nExit Setup?
-AboutSetupMenuItem=&About Setup...
-AboutSetupTitle=About Setup
-AboutSetupMessage=%1 version %2%n%3%n%n%1 home page:%n%4
+ExitSetupTitle=Prekini instalaciju
+ExitSetupMessage=Instalacija nije završena. Ako sad izađete, program neće biti instaliran.%n%nInstalaciju možete pokrenuti kasnije, ukoliko ju želite završiti.%n%nPrekinuti instalaciju?
+AboutSetupMenuItem=&O instalaciji …
+AboutSetupTitle=O instalaciji
+AboutSetupMessage=%1 verzija %2%n%3%n%n%1 početna stranica:%n%4
 AboutSetupNote=
 TranslatorNote=
 
 ; *** Buttons
-ButtonBack=< &Back
-ButtonNext=&Next >
-ButtonInstall=&Install
-ButtonOK=OK
-ButtonCancel=Cancel
-ButtonYes=&Yes
-ButtonYesToAll=Yes to &All
-ButtonNo=&No
-ButtonNoToAll=N&o to All
-ButtonFinish=&Finish
-ButtonBrowse=&Browse...
-ButtonWizardBrowse=B&rowse...
-ButtonNewFolder=&Make New Folder
+ButtonBack=< Na&trag
+ButtonNext=&Dalje >
+ButtonInstall=&Instaliraj
+ButtonOK=U redu
+ButtonCancel=Odustani
+ButtonYes=&Da
+ButtonYesToAll=D&a za sve
+ButtonNo=&Ne
+ButtonNoToAll=N&e za sve
+ButtonFinish=&Završi
+ButtonBrowse=&Pretraži …
+ButtonWizardBrowse=Odabe&ri …
+ButtonNewFolder=&Stvori novu mapu
 
 ; *** "Select Language" dialog messages
-SelectLanguageTitle=Select Setup Language
-SelectLanguageLabel=Select the language to use during the installation.
+SelectLanguageTitle=Odaberite jezik za instalaciju
+SelectLanguageLabel=Odberite jezik koji želite koristiti tijekom instaliranja.
 
 ; *** Common wizard text
-ClickNext=Click Next to continue, or Cancel to exit Setup.
+ClickNext=Kliknite "Dalje" za nastavak ili "Odustani" za prekid instalacije.
 BeveledLabel=
-BrowseDialogTitle=Browse For Folder
-BrowseDialogLabel=Select a folder in the list below, then click OK.
-NewFolderName=New Folder
+BrowseDialogTitle=Odaberite mapu
+BrowseDialogLabel=Odaberite mapu iz popisa te kliknite "U redu".
+NewFolderName=Nova mapa
 
 ; *** "Welcome" wizard page
-WelcomeLabel1=Welcome to the [name] Setup Wizard
-WelcomeLabel2=This will install [name/ver] on your computer.%n%nIt is recommended that you close all other applications before continuing.
+WelcomeLabel1=Dobro došli u instalaciju programa [name]
+WelcomeLabel2=Ovaj program će instalirati [name/ver] na vaše računalo.%n%nPreporučamo da zatvorite sve programe prije nego što nastavite dalje.
 
 ; *** "Password" wizard page
-WizardPassword=Password
-PasswordLabel1=This installation is password protected.
-PasswordLabel3=Please provide the password, then click Next to continue. Passwords are case-sensitive.
-PasswordEditLabel=&Password:
-IncorrectPassword=The password you entered is not correct. Please try again.
+WizardPassword=Lozinka
+PasswordLabel1=Instalacija je zaštićena lozinkom.
+PasswordLabel3=Upišite lozinku i kliknite "Dalje". Lozinke su osjetljive na mala i velika slova.
+PasswordEditLabel=&Lozinka:
+IncorrectPassword=Upisana je pogrešna lozinka. Pokušajte ponovo.
 
 ; *** "License Agreement" wizard page
-WizardLicense=License Agreement
-LicenseLabel=Please read the following important information before continuing.
-LicenseLabel3=Please read the following License Agreement. You must accept the terms of this agreement before continuing with the installation.
-LicenseAccepted=I &accept the agreement
-LicenseNotAccepted=I &do not accept the agreement
+WizardLicense=Licencni ugovor
+LicenseLabel=Prije nastavka pažljivo pročitajte sljedeće važne informacije.
+LicenseLabel3=Pročitajte licencni ugovor. Morate prihvatiti uvjete ugovora kako biste nastavili s instaliranjem.
+LicenseAccepted=&Prihvaćam ugovor
+LicenseNotAccepted=&Ne prihvaćam ugovor
 
 ; *** "Information" wizard pages
-WizardInfoBefore=Information
-InfoBeforeLabel=Please read the following important information before continuing.
-InfoBeforeClickLabel=When you are ready to continue with Setup, click Next.
-WizardInfoAfter=Information
-InfoAfterLabel=Please read the following important information before continuing.
-InfoAfterClickLabel=When you are ready to continue with Setup, click Next.
+WizardInfoBefore=Informacije
+InfoBeforeLabel=Pročitajte sljedeće važne informacije prije nego što nastavite dalje.
+InfoBeforeClickLabel=Kada ste spremni nastaviti s instaliranjem, kliknite "Dalje".
+WizardInfoAfter=Informacije
+InfoAfterLabel=Pročitajte sljedeće važne informacije prije nego što nastavite dalje.
+InfoAfterClickLabel=Kada ste spremni nastaviti s instaliranjem, kliknite "Dalje".
 
 ; *** "User Information" wizard page
-WizardUserInfo=User Information
-UserInfoDesc=Please enter your information.
-UserInfoName=&User Name:
-UserInfoOrg=&Organization:
-UserInfoSerial=&Serial Number:
-UserInfoNameRequired=You must enter a name.
+WizardUserInfo=Informacije o korisniku
+UserInfoDesc=Upišite informacije o vama.
+UserInfoName=&Ime korisnika:
+UserInfoOrg=&Organizacija:
+UserInfoSerial=&Serijski broj:
+UserInfoNameRequired=Morate upisati ime.
 
 ; *** "Select Destination Location" wizard page
-WizardSelectDir=Select Destination Location
-SelectDirDesc=Where should [name] be installed?
-SelectDirLabel3=Setup will install [name] into the following folder.
-SelectDirBrowseLabel=To continue, click Next. If you would like to select a different folder, click Browse.
+WizardSelectDir=Odaberite odredišno mjesto
+SelectDirDesc=Gdje treba instalirati [name]?
+SelectDirLabel3=Instalacija će instalirati [name] u sljedeću mapu.
+SelectDirBrowseLabel=Za nastavak kliknite na "Dalje". Ako želite odabrati drugu mapu, kliknite na "Odaberi".
 DiskSpaceGBLabel=At least [gb] GB of free disk space is required.
-DiskSpaceMBLabel=At least [mb] MB of free disk space is required.
-CannotInstallToNetworkDrive=Setup cannot install to a network drive.
-CannotInstallToUNCPath=Setup cannot install to a UNC path.
-InvalidPath=You must enter a full path with drive letter ; for example:%n%nC:\APP%n%nor a UNC path in the form:%n%n\\server\share
-InvalidDrive=The drive or UNC share you selected does not exist or is not accessible. Please select another.
-DiskSpaceWarningTitle=Not Enough Disk Space
-DiskSpaceWarning=Setup requires at least %1 KB of free space to install, but the selected drive only has %2 KB available.%n%nDo you want to continue anyway?
-DirNameTooLong=The folder name or path is too long.
-InvalidDirName=The folder name is not valid.
-BadDirName32=Folder names cannot include any of the following characters:%n%n%1
-DirExistsTitle=Folder Exists
-DirExists=The folder:%n%n%1%n%nalready exists. Would you like to install to that folder anyway?
-DirDoesntExistTitle=Folder Does Not Exist
-DirDoesntExist=The folder:%n%n%1%n%ndoes not exist. Would you like the folder to be created?
+DiskSpaceMBLabel=Potrebno je barem [mb] MB slobodnog prostora na disku.
+CannotInstallToNetworkDrive=Instalacija ne može instalirati na mrežnu jedinicu.
+CannotInstallToUNCPath=Instalacija ne može instalirati na UNC stazu.
+InvalidPath=Morate unijeti punu stazu zajedno sa slovom diska, npr.:%n%nC:\APP%n%nili UNC stazu u obliku:%n%n\\server\share ; for example:%n%nC:\APP%n%nor a UNC path in the form:%n%n\\server\share
+InvalidDrive=Disk koji ste odabrali ne postoji. Odaberite neki drugi.
+DiskSpaceWarningTitle=Nedovoljno prostora na disku
+DiskSpaceWarning=Instalacija zahtijeva barem %1 KB slobodnog prostora, a odabrani disk ima samo %2 KB na raspolaganju.%n%nŽelite li svejedno nastaviti?
+DirNameTooLong=Naziv mape ili staze je predugačak.
+InvalidDirName=Naziv mape je neispravan.
+BadDirName32=Naziv mape ne smije sadržavati niti jedan od sljedećih znakova:%n%n%1
+DirExistsTitle=Mapa već postoji
+DirExists=Mapa:%n%n%1%n%nveć postoji. Želite li svejedno u nju instalirati?
+DirDoesntExistTitle=Mapa ne postoji
+DirDoesntExist=The folder:%n%n%1%n%nne postoji. Želite li ju stvoriti?
 
 ; *** "Select Components" wizard page
-WizardSelectComponents=Select Components
-SelectComponentsDesc=Which components should be installed?
-SelectComponentsLabel2=Select the components you want to install ; clear the components you do not want to install. Click Next when you are ready to continue.
-FullInstallation=Full installation
+WizardSelectComponents=Odaberite komponente
+SelectComponentsDesc=Koje komponente želite instalirati?
+SelectComponentsLabel2=Odaberite komponente koje želite instalirati, isključite komponente koje ne želite instalirati. Za nastavak kliknite na "Dalje". ; clear the components you do not want to install. Click Next when you are ready to continue.
+FullInstallation=Kompletna instalacija
 ; if possible don't translate 'Compact' as 'Minimal' (I mean 'Minimal' in your language)
-CompactInstallation=Compact installation
-CustomInstallation=Custom installation
-NoUninstallWarningTitle=Components Exist
-NoUninstallWarning=Setup has detected that the following components are already installed on your computer:%n%n%1%n%nDeselecting these components will not uninstall them.%n%nWould you like to continue anyway?
+CompactInstallation=Kompaktna instalacija
+CustomInstallation=Prilagođena instalacija
+NoUninstallWarningTitle=Postojeće komponente
+NoUninstallWarning=Instalacija je utvrdila da na vašem računalu već postoje sljedeće komponente:%n%n%1%n%nIsključivanjem tih komponenata, one neće biti deinstalirane.%n%nŽelite li ipak nastaviti?
 ComponentSize1=%1 KB
 ComponentSize2=%1 MB
 ComponentsDiskSpaceGBLabel=Current selection requires at least [gb] GB of disk space.
-ComponentsDiskSpaceMBLabel=Current selection requires at least [mb] MB of disk space.
+ComponentsDiskSpaceMBLabel=Trenutačni odabir zahtijeva barem [mb] MB na disku.
 
 ; *** "Select Additional Tasks" wizard page
-WizardSelectTasks=Select Additional Tasks
-SelectTasksDesc=Which additional tasks should be performed?
-SelectTasksLabel2=Select the additional tasks you would like Setup to perform while installing [name], then click Next.
+WizardSelectTasks=Odaberite dodatne zadatke
+SelectTasksDesc=Koje dodatne zadatke želite izvršiti?
+SelectTasksLabel2=Odaberite zadatke koje želite izvršiti tijekom instaliranja programa [name], zatim kliknite "Dalje".
 
 ; *** "Select Start Menu Folder" wizard page
-WizardSelectProgramGroup=Select Start Menu Folder
-SelectStartMenuFolderDesc=Where should Setup place the program's shortcuts?
-SelectStartMenuFolderLabel3=Setup will create the program's shortcuts in the following Start Menu folder.
-SelectStartMenuFolderBrowseLabel=To continue, click Next. If you would like to select a different folder, click Browse.
-MustEnterGroupName=You must enter a folder name.
-GroupNameTooLong=The folder name or path is too long.
-InvalidGroupName=The folder name is not valid.
-BadGroupName=The folder name cannot include any of the following characters:%n%n%1
-NoProgramGroupCheck2=&Don't create a Start Menu folder
+WizardSelectProgramGroup=Odaberite mapu iz "Start" izbornika
+SelectStartMenuFolderDesc=Gdje želite da instalacija spremi programske prečace?
+SelectStartMenuFolderLabel3=Instalacija će stvoriti programske prečace u sljedeću mapu "Start" izbornika.
+SelectStartMenuFolderBrowseLabel=Kliknite "Dalje" za nastavak ili "Odaberi" za odabir jedne druge mape.
+MustEnterGroupName=Morate upisati naziv mape.
+GroupNameTooLong=Naziv mape ili staze je predug.
+InvalidGroupName=Naziv mape nije ispravan.
+BadGroupName=Naziv mape ne smije sadržavati sljedeće znakove:%n%n%1
+NoProgramGroupCheck2=&Ne stvaraj mapu u "Start" izborniku
 
 ; *** "Ready to Install" wizard page
-WizardReady=Ready to Install
-ReadyLabel1=Setup is now ready to begin installing [name] on your computer.
-ReadyLabel2a=Click Install to continue with the installation, or click Back if you want to review or change any settings.
-ReadyLabel2b=Click Install to continue with the installation.
-ReadyMemoUserInfo=User information:
-ReadyMemoDir=Destination location:
-ReadyMemoType=Setup type:
-ReadyMemoComponents=Selected components:
-ReadyMemoGroup=Start Menu folder:
-ReadyMemoTasks=Additional tasks:
+WizardReady=Sve je spremno za instaliranje
+ReadyLabel1=Instalacija je spremna za instaliranje [name] na vaše računalo.
+ReadyLabel2a=Kliknite "Instaliraj" ako želite instalirati program ili "Natrag" ako želite pregledati ili promijeniti postavke
+ReadyLabel2b=Kliknite "Instaliraj" ako želite instalirati program.
+ReadyMemoUserInfo=Korisnički podaci:
+ReadyMemoDir=Odredišno mjesto:
+ReadyMemoType=Vrsta instalacije:
+ReadyMemoComponents=Odabrane komponente:
+ReadyMemoGroup=Mapa u "Start" izborniku:
+ReadyMemoTasks=Dodatni zadaci:
 
 ; *** "Preparing to Install" wizard page
-WizardPreparing=Preparing to Install
-PreparingDesc=Setup is preparing to install [name] on your computer.
+WizardPreparing=Priprema za instaliranje
+PreparingDesc=Instalacija se priprema za instaliranje [name] na vaše računalo.
 PreviousInstallNotCompleted=The installation/removal of a previous program was not completed. You will need to restart your computer to complete that installation.%n%nAfter restarting your computer, run Setup again to complete the installation of [name].
-CannotContinue=Setup cannot continue. Please click Cancel to exit.
-ApplicationsFound=The following applications are using files that need to be updated by Setup. It is recommended that you allow Setup to automatically close these applications.
-ApplicationsFound2=The following applications are using files that need to be updated by Setup. It is recommended that you allow Setup to automatically close these applications. After the installation has completed, Setup will attempt to restart the applications.
-CloseApplications=&Automatically close the applications
-DontCloseApplications=&Do not close the applications
-ErrorCloseApplications=Setup was unable to automatically close all applications. It is recommended that you close all applications using files that need to be updated by Setup before continuing.
+CannotContinue=Instalacija ne može nastaviti. Kliknite na "Odustani" za izlaz.
+ApplicationsFound=Sljedeći programi koriste datoteke koje instalacija mora aktualiziranti. Preporučamo da dopustite instalaciji da zatvori ove programe.
+ApplicationsFound2=Sljedeći programi koriste datoteke koje instalacija mora aktualiziranti. Preporučamo da dopustite instalaciji da zatvori ove programe. Kad instaliranje završi, instalacija će pokušati ponovo pokrenuti programe.
+CloseApplications=&Zatvori programe automatski
+DontCloseApplications=&Ne zatvaraj programe
+ErrorCloseApplications=Instalacija nij uspjela automatski zatvoriti programe. Preporučamo da zatvorite sve programe koji koriste datoteke, koje se moraju aktulaizirati.
 PrepareToInstallNeedsRestart=Setup must restart your computer. After restarting your computer, run Setup again to complete the installation of [name].%n%nWould you like to restart now?
 
 ; *** "Installing" wizard page
-WizardInstalling=Installing
-InstallingLabel=Please wait while Setup installs [name] on your computer.
+WizardInstalling=Instaliranje
+InstallingLabel=Pričekajte dok ne završi instaliranje programa [name] na vaše računalo.
 
 ; *** "Setup Completed" wizard page
-FinishedHeadingLabel=Completing the [name] Setup Wizard
-FinishedLabelNoIcons=Setup has finished installing [name] on your computer.
-FinishedLabel=Setup has finished installing [name] on your computer. The application may be launched by selecting the installed shortcuts.
-ClickFinish=Click Finish to exit Setup.
-FinishedRestartLabel=To complete the installation of [name], Setup must restart your computer. Would you like to restart now?
-FinishedRestartMessage=To complete the installation of [name], Setup must restart your computer.%n%nWould you like to restart now?
-ShowReadmeCheck=Yes, I would like to view the README file
-YesRadio=&Yes, restart the computer now
-NoRadio=&No, I will restart the computer later
+FinishedHeadingLabel=Završavanje instalacijskog čarobnjaka za [name]
+FinishedLabelNoIcons=Instalacija je završila instaliranje programa [name] na vaše računalo.
+FinishedLabel=Instalacija je završila instaliranje programa [name] na vaše računalo. Program se može pokrenuti pomoću instaliranih prečaca.
+ClickFinish=Kliknite na "Završi" kako biste izašli iz instalacije.
+FinishedRestartLabel=Kako biste završili instaliranje programa [name], potrebno je ponovo pokrenuti računalo. Želite li to sada učiniti?
+FinishedRestartMessage=Kako biste završili instaliranje programa [name], potrebno je ponovo pokrenuti računalo.%n%nŽelite li to sada učiniti?
+ShowReadmeCheck=Da, želim pročitati README datoteku
+YesRadio=&Da, želim sad ponovo pokrenuti računalo
+NoRadio=&Ne, kasnije ću ponovo pokrenuti računalo
 ; used for example as 'Run MyProg.exe'
-RunEntryExec=Run %1
+RunEntryExec=Pokreni %1
 ; used for example as 'View Readme.txt'
-RunEntryShellExec=View %1
+RunEntryShellExec=Prikaži %1
 
 ; *** "Setup Needs the Next Disk" stuff
-ChangeDiskTitle=Setup Needs the Next Disk
-SelectDiskLabel2=Please insert Disk %1 and click OK.%n%nIf the files on this disk can be found in a folder other than the one displayed below, enter the correct path or click Browse.
-PathLabel=&Path:
-FileNotInDir2=The file "%1" could not be located in "%2". Please insert the correct disk or select another folder.
-SelectDirectoryLabel=Please specify the location of the next disk.
+ChangeDiskTitle=Instalacija treba sljedeći disk
+SelectDiskLabel2=Umetnite disk %1 i kliknite na "U redu".%n%nAko se datoteke s ovog diska nalaze na nekom drugom mjestu od prikazanog ispod, upišite ispravnu stazu ili kliknite na "Odaberi".
+PathLabel=&Staza:
+FileNotInDir2=Staza "%1" ne postoji u "%2". Umetnite odgovarajući disk ili odaberite jednu drugu mapu.
+SelectDirectoryLabel=Odaberite mjesto sljedećeg diska.
 
 ; *** Installation phase messages
-SetupAborted=Setup was not completed.%n%nPlease correct the problem and run Setup again.
-AbortRetryIgnoreSelectAction=Select action
-AbortRetryIgnoreRetry=&Try again
-AbortRetryIgnoreIgnore=&Ignore the error and continue
-AbortRetryIgnoreCancel=Cancel installation
+SetupAborted=Instalacija nije završena.%n%nIspravite problem i ponovo pokrenite instalaciju.
+AbortRetryIgnoreSelectAction=Odaberite radnju
+AbortRetryIgnoreRetry=&Pokušaj ponovo
+AbortRetryIgnoreIgnore=&Zanemari grešku i nastavi
+AbortRetryIgnoreCancel=Prekini s instaliranjem
 
 ; *** Installation status messages
-StatusClosingApplications=Closing applications...
-StatusCreateDirs=Creating directories...
-StatusExtractFiles=Extracting files...
-StatusCreateIcons=Creating shortcuts...
-StatusCreateIniEntries=Creating INI entries...
-StatusCreateRegistryEntries=Creating registry entries...
-StatusRegisterFiles=Registering files...
-StatusSavingUninstall=Saving uninstall information...
-StatusRunProgram=Finishing installation...
-StatusRestartingApplications=Restarting applications...
-StatusRollback=Rolling back changes...
+StatusClosingApplications=Zatvaranje programa …
+StatusCreateDirs=Stvaranje mapa …
+StatusExtractFiles=Izdvajanje datoteka …
+StatusCreateIcons=Stvaranje prečaca …
+StatusCreateIniEntries=Stvaranje INI unosa …
+StatusCreateRegistryEntries=Stvaranje unosa u registar …
+StatusRegisterFiles=Registriranje datoteka …
+StatusSavingUninstall=Spremanje podataka deinstalacije …
+StatusRunProgram=Završavanje instaliranja …
+StatusRestartingApplications=Ponovno pokretanje programa …
+StatusRollback=Poništavanje promjena …
 
 ; *** Misc. errors
-ErrorInternal2=Internal error: %1
-ErrorFunctionFailedNoCode=%1 failed
-ErrorFunctionFailed=%1 failed ; code %2
+ErrorInternal2=Interna greška: %1
+ErrorFunctionFailedNoCode=%1 nije uspjelo
+ErrorFunctionFailed=%1 nije uspjelo ; code %2
 ErrorFunctionFailedWithMessage=%1 failed ; code %2.%n%3
-ErrorExecutingProgram=Unable to execute file:%n%1
+ErrorExecutingProgram=Nije moguće pokrenuti datoteku:%n%1
 
 ; *** Registry errors
-ErrorRegOpenKey=Error opening registry key:%n%1\%2
-ErrorRegCreateKey=Error creating registry key:%n%1\%2
-ErrorRegWriteKey=Error writing to registry key:%n%1\%2
+ErrorRegOpenKey=Greška prilikom otvaranja ključa registra:%n%1\%2
+ErrorRegCreateKey=Greška prilikom stvaranja ključa registra:%n%1\%2
+ErrorRegWriteKey=Greška prilikom pisanja u ključ registra:%n%1\%2
 
 ; *** INI errors
-ErrorIniEntry=Error creating INI entry in file "%1".
+ErrorIniEntry=Greška prilikom stvaranja INI unosa u datoteci "%1".
 
 ; *** File copying errors
-FileAbortRetryIgnoreSkipNotRecommended=&Skip this file (not recommended)
-FileAbortRetryIgnoreIgnoreNotRecommended=&Ignore the error and continue (not recommended)
-SourceIsCorrupted=The source file is corrupted
-SourceDoesntExist=The source file "%1" does not exist
-ExistingFileReadOnly2=The existing file could not be replaced because it is marked read-only.
-ExistingFileReadOnlyRetry=&Remove the read-only attribute and try again
-ExistingFileReadOnlyKeepExisting=&Keep the existing file
-ErrorReadingExistingDest=An error occurred while trying to read the existing file:
-FileExists=The file already exists.%n%nWould you like Setup to overwrite it?
-ExistingFileNewer=The existing file is newer than the one Setup is trying to install. It is recommended that you keep the existing file.%n%nDo you want to keep the existing file?
-ErrorChangingAttr=An error occurred while trying to change the attributes of the existing file:
-ErrorCreatingTemp=An error occurred while trying to create a file in the destination directory:
-ErrorReadingSource=An error occurred while trying to read the source file:
-ErrorCopying=An error occurred while trying to copy a file:
-ErrorReplacingExistingFile=An error occurred while trying to replace the existing file:
-ErrorRestartReplace=RestartReplace failed:
-ErrorRenamingTemp=An error occurred while trying to rename a file in the destination directory:
-ErrorRegisterServer=Unable to register the DLL/OCX: %1
-ErrorRegSvr32Failed=RegSvr32 failed with exit code %1
-ErrorRegisterTypeLib=Unable to register the type library: %1
+FileAbortRetryIgnoreSkipNotRecommended=&Preskoči ovu datoteku (ne preporuča se)
+FileAbortRetryIgnoreIgnoreNotRecommended=&Zanemari grešku i nastavi (ne preporuča se)
+SourceIsCorrupted=Izvorišna datoteka je oštećena
+SourceDoesntExist=Izvorišna datoteka "%1" ne postoji
+ExistingFileReadOnly2=Postojeću datoteku nije bilo moguće zamijeniti, jer je označena sa "samo-za-čitanje".
+ExistingFileReadOnlyRetry=&Uklonite atribut "samo-za-čitanje" i pokušajte ponovo
+ExistingFileReadOnlyKeepExisting=&Zadrži postojeću datoteku
+ErrorReadingExistingDest=Pojavila se greška prilikom pokušaja čitanja postojeće datoteke:
+FileExists=The file already exists.%n%nŽelite li da ju instalacija prepiše?
+ExistingFileNewer=Postojeća datoteka je novija od one, koju pokušavate instalirati. Preporuča se da zadržite postojeću datoteku.%n%nŽelite li zadržati postojeću datoteku?
+ErrorChangingAttr=Pojavila se greška prilikom pokušaja promjene atributa postojeće datoteke:
+ErrorCreatingTemp=Pojavila se greška prilikom pokušaja stvaranja datoteke u odredišnoj mapi:
+ErrorReadingSource=Pojavila se greška prilikom pokušaja čitanja izvorišne datoteke:
+ErrorCopying=Pojavila se greška prilikom pokušaja kopiranja datoteke:
+ErrorReplacingExistingFile=Pojavila se greška prilikom pokušaja zamijenjivanja datoteke:
+ErrorRestartReplace=Zamijenjivanje nakon ponovnog pokretanja nije uspjelo:
+ErrorRenamingTemp=Pojavila se greška prilikom pokušaja preimenovanja datoteke u odredišnoj mapi:
+ErrorRegisterServer=Nije moguće registrirati DLL/OCX: %1
+ErrorRegSvr32Failed=Greška u RegSvr32. Izlazni kod %1
+ErrorRegisterTypeLib=Nije moguće registrirati type library: %1
 
 ; *** Uninstall display name markings
 ; used for example as 'My Program (32-bit)'
 UninstallDisplayNameMark=%1 (%2)
 ; used for example as 'My Program (32-bit, All users)'
 UninstallDisplayNameMarks=%1 (%2, %3)
-UninstallDisplayNameMark32Bit=32-bit
-UninstallDisplayNameMark64Bit=64-bit
-UninstallDisplayNameMarkAllUsers=All users
-UninstallDisplayNameMarkCurrentUser=Current user
+UninstallDisplayNameMark32Bit=32-bitni
+UninstallDisplayNameMark64Bit=64-bitni
+UninstallDisplayNameMarkAllUsers=Svi korisnici
+UninstallDisplayNameMarkCurrentUser=Trenutačni korisnik
 
 ; *** Post-installation errors
-ErrorOpeningReadme=An error occurred while trying to open the README file.
-ErrorRestartingComputer=Setup was unable to restart the computer. Please do this manually.
+ErrorOpeningReadme=Pojavila se greška prilikom pokušaja otvaranja README datoteke.
+ErrorRestartingComputer=Instalacija nije mogla ponovo pokrenuti računalo. Učinite to ručno.
 
 ; *** Uninstaller messages
-UninstallNotFound=File "%1" does not exist. Cannot uninstall.
-UninstallOpenError=File "%1" could not be opened. Cannot uninstall
-UninstallUnsupportedVer=The uninstall log file "%1" is in a format not recognized by this version of the uninstaller. Cannot uninstall
-UninstallUnknownEntry=An unknown entry (%1) was encountered in the uninstall log
-ConfirmUninstall=Are you sure you want to completely remove %1 and all of its components?
-UninstallOnlyOnWin64=This installation can only be uninstalled on 64-bit Windows.
-OnlyAdminCanUninstall=This installation can only be uninstalled by a user with administrative privileges.
-UninstallStatusLabel=Please wait while %1 is removed from your computer.
-UninstalledAll=%1 was successfully removed from your computer.
-UninstalledMost=%1 uninstall complete.%n%nSome elements could not be removed. These can be removed manually.
-UninstalledAndNeedsRestart=To complete the uninstallation of %1, your computer must be restarted.%n%nWould you like to restart now?
-UninstallDataCorrupted=File "%1" is corrupted. Cannot uninstall
+UninstallNotFound=Datoteka "%1" ne postoji. Deinstaliranje nije moguće.
+UninstallOpenError=Datoteku "%1" nije bilo moguće otvoriti. Deinstaliranje nije moguće
+UninstallUnsupportedVer=Deinstalacijska datoteka "%1" je u formatu koji ova verzija deinstalacijskog programa ne prepoznaje. Deinstaliranje nije moguće
+UninstallUnknownEntry=Nepoznat zapis (%1) je pronađen u deinstalacijskoj datoteci
+ConfirmUninstall=Zaista želite ukloniti %1 i sve pripadajuće komponente?
+UninstallOnlyOnWin64=Ovu instalaciju je moguće ukloniti samo na 64-bitnom Windows sustavu.
+OnlyAdminCanUninstall=Ovu instalaciju je moguće ukloniti samo korisnik s administrativnim pravima.
+UninstallStatusLabel=Pričekajte dok se %1 uklanja s vašeg računala.
+UninstalledAll=%1 je uspješno uklonjen s vašeg računala.
+UninstalledMost=Deinstaliranje programa %1 je završeno.%n%nNeke elemente nije bilo moguće ukloniti. Mogu se ukloniti ručno.
+UninstalledAndNeedsRestart=Kako biste završili deinstalirati %1, morate ponovo pokrenuti vaše računalo%n%nŽelite li to sad učiniti?
+UninstallDataCorrupted="%1\" datoteka je oštećena. Deinstaliranje nije moguće
+
+; *** Uninstallation phase messages
+ConfirmDeleteSharedFileTitle=Ukloniti dijeljene datoteke?
+ConfirmDeleteSharedFile2=Sustav ukazuje na to, da sljedeće dijeljenu datoteku ne koristi niti jedan program. Želite li ukloniti tu dijeljenu datoteku?%n%nAko neki programi i dalje koriste tu datoteku, a ona se izbriše, ti programi neće ispravno raditi. Ako niste sigurni, odaberite "
 
 ; *** Uninstallation phase messages
 ConfirmDeleteSharedFileTitle=Remove Shared File?
@@ -362,6 +366,7 @@ AssocingFileExtension=Associating %1 with the %2 file extension...
 AutoStartProgramGroupDescription=Startup:
 AutoStartProgram=Automatically start %1
 AddonHostProgramNotFound=%1 could not be located in the folder you selected.%n%nDo you want to continue anyway?"
+
 
 
 

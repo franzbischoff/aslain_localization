@@ -11,9 +11,9 @@
 [LangOptions]
 ; The following three entries are very important. Be sure to read and
 ; understand the '[LangOptions] section' topic in the help file.
-LanguageName=English
-LanguageID=$0409
-LanguageCodePage=0
+LanguageName=Suomi
+LanguageID=$040B
+LanguageCodePage=1252
 ; If the language you are translating to requires special font faces or
 ; sizes, uncomment any of the following entries and change them accordingly.
 DialogFontName=Tahoma
@@ -28,310 +28,310 @@ CopyrightFontSize=8
 [Messages]
 
 ; *** Application titles
-SetupAppTitle=Setup
-SetupWindowTitle=Setup - %1
-UninstallAppTitle=Uninstall
-UninstallAppFullTitle=%1 Uninstall
+SetupAppTitle=Asennus
+SetupWindowTitle=%1 - Asennus
+UninstallAppTitle=Asennuksen poisto
+UninstallAppFullTitle=%1 - Asennuksen poisto
 
 ; *** Misc. common
-InformationTitle=Information
-ConfirmTitle=Confirm
-ErrorTitle=Error
+InformationTitle=Ilmoitus
+ConfirmTitle=Varmistus
+ErrorTitle=Virhe
 
 ; *** SetupLdr messages
-SetupLdrStartupMessage=This will install %1. Do you wish to continue?
-LdrCannotCreateTemp=Unable to create a temporary file. Setup aborted
-LdrCannotExecTemp=Unable to execute file in the temporary directory. Setup aborted
+SetupLdrStartupMessage=Tällä asennusohjelmalla asennetaan %1. Haluatko jatkaa?
+LdrCannotCreateTemp=Väliaikaistiedostoa ei voitu luoda. Asennus keskeytettiin
+LdrCannotExecTemp=Väliaikaisessa hakemistossa olevaa tiedostoa ei voitu suorittaa. Asennus keskeytettiin
 HelpTextNote=
 
 ; *** Startup error messages
-LastErrorMessage=%1.%n%nError %2: %3
-SetupFileMissing=The file %1 is missing from the installation directory. Please correct the problem or obtain a new copy of the program.
-SetupFileCorrupt=The setup files are corrupted. Please obtain a new copy of the program.
-SetupFileCorruptOrWrongVer=The setup files are corrupted, or are incompatible with this version of Setup. Please correct the problem or obtain a new copy of the program.
-InvalidParameter=An invalid parameter was passed on the command line:%n%n%1
-SetupAlreadyRunning=Setup is already running.
-WindowsVersionNotSupported=This program does not support the version of Windows your computer is running.
-WindowsServicePackRequired=This program requires %1 Service Pack %2 or later.
-NotOnThisPlatform=This program will not run on %1.
-OnlyOnThisPlatform=This program must be run on %1.
-OnlyOnTheseArchitectures=This program can only be installed on versions of Windows designed for the following processor architectures:%n%n%1
-WinVersionTooLowError=This program requires %1 version %2 or later.
-WinVersionTooHighError=This program cannot be installed on %1 version %2 or later.
-AdminPrivilegesRequired=You must be logged in as an administrator when installing this program.
-PowerUserPrivilegesRequired=You must be logged in as an administrator or as a member of the Power Users group when installing this program.
-SetupAppRunningError=Setup has detected that %1 is currently running.%n%nPlease close all instances of it now, then click OK to continue, or Cancel to exit.
-UninstallAppRunningError=Uninstall has detected that %1 is currently running.%n%nPlease close all instances of it now, then click OK to continue, or Cancel to exit.
+LastErrorMessage=%1.%n%nVirhe %2: %3
+SetupFileMissing=Tiedostoa %1 ei löydy asennushakemistosta. Korjaa ongelma tai hanki uusi kopio ohjelmasta.
+SetupFileCorrupt=Asennustiedostot ovat vaurioituneet. Hanki uusi kopio ohjelmasta.
+SetupFileCorruptOrWrongVer=Asennustiedostot ovat vaurioituneet tai ovat epäyhteensopivia tämän Asennuksen version kanssa. Korjaa ongelma tai hanki uusi kopio ohjelmasta.
+InvalidParameter=Virheellinen komentoriviparametri:%n%n%1
+SetupAlreadyRunning=Asennus on jo käynnissä.
+WindowsVersionNotSupported=Tämä ohjelma ei tue käytössä olevaa Windowsin versiota.
+WindowsServicePackRequired=Tämä ohjelma vaatii %1 Service Pack %2 -päivityksen tai myöhemmän.
+NotOnThisPlatform=Tämä ohjelma ei toimi %1-käyttöjärjestelmässä.
+OnlyOnThisPlatform=Tämä ohjelma toimii vain %1-käyttöjärjestelmässä.
+OnlyOnTheseArchitectures=Tämä ohjelma voidaan asentaa vain niihin Windowsin versioihin, jotka on suunniteltu seuraaville prosessorityypeille:%n%n%1
+WinVersionTooLowError=Tämä ohjelma vaatii version %2 tai myöhemmän %1-käyttöjärjestelmästä.
+WinVersionTooHighError=Tätä ohjelmaa ei voi asentaa %1-käyttöjärjestelmän versioon %2 tai myöhempään.
+AdminPrivilegesRequired=Sinun täytyy kirjautua sisään järjestelmänvalvojana asentaaksesi tämän ohjelman.
+PowerUserPrivilegesRequired=Sinun täytyy kirjautua sisään järjestelmänvalvojana tai tehokäyttäjänä asentaaksesi tämän ohjelman.
+SetupAppRunningError=Asennus löysi käynnissä olevan kopion ohjelmasta %1.%n%nSulje kaikki käynnissä olevat kopiot ohjelmasta ja valitse OK jatkaaksesi, tai valitse Peruuta poistuaksesi.
+UninstallAppRunningError=Asennuksen poisto löysi käynnissä olevan kopion ohjelmasta %1.%n%nSulje kaikki käynnissä olevat kopiot ohjelmasta ja valitse OK jatkaaksesi, tai valitse Peruuta poistuaksesi.
 
 ; *** Startup questions
-PrivilegesRequiredOverrideTitle=Select Setup Install Mode
-PrivilegesRequiredOverrideInstruction=Select install mode
-PrivilegesRequiredOverrideText1=%1 can be installed for all users (requires administrative privileges), or for you only.
-PrivilegesRequiredOverrideText2=%1 can be installed for you only, or for all users (requires administrative privileges).
-PrivilegesRequiredOverrideAllUsers=Install for &all users
-PrivilegesRequiredOverrideAllUsersRecommended=Install for &all users (recommended)
-PrivilegesRequiredOverrideCurrentUser=Install for &me only
-PrivilegesRequiredOverrideCurrentUserRecommended=Install for &me only (recommended)
+PrivilegesRequiredOverrideTitle=Valitse asennustapa
+PrivilegesRequiredOverrideInstruction=Valitse, kenen käyttöön ohjelma asennetaan
+PrivilegesRequiredOverrideText1=%1 voidaan asentaa kaikille käyttäjille (vaatii järjestelmänvalvojan oikeudet) tai vain sinun käyttöösi.
+PrivilegesRequiredOverrideText2=%1 voidaan asentaa vain sinun käyttöösi tai kaikille käyttäjille (vaatii järjestelmänvalvojan oikeudet).
+PrivilegesRequiredOverrideAllUsers=Asenna &kaikille käyttäjille
+PrivilegesRequiredOverrideAllUsersRecommended=Asenna &kaikille käyttäjille (suositus)
+PrivilegesRequiredOverrideCurrentUser=Asenna vain &minun käyttööni
+PrivilegesRequiredOverrideCurrentUserRecommended=Asenna vain &minun käyttööni (suositus)
 
 ; *** Misc. errors
-ErrorCreatingDir=Setup was unable to create the directory "%1"
-ErrorTooManyFilesInDir=Unable to create a file in the directory "%1" because it contains too many files
+ErrorCreatingDir=Asennus ei voinut luoda hakemistoa "%1"
+ErrorTooManyFilesInDir=Tiedoston luominen hakemistoon "%1" epäonnistui, koska se sisältää liian monta tiedostoa
 
 ; *** Setup common messages
-ExitSetupTitle=Exit Setup
-ExitSetupMessage=Setup is not complete. If you exit now, the program will not be installed.%n%nYou may run Setup again at another time to complete the installation.%n%nExit Setup?
-AboutSetupMenuItem=&About Setup...
-AboutSetupTitle=About Setup
-AboutSetupMessage=%1 version %2%n%3%n%n%1 home page:%n%4
+ExitSetupTitle=Poistu Asennuksesta
+ExitSetupMessage=Asennus ei ole valmis. Jos lopetat nyt, ohjelmaa ei asenneta.%n%nVoit ajaa Asennuksen toiste asentaaksesi ohjelman.%n%nLopetetaanko Asennus?
+AboutSetupMenuItem=&Tietoja Asennuksesta...
+AboutSetupTitle=Tietoja Asennuksesta
+AboutSetupMessage=%1 versio %2%n%3%n%n%1 -ohjelman kotisivu:%n%4
 AboutSetupNote=
 TranslatorNote=
 
 ; *** Buttons
-ButtonBack=< &Back
-ButtonNext=&Next >
-ButtonInstall=&Install
+ButtonBack=< &Takaisin
+ButtonNext=&Seuraava >
+ButtonInstall=&Asenna
 ButtonOK=OK
-ButtonCancel=Cancel
-ButtonYes=&Yes
-ButtonYesToAll=Yes to &All
-ButtonNo=&No
-ButtonNoToAll=N&o to All
-ButtonFinish=&Finish
-ButtonBrowse=&Browse...
-ButtonWizardBrowse=B&rowse...
-ButtonNewFolder=&Make New Folder
+ButtonCancel=Peruuta
+ButtonYes=&Kyllä
+ButtonYesToAll=Kyllä k&aikkiin
+ButtonNo=&Ei
+ButtonNoToAll=E&i kaikkiin
+ButtonFinish=&Lopeta
+ButtonBrowse=S&elaa...
+ButtonWizardBrowse=S&elaa...
+ButtonNewFolder=&Luo uusi kansio
 
 ; *** "Select Language" dialog messages
-SelectLanguageTitle=Select Setup Language
-SelectLanguageLabel=Select the language to use during the installation.
+SelectLanguageTitle=Valitse Asennuksen kieli
+SelectLanguageLabel=Valitse asentamisen aikana käytettävä kieli.
 
 ; *** Common wizard text
-ClickNext=Click Next to continue, or Cancel to exit Setup.
+ClickNext=Valitse Seuraava jatkaaksesi tai Peruuta poistuaksesi.
 BeveledLabel=
-BrowseDialogTitle=Browse For Folder
-BrowseDialogLabel=Select a folder in the list below, then click OK.
-NewFolderName=New Folder
+BrowseDialogTitle=Selaa kansioita
+BrowseDialogLabel=Valitse kansio allaolevasta listasta ja valitse sitten OK jatkaaksesi.
+NewFolderName=Uusi kansio
 
 ; *** "Welcome" wizard page
-WelcomeLabel1=Welcome to the [name] Setup Wizard
-WelcomeLabel2=This will install [name/ver] on your computer.%n%nIt is recommended that you close all other applications before continuing.
+WelcomeLabel1=Tervetuloa [name] -asennusohjelmaan.
+WelcomeLabel2=Tällä asennusohjelmalla koneellesi asennetaan [name/ver]. %n%nOn suositeltavaa, että suljet kaikki muut käynnissä olevat sovellukset ennen jatkamista. Tämä auttaa välttämään ristiriitatilanteita asennuksen aikana.
 
 ; *** "Password" wizard page
-WizardPassword=Password
-PasswordLabel1=This installation is password protected.
-PasswordLabel3=Please provide the password, then click Next to continue. Passwords are case-sensitive.
-PasswordEditLabel=&Password:
-IncorrectPassword=The password you entered is not correct. Please try again.
+WizardPassword=Salasana
+PasswordLabel1=Tämä asennusohjelma on suojattu salasanalla.
+PasswordLabel3=Anna salasana ja valitse sitten Seuraava jatkaaksesi.%n%nIsot ja pienet kirjaimet ovat eriarvoisia.
+PasswordEditLabel=&Salasana:
+IncorrectPassword=Antamasi salasana oli virheellinen. Anna salasana uudelleen.
 
 ; *** "License Agreement" wizard page
-WizardLicense=License Agreement
-LicenseLabel=Please read the following important information before continuing.
-LicenseLabel3=Please read the following License Agreement. You must accept the terms of this agreement before continuing with the installation.
-LicenseAccepted=I &accept the agreement
-LicenseNotAccepted=I &do not accept the agreement
+WizardLicense=Käyttöoikeussopimus
+LicenseLabel=Lue seuraava tärkeä tiedotus ennen kuin jatkat.
+LicenseLabel3=Lue seuraava käyttöoikeussopimus tarkasti. Sinun täytyy hyväksyä sopimus, jos haluat jatkaa asentamista.
+LicenseAccepted=&Hyväksyn sopimuksen
+LicenseNotAccepted=&En hyväksy sopimusta
 
 ; *** "Information" wizard pages
-WizardInfoBefore=Information
-InfoBeforeLabel=Please read the following important information before continuing.
-InfoBeforeClickLabel=When you are ready to continue with Setup, click Next.
-WizardInfoAfter=Information
-InfoAfterLabel=Please read the following important information before continuing.
-InfoAfterClickLabel=When you are ready to continue with Setup, click Next.
+WizardInfoBefore=Tiedotus
+InfoBeforeLabel=Lue seuraava tärkeä tiedotus ennen kuin jatkat.
+InfoBeforeClickLabel=Kun olet valmis jatkamaan asentamista, valitse Seuraava.
+WizardInfoAfter=Tiedotus
+InfoAfterLabel=Lue seuraava tärkeä tiedotus ennen kuin jatkat.
+InfoAfterClickLabel=Kun olet valmis jatkamaan asentamista, valitse Seuraava.
 
 ; *** "User Information" wizard page
-WizardUserInfo=User Information
-UserInfoDesc=Please enter your information.
-UserInfoName=&User Name:
-UserInfoOrg=&Organization:
-UserInfoSerial=&Serial Number:
-UserInfoNameRequired=You must enter a name.
+WizardUserInfo=Käyttäjätiedot
+UserInfoDesc=Anna pyydetyt tiedot.
+UserInfoName=Käyttäjän &nimi:
+UserInfoOrg=&Yritys:
+UserInfoSerial=&Tunnuskoodi:
+UserInfoNameRequired=Sinun täytyy antaa nimi.
 
 ; *** "Select Destination Location" wizard page
-WizardSelectDir=Select Destination Location
-SelectDirDesc=Where should [name] be installed?
-SelectDirLabel3=Setup will install [name] into the following folder.
-SelectDirBrowseLabel=To continue, click Next. If you would like to select a different folder, click Browse.
+WizardSelectDir=Valitse kohdekansio
+SelectDirDesc=Mihin [name] asennetaan?
+SelectDirLabel3=[name] asennetaan tähän kansioon.
+SelectDirBrowseLabel=Valitse Seuraava jatkaaksesi. Jos haluat vaihtaa kansiota, valitse Selaa.
 DiskSpaceGBLabel=At least [gb] GB of free disk space is required.
-DiskSpaceMBLabel=At least [mb] MB of free disk space is required.
-CannotInstallToNetworkDrive=Setup cannot install to a network drive.
-CannotInstallToUNCPath=Setup cannot install to a UNC path.
-InvalidPath=You must enter a full path with drive letter ; for example:%n%nC:\APP%n%nor a UNC path in the form:%n%n\\server\share
-InvalidDrive=The drive or UNC share you selected does not exist or is not accessible. Please select another.
-DiskSpaceWarningTitle=Not Enough Disk Space
-DiskSpaceWarning=Setup requires at least %1 KB of free space to install, but the selected drive only has %2 KB available.%n%nDo you want to continue anyway?
-DirNameTooLong=The folder name or path is too long.
-InvalidDirName=The folder name is not valid.
-BadDirName32=Folder names cannot include any of the following characters:%n%n%1
-DirExistsTitle=Folder Exists
-DirExists=The folder:%n%n%1%n%nalready exists. Would you like to install to that folder anyway?
-DirDoesntExistTitle=Folder Does Not Exist
-DirDoesntExist=The folder:%n%n%1%n%ndoes not exist. Would you like the folder to be created?
+DiskSpaceMBLabel=Vapaata levytilaa tarvitaan vähintään [mb] Mt.
+CannotInstallToNetworkDrive=Asennus ei voi asentaa ohjelmaa verkkoasemalle.
+CannotInstallToUNCPath=Asennus ei voi asentaa ohjelmaa UNC-polun alle.
+InvalidPath=Anna täydellinen polku levyaseman kirjaimen kanssa. Esimerkiksi %nC:\OHJELMA%n%ntai UNC-polku muodossa %n%n\\palvelin\resurssi ; for example:%n%nC:\APP%n%nor a UNC path in the form:%n%n\\server\share
+InvalidDrive=Valitsemaasi asemaa tai UNC-polkua ei ole olemassa tai sitä ei voi käyttää. Valitse toinen asema tai UNC-polku.
+DiskSpaceWarningTitle=Ei tarpeeksi vapaata levytilaa
+DiskSpaceWarning=Asennus vaatii vähintään %1 kt vapaata levytilaa, mutta valitulla levyasemalla on vain %2 kt vapaata levytilaa.%n%nHaluatko jatkaa tästä huolimatta?
+DirNameTooLong=Kansion nimi tai polku on liian pitkä.
+InvalidDirName=Virheellinen kansion nimi.
+BadDirName32=Kansion nimessä ei saa olla seuraavia merkkejä:%n%n%1
+DirExistsTitle=Kansio on olemassa
+DirExists=Kansio:%n%n%1%n%non jo olemassa. Haluatko kuitenkin suorittaa asennuksen tähän kansioon?
+DirDoesntExistTitle=Kansiota ei ole olemassa
+DirDoesntExist=Kansiota%n%n%1%n%nei ole olemassa. Luodaanko kansio?
 
 ; *** "Select Components" wizard page
-WizardSelectComponents=Select Components
-SelectComponentsDesc=Which components should be installed?
-SelectComponentsLabel2=Select the components you want to install ; clear the components you do not want to install. Click Next when you are ready to continue.
-FullInstallation=Full installation
+WizardSelectComponents=Valitse asennettavat osat
+SelectComponentsDesc=Mitkä osat asennetaan?
+SelectComponentsLabel2=Valitse ne osat, jotka haluat asentaa, ja poista niiden osien valinta, joita et halua asentaa. Valitse Seuraava, kun olet valmis. ; clear the components you do not want to install. Click Next when you are ready to continue.
+FullInstallation=Normaali asennus
 ; if possible don't translate 'Compact' as 'Minimal' (I mean 'Minimal' in your language)
-CompactInstallation=Compact installation
-CustomInstallation=Custom installation
-NoUninstallWarningTitle=Components Exist
-NoUninstallWarning=Setup has detected that the following components are already installed on your computer:%n%n%1%n%nDeselecting these components will not uninstall them.%n%nWould you like to continue anyway?
-ComponentSize1=%1 KB
-ComponentSize2=%1 MB
+CompactInstallation=Suppea asennus
+CustomInstallation=Mukautettu asennus
+NoUninstallWarningTitle=Asennettuja osia löydettiin
+NoUninstallWarning=Seuraavat osat on jo asennettu koneelle:%n%n%1%n%nNäiden osien valinnan poistaminen ei poista niitä koneelta.%n%nHaluatko jatkaa tästä huolimatta?
+ComponentSize1=%1 kt
+ComponentSize2=%1 Mt
 ComponentsDiskSpaceGBLabel=Current selection requires at least [gb] GB of disk space.
-ComponentsDiskSpaceMBLabel=Current selection requires at least [mb] MB of disk space.
+ComponentsDiskSpaceMBLabel=Nykyiset valinnat vaativat vähintään [mb] Mt levytilaa.
 
 ; *** "Select Additional Tasks" wizard page
-WizardSelectTasks=Select Additional Tasks
-SelectTasksDesc=Which additional tasks should be performed?
-SelectTasksLabel2=Select the additional tasks you would like Setup to perform while installing [name], then click Next.
+WizardSelectTasks=Valitse muut toiminnot
+SelectTasksDesc=Mitä muita toimintoja suoritetaan?
+SelectTasksLabel2=Valitse muut toiminnot, jotka haluat Asennuksen suorittavan samalla kun [name] asennetaan. Valitse Seuraava, kun olet valmis.
 
 ; *** "Select Start Menu Folder" wizard page
-WizardSelectProgramGroup=Select Start Menu Folder
-SelectStartMenuFolderDesc=Where should Setup place the program's shortcuts?
-SelectStartMenuFolderLabel3=Setup will create the program's shortcuts in the following Start Menu folder.
-SelectStartMenuFolderBrowseLabel=To continue, click Next. If you would like to select a different folder, click Browse.
-MustEnterGroupName=You must enter a folder name.
-GroupNameTooLong=The folder name or path is too long.
-InvalidGroupName=The folder name is not valid.
-BadGroupName=The folder name cannot include any of the following characters:%n%n%1
-NoProgramGroupCheck2=&Don't create a Start Menu folder
+WizardSelectProgramGroup=Valitse Käynnistä-valikon kansio
+SelectStartMenuFolderDesc=Mihin ohjelman pikakuvakkeet sijoitetaan?
+SelectStartMenuFolderLabel3=Ohjelman pikakuvakkeet luodaan tähän Käynnistä-valikon kansioon.
+SelectStartMenuFolderBrowseLabel=Valitse Seuraava jatkaaksesi. Jos haluat vaihtaa kansiota, valitse Selaa.
+MustEnterGroupName=Kansiolle pitää antaa nimi.
+GroupNameTooLong=Kansion nimi tai polku on liian pitkä.
+InvalidGroupName=Virheellinen kansion nimi.
+BadGroupName=Kansion nimessä ei saa olla seuraavia merkkejä:%n%n%1
+NoProgramGroupCheck2=Älä luo k&ansiota Käynnistä-valikkoon
 
 ; *** "Ready to Install" wizard page
-WizardReady=Ready to Install
-ReadyLabel1=Setup is now ready to begin installing [name] on your computer.
-ReadyLabel2a=Click Install to continue with the installation, or click Back if you want to review or change any settings.
-ReadyLabel2b=Click Install to continue with the installation.
-ReadyMemoUserInfo=User information:
-ReadyMemoDir=Destination location:
-ReadyMemoType=Setup type:
-ReadyMemoComponents=Selected components:
-ReadyMemoGroup=Start Menu folder:
-ReadyMemoTasks=Additional tasks:
+WizardReady=Valmiina asennukseen
+ReadyLabel1=[name] on nyt valmis asennettavaksi.
+ReadyLabel2a=Valitse Asenna jatkaaksesi asentamista tai valitse Takaisin, jos haluat tarkastella tekemiäsi asetuksia tai muuttaa niitä.
+ReadyLabel2b=Valitse Asenna jatkaaksesi asentamista.
+ReadyMemoUserInfo=Käyttäjätiedot:
+ReadyMemoDir=Kohdekansio:
+ReadyMemoType=Asennustyyppi:
+ReadyMemoComponents=Asennettavaksi valitut osat:
+ReadyMemoGroup=Käynnistä-valikon kansio:
+ReadyMemoTasks=Muut toiminnot:
 
 ; *** "Preparing to Install" wizard page
-WizardPreparing=Preparing to Install
-PreparingDesc=Setup is preparing to install [name] on your computer.
-PreviousInstallNotCompleted=The installation/removal of a previous program was not completed. You will need to restart your computer to complete that installation.%n%nAfter restarting your computer, run Setup again to complete the installation of [name].
-CannotContinue=Setup cannot continue. Please click Cancel to exit.
-ApplicationsFound=The following applications are using files that need to be updated by Setup. It is recommended that you allow Setup to automatically close these applications.
-ApplicationsFound2=The following applications are using files that need to be updated by Setup. It is recommended that you allow Setup to automatically close these applications. After the installation has completed, Setup will attempt to restart the applications.
-CloseApplications=&Automatically close the applications
-DontCloseApplications=&Do not close the applications
-ErrorCloseApplications=Setup was unable to automatically close all applications. It is recommended that you close all applications using files that need to be updated by Setup before continuing.
+WizardPreparing=Valmistellaan asennusta
+PreparingDesc=Valmistaudutaan asentamaan [name] koneellesi.
+PreviousInstallNotCompleted=Edellisen ohjelman asennus tai asennuksen poisto ei ole valmis. Sinun täytyy käynnistää kone uudelleen viimeistelläksesi edellisen asennuksen.%n%nAja [name] -asennusohjelma uudestaan, kun olet käynnistänyt koneen uudelleen.
+CannotContinue=Asennusta ei voida jatkaa. Valitse Peruuta poistuaksesi.
+ApplicationsFound=Seuraavat sovellukset käyttävät tiedostoja, joita Asennuksen pitää päivittää. On suositeltavaa, että annat Asennuksen sulkea nämä sovellukset automaattisesti.
+ApplicationsFound2=Seuraavat sovellukset käyttävät tiedostoja, joita Asennuksen pitää päivittää. On suositeltavaa, että annat Asennuksen sulkea nämä sovellukset automaattisesti. Valmistumisen jälkeen Asennus yrittää uudelleenkäynnistää sovellukset.
+CloseApplications=&Sulje sovellukset automaattisesti
+DontCloseApplications=&Älä sulje sovelluksia
+ErrorCloseApplications=Asennus ei pystynyt sulkemaan tarvittavia sovelluksia automaattisesti. On suositeltavaa, että ennen jatkamista suljet sovellukset, jotka käyttävät asennuksen aikana päivitettäviä tiedostoja.
 PrepareToInstallNeedsRestart=Setup must restart your computer. After restarting your computer, run Setup again to complete the installation of [name].%n%nWould you like to restart now?
 
 ; *** "Installing" wizard page
-WizardInstalling=Installing
-InstallingLabel=Please wait while Setup installs [name] on your computer.
+WizardInstalling=Asennus käynnissä
+InstallingLabel=Odota, kun [name] asennetaan koneellesi.
 
 ; *** "Setup Completed" wizard page
-FinishedHeadingLabel=Completing the [name] Setup Wizard
-FinishedLabelNoIcons=Setup has finished installing [name] on your computer.
-FinishedLabel=Setup has finished installing [name] on your computer. The application may be launched by selecting the installed shortcuts.
-ClickFinish=Click Finish to exit Setup.
-FinishedRestartLabel=To complete the installation of [name], Setup must restart your computer. Would you like to restart now?
-FinishedRestartMessage=To complete the installation of [name], Setup must restart your computer.%n%nWould you like to restart now?
-ShowReadmeCheck=Yes, I would like to view the README file
-YesRadio=&Yes, restart the computer now
-NoRadio=&No, I will restart the computer later
+FinishedHeadingLabel=[name] - Asennuksen viimeistely
+FinishedLabelNoIcons=[name] on nyt asennettu koneellesi.
+FinishedLabel=[name] on nyt asennettu. Sovellus voidaan käynnistää valitsemalla jokin asennetuista kuvakkeista.
+ClickFinish=Valitse Lopeta poistuaksesi Asennuksesta.
+FinishedRestartLabel=Jotta [name] saataisiin asennettua loppuun, pitää kone käynnistää uudelleen. Haluatko käynnistää koneen uudelleen nyt?
+FinishedRestartMessage=Jotta [name] saataisiin asennettua loppuun, pitää kone käynnistää uudelleen.%n%nHaluatko käynnistää koneen uudelleen nyt?
+ShowReadmeCheck=Kyllä, haluan nähdä LUEMINUT-tiedoston
+YesRadio=&Kyllä, käynnistä kone uudelleen
+NoRadio=&Ei, käynnistän koneen uudelleen myöhemmin
 ; used for example as 'Run MyProg.exe'
-RunEntryExec=Run %1
+RunEntryExec=Käynnistä %1
 ; used for example as 'View Readme.txt'
-RunEntryShellExec=View %1
+RunEntryShellExec=Näytä %1
 
 ; *** "Setup Needs the Next Disk" stuff
-ChangeDiskTitle=Setup Needs the Next Disk
-SelectDiskLabel2=Please insert Disk %1 and click OK.%n%nIf the files on this disk can be found in a folder other than the one displayed below, enter the correct path or click Browse.
-PathLabel=&Path:
-FileNotInDir2=The file "%1" could not be located in "%2". Please insert the correct disk or select another folder.
-SelectDirectoryLabel=Please specify the location of the next disk.
+ChangeDiskTitle=Asennus tarvitsee seuraavan levykkeen
+SelectDiskLabel2=Aseta levyke %1 asemaan ja valitse OK. %n%nJos joku toinen kansio sisältää levykkeen tiedostot, anna oikea polku tai valitse Selaa.
+PathLabel=&Polku:
+FileNotInDir2=Tiedostoa "%1" ei löytynyt lähteestä "%2". Aseta oikea levyke asemaan tai valitse toinen kansio.
+SelectDirectoryLabel=Määritä seuraavan levykkeen sisällön sijainti.
 
 ; *** Installation phase messages
-SetupAborted=Setup was not completed.%n%nPlease correct the problem and run Setup again.
-AbortRetryIgnoreSelectAction=Select action
-AbortRetryIgnoreRetry=&Try again
-AbortRetryIgnoreIgnore=&Ignore the error and continue
-AbortRetryIgnoreCancel=Cancel installation
+SetupAborted=Asennusta ei suoritettu loppuun.%n%nKorjaa ongelma ja suorita Asennus uudelleen.
+AbortRetryIgnoreSelectAction=Valitse toiminto
+AbortRetryIgnoreRetry=&Yritä uudelleen
+AbortRetryIgnoreIgnore=&Jatka virheestä huolimatta
+AbortRetryIgnoreCancel=Peruuta asennus
 
 ; *** Installation status messages
-StatusClosingApplications=Closing applications...
-StatusCreateDirs=Creating directories...
-StatusExtractFiles=Extracting files...
-StatusCreateIcons=Creating shortcuts...
-StatusCreateIniEntries=Creating INI entries...
-StatusCreateRegistryEntries=Creating registry entries...
-StatusRegisterFiles=Registering files...
-StatusSavingUninstall=Saving uninstall information...
-StatusRunProgram=Finishing installation...
-StatusRestartingApplications=Restarting applications...
-StatusRollback=Rolling back changes...
+StatusClosingApplications=Suljetaan sovellukset...
+StatusCreateDirs=Luodaan hakemistoja...
+StatusExtractFiles=Puretaan tiedostoja...
+StatusCreateIcons=Luodaan pikakuvakkeita...
+StatusCreateIniEntries=Luodaan INI-merkintöjä...
+StatusCreateRegistryEntries=Luodaan rekisterimerkintöjä...
+StatusRegisterFiles=Rekisteröidään tiedostoja...
+StatusSavingUninstall=Tallennetaan Asennuksen poiston tietoja...
+StatusRunProgram=Viimeistellään asennusta...
+StatusRestartingApplications=Uudelleenkäynnistetään sovellukset...
+StatusRollback=Peruutetaan tehdyt muutokset...
 
 ; *** Misc. errors
-ErrorInternal2=Internal error: %1
-ErrorFunctionFailedNoCode=%1 failed
-ErrorFunctionFailed=%1 failed ; code %2
-ErrorFunctionFailedWithMessage=%1 failed ; code %2.%n%3
-ErrorExecutingProgram=Unable to execute file:%n%1
+ErrorInternal2=Sisäinen virhe: %1
+ErrorFunctionFailedNoCode=%1 epäonnistui
+ErrorFunctionFailed=%1 epäonnistui ; code %2
+ErrorFunctionFailedWithMessage=%1 epäonnistui ; code %2.%n%3
+ErrorExecutingProgram=Virhe suoritettaessa tiedostoa%n%1
 
 ; *** Registry errors
-ErrorRegOpenKey=Error opening registry key:%n%1\%2
-ErrorRegCreateKey=Error creating registry key:%n%1\%2
-ErrorRegWriteKey=Error writing to registry key:%n%1\%2
+ErrorRegOpenKey=Virhe avattaessa rekisteriavainta%n%1\%2
+ErrorRegCreateKey=Virhe luotaessa rekisteriavainta%n%1\%2
+ErrorRegWriteKey=Virhe kirjoitettaessa rekisteriavaimeen%n%1\%2
 
 ; *** INI errors
-ErrorIniEntry=Error creating INI entry in file "%1".
+ErrorIniEntry=Virhe luotaessa INI-merkintää tiedostoon "%1".
 
 ; *** File copying errors
-FileAbortRetryIgnoreSkipNotRecommended=&Skip this file (not recommended)
-FileAbortRetryIgnoreIgnoreNotRecommended=&Ignore the error and continue (not recommended)
-SourceIsCorrupted=The source file is corrupted
-SourceDoesntExist=The source file "%1" does not exist
-ExistingFileReadOnly2=The existing file could not be replaced because it is marked read-only.
-ExistingFileReadOnlyRetry=&Remove the read-only attribute and try again
-ExistingFileReadOnlyKeepExisting=&Keep the existing file
-ErrorReadingExistingDest=An error occurred while trying to read the existing file:
-FileExists=The file already exists.%n%nWould you like Setup to overwrite it?
-ExistingFileNewer=The existing file is newer than the one Setup is trying to install. It is recommended that you keep the existing file.%n%nDo you want to keep the existing file?
-ErrorChangingAttr=An error occurred while trying to change the attributes of the existing file:
-ErrorCreatingTemp=An error occurred while trying to create a file in the destination directory:
-ErrorReadingSource=An error occurred while trying to read the source file:
-ErrorCopying=An error occurred while trying to copy a file:
-ErrorReplacingExistingFile=An error occurred while trying to replace the existing file:
-ErrorRestartReplace=RestartReplace failed:
-ErrorRenamingTemp=An error occurred while trying to rename a file in the destination directory:
-ErrorRegisterServer=Unable to register the DLL/OCX: %1
-ErrorRegSvr32Failed=RegSvr32 failed with exit code %1
-ErrorRegisterTypeLib=Unable to register the type library: %1
+FileAbortRetryIgnoreSkipNotRecommended=&Ohita tämä tiedosto (ei suositeltavaa)
+FileAbortRetryIgnoreIgnoreNotRecommended=&Jatka virheestä huolimatta (ei suositeltavaa)
+SourceIsCorrupted=Lähdetiedosto on vaurioitunut
+SourceDoesntExist=Lähdetiedostoa "%1" ei ole olemassa
+ExistingFileReadOnly2=Nykyistä tiedostoa ei voitu korvata, koska se on Vain luku -tiedosto.
+ExistingFileReadOnlyRetry=&Poista Vain luku -asetus ja yritä uudelleen
+ExistingFileReadOnlyKeepExisting=&Säilytä nykyinen tiedosto
+ErrorReadingExistingDest=Virhe luettaessa nykyistä tiedostoa:
+FileExists=Tiedosto on jo olemassa.%n%nKorvataanko se?
+ExistingFileNewer=Nykyinen tiedosto on uudempi kuin asennettava tiedosto. Nykyisen tiedoston säilyttäminen on suositeltavaa.n%nHaluatko säilyttää nykyisen tiedoston?
+ErrorChangingAttr=Virhe vaihdettaessa nykyisen tiedoston määritteitä:
+ErrorCreatingTemp=Virhe luotaessa tiedostoa kohdehakemistoon:
+ErrorReadingSource=Virhe luettaessa lähdetiedostoa:
+ErrorCopying=Virhe kopioitaessa tiedostoa:
+ErrorReplacingExistingFile=Virhe korvattaessa nykyistä tiedostoa:
+ErrorRestartReplace=RestartReplace-komento epäonnistui:
+ErrorRenamingTemp=Virhe uudelleennimettäessä tiedostoa kohdehakemistossa:
+ErrorRegisterServer=DLL/OCX -laajennuksen rekisteröinti epäonnistui: %1
+ErrorRegSvr32Failed=RegSvr32-toiminto epäonnistui. Virhekoodi: %1
+ErrorRegisterTypeLib=Tyyppikirjaston rekisteröiminen epäonnistui: %1
 
 ; *** Uninstall display name markings
 ; used for example as 'My Program (32-bit)'
 UninstallDisplayNameMark=%1 (%2)
 ; used for example as 'My Program (32-bit, All users)'
 UninstallDisplayNameMarks=%1 (%2, %3)
-UninstallDisplayNameMark32Bit=32-bit
-UninstallDisplayNameMark64Bit=64-bit
-UninstallDisplayNameMarkAllUsers=All users
-UninstallDisplayNameMarkCurrentUser=Current user
+UninstallDisplayNameMark32Bit=32-bittinen
+UninstallDisplayNameMark64Bit=64-bittinen
+UninstallDisplayNameMarkAllUsers=Kaikki käyttäjät
+UninstallDisplayNameMarkCurrentUser=Tämänhetkinen käyttäjä
 
 ; *** Post-installation errors
-ErrorOpeningReadme=An error occurred while trying to open the README file.
-ErrorRestartingComputer=Setup was unable to restart the computer. Please do this manually.
+ErrorOpeningReadme=Virhe avattaessa LUEMINUT-tiedostoa.
+ErrorRestartingComputer=Koneen uudelleenkäynnistäminen ei onnistunut. Suorita uudelleenkäynnistys itse.
 
 ; *** Uninstaller messages
-UninstallNotFound=File "%1" does not exist. Cannot uninstall.
-UninstallOpenError=File "%1" could not be opened. Cannot uninstall
-UninstallUnsupportedVer=The uninstall log file "%1" is in a format not recognized by this version of the uninstaller. Cannot uninstall
-UninstallUnknownEntry=An unknown entry (%1) was encountered in the uninstall log
-ConfirmUninstall=Are you sure you want to completely remove %1 and all of its components?
-UninstallOnlyOnWin64=This installation can only be uninstalled on 64-bit Windows.
-OnlyAdminCanUninstall=This installation can only be uninstalled by a user with administrative privileges.
-UninstallStatusLabel=Please wait while %1 is removed from your computer.
-UninstalledAll=%1 was successfully removed from your computer.
-UninstalledMost=%1 uninstall complete.%n%nSome elements could not be removed. These can be removed manually.
-UninstalledAndNeedsRestart=To complete the uninstallation of %1, your computer must be restarted.%n%nWould you like to restart now?
-UninstallDataCorrupted=File "%1" is corrupted. Cannot uninstall
+UninstallNotFound=Tiedostoa "%1" ei löytynyt. Asennuksen poisto ei onnistu.
+UninstallOpenError=Tiedostoa "%1" ei voitu avata. Asennuksen poisto ei onnistu.
+UninstallUnsupportedVer=Tämä versio Asennuksen poisto-ohjelmasta ei pysty lukemaan lokitiedostoa "%1". Asennuksen poisto ei onnistu
+UninstallUnknownEntry=Asennuksen poisto-ohjelman lokitiedostosta löytyi tuntematon merkintä (%1)
+ConfirmUninstall=Poistetaanko %1 ja kaikki sen osat?
+UninstallOnlyOnWin64=Tämä ohjelma voidaan poistaa vain 64-bittisestä Windowsista käsin.
+OnlyAdminCanUninstall=Tämän asennuksen poistaminen vaatii järjestelmänvalvojan oikeudet.
+UninstallStatusLabel=Odota, kun %1 poistetaan koneeltasi.
+UninstalledAll=%1 poistettiin onnistuneesti.
+UninstalledMost=%1 poistettiin koneelta.%n%nJoitakin osia ei voitu poistaa. Voit poistaa osat itse.
+UninstalledAndNeedsRestart=Kone täytyy käynnistää uudelleen, jotta %1 voidaan poistaa kokonaan.%n%nHaluatko käynnistää koneen uudeelleen nyt?
+UninstallDataCorrupted=Tiedosto "%1" on vaurioitunut. Asennuksen poisto ei onnistu.
 
 ; *** Uninstallation phase messages
 ConfirmDeleteSharedFileTitle=Remove Shared File?
@@ -362,6 +362,7 @@ AssocingFileExtension=Associating %1 with the %2 file extension...
 AutoStartProgramGroupDescription=Startup:
 AutoStartProgram=Automatically start %1
 AddonHostProgramNotFound=%1 could not be located in the folder you selected.%n%nDo you want to continue anyway?"
+
 
 
 

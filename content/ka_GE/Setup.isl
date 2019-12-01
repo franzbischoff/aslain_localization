@@ -11,15 +11,15 @@
 [LangOptions]
 ; The following three entries are very important. Be sure to read and
 ; understand the '[LangOptions] section' topic in the help file.
-LanguageName=English
-LanguageID=$0409
+LanguageName=Georgian
+LanguageID=$0437
 LanguageCodePage=0
 ; If the language you are translating to requires special font faces or
 ; sizes, uncomment any of the following entries and change them accordingly.
-DialogFontName=Tahoma
-TitleFontName=Arial
-WelcomeFontName=Verdana
-CopyrightFontName=Arial
+DialogFontName=Sylfaen
+TitleFontName=Sylfaen
+WelcomeFontName=Sylfaen
+CopyrightFontName=Sylfaen
 DialogFontSize=8
 TitleFontSize=29
 WelcomeFontSize=12
@@ -28,40 +28,40 @@ CopyrightFontSize=8
 [Messages]
 
 ; *** Application titles
-SetupAppTitle=Setup
-SetupWindowTitle=Setup - %1
-UninstallAppTitle=Uninstall
-UninstallAppFullTitle=%1 Uninstall
+SetupAppTitle=ჩადგმა
+SetupWindowTitle=%1-ის - დაყენება
+UninstallAppTitle=წაშლა
+UninstallAppFullTitle=%1-ის წაშლა
 
 ; *** Misc. common
-InformationTitle=Information
-ConfirmTitle=Confirm
-ErrorTitle=Error
+InformationTitle=ინფორმაცია
+ConfirmTitle=დადასტურება
+ErrorTitle=შეცდომა
 
 ; *** SetupLdr messages
-SetupLdrStartupMessage=This will install %1. Do you wish to continue?
-LdrCannotCreateTemp=Unable to create a temporary file. Setup aborted
-LdrCannotExecTemp=Unable to execute file in the temporary directory. Setup aborted
+SetupLdrStartupMessage=ეს დააყენებს %1-ს. გინდა გაგრძელება?
+LdrCannotCreateTemp=შეუძლებელია დროებითი ფაილის შექმნა. დაყენება გაჩერდა
+LdrCannotExecTemp=შეუძლებელია დროებითი ფაილების საქაღალდიდან ფაილის გახსნა. დაყენება გაჩერდა
 HelpTextNote=
 
 ; *** Startup error messages
-LastErrorMessage=%1.%n%nError %2: %3
-SetupFileMissing=The file %1 is missing from the installation directory. Please correct the problem or obtain a new copy of the program.
-SetupFileCorrupt=The setup files are corrupted. Please obtain a new copy of the program.
-SetupFileCorruptOrWrongVer=The setup files are corrupted, or are incompatible with this version of Setup. Please correct the problem or obtain a new copy of the program.
+LastErrorMessage=%1.%n%nშეცდომა %2: %3
+SetupFileMissing=ფაილი %1 დასაყენებელ საქაღალდეში არ არის. შეასწორეთ პრობლემა ან მოითხოვეთ პროგრამის ახალი ვერსია.
+SetupFileCorrupt=დამყენებლის ფაილები დაზიანებულია. გთხოვთ მოითხოვოთ პროგრამის ახალი ვერსია.
+SetupFileCorruptOrWrongVer=მოცემული ფაილები დაზინებულია ან მოცემულ დამყენებელთან არაა თავსებადი. შეასწორეთ პრობლემა ან მოითხოვეთ პროგრამის ახალი ვერსია.
 InvalidParameter=An invalid parameter was passed on the command line:%n%n%1
 SetupAlreadyRunning=Setup is already running.
 WindowsVersionNotSupported=This program does not support the version of Windows your computer is running.
 WindowsServicePackRequired=This program requires %1 Service Pack %2 or later.
-NotOnThisPlatform=This program will not run on %1.
-OnlyOnThisPlatform=This program must be run on %1.
-OnlyOnTheseArchitectures=This program can only be installed on versions of Windows designed for the following processor architectures:%n%n%1
-WinVersionTooLowError=This program requires %1 version %2 or later.
-WinVersionTooHighError=This program cannot be installed on %1 version %2 or later.
-AdminPrivilegesRequired=You must be logged in as an administrator when installing this program.
-PowerUserPrivilegesRequired=You must be logged in as an administrator or as a member of the Power Users group when installing this program.
-SetupAppRunningError=Setup has detected that %1 is currently running.%n%nPlease close all instances of it now, then click OK to continue, or Cancel to exit.
-UninstallAppRunningError=Uninstall has detected that %1 is currently running.%n%nPlease close all instances of it now, then click OK to continue, or Cancel to exit.
+NotOnThisPlatform=მოცემული პროგრამა ვერ გაეშვება %1-ზე.
+OnlyOnThisPlatform=მოცემული პროგრამა უნდა გაეშვას %1-ზე.
+OnlyOnTheseArchitectures=ეს პროგრამა მარტო ყენდება Windows-ის კონკრეტულ პროცესორის არქიტექტურებზე:%n%n%1
+WinVersionTooLowError=ამ პროგრამს ჭირდება %1 ვერსია ან %2-ზე უფრო ახალი.
+WinVersionTooHighError=ეს პროგრამა ვერ დაყენდება %1 ვერსიაზე და %2-ზე უფრო ახალზე.
+AdminPrivilegesRequired=შენ უნდა იყო შესული როგორც ადმინისტრატორი, ამ პროგრამის დასაყენებლად.
+PowerUserPrivilegesRequired=შენ უნდა იყო ადმინისტრატორის ან გამოცდილი მოხმარებლის (Power Users) პროფილით, ამ პროგრამის დასაყენებლად.
+SetupAppRunningError=დამყენებელმა დააფიქსირა %1 არის გაშვებული.%n%nდაკეტეთ მისი ყველა პროცესი,მერე დააჭირე "კარგი"-ს, გასაგრძელებლად, ან "შეჩერება"-ს დასასრულებლად.
+UninstallAppRunningError=წამშლელმა დააფიქსირა %1 არის გაშვებული.%n%nდაკეტეთ მისი ყველა პროცესი, მერე დააჭირე "კარგი"-ს, გასაგრძელებლად, ან "შეჩერება"-ს დასასრულებლად.
 
 ; *** Startup questions
 PrivilegesRequiredOverrideTitle=Select Setup Install Mode
@@ -74,147 +74,147 @@ PrivilegesRequiredOverrideCurrentUser=Install for &me only
 PrivilegesRequiredOverrideCurrentUserRecommended=Install for &me only (recommended)
 
 ; *** Misc. errors
-ErrorCreatingDir=Setup was unable to create the directory "%1"
-ErrorTooManyFilesInDir=Unable to create a file in the directory "%1" because it contains too many files
+ErrorCreatingDir=დამყენებელი ვერ ქმნის საქაღალდეს "%1"
+ErrorTooManyFilesInDir=შეუძლებელია ფაილის შექმნა "%1" რადგან იქ უკვე ბევრი ფაილია
 
 ; *** Setup common messages
-ExitSetupTitle=Exit Setup
-ExitSetupMessage=Setup is not complete. If you exit now, the program will not be installed.%n%nYou may run Setup again at another time to complete the installation.%n%nExit Setup?
-AboutSetupMenuItem=&About Setup...
-AboutSetupTitle=About Setup
-AboutSetupMessage=%1 version %2%n%3%n%n%1 home page:%n%4
+ExitSetupTitle=დამყენებლიდან გასვლა
+ExitSetupMessage=დაყენება არ დამთავრებულა. თუ გახვალ, მოცემული პროგრამა არ დაყენდება.%n%nსხვა დროს მოგიწევს დამყენებლის გაშვება.%n%nგავიდე?
+AboutSetupMenuItem=&დამყენებლის შესახებ...
+AboutSetupTitle=დამყენებლის შესახებ
+AboutSetupMessage=%1 ვერსია %2%n%3%n%n%1 საშინაო გვერდი:%n%4
 AboutSetupNote=
 TranslatorNote=
 
 ; *** Buttons
-ButtonBack=< &Back
-ButtonNext=&Next >
-ButtonInstall=&Install
-ButtonOK=OK
-ButtonCancel=Cancel
-ButtonYes=&Yes
-ButtonYesToAll=Yes to &All
-ButtonNo=&No
-ButtonNoToAll=N&o to All
-ButtonFinish=&Finish
-ButtonBrowse=&Browse...
-ButtonWizardBrowse=B&rowse...
-ButtonNewFolder=&Make New Folder
+ButtonBack=< &უკან
+ButtonNext=&წინ >
+ButtonInstall=&დააყენე
+ButtonOK=კარგი
+ButtonCancel=გაჩერება
+ButtonYes=&დიახ
+ButtonYesToAll=დიახ &ყველასთვისl
+ButtonNo=&არა
+ButtonNoToAll=არა ყ&ველასთვის
+ButtonFinish=&დასრულება
+ButtonBrowse=&ამორჩევა...
+ButtonWizardBrowse=ა&მორჩევა...
+ButtonNewFolder=&შექმენი ახალი საქაღალდე
 
 ; *** "Select Language" dialog messages
-SelectLanguageTitle=Select Setup Language
-SelectLanguageLabel=Select the language to use during the installation.
+SelectLanguageTitle=აირჩიე დაყენების ენა
+SelectLanguageLabel=აირჩიე ინტეფეისის ენა, დაყენების განამავლობაში:
 
 ; *** Common wizard text
-ClickNext=Click Next to continue, or Cancel to exit Setup.
+ClickNext=დააჭირე "წინ"-ს გასაგრძელებლად, "გაჩერება"-ს დაყენების შესაწყვეტად.
 BeveledLabel=
-BrowseDialogTitle=Browse For Folder
-BrowseDialogLabel=Select a folder in the list below, then click OK.
-NewFolderName=New Folder
+BrowseDialogTitle=საქაღალდის არჩევა
+BrowseDialogLabel=აირჩიე სიიდან საქაღალდე და დააჭირე "კარგი"-ს.
+NewFolderName=ახალი საქაღალდე
 
 ; *** "Welcome" wizard page
-WelcomeLabel1=Welcome to the [name] Setup Wizard
-WelcomeLabel2=This will install [name/ver] on your computer.%n%nIt is recommended that you close all other applications before continuing.
+WelcomeLabel1=მოგესალმება [name]-ის დაყენების ოსტატი
+WelcomeLabel2=ის დააყენებს [name/ver]-ს შენ კომპიუტერზე.%n%nრეკომენდირებულია დაკეტო ყველა პროგრამა, დაყენების დროს.
 
 ; *** "Password" wizard page
-WizardPassword=Password
-PasswordLabel1=This installation is password protected.
-PasswordLabel3=Please provide the password, then click Next to continue. Passwords are case-sensitive.
-PasswordEditLabel=&Password:
-IncorrectPassword=The password you entered is not correct. Please try again.
+WizardPassword=პაროლი
+PasswordLabel1=ეს დაყენება პროლითაა დაცული.
+PasswordLabel3=შეიყვანე პაროლი, და დააჭირე "წინ"-ს გასაგრძელებლად. პაროლი შეიყვანეთ თანრიგის გათვალიწინებით.
+PasswordEditLabel=&პაროლი:
+IncorrectPassword=შეყვანილი პაროლი არასწორეა. ცადე ხელახლა.
 
 ; *** "License Agreement" wizard page
-WizardLicense=License Agreement
-LicenseLabel=Please read the following important information before continuing.
-LicenseLabel3=Please read the following License Agreement. You must accept the terms of this agreement before continuing with the installation.
-LicenseAccepted=I &accept the agreement
-LicenseNotAccepted=I &do not accept the agreement
+WizardLicense=სალიცენზიო შეთანხმება
+LicenseLabel=გთხოვთ წაიკითხოთ მოცემული ინფორმაცია გაგრძელებამდე.
+LicenseLabel3=გთხოვთ წაიკითხოთ მოცემული სალიცენზიო შეთანხმება. თქვენ უნდა დათახმდეთ მოცემულ სალიცენზიო შეთანხმებას გასაგრძელებლად.
+LicenseAccepted=მე &ვეთანხმები ამ შეთანხმებას
+LicenseNotAccepted=მე &არ ვეთანხმები ამ შეთანხმებას
 
 ; *** "Information" wizard pages
-WizardInfoBefore=Information
-InfoBeforeLabel=Please read the following important information before continuing.
-InfoBeforeClickLabel=When you are ready to continue with Setup, click Next.
-WizardInfoAfter=Information
-InfoAfterLabel=Please read the following important information before continuing.
-InfoAfterClickLabel=When you are ready to continue with Setup, click Next.
+WizardInfoBefore=ინფორმაცია
+InfoBeforeLabel=გთხოვთ წაიკითხოთ ეს მნიშვნელოვანი ინფორმაცია გაგრძელებამდე.
+InfoBeforeClickLabel=როცა მზად იქნები დააჭირე "წინ"-ს.
+WizardInfoAfter=ინფორმაცია
+InfoAfterLabel=გთხოვთ წაიკითხოთ ეს მნიშვნელოვანი ინფორმაცია გაგრძელებამდე.
+InfoAfterClickLabel=როცა მზად იქნები დააჭირე "წინ"-ს.
 
 ; *** "User Information" wizard page
-WizardUserInfo=User Information
-UserInfoDesc=Please enter your information.
-UserInfoName=&User Name:
-UserInfoOrg=&Organization:
-UserInfoSerial=&Serial Number:
-UserInfoNameRequired=You must enter a name.
+WizardUserInfo=ინფორმაცია მომხმარებელზე
+UserInfoDesc=შეიყვანე შენი ინფორმაცია.
+UserInfoName=&სახელი:
+UserInfoOrg=&ორგანიზაცია:
+UserInfoSerial=სერიული &ნომერი:
+UserInfoNameRequired=შენ უნდა შეიყვანოი სახელი.
 
 ; *** "Select Destination Location" wizard page
-WizardSelectDir=Select Destination Location
-SelectDirDesc=Where should [name] be installed?
-SelectDirLabel3=Setup will install [name] into the following folder.
-SelectDirBrowseLabel=To continue, click Next. If you would like to select a different folder, click Browse.
+WizardSelectDir=აირჩიე დასაყენებელი საქაღალდე
+SelectDirDesc=სად უნდა დაყენდეს [name]?
+SelectDirLabel3=დამყენებელი [name]-ს დააყენებს შემდეგ საქაღალდეში.
+SelectDirBrowseLabel=გასაგრძელებლად დააჭირე "წინ"-ს. სხვა საქაღალდის ასარჩევად კი, "არჩევა"-ს.
 DiskSpaceGBLabel=At least [gb] GB of free disk space is required.
-DiskSpaceMBLabel=At least [mb] MB of free disk space is required.
+DiskSpaceMBLabel=[mb] მბ.-ზე მეტი თავისუფალი ადგილია საჭირო.
 CannotInstallToNetworkDrive=Setup cannot install to a network drive.
 CannotInstallToUNCPath=Setup cannot install to a UNC path.
-InvalidPath=You must enter a full path with drive letter ; for example:%n%nC:\APP%n%nor a UNC path in the form:%n%n\\server\share
-InvalidDrive=The drive or UNC share you selected does not exist or is not accessible. Please select another.
-DiskSpaceWarningTitle=Not Enough Disk Space
-DiskSpaceWarning=Setup requires at least %1 KB of free space to install, but the selected drive only has %2 KB available.%n%nDo you want to continue anyway?
-DirNameTooLong=The folder name or path is too long.
-InvalidDirName=The folder name is not valid.
-BadDirName32=Folder names cannot include any of the following characters:%n%n%1
-DirExistsTitle=Folder Exists
-DirExists=The folder:%n%n%1%n%nalready exists. Would you like to install to that folder anyway?
-DirDoesntExistTitle=Folder Does Not Exist
-DirDoesntExist=The folder:%n%n%1%n%ndoes not exist. Would you like the folder to be created?
+InvalidPath=შენ უნდა შეიყვანო სრული მისამართი, დისკის სახელიანა ; for example:%n%nC:\APP%n%nor a UNC path in the form:%n%n\\server\share
+InvalidDrive=თქვენი არჩეული ქსელის მისამართი ან დისკი, მიუწდომელია ან არ არსებობს, აირჩიეთ სხვა.
+DiskSpaceWarningTitle=არასაკმარისი ადგილი
+DiskSpaceWarning=დამყენებელს ჭირდება %1 კბ. ცარიელი ადგილი, მაგრამ არჩეულ დისკზე მხოლოდ %2 კბ. არის თავისუფალი.%n%nგავაგრძელო?
+DirNameTooLong=მოცემული საქაღალდის სახელი ან მისამართი ძალიან გრძელია.
+InvalidDirName=მოცემული საქაღალდის სახელი არასწორეა.
+BadDirName32=საქაღალდის სახელი არ უნდა შეიცავდეს ამ სიმბლოებს:%n%n%1
+DirExistsTitle=საქაღალდე არსებობს
+DirExists=საქაღალდე:%n%n%1%n%nუკვე არსებობს. მაინც მანდ დავაყენო?
+DirDoesntExistTitle=საქაღალდე არ არსებობს
+DirDoesntExist=საქაღალდე:%n%n%1%n%nარ არსებობს. გინდა შეიქმნას?
 
 ; *** "Select Components" wizard page
-WizardSelectComponents=Select Components
-SelectComponentsDesc=Which components should be installed?
-SelectComponentsLabel2=Select the components you want to install ; clear the components you do not want to install. Click Next when you are ready to continue.
-FullInstallation=Full installation
+WizardSelectComponents=აირჩიე კომპონენტები
+SelectComponentsDesc=რომელი კომპონენტი უნდა დაყენდეს?
+SelectComponentsLabel2=ჩართე დასაყენებელი კომპონენტები ; clear the components you do not want to install. Click Next when you are ready to continue.
+FullInstallation=სრული დაყენება
 ; if possible don't translate 'Compact' as 'Minimal' (I mean 'Minimal' in your language)
-CompactInstallation=Compact installation
-CustomInstallation=Custom installation
-NoUninstallWarningTitle=Components Exist
-NoUninstallWarning=Setup has detected that the following components are already installed on your computer:%n%n%1%n%nDeselecting these components will not uninstall them.%n%nWould you like to continue anyway?
-ComponentSize1=%1 KB
-ComponentSize2=%1 MB
+CompactInstallation=კომპაქტური დაყენება
+CustomInstallation=არჩევით დაყენება
+NoUninstallWarningTitle=დასაყენებელი კომპონენტები
+NoUninstallWarning=დაფიქსირდა რომ უკვე დაყენებულია შენ კომპიუტერზე ეს კომპონენტები:%n%n%1%n%nმათი ამორთვა გამოიწვევს მათ წაშლას.%n%nგავაგრძელო მაინც?
+ComponentSize1=%1 კბ.
+ComponentSize2=%1 მბ.
 ComponentsDiskSpaceGBLabel=Current selection requires at least [gb] GB of disk space.
-ComponentsDiskSpaceMBLabel=Current selection requires at least [mb] MB of disk space.
+ComponentsDiskSpaceMBLabel=არჩეული კომპონენეტები, იკავებს [mb] მბ. ადგილს.
 
 ; *** "Select Additional Tasks" wizard page
-WizardSelectTasks=Select Additional Tasks
-SelectTasksDesc=Which additional tasks should be performed?
-SelectTasksLabel2=Select the additional tasks you would like Setup to perform while installing [name], then click Next.
+WizardSelectTasks=აირჩიე დამატებითი დავალებები
+SelectTasksDesc=რა უნდა შესრულდეს დამატებით?
+SelectTasksLabel2=არიჩიე დავალებები რაც ჩამდგმელმა უნდა შეასრულოს [name]-ს დაყენების დროს, მერე დააჭირე "წინ"-ს.
 
 ; *** "Select Start Menu Folder" wizard page
-WizardSelectProgramGroup=Select Start Menu Folder
-SelectStartMenuFolderDesc=Where should Setup place the program's shortcuts?
-SelectStartMenuFolderLabel3=Setup will create the program's shortcuts in the following Start Menu folder.
-SelectStartMenuFolderBrowseLabel=To continue, click Next. If you would like to select a different folder, click Browse.
-MustEnterGroupName=You must enter a folder name.
-GroupNameTooLong=The folder name or path is too long.
-InvalidGroupName=The folder name is not valid.
-BadGroupName=The folder name cannot include any of the following characters:%n%n%1
-NoProgramGroupCheck2=&Don't create a Start Menu folder
+WizardSelectProgramGroup=აირჩიე საწყისი მენიუს საქაღალდე
+SelectStartMenuFolderDesc=სად უნდა განლაგდნენ პროგრამის მალმომხმობები?
+SelectStartMenuFolderLabel3=მალმომხმობები განლაგდება ამ საქაღალდეში.
+SelectStartMenuFolderBrowseLabel=გასაგრძელებლად დააჭირე "წინ"-ს. სხვა საქაღალდის ასარჩევად "არჩევას"-ს.
+MustEnterGroupName=თქვენ უნდა შეიყვანოთ საქაღალდის სახელი.
+GroupNameTooLong=საქაღალდის სახელი ან მისამრთი ძალიან გრძელია.
+InvalidGroupName=მოცემული საქაღალდის სახელი არასწორეა.
+BadGroupName=საქაღალდის სახელი არ უნდა შეიცავდეს ამ სიმბლოებს:%n%n%1
+NoProgramGroupCheck2=&ნუ შექმნი საწყისი მენიუს საქაღალდეს
 
 ; *** "Ready to Install" wizard page
-WizardReady=Ready to Install
-ReadyLabel1=Setup is now ready to begin installing [name] on your computer.
-ReadyLabel2a=Click Install to continue with the installation, or click Back if you want to review or change any settings.
-ReadyLabel2b=Click Install to continue with the installation.
-ReadyMemoUserInfo=User information:
-ReadyMemoDir=Destination location:
-ReadyMemoType=Setup type:
-ReadyMemoComponents=Selected components:
-ReadyMemoGroup=Start Menu folder:
-ReadyMemoTasks=Additional tasks:
+WizardReady=მზადაა დასაყენებლად
+ReadyLabel1=დამყენებელი მზადაა [name] დააყენოს შენ კომპიუტერზე.
+ReadyLabel2a=დააჭირე "დაყენებას" დასაყენებლად, ან "უკან"-ს დაყენების პარამეტრების შესაცვლელად.
+ReadyLabel2b=დააჭირე "დაყენებას" დაყენების გასაგრძელებლად.
+ReadyMemoUserInfo=მომხარებლის ინფორმაცია:
+ReadyMemoDir=დაყენების ადგილი:
+ReadyMemoType=დაყენების ტიპი:
+ReadyMemoComponents=არჩეული კომპონენტები:
+ReadyMemoGroup=დაწყების მენიუს საქაღალდე:
+ReadyMemoTasks=სხვა დავალებები:
 
 ; *** "Preparing to Install" wizard page
-WizardPreparing=Preparing to Install
-PreparingDesc=Setup is preparing to install [name] on your computer.
-PreviousInstallNotCompleted=The installation/removal of a previous program was not completed. You will need to restart your computer to complete that installation.%n%nAfter restarting your computer, run Setup again to complete the installation of [name].
-CannotContinue=Setup cannot continue. Please click Cancel to exit.
+WizardPreparing=დაყნებისთვის მზადება
+PreparingDesc=დამყენებელი ემზადება [name]-ის დაყენებითვის.
+PreviousInstallNotCompleted=წინა დაყენება/წაშლა არ დამთავრებულა. თქვენ კომპიუტერი უნდა გადატვირთოთ მის დასამთავრებლად.%n%nგადატვირთვის შემდეგ, გაუშვი ისევ ეს დამყენებელი და დააყენე [name].
+CannotContinue=დაყენება ვერ გძელდება. დააჭირე გაჩერებას გასასვლელად.
 ApplicationsFound=The following applications are using files that need to be updated by Setup. It is recommended that you allow Setup to automatically close these applications.
 ApplicationsFound2=The following applications are using files that need to be updated by Setup. It is recommended that you allow Setup to automatically close these applications. After the installation has completed, Setup will attempt to restart the applications.
 CloseApplications=&Automatically close the applications
@@ -223,33 +223,33 @@ ErrorCloseApplications=Setup was unable to automatically close all applications.
 PrepareToInstallNeedsRestart=Setup must restart your computer. After restarting your computer, run Setup again to complete the installation of [name].%n%nWould you like to restart now?
 
 ; *** "Installing" wizard page
-WizardInstalling=Installing
-InstallingLabel=Please wait while Setup installs [name] on your computer.
+WizardInstalling=ყენდება
+InstallingLabel=მოიცადე სანამ დაყენება [name] შენ კომპიუტერზე.
 
 ; *** "Setup Completed" wizard page
-FinishedHeadingLabel=Completing the [name] Setup Wizard
-FinishedLabelNoIcons=Setup has finished installing [name] on your computer.
-FinishedLabel=Setup has finished installing [name] on your computer. The application may be launched by selecting the installed shortcuts.
-ClickFinish=Click Finish to exit Setup.
-FinishedRestartLabel=To complete the installation of [name], Setup must restart your computer. Would you like to restart now?
-FinishedRestartMessage=To complete the installation of [name], Setup must restart your computer.%n%nWould you like to restart now?
-ShowReadmeCheck=Yes, I would like to view the README file
-YesRadio=&Yes, restart the computer now
-NoRadio=&No, I will restart the computer later
+FinishedHeadingLabel=ვამთავრებ [name] დაყენების ოსტატს
+FinishedLabelNoIcons=დასრულდა [name]-ის დაყენება.
+FinishedLabel=დასრულდა [name]-ის დაყენება. მისი გაშვება დაყენებული ხატულით შეგიძლიათ.
+ClickFinish=დააჭირე დასასრულს გასასვლელად.
+FinishedRestartLabel=[name]-ის დაყენების დასასრულებლად, საჭიროა კომპიუტერის გადატვირთვა. გინდა ახლა გადაიტვირთოს?
+FinishedRestartMessage=[name]-ის დაყენების დასასრულებლად უნდა გადატვირთო კომპიუტერი.%n%nგინდა ახლა გადაიტვირთოს?
+ShowReadmeCheck=დიახ,მე მსურს დოკუმენტაციის წაკითხვა
+YesRadio=&დიახ, ახლვე გადატვირთე კომპიუტერი
+NoRadio=&არა, გადატვირთე მოგვიანებით
 ; used for example as 'Run MyProg.exe'
-RunEntryExec=Run %1
+RunEntryExec=გახსენი %1
 ; used for example as 'View Readme.txt'
-RunEntryShellExec=View %1
+RunEntryShellExec=მაჩვენე %1
 
 ; *** "Setup Needs the Next Disk" stuff
-ChangeDiskTitle=Setup Needs the Next Disk
-SelectDiskLabel2=Please insert Disk %1 and click OK.%n%nIf the files on this disk can be found in a folder other than the one displayed below, enter the correct path or click Browse.
-PathLabel=&Path:
-FileNotInDir2=The file "%1" could not be located in "%2". Please insert the correct disk or select another folder.
-SelectDirectoryLabel=Please specify the location of the next disk.
+ChangeDiskTitle=დამყენებელს შემდეგი დისკი ჭირდება
+SelectDiskLabel2=გთხოვთ ჩადოთ დისკი %1 და დააჭიროთ კარგის.%n%nთუ ამ დისკი ფაილები სხვა საქაღალდეშია, ამოირჩიე ან მიუთითე სრული გზა.
+PathLabel=&მისამართი:
+FileNotInDir2=ფაილი "%1" ვერ ვიპოვე აქ: "%2". აირჩიე სწორი დისკი ან საქაღალდე.
+SelectDirectoryLabel=აირჩიე შემდეგი დისკი ადგილი.
 
 ; *** Installation phase messages
-SetupAborted=Setup was not completed.%n%nPlease correct the problem and run Setup again.
+SetupAborted=ვერ დაყენდა.%n%nგაასწორე შეცდომა და ხელახლა გაუშვი.
 AbortRetryIgnoreSelectAction=Select action
 AbortRetryIgnoreRetry=&Try again
 AbortRetryIgnoreIgnore=&Ignore the error and continue
@@ -257,53 +257,53 @@ AbortRetryIgnoreCancel=Cancel installation
 
 ; *** Installation status messages
 StatusClosingApplications=Closing applications...
-StatusCreateDirs=Creating directories...
-StatusExtractFiles=Extracting files...
-StatusCreateIcons=Creating shortcuts...
-StatusCreateIniEntries=Creating INI entries...
-StatusCreateRegistryEntries=Creating registry entries...
-StatusRegisterFiles=Registering files...
-StatusSavingUninstall=Saving uninstall information...
-StatusRunProgram=Finishing installation...
+StatusCreateDirs=საქაღალდეები იქმნება...
+StatusExtractFiles=ფაილების განიკუმშება...
+StatusCreateIcons=მალმომხმობები იქმნება...
+StatusCreateIniEntries=INI  ჩანაწერები კეთდება...
+StatusCreateRegistryEntries=რეესტრის იცვლება...
+StatusRegisterFiles=ფაილების რეგისტრირდება...
+StatusSavingUninstall=ინახება წაშლის ინფორმაცია...
+StatusRunProgram=ჩადგმის დასრულება...
 StatusRestartingApplications=Restarting applications...
-StatusRollback=Rolling back changes...
+StatusRollback=პარამეტრების უკან დაბრუნება...
 
 ; *** Misc. errors
-ErrorInternal2=Internal error: %1
-ErrorFunctionFailedNoCode=%1 failed
-ErrorFunctionFailed=%1 failed ; code %2
-ErrorFunctionFailedWithMessage=%1 failed ; code %2.%n%3
-ErrorExecutingProgram=Unable to execute file:%n%1
+ErrorInternal2=შიდა შეცდომა: %1
+ErrorFunctionFailedNoCode=%1 ჩაიშალა
+ErrorFunctionFailed=%1 ჩაიშალა ; code %2
+ErrorFunctionFailedWithMessage=%1 ჩაიშალა ; code %2.%n%3
+ErrorExecutingProgram=შეუძლებელია გაეშვას ფაილი:%n%1
 
 ; *** Registry errors
-ErrorRegOpenKey=Error opening registry key:%n%1\%2
-ErrorRegCreateKey=Error creating registry key:%n%1\%2
-ErrorRegWriteKey=Error writing to registry key:%n%1\%2
+ErrorRegOpenKey=ვერ იკითხება რეესტრის გასაღები:%n%1\%2
+ErrorRegCreateKey=ვერ იქმენება რეესტრის გასაღები:%n%1\%2
+ErrorRegWriteKey=ვერ იწერება რეესტრის გასაღები:%n%1\%2
 
 ; *** INI errors
-ErrorIniEntry=Error creating INI entry in file "%1".
+ErrorIniEntry=ვერ შეიქმნა INI ჩანაწერი ამ ფაილში: "%1".
 
 ; *** File copying errors
 FileAbortRetryIgnoreSkipNotRecommended=&Skip this file (not recommended)
 FileAbortRetryIgnoreIgnoreNotRecommended=&Ignore the error and continue (not recommended)
-SourceIsCorrupted=The source file is corrupted
-SourceDoesntExist=The source file "%1" does not exist
+SourceIsCorrupted=რესურსის ფაილი დაზიანებულია
+SourceDoesntExist=რესურსის ფაიალი "%1" არ არსებობს
 ExistingFileReadOnly2=The existing file could not be replaced because it is marked read-only.
 ExistingFileReadOnlyRetry=&Remove the read-only attribute and try again
 ExistingFileReadOnlyKeepExisting=&Keep the existing file
-ErrorReadingExistingDest=An error occurred while trying to read the existing file:
-FileExists=The file already exists.%n%nWould you like Setup to overwrite it?
-ExistingFileNewer=The existing file is newer than the one Setup is trying to install. It is recommended that you keep the existing file.%n%nDo you want to keep the existing file?
-ErrorChangingAttr=An error occurred while trying to change the attributes of the existing file:
-ErrorCreatingTemp=An error occurred while trying to create a file in the destination directory:
-ErrorReadingSource=An error occurred while trying to read the source file:
-ErrorCopying=An error occurred while trying to copy a file:
-ErrorReplacingExistingFile=An error occurred while trying to replace the existing file:
-ErrorRestartReplace=RestartReplace failed:
-ErrorRenamingTemp=An error occurred while trying to rename a file in the destination directory:
-ErrorRegisterServer=Unable to register the DLL/OCX: %1
-ErrorRegSvr32Failed=RegSvr32 failed with exit code %1
-ErrorRegisterTypeLib=Unable to register the type library: %1
+ErrorReadingExistingDest=შეცდომა მოცემული ფაილის წაკთხვის დროს:
+FileExists=მოცემული ფაილი არსებობს.%n%nგინდა გადაეწეროს?
+ExistingFileNewer=მოცემული ფაილი იმაზე ახალია ვიდრე ახლა ყენდება. რეკომენდირებულია მისი შენარჩუნება.%n%nგინდა შეინარჩუნო?
+ErrorChangingAttr=შეცდომა ფაილის ატრიბუტის ცვლილებისას:
+ErrorCreatingTemp=შეცდომა ფაილის შემნისას მოცემულ საქაღალდეში:
+ErrorReadingSource=შეცდომა რესურსის ფაილის წაკითხვისას:
+ErrorCopying=შეცდომა ფაილის კოპირებისას:
+ErrorReplacingExistingFile=შეცდომა ფაილის გადაწერისას:
+ErrorRestartReplace=გადატვირთვითი გადაწერის შეცდომა:
+ErrorRenamingTemp=შეცდომა მოცემულ საქაღალდეში ფაილის გარდაქმევისას:
+ErrorRegisterServer=შეუძლებელია DLL/OCX-ის რეგისტრირება: %1
+ErrorRegSvr32Failed=RegSvr32 გაითიშა, შეცდომის კოდით %1
+ErrorRegisterTypeLib=შეუძლებებლია ბიბლოთეკის რეგიტრირება: %1
 
 ; *** Uninstall display name markings
 ; used for example as 'My Program (32-bit)'
@@ -316,22 +316,45 @@ UninstallDisplayNameMarkAllUsers=All users
 UninstallDisplayNameMarkCurrentUser=Current user
 
 ; *** Post-installation errors
-ErrorOpeningReadme=An error occurred while trying to open the README file.
-ErrorRestartingComputer=Setup was unable to restart the computer. Please do this manually.
+ErrorOpeningReadme=შეცოდმა დოკუმენტაციის გახსნისას.
+ErrorRestartingComputer=შეცდომა კომპიუტერის გადატვირთვისას. გადატვირთეთ თვითონ.
 
 ; *** Uninstaller messages
-UninstallNotFound=File "%1" does not exist. Cannot uninstall.
-UninstallOpenError=File "%1" could not be opened. Cannot uninstall
-UninstallUnsupportedVer=The uninstall log file "%1" is in a format not recognized by this version of the uninstaller. Cannot uninstall
-UninstallUnknownEntry=An unknown entry (%1) was encountered in the uninstall log
-ConfirmUninstall=Are you sure you want to completely remove %1 and all of its components?
-UninstallOnlyOnWin64=This installation can only be uninstalled on 64-bit Windows.
-OnlyAdminCanUninstall=This installation can only be uninstalled by a user with administrative privileges.
-UninstallStatusLabel=Please wait while %1 is removed from your computer.
-UninstalledAll=%1 was successfully removed from your computer.
-UninstalledMost=%1 uninstall complete.%n%nSome elements could not be removed. These can be removed manually.
-UninstalledAndNeedsRestart=To complete the uninstallation of %1, your computer must be restarted.%n%nWould you like to restart now?
-UninstallDataCorrupted=File "%1" is corrupted. Cannot uninstall
+UninstallNotFound=File "%1" არ არსებობს. შეუძლებელია წაშლა.
+UninstallOpenError=File "%1" ვერ იხსნება. შეუძლებელია წაშლა
+UninstallUnsupportedVer=წაშლის ჟურნალი "%1" ამ ვერსიის წამშლელთან არათავსებადია. შეუძლებელია წაშლა
+UninstallUnknownEntry=უცნობი ჩანაწერია (%1) ნაპოვნი ჟურნალში
+ConfirmUninstall=ნამდვიდალდ გსურს %1-ის წაშლა ყველა კომპონენეტით?
+UninstallOnlyOnWin64=ეს პროგრამა მარტო წაიშლება 64 თანრიგიანი Windows-დან.
+OnlyAdminCanUninstall=ამ პროგრამის წაშლას ადმინისტრატორის უფლებები ჭირდება.
+UninstallStatusLabel=მოითმინეთ, სანამ %1 წაიშლება.
+UninstalledAll=%1 წარმეტებით წაიშალა.
+UninstalledMost=%1 წაშლა დამთავრდა.%n%nმაგრამ ზოგიერთი კომპონენტი არ წაიშლა. ისინი შეგიძლიათ ხელით წაშალოთ.
+UninstalledAndNeedsRestart=%1-ის წაშლის დასასრულებლად კომპიუტერი უნდა გადაიტვირთოს.%n%nგნებავთ ახლა?
+UninstallDataCorrupted="%1\"დაზიანებულია. შეუძლებელია წაშლა
+
+; *** Uninstallation phase messages
+ConfirmDeleteSharedFileTitle=წავშალო საზიარო ფაილი?
+ConfirmDeleteSharedFile2=სისტემამ დაადგინა რომ ამ გაზირებულ ფაილს არცერთი პროგრამა იყენებს. გინდა რომ ის წაიშალოს?%n%nთუ მაინც რომელიმე პროგრამა მას იყენებს, შეწყვეტს ფუნცინირებას. თუ არ იცი, არ წაშალო. მისი სისტემაში დატოვებით არაფერი მოხდება.
+SharedFileNameLabel=ფაილსი სახელი:
+SharedFileLocationLabel=ადგილი:
+WizardUninstalling=წაშლის მიმდინარეობა
+StatusUninstalling=იშლება %1...
+
+; The custom messages below aren't used by Setup itself, but if you make
+; use of them in your scripts, you'll want to translate them.
+
+[CustomMessages]
+
+NameAndVersion=%1 ვერსია %2
+AdditionalIcons=დამატებითი ხატულები:
+CreateDesktopIcon=შექმენი &სამუშაო დაფაზე ხატულა
+CreateQuickLaunchIcon=შექმენი ს&წრაფ გამოძახებაში ხატულა
+ProgramOnTheWeb=%1 ინტერნეტში
+UninstallProgram=წაშალე %1
+LaunchProgram=გაუშვი %1
+AssocFileExtension=&მიაბი %1-ის გაფართოება  %2-ს
+AssocingFileExtension=ვაბამ %1-ს %2-ზე..."
 
 ; *** Uninstallation phase messages
 ConfirmDeleteSharedFileTitle=Remove Shared File?
@@ -362,6 +385,7 @@ AssocingFileExtension=Associating %1 with the %2 file extension...
 AutoStartProgramGroupDescription=Startup:
 AutoStartProgram=Automatically start %1
 AddonHostProgramNotFound=%1 could not be located in the folder you selected.%n%nDo you want to continue anyway?"
+
 
 
 
