@@ -334,3 +334,4 @@ UninstalledAndNeedsRestart=Pra completar a desinstalação do %1, seu computador
 UninstallDataCorrupted="O arquivo \"%1\" está corrompido. Não consegue desinstalar"
 
 
+
