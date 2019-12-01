@@ -13,7 +13,7 @@
 ; understand the '[LangOptions] section' topic in the help file.
 LanguageName=Deutsch
 LanguageID=$0407
-LanguageCodePage=1252
+LanguageCodePage=0
 ; If the language you are translating to requires special font faces or
 ; sizes, uncomment any of the following entries and change them accordingly.
 DialogFontName=Tahoma
@@ -364,32 +364,32 @@ ConfirmDeleteSharedFile2=Das System zeigt an, dass die folgende gemeinsame Datei
 ; *** Uninstallation phase messages
 ConfirmDeleteSharedFileTitle=Remove Shared File?
 ConfirmDeleteSharedFile2=The system indicates that the following shared file is no longer in use by any programs. Would you like for Uninstall to remove this shared file?%n%nIf any programs are still using this file and it is removed, those programs may not function properly. If you are unsure, choose No. Leaving the file on your system will not cause any harm.
-SharedFileNameLabel=File name:
-SharedFileLocationLabel=Location:
-WizardUninstalling=Uninstall Status
-StatusUninstalling=Uninstalling %1...
+SharedFileNameLabel=Dateiname:
+SharedFileLocationLabel=Ordner:
+WizardUninstalling=Entfernen (Status)
+StatusUninstalling=Entferne %1 ...
 
 ; *** Shutdown block reasons
-ShutdownBlockReasonInstallingApp=Installing %1.
-ShutdownBlockReasonUninstallingApp=Uninstalling %1.
+ShutdownBlockReasonInstallingApp=Installation von %1.
+ShutdownBlockReasonUninstallingApp=Deinstallation von %1.
 
 ; The custom messages below aren't used by Setup itself, but if you make
 ; use of them in your scripts, you'll want to translate them.
 
 [CustomMessages]
 
-NameAndVersion=%1 version %2
-AdditionalIcons=Additional shortcuts:
-CreateDesktopIcon=Create a &desktop shortcut
-CreateQuickLaunchIcon=Create a &Quick Launch shortcut
-ProgramOnTheWeb=%1 on the Web
-UninstallProgram=Uninstall %1
-LaunchProgram=Launch %1
-AssocFileExtension=&Associate %1 with the %2 file extension
-AssocingFileExtension=Associating %1 with the %2 file extension...
-AutoStartProgramGroupDescription=Startup:
-AutoStartProgram=Automatically start %1
-AddonHostProgramNotFound=%1 could not be located in the folder you selected.%n%nDo you want to continue anyway?"
+NameAndVersion=%1 Version %2
+AdditionalIcons=Zusätzliche Symbole:
+CreateDesktopIcon=&Desktop-Symbol erstellen
+CreateQuickLaunchIcon=Symbol in der Schnellstartleiste erstellen
+ProgramOnTheWeb=%1 im Internet
+UninstallProgram=%1 entfernen
+LaunchProgram=%1 starten
+AssocFileExtension=&Registriere %1 mit der %2-Dateierweiterung
+AssocingFileExtension=%1 wird mit der %2-Dateierweiterung registriert...
+AutoStartProgramGroupDescription=Beginn des Setups:
+AutoStartProgram=Starte automatisch%1
+AddonHostProgramNotFound=%1 konnte im ausgewählten Ordner nicht gefunden werden.%n%nMöchten Sie dennoch fortfahren?
 
 
 
