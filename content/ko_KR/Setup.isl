@@ -333,3 +333,4 @@ UninstalledAll=%1戚(亜) 失因旋生稽 薦暗鞠醸柔艦陥!
 UninstalledMost=%1 薦暗亜 刃戟鞠醸柔艦陥.%n%n析採 推社澗 肢薦拝 呪 蒸生艦, 呪疑生稽 薦暗馬獣奄 郊遇艦陥.
 UninstalledAndNeedsRestart=%1税 薦暗研 刃戟馬形檎, 陳濃斗研 陥獣 獣拙背醤 杯艦陥.%n%n走榎 陥獣 獣拙馬獣畏柔艦猿?
 UninstallDataCorrupted="督析 \"%1\"戚(亜) 謝雌鞠醸奄 凶庚拭, 薦暗研 叔楳拝 呪 蒸柔艦陥."
+
