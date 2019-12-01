@@ -11,9 +11,9 @@
 [LangOptions]
 ; The following three entries are very important. Be sure to read and
 ; understand the '[LangOptions] section' topic in the help file.
-LanguageName=<65E5><672C><8A9E>
+LanguageName=日本人
 LanguageID=$0411
-LanguageCodePage=932
+LanguageCodePage=0
 ; If the language you are translating to requires special font faces or
 ; sizes, uncomment any of the following entries and change them accordingly.
 DialogFontName=Tahoma
@@ -259,7 +259,7 @@ AbortRetryIgnoreCancel=インストールをキャンセル
 StatusClosingApplications=アプリケーションを終了しています...
 StatusCreateDirs=フォルダーを作成しています...
 StatusExtractFiles=ファイルを展開しています...
-StatusCreateIcons=ショ−トカットを作成しています...
+StatusCreateIcons=ショ－トカットを作成しています...
 StatusCreateIniEntries=INIファイルを設定しています...
 StatusCreateRegistryEntries=レジストリを設定しています...
 StatusRegisterFiles=ファイルを登録しています...
@@ -334,34 +334,34 @@ UninstalledAndNeedsRestart=%1 の削除を完了するためには、コンピ�
 UninstallDataCorrupted=ファイル "%1" が壊れています。アンインストールを実行できません。
 
 ; *** Uninstallation phase messages
-ConfirmDeleteSharedFileTitle=Remove Shared File?
-ConfirmDeleteSharedFile2=The system indicates that the following shared file is no longer in use by any programs. Would you like for Uninstall to remove this shared file?%n%nIf any programs are still using this file and it is removed, those programs may not function properly. If you are unsure, choose No. Leaving the file on your system will not cause any harm.
-SharedFileNameLabel=File name:
-SharedFileLocationLabel=Location:
-WizardUninstalling=Uninstall Status
-StatusUninstalling=Uninstalling %1...
+ConfirmDeleteSharedFileTitle=共有ファイルの削除
+ConfirmDeleteSharedFile2=システム上で、次の共有ファイルはどのプログラムでも使用されていません。この共有ファイルを削除しますか？%n%n他のプログラムがまだこのファイルを使用する場合、削除するとプログラムが動作しなくなる恐れがあります。あまり確実でない場合は「いいえ」を選択してください。システムにファイルを残しても問題を引き起こすことはありません。
+SharedFileNameLabel=ファイル名:
+SharedFileLocationLabel=場所:
+WizardUninstalling=アンインストール状況
+StatusUninstalling=%1 をアンインストールしています...
 
 ; *** Shutdown block reasons
-ShutdownBlockReasonInstallingApp=Installing %1.
-ShutdownBlockReasonUninstallingApp=Uninstalling %1.
+ShutdownBlockReasonInstallingApp=%1 をインストール中です。
+ShutdownBlockReasonUninstallingApp=%1 をアンインストール中です。
 
 ; The custom messages below aren't used by Setup itself, but if you make
 ; use of them in your scripts, you'll want to translate them.
 
 [CustomMessages]
 
-NameAndVersion=%1 version %2
-AdditionalIcons=Additional shortcuts:
-CreateDesktopIcon=Create a &desktop shortcut
-CreateQuickLaunchIcon=Create a &Quick Launch shortcut
+NameAndVersion=%1 バージョン %2
+AdditionalIcons=アイコンを追加する:
+CreateDesktopIcon=デスクトップ上にアイコンを作成する(&D)
+CreateQuickLaunchIcon=クイック起動アイコンを作成する(&Q)
 ProgramOnTheWeb=%1 on the Web
-UninstallProgram=Uninstall %1
-LaunchProgram=Launch %1
-AssocFileExtension=&Associate %1 with the %2 file extension
-AssocingFileExtension=Associating %1 with the %2 file extension...
-AutoStartProgramGroupDescription=Startup:
-AutoStartProgram=Automatically start %1
-AddonHostProgramNotFound=%1 could not be located in the folder you selected.%n%nDo you want to continue anyway?"
+UninstallProgram=%1 をアンインストールする
+LaunchProgram=%1 を実行する
+AssocFileExtension=ファイル拡張子 %2 に %1 を関連付けます。
+AssocingFileExtension=ファイル拡張子 %2 に %1 を関連付けています...
+AutoStartProgramGroupDescription=スタートアップ:
+AutoStartProgram=%1 を自動的に開始する
+AddonHostProgramNotFound=選択されたフォルダーに %1 が見つかりませんでした。%n%nこのまま続行しますか？
 
 
 
