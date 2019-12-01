@@ -13,7 +13,7 @@
 ; understand the '[LangOptions] section' topic in the help file.
 LanguageName=Korean
 LanguageID=$0412
-LanguageCodePage=949
+LanguageCodePage=0
 ; If the language you are translating to requires special font faces or
 ; sizes, uncomment any of the following entries and change them accordingly.
 DialogFontName=Tahoma
@@ -28,341 +28,342 @@ CopyrightFontSize=8
 [Messages]
 
 ; *** Application titles
-SetupAppTitle=竺帖
-SetupWindowTitle=%1 竺帖
-UninstallAppTitle=薦暗
-UninstallAppFullTitle=%1 薦暗
+SetupAppTitle=설치
+SetupWindowTitle=%1 설치
+UninstallAppTitle=제거
+UninstallAppFullTitle=%1 제거
 
 ; *** Misc. common
-InformationTitle=舛左
-ConfirmTitle=溌昔
-ErrorTitle=神嫌
+InformationTitle=정보
+ConfirmTitle=확인
+ErrorTitle=오류
 
 ; *** SetupLdr messages
-SetupLdrStartupMessage=%1聖(研) 竺帖杯艦陥, 域紗馬獣畏柔艦猿?
-LdrCannotCreateTemp=績獣 督析聖 幻級 呪 蒸柔艦陥, 竺帖研 掻舘杯艦陥
-LdrCannotExecTemp=績獣 虹希税 督析聖 叔楳拝 呪 蒸柔艦陥, 竺帖研 掻舘杯艦陥
+SetupLdrStartupMessage=%1을(를) 설치합니다, 계속하시겠습니까?
+LdrCannotCreateTemp=임시 파일을 만들 수 없습니다, 설치를 중단합니다
+LdrCannotExecTemp=임시 폴더의 파일을 실행할 수 없습니다, 설치를 중단합니다
 HelpTextNote=
 
 ; *** Startup error messages
-LastErrorMessage=%1.%n%n神嫌 %2: %3
-SetupFileMissing=%1 督析戚 糎仙馬走 省柔艦陥, 庚薦研 背衣背 左暗蟹 歯稽錘 竺帖 覗稽益轡聖 姥馬獣奄 郊遇艦陥.
-SetupFileCorrupt=竺帖 督析戚 謝雌鞠醸柔艦陥, 歯稽錘 竺帖 覗稽益轡聖 姥馬獣奄 郊遇艦陥.
-SetupFileCorruptOrWrongVer=竺帖 督析税 謝雌戚暗蟹 戚 竺帖 獄穿引 硲発鞠走 省柔艦陥, 庚薦研 背衣背 左暗蟹 歯稽錘 竺帖 覗稽益轡聖 姥馬獣奄 郊遇艦陥.
-InvalidParameter=設公吉 古鯵 痕呪脊艦陥:%n%n%1
-SetupAlreadyRunning=竺帖亜 戚耕 叔楳 掻脊艦陥.
-WindowsVersionNotSupported=戚 覗稽益轡精 瑛馬税 Windows 獄穿聖 走据馬走 省柔艦陥.
-WindowsServicePackRequired=戚 覗稽益轡聖 叔楳馬形檎 %1 sp%2 戚雌戚嬢醤 杯艦陥.
-NotOnThisPlatform=戚 覗稽益轡精 %1拭辞 拙疑馬走 省柔艦陥.
-OnlyOnThisPlatform=戚 覗稽益轡精 %1拭辞 叔楳背醤 杯艦陥.
-OnlyOnTheseArchitectures=戚 覗稽益轡精 焼掘 坦軒 姥繕人 硲発鞠澗 Windows 獄穿拭幻 竺帖拝 呪 赤柔艦陥:%n%n%1
-WinVersionTooLowError=戚 覗稽益轡精 %1 獄穿 %2 戚雌戚 琶推杯艦陥.
-WinVersionTooHighError=戚 覗稽益轡精 %1 獄穿 %2 戚雌拭辞 竺帖拝 呪 蒸柔艦陥.
-AdminPrivilegesRequired=戚 覗稽益轡聖 竺帖馬形檎 淫軒切稽 稽益昔背醤 杯艦陥.
-PowerUserPrivilegesRequired=戚 覗稽益轡聖 竺帖馬形檎 淫軒切 暁澗 壱厭 紫遂切稽 稽益昔背醤 杯艦陥.
-SetupAppRunningError=薄仙 %1戚(亜) 叔楳 掻脊艦陥!%n%n走榎 益依税 乞窮 昔什渡什研 丸焼 爽淑獣神. 益訓 陥製 域紗馬形檎 "溌昔"聖, 曽戟馬形檎 "昼社"研 適遣馬淑獣神.
-UninstallAppRunningError=薄仙 %1戚(亜) 叔楳 掻脊艦陥!%n%n走榎 益依税 乞窮 昔什渡什研 丸焼 爽淑獣神. 益訓 陥製 域紗馬形檎 "溌昔"聖, 曽戟馬形檎 "昼社"研 適遣馬淑獣神.
+LastErrorMessage=%1.%n%n오류 %2: %3
+SetupFileMissing=%1 파일이 존재하지 않습니다, 문제를 해결해 보거나 새로운 설치 프로그램을 구하시기 바랍니다.
+SetupFileCorrupt=설치 파일이 손상되었습니다, 새로운 설치 프로그램을 구하시기 바랍니다.
+SetupFileCorruptOrWrongVer=설치 파일의 손상이거나 이 설치 버전과 호환되지 않습니다, 문제를 해결해 보거나 새로운 설치 프로그램을 구하시기 바랍니다.
+InvalidParameter=잘못된 매개 변수입니다:%n%n%1
+SetupAlreadyRunning=설치가 이미 실행 중입니다.
+WindowsVersionNotSupported=이 프로그램은 귀하의 Windows 버전을 지원하지 않습니다.
+WindowsServicePackRequired=이 프로그램을 실행하려면 %1 sp%2 이상이어야 합니다.
+NotOnThisPlatform=이 프로그램은 %1에서 작동하지 않습니다.
+OnlyOnThisPlatform=이 프로그램은 %1에서 실행해야 합니다.
+OnlyOnTheseArchitectures=이 프로그램은 아래 처리 구조와 호환되는 Windows 버전에만 설치할 수 있습니다:%n%n%1
+WinVersionTooLowError=이 프로그램은 %1 버전 %2 이상이 필요합니다.
+WinVersionTooHighError=이 프로그램은 %1 버전 %2 이상에서 설치할 수 없습니다.
+AdminPrivilegesRequired=이 프로그램을 설치하려면 관리자로 로그인해야 합니다.
+PowerUserPrivilegesRequired=이 프로그램을 설치하려면 관리자 또는 고급 사용자로 로그인해야 합니다.
+SetupAppRunningError=현재 %1이(가) 실행 중입니다!%n%n지금 그것의 모든 인스턴스를 닫아 주십시오. 그런 다음 계속하려면 "확인"을, 종료하려면 "취소"를 클릭하십시오.
+UninstallAppRunningError=현재 %1이(가) 실행 중입니다!%n%n지금 그것의 모든 인스턴스를 닫아 주십시오. 그런 다음 계속하려면 "확인"을, 종료하려면 "취소"를 클릭하십시오.
 
 ; *** Startup questions
-PrivilegesRequiredOverrideTitle=竺帖 乞球 識澱
-PrivilegesRequiredOverrideInstruction=竺帖 乞球研 識澱背 爽淑獣神
-PrivilegesRequiredOverrideText1=%1 精 乞窮 紫遂切(淫軒切 映廃 琶推) 暁澗 薄仙 紫遂切遂生稽 竺帖杯艦陥.
-PrivilegesRequiredOverrideText2=%1 精 薄仙 紫遂切 暁澗 乞窮 紫遂切(淫軒切 映廃 琶推) 遂生稽 竺帖杯艦陥.
-PrivilegesRequiredOverrideAllUsers=乞窮 紫遂切遂生稽 竺帖(&A)
-PrivilegesRequiredOverrideAllUsersRecommended=乞窮 紫遂切遂生稽 竺帖(&A) (蓄探)
-PrivilegesRequiredOverrideCurrentUser=薄仙 紫遂切遂生稽 竺帖(&M)
-PrivilegesRequiredOverrideCurrentUserRecommended=薄仙 紫遂切遂生稽 竺帖(&M) (蓄探)
+PrivilegesRequiredOverrideTitle=설치 모드 선택
+PrivilegesRequiredOverrideInstruction=설치 모드를 선택해 주십시오
+PrivilegesRequiredOverrideText1=%1 은 모든 사용자(관리자 권한 필요) 또는 현재 사용자용으로 설치합니다.
+PrivilegesRequiredOverrideText2=%1 은 현재 사용자 또는 모든 사용자(관리자 권한 필요) 용으로 설치합니다.
+PrivilegesRequiredOverrideAllUsers=모든 사용자용으로 설치(&A)
+PrivilegesRequiredOverrideAllUsersRecommended=모든 사용자용으로 설치(&A) (추천)
+PrivilegesRequiredOverrideCurrentUser=현재 사용자용으로 설치(&M)
+PrivilegesRequiredOverrideCurrentUserRecommended=현재 사용자용으로 설치(&M) (추천)
 
 ; *** Misc. errors
-ErrorCreatingDir="%1\" 虹希研 幻級 呪 蒸柔艦陥.
+ErrorCreatingDir="%1\" 폴더를 만들 수 없습니다.
 ErrorTooManyFilesInDir="
 ErrorTooManyFilesInDir=Unable to create a file in the directory "%1" because it contains too many files
 
 ; *** Setup common messages
-ExitSetupTitle=竺帖 刃戟
-ExitSetupMessage=竺帖亜 刃戟鞠走 省紹柔艦陥, 食奄辞 竺帖研 曽戟馬檎 覗稽益轡精 竺帖鞠走 省柔艦陥.%n%n竺帖研 刃戟馬形檎 蟹掻拭 陥獣 竺帖 覗稽益轡聖 叔楳背醤 杯艦陥.%n%n益掘亀 竺帖研 曽戟馬獣畏柔艦猿?
-AboutSetupMenuItem=竺帖 舛左(&A)...
-AboutSetupTitle=竺帖 舛左
-AboutSetupMessage=%1 獄穿 %2%n%3%n%n%1 幡 凪戚走:%n%4
+ExitSetupTitle=설치 완료
+ExitSetupMessage=설치가 완료되지 않았습니다, 여기서 설치를 종료하면 프로그램은 설치되지 않습니다.%n%n설치를 완료하려면 나중에 다시 설치 프로그램을 실행해야 합니다.%n%n그래도 설치를 종료하시겠습니까?
+AboutSetupMenuItem=설치 정보(&A)...
+AboutSetupTitle=설치 정보
+AboutSetupMessage=%1 버전 %2%n%3%n%n%1 홈 페이지:%n%4
 AboutSetupNote=
 TranslatorNote=
 
 ; *** Buttons
-ButtonBack=< 及稽(&B)
-ButtonNext=陥製(&N) >
-ButtonInstall=竺帖(&I)
-ButtonOK=溌昔
-ButtonCancel=昼社
-ButtonYes=森(&Y)
-ButtonYesToAll=乞砧 森(&A)
-ButtonNo=焼艦神(&N)
-ButtonNoToAll=乞砧 焼艦神(&O)
-ButtonFinish=曽戟(&F)
-ButtonBrowse=達焼左奄(&B)...
-ButtonWizardBrowse=達焼左奄(&R)...
-ButtonNewFolder=歯 虹希 幻級奄(&M)
+ButtonBack=< 뒤로(&B)
+ButtonNext=다음(&N) >
+ButtonInstall=설치(&I)
+ButtonOK=확인
+ButtonCancel=취소
+ButtonYes=예(&Y)
+ButtonYesToAll=모두 예(&A)
+ButtonNo=아니오(&N)
+ButtonNoToAll=모두 아니오(&O)
+ButtonFinish=종료(&F)
+ButtonBrowse=찾아보기(&B)...
+ButtonWizardBrowse=찾아보기(&R)...
+ButtonNewFolder=새 폴더 만들기(&M)
 
 ; *** "Select Language" dialog messages
-SelectLanguageTitle=竺帖 情嬢 識澱
-SelectLanguageLabel=竺帖拭 紫遂拝 情嬢研 識澱馬淑獣神.
+SelectLanguageTitle=설치 언어 선택
+SelectLanguageLabel=설치에 사용할 언어를 선택하십시오.
 
 ; *** Common wizard text
-ClickNext=域紗馬形檎 "陥製"聖 適遣馬壱 竺帖研 曽戟馬形檎 "昼社"研 適遣杯艦陥.
+ClickNext=계속하려면 "다음"을 클릭하고 설치를 종료하려면 "취소"를 클릭합니다.
 BeveledLabel=
-BrowseDialogTitle=虹希 達焼左奄
-BrowseDialogLabel=焼掘 鯉系拭辞 虹希研 識澱廃 陥製 "溌昔"聖 適遣杯艦陥.
-NewFolderName=歯 虹希
+BrowseDialogTitle=폴더 찾아보기
+BrowseDialogLabel=아래 목록에서 폴더를 선택한 다음 "확인"을 클릭합니다.
+NewFolderName=새 폴더
 
 ; *** "Welcome" wizard page
-WelcomeLabel1=[name] 竺帖 原狛紫 獣拙
-WelcomeLabel2=戚 原狛紫澗 瑛馬税 陳濃斗拭 [name/ver]聖(研) 竺帖拝 依脊艦陥.%n%n竺帖馬奄 穿拭 陥献 誓遂覗稽益轡級聖 乞砧 丸生獣奄 郊遇艦陥.
+WelcomeLabel1=[name] 설치 마법사 시작
+WelcomeLabel2=이 마법사는 귀하의 컴퓨터에 [name/ver]을(를) 설치할 것입니다.%n%n설치하기 전에 다른 응용프로그램들을 모두 닫으시기 바랍니다.
 
 ; *** "Password" wizard page
-WizardPassword=搾腔 腰硲
-PasswordLabel1=戚 竺帖 原狛紫澗 搾腔 腰硲稽 左硲鞠嬢 赤柔艦陥.
-PasswordLabel3=搾腔 腰硲研 脊径馬壱 "陥製"聖 適遣馬淑獣神. 搾腔 腰硲澗 企社庚切研 姥歳背醤 杯艦陥.
-PasswordEditLabel=搾腔 腰硲(&P):
-IncorrectPassword=搾腔 腰硲亜 舛溌馬走 省柔艦陥, 陥獣 脊径馬淑獣神.
+WizardPassword=비밀 번호
+PasswordLabel1=이 설치 마법사는 비밀 번호로 보호되어 있습니다.
+PasswordLabel3=비밀 번호를 입력하고 "다음"을 클릭하십시오. 비밀 번호는 대소문자를 구분해야 합니다.
+PasswordEditLabel=비밀 번호(&P):
+IncorrectPassword=비밀 번호가 정확하지 않습니다, 다시 입력하십시오.
 
 ; *** "License Agreement" wizard page
-WizardLicense=紫遂映 域鉦
-LicenseLabel=域紗馬奄 穿拭 陥製税 掻推 舛左研 石嬢左淑獣神.
-LicenseLabel3=陥製 紫遂映 域鉦聖 石嬢左淑獣神, 竺帖研 域紗馬形檎 戚 域鉦拭 疑税背醤 杯艦陥.
-LicenseAccepted=疑税杯艦陥(&A)
-LicenseNotAccepted=疑税馬走 省柔艦陥(&D)
+WizardLicense=사용권 계약
+LicenseLabel=계속하기 전에 다음의 중요 정보를 읽어보십시오.
+LicenseLabel3=다음 사용권 계약을 읽어보십시오, 설치를 계속하려면 이 계약에 동의해야 합니다.
+LicenseAccepted=동의합니다(&A)
+LicenseNotAccepted=동의하지 않습니다(&D)
 
 ; *** "Information" wizard pages
-WizardInfoBefore=舛左
-InfoBeforeLabel=域紗馬奄 穿拭 陥製税 掻推 舛左研 石嬢左淑獣神.
-InfoBeforeClickLabel=竺帖研 域紗馬形檎 "陥製"聖 適遣馬淑獣神.
-WizardInfoAfter=舛左
-InfoAfterLabel=域紗馬奄 穿拭 陥製税 掻推 舛左研 石嬢左淑獣神.
-InfoAfterClickLabel=竺帖研 域紗馬形檎 "陥製"聖 適遣馬淑獣神.
+WizardInfoBefore=정보
+InfoBeforeLabel=계속하기 전에 다음의 중요 정보를 읽어보십시오.
+InfoBeforeClickLabel=설치를 계속하려면 "다음"을 클릭하십시오.
+WizardInfoAfter=정보
+InfoAfterLabel=계속하기 전에 다음의 중요 정보를 읽어보십시오.
+InfoAfterClickLabel=설치를 계속하려면 "다음"을 클릭하십시오.
 
 ; *** "User Information" wizard page
-WizardUserInfo=紫遂切 舛左
-UserInfoDesc=紫遂切 舛左研 脊径馬淑獣神.
-UserInfoName=紫遂切 戚硯(&U):
-UserInfoOrg=繕送(&O):
-UserInfoSerial=獣軒杖 腰硲(&S):
-UserInfoNameRequired=紫遂切 戚硯聖 脊径馬淑獣神.
+WizardUserInfo=사용자 정보
+UserInfoDesc=사용자 정보를 입력하십시오.
+UserInfoName=사용자 이름(&U):
+UserInfoOrg=조직(&O):
+UserInfoSerial=시리얼 번호(&S):
+UserInfoNameRequired=사용자 이름을 입력하십시오.
 
 ; *** "Select Destination Location" wizard page
-WizardSelectDir=竺帖 是帖 識澱
-SelectDirDesc=[name]税 竺帖 是帖研 識澱馬淑獣神.
-SelectDirLabel3=陥製 虹希拭 [name]聖(研) 竺帖杯艦陥.
-SelectDirBrowseLabel=域紗馬形檎 "陥製"聖, 陥献 虹希研 識澱馬形檎 "達焼左奄"研 適遣馬淑獣神.
+WizardSelectDir=설치 위치 선택
+SelectDirDesc=[name]의 설치 위치를 선택하십시오.
+SelectDirLabel3=다음 폴더에 [name]을(를) 설치합니다.
+SelectDirBrowseLabel=계속하려면 "다음"을, 다른 폴더를 선택하려면 "찾아보기"를 클릭하십시오.
 DiskSpaceGBLabel=At least [gb] GB of free disk space is required.
-DiskSpaceMBLabel=戚 覗稽益轡精 置社 [mb] MB税 巨什滴 食政 因娃戚 琶推杯艦陥.
-CannotInstallToNetworkDrive=革闘趨滴 球虞戚崎拭 竺帖拝 呪 蒸柔艦陥.
-CannotInstallToUNCPath=UNC 井稽拭 竺帖拝 呪 蒸柔艦陥.
-InvalidPath=球虞戚崎 庚切研 匂敗廃 穿端 井稽研 脊径馬淑獣神.%n『 森: C:\APP %n%n暁澗, UNC 莫縦税 井稽研 脊径馬淑獣神.%n『 森: \\server\share ; for example:%n%nC:\APP%n%nor a UNC path in the form:%n%n\\server\share
-InvalidDrive=識澱廃 球虞戚崎 暁澗 UNC 因政亜 糎仙馬走 省暗蟹 衝室什拝 呪 蒸柔艦陥, 陥献 井稽研 識澱馬淑獣神.
-DiskSpaceWarningTitle=巨什滴 因娃戚 採膳杯艦陥
-DiskSpaceWarning=竺帖 獣 置社 %1 KB 巨什滴 因娃戚 琶推馬走幻, 識澱廃 球虞戚崎税 食政 因娃精 %2 KB 鉱拭 蒸柔艦陥.%n%n益掘亀 域紗馬獣畏柔艦猿?
-DirNameTooLong=虹希 戚硯 暁澗 井稽亜 格巷 演艦陥.
-InvalidDirName=虹希 戚硯戚 政反馬走 省柔艦陥.
-BadDirName32=虹希 戚硯精 陥製 庚切研 匂敗拝 呪 蒸柔艦陥:%n%n%1
-DirExistsTitle=虹希亜 糎仙杯艦陥
-DirExists=虹希 %n%n%1%n%n戚(亜) 戚耕 糎仙杯艦陥, 戚 虹希拭 竺帖馬獣畏柔艦猿?
-DirDoesntExistTitle=虹希亜 糎仙馬走 省柔艦陥
-DirDoesntExist=虹希 %n%n%1%n%n戚(亜) 糎仙馬走 省柔艦陥, 歯稽 虹希研 幻球獣畏柔艦猿?
+DiskSpaceMBLabel=이 프로그램은 최소 [mb] MB의 디스크 여유 공간이 필요합니다.
+CannotInstallToNetworkDrive=네트워크 드라이브에 설치할 수 없습니다.
+CannotInstallToUNCPath=UNC 경로에 설치할 수 없습니다.
+InvalidPath=드라이브 문자를 포함한 전체 경로를 입력하십시오.%n※ 예: C:\APP %n%n또는, UNC 형식의 경로를 입력하십시오.%n※ 예: \\server\share ; for example:%n%nC:\APP%n%nor a UNC path in the form:%n%n\\server\share
+InvalidDrive=선택한 드라이브 또는 UNC 공유가 존재하지 않거나 액세스할 수 없습니다, 다른 경로를 선택하십시오.
+DiskSpaceWarningTitle=디스크 공간이 부족합니다
+DiskSpaceWarning=설치 시 최소 %1 KB 디스크 공간이 필요하지만, 선택한 드라이브의 여유 공간은 %2 KB 밖에 없습니다.%n%n그래도 계속하시겠습니까?
+DirNameTooLong=폴더 이름 또는 경로가 너무 깁니다.
+InvalidDirName=폴더 이름이 유효하지 않습니다.
+BadDirName32=폴더 이름은 다음 문자를 포함할 수 없습니다:%n%n%1
+DirExistsTitle=폴더가 존재합니다
+DirExists=폴더 %n%n%1%n%n이(가) 이미 존재합니다, 이 폴더에 설치하시겠습니까?
+DirDoesntExistTitle=폴더가 존재하지 않습니다
+DirDoesntExist=폴더 %n%n%1%n%n이(가) 존재하지 않습니다, 새로 폴더를 만드시겠습니까?
 
 ; *** "Select Components" wizard page
-WizardSelectComponents=姥失 推社 識澱
-SelectComponentsDesc=竺帖拝 姥失 推社研 識澱馬淑獣神.
-SelectComponentsLabel2=琶推廃 姥失 推社澗 端滴馬壱 災琶推廃 姥失 推社澗 端滴 背薦杯艦陥, 域紗馬形檎 "陥製"聖 適遣馬淑獣神. ; clear the components you do not want to install. Click Next when you are ready to continue.
-FullInstallation=乞砧 竺帖
+WizardSelectComponents=구성 요소 선택
+SelectComponentsDesc=설치할 구성 요소를 선택하십시오.
+SelectComponentsLabel2=필요한 구성 요소는 체크하고 불필요한 구성 요소는 체크 해제합니다, 계속하려면 "다음"을 클릭하십시오. ; clear the components you do not want to install. Click Next when you are ready to continue.
+FullInstallation=모두 설치
 ; if possible don't translate 'Compact' as 'Minimal' (I mean 'Minimal' in your language)
-CompactInstallation=置社 竺帖
-CustomInstallation=紫遂切 走舛 竺帖
-NoUninstallWarningTitle=姥失 推社亜 糎仙杯艦陥
-NoUninstallWarning=陥製 姥失 推社亜 戚耕 竺帖鞠嬢 赤柔艦陥:%n%n%1%n%n是 姥失 推社聖 識澱馬走 省生檎, 覗稽益轡 薦暗獣 戚 姥失 推社級精 薦暗鞠走 省聖 位艦陥.%n%n益掘亀 域紗馬獣畏柔艦猿?
+CompactInstallation=최소 설치
+CustomInstallation=사용자 지정 설치
+NoUninstallWarningTitle=구성 요소가 존재합니다
+NoUninstallWarning=다음 구성 요소가 이미 설치되어 있습니다:%n%n%1%n%n위 구성 요소을 선택하지 않으면, 프로그램 제거시 이 구성 요소들은 제거되지 않을 겁니다.%n%n그래도 계속하시겠습니까?
 ComponentSize1=%1 KB
 ComponentSize2=%1 MB
 ComponentsDiskSpaceGBLabel=Current selection requires at least [gb] GB of disk space.
-ComponentsDiskSpaceMBLabel=薄仙 識澱精 置社 [mb] MB税 巨什滴 食政 因娃戚 琶推杯艦陥.
+ComponentsDiskSpaceMBLabel=현재 선택은 최소 [mb] MB의 디스크 여유 공간이 필요합니다.
 
 ; *** "Select Additional Tasks" wizard page
-WizardSelectTasks=蓄亜 拙穣 識澱
-SelectTasksDesc=呪楳拝 蓄亜 拙穣聖 識澱馬淑獣神.
-SelectTasksLabel2=[name] 竺帖 引舛拭 匂敗拝 蓄亜 拙穣聖 識澱廃 板, "陥製"聖 適遣馬淑獣神.
+WizardSelectTasks=추가 작업 선택
+SelectTasksDesc=수행할 추가 작업을 선택하십시오.
+SelectTasksLabel2=[name] 설치 과정에 포함할 추가 작업을 선택한 후, "다음"을 클릭하십시오.
 
 ; *** "Select Start Menu Folder" wizard page
-WizardSelectProgramGroup=獣拙 五敢 虹希 識澱
-SelectStartMenuFolderDesc=嬢巨拭 覗稽益轡 郊稽亜奄研 是帖馬畏柔艦猿?
-SelectStartMenuFolderLabel3=陥製 獣拙 五敢 虹希拭 覗稽益轡 郊稽亜奄研 幻旧艦陥.
-SelectStartMenuFolderBrowseLabel=域紗馬形檎 "陥製"聖 適遣馬壱, 陥献 虹希研 識澱馬形檎 "達焼左奄"研 適遣馬淑獣神.
-MustEnterGroupName=虹希 戚硯聖 脊径馬淑獣神.
-GroupNameTooLong=虹希 戚硯 暁澗 井稽亜 格巷 演艦陥.
-InvalidGroupName=虹希 戚硯戚 政反馬走 省柔艦陥.
-BadGroupName=虹希 戚硯精 陥製 庚切研 匂敗拝 呪 蒸柔艦陥:%n%n%1
-NoProgramGroupCheck2=獣拙 五敢 虹希研 幻級走 省製(&D)
+WizardSelectProgramGroup=시작 메뉴 폴더 선택
+SelectStartMenuFolderDesc=어디에 프로그램 바로가기를 위치하겠습니까?
+SelectStartMenuFolderLabel3=다음 시작 메뉴 폴더에 프로그램 바로가기를 만듭니다.
+SelectStartMenuFolderBrowseLabel=계속하려면 "다음"을 클릭하고, 다른 폴더를 선택하려면 "찾아보기"를 클릭하십시오.
+MustEnterGroupName=폴더 이름을 입력하십시오.
+GroupNameTooLong=폴더 이름 또는 경로가 너무 깁니다.
+InvalidGroupName=폴더 이름이 유효하지 않습니다.
+BadGroupName=폴더 이름은 다음 문자를 포함할 수 없습니다:%n%n%1
+NoProgramGroupCheck2=시작 메뉴 폴더를 만들지 않음(&D)
 
 ; *** "Ready to Install" wizard page
-WizardReady=竺帖 層搾 刃戟
-ReadyLabel1=瑛馬税 陳濃斗拭 [name]聖(研) 竺帖拝 層搾亜 鞠醸柔艦陥.
-ReadyLabel2a=竺帖研 域紗馬形檎 "竺帖"研, 竺舛聖 痕井馬暗蟹 伊塘馬形檎 "及稽"研 適遣馬淑獣神.
-ReadyLabel2b=竺帖研 域紗馬形檎 "竺帖"研 適遣馬淑獣神.
-ReadyMemoUserInfo=紫遂切 舛左:
-ReadyMemoDir=竺帖 是帖:
-ReadyMemoType=竺帖 政莫:
-ReadyMemoComponents=識澱廃 姥失 推社:
-ReadyMemoGroup=獣拙 五敢 虹希:
-ReadyMemoTasks=蓄亜 拙穣:
+WizardReady=설치 준비 완료
+ReadyLabel1=귀하의 컴퓨터에 [name]을(를) 설치할 준비가 되었습니다.
+ReadyLabel2a=설치를 계속하려면 "설치"를, 설정을 변경하거나 검토하려면 "뒤로"를 클릭하십시오.
+ReadyLabel2b=설치를 계속하려면 "설치"를 클릭하십시오.
+ReadyMemoUserInfo=사용자 정보:
+ReadyMemoDir=설치 위치:
+ReadyMemoType=설치 유형:
+ReadyMemoComponents=선택한 구성 요소:
+ReadyMemoGroup=시작 메뉴 폴더:
+ReadyMemoTasks=추가 작업:
 
 ; *** "Preparing to Install" wizard page
-WizardPreparing=竺帖 層搾 掻
-PreparingDesc=瑛馬税 陳濃斗拭 [name] 竺帖研 層搾馬澗 掻脊艦陥.
-PreviousInstallNotCompleted=戚穿 覗稽益轡税 竺帖/薦暗 拙穣戚 刃戟鞠走 省紹柔艦陥, 刃戟馬形檎 陳濃斗研 陥獣 獣拙背醤 杯艦陥.%n%n陳濃斗研 陥獣 獣拙廃 板, 竺帖 原狛紫研 陥獣 叔楳馬食 [name] 竺帖研 刃戟馬獣奄 郊遇艦陥.
-CannotContinue=竺帖研 域紗拝 呪 蒸柔艦陥, "昼社"研 適遣馬食 竺帖研 曽戟馬淑獣神.
-ApplicationsFound=陥製 誓遂覗稽益轡戚 竺帖 穣汽戚闘亜 琶推廃 督析聖 紫遂馬壱 赤柔艦陥, 竺帖 原狛紫亜 戚訓 誓遂覗稽益轡聖 切疑生稽 曽戟拝 呪 赤亀系 買遂馬獣奄 郊遇艦陥.
-ApplicationsFound2=陥製 誓遂覗稽益轡戚 竺帖 穣汽戚闘亜 琶推廃 督析聖 紫遂馬壱 赤柔艦陥, 竺帖 原狛紫亜 戚訓 誓遂覗稽益轡聖 切疑生稽 曽戟拝 呪 赤亀系 買遂馬獣奄 郊遇艦陥. 竺帖亜 刃戟鞠檎, 竺帖 原狛紫澗 戚 誓遂覗稽益轡戚 陥獣 獣拙鞠亀系 獣亀拝 位艦陥.
-CloseApplications=切疑生稽 誓遂覗稽益轡聖 曽戟敗(&A)
-DontCloseApplications=誓遂覗稽益轡聖 曽戟馬走 省製(&D)
-ErrorCloseApplications=竺帖 原狛紫亜 誓遂覗稽益轡聖 切疑生稽 曽戟拝 呪 蒸柔艦陥, 域紗馬奄 穿拭 竺帖 穣汽戚闘亜 琶推廃 督析聖 紫遂馬壱 赤澗 誓遂覗稽益轡聖 乞砧 曽戟馬獣奄 郊遇艦陥.
+WizardPreparing=설치 준비 중
+PreparingDesc=귀하의 컴퓨터에 [name] 설치를 준비하는 중입니다.
+PreviousInstallNotCompleted=이전 프로그램의 설치/제거 작업이 완료되지 않았습니다, 완료하려면 컴퓨터를 다시 시작해야 합니다.%n%n컴퓨터를 다시 시작한 후, 설치 마법사를 다시 실행하여 [name] 설치를 완료하시기 바랍니다.
+CannotContinue=설치를 계속할 수 없습니다, "취소"를 클릭하여 설치를 종료하십시오.
+ApplicationsFound=다음 응용프로그램이 설치 업데이트가 필요한 파일을 사용하고 있습니다, 설치 마법사가 이런 응용프로그램을 자동으로 종료할 수 있도록 허용하시기 바랍니다.
+ApplicationsFound2=다음 응용프로그램이 설치 업데이트가 필요한 파일을 사용하고 있습니다, 설치 마법사가 이런 응용프로그램을 자동으로 종료할 수 있도록 허용하시기 바랍니다. 설치가 완료되면, 설치 마법사는 이 응용프로그램이 다시 시작되도록 시도할 겁니다.
+CloseApplications=자동으로 응용프로그램을 종료함(&A)
+DontCloseApplications=응용프로그램을 종료하지 않음(&D)
+ErrorCloseApplications=설치 마법사가 응용프로그램을 자동으로 종료할 수 없습니다, 계속하기 전에 설치 업데이트가 필요한 파일을 사용하고 있는 응용프로그램을 모두 종료하시기 바랍니다.
 PrepareToInstallNeedsRestart=Setup must restart your computer. After restarting your computer, run Setup again to complete the installation of [name].%n%nWould you like to restart now?
 
 ; *** "Installing" wizard page
-WizardInstalling=竺帖 掻
-InstallingLabel=瑛馬税 陳濃斗拭 [name]聖(研) 竺帖馬澗 掻... 節獣 奄陥形 爽淑獣神.
+WizardInstalling=설치 중
+InstallingLabel=귀하의 컴퓨터에 [name]을(를) 설치하는 중... 잠시 기다려 주십시오.
 
 ; *** "Setup Completed" wizard page
-FinishedHeadingLabel=[name] 竺帖 原狛紫 刃戟
-FinishedLabelNoIcons=瑛馬税 陳濃斗拭 [name]戚(亜) 竺帖鞠醸柔艦陥.
-FinishedLabel=瑛馬税 陳濃斗拭 [name]戚(亜) 竺帖鞠醸柔艦陥, 誓遂覗稽益轡精 竺帖吉 焼戚嬬聖 識澱馬食 獣拙拝 呪 赤柔艦陥.
-ClickFinish=竺帖研 魁鎧形檎 "曽戟"研 適遣馬淑獣神.
-FinishedRestartLabel=[name] 竺帖研 刃戟馬形檎, 陳濃斗研 陥獣 獣拙背醤 杯艦陥. 走榎 陥獣 獣拙馬獣畏柔艦猿?
-FinishedRestartMessage=[name] 竺帖研 刃戟馬形檎, 陳濃斗研 陥獣 獣拙背醤 杯艦陥.%n%n走榎 陥獣 獣拙馬獣畏柔艦猿?
-ShowReadmeCheck=森, README 督析聖 妊獣杯艦陥
-YesRadio=森, 走榎 陥獣 獣拙杯艦陥(&Y)
-NoRadio=焼艦神, 蟹掻拭 陥獣 獣拙杯艦陥(&N)
+FinishedHeadingLabel=[name] 설치 마법사 완료
+FinishedLabelNoIcons=귀하의 컴퓨터에 [name]이(가) 설치되었습니다.
+FinishedLabel=귀하의 컴퓨터에 [name]이(가) 설치되었습니다, 응용프로그램은 설치된 아이콘을 선택하여 시작할 수 있습니다.
+ClickFinish=설치를 끝내려면 "종료"를 클릭하십시오.
+FinishedRestartLabel=[name] 설치를 완료하려면, 컴퓨터를 다시 시작해야 합니다. 지금 다시 시작하시겠습니까?
+FinishedRestartMessage=[name] 설치를 완료하려면, 컴퓨터를 다시 시작해야 합니다.%n%n지금 다시 시작하시겠습니까?
+ShowReadmeCheck=예, README 파일을 표시합니다
+YesRadio=예, 지금 다시 시작합니다(&Y)
+NoRadio=아니오, 나중에 다시 시작합니다(&N)
 ; used for example as 'Run MyProg.exe'
-RunEntryExec=%1 叔楳
+RunEntryExec=%1 실행
 ; used for example as 'View Readme.txt'
-RunEntryShellExec=%1 妊獣
+RunEntryShellExec=%1 표시
 
 ; *** "Setup Needs the Next Disk" stuff
-ChangeDiskTitle=巨什滴亜 琶推杯艦陥
-SelectDiskLabel2=巨什滴 %1聖(研) 諮脊馬壱 "溌昔"聖 適遣馬淑獣神.%n%n戚 巨什滴 雌税 督析戚 焼掘 井稽亜 焼観 員拭 赤澗 井酔, 臣郊献 井稽研 脊径馬暗蟹 "達焼左奄"研 適遣馬獣奄 郊遇艦陥.
-PathLabel=井稽(&P):
-FileNotInDir2=%2拭 督析 %1聖(研) 是帖拝 呪 蒸柔艦陥, 臣郊献 巨什滴研 諮脊馬暗蟹 陥献 虹希研 識澱馬淑獣神.
-SelectDirectoryLabel=陥製 巨什滴税 是帖研 走舛馬淑獣神.
+ChangeDiskTitle=디스크가 필요합니다
+SelectDiskLabel2=디스크 %1을(를) 삽입하고 "확인"을 클릭하십시오.%n%n이 디스크 상의 파일이 아래 경로가 아닌 곳에 있는 경우, 올바른 경로를 입력하거나 "찾아보기"를 클릭하시기 바랍니다.
+PathLabel=경로(&P):
+FileNotInDir2=%2에 파일 %1을(를) 위치할 수 없습니다, 올바른 디스크를 삽입하거나 다른 폴더를 선택하십시오.
+SelectDirectoryLabel=다음 디스크의 위치를 지정하십시오.
 
 ; *** Installation phase messages
-SetupAborted=竺帖亜 刃戟鞠走 省紹柔艦陥.%n%n庚薦研 背衣廃 板, 陥獣 竺帖研 獣拙馬淑獣神.
-AbortRetryIgnoreSelectAction=衝芝聖 識澱背 爽淑獣神.
-AbortRetryIgnoreRetry=仙獣亀(&T)
-AbortRetryIgnoreIgnore=神嫌研 巷獣馬壱 遭楳(&I)
-AbortRetryIgnoreCancel=竺帖 昼社
+SetupAborted=설치가 완료되지 않았습니다.%n%n문제를 해결한 후, 다시 설치를 시작하십시오.
+AbortRetryIgnoreSelectAction=액션을 선택해 주십시오.
+AbortRetryIgnoreRetry=재시도(&T)
+AbortRetryIgnoreIgnore=오류를 무시하고 진행(&I)
+AbortRetryIgnoreCancel=설치 취소
 
 ; *** Installation status messages
-StatusClosingApplications=誓遂覗稽益轡聖 曽戟馬澗 掻...
-StatusCreateDirs=虹希研 幻球澗 掻...
-StatusExtractFiles=督析聖 蓄窒馬澗 掻...
-StatusCreateIcons=郊稽亜奄研 持失馬澗 掻...
-StatusCreateIniEntries=INI 牌鯉聖 幻球澗 掻...
-StatusCreateRegistryEntries=傾走什闘軒 牌鯉聖 幻球澗 掻...
-StatusRegisterFiles=督析聖 去系馬澗 掻...
-StatusSavingUninstall=薦暗 舛左研 煽舌馬澗 掻...
-StatusRunProgram=竺帖研 刃戟馬澗 掻...
-StatusRestartingApplications=誓遂覗稽益轡聖 陥獣 獣拙馬澗 掻...
-StatusRollback=痕井聖 昼社馬澗 掻...
+StatusClosingApplications=응용프로그램을 종료하는 중...
+StatusCreateDirs=폴더를 만드는 중...
+StatusExtractFiles=파일을 추출하는 중...
+StatusCreateIcons=바로가기를 생성하는 중...
+StatusCreateIniEntries=INI 항목을 만드는 중...
+StatusCreateRegistryEntries=레지스트리 항목을 만드는 중...
+StatusRegisterFiles=파일을 등록하는 중...
+StatusSavingUninstall=제거 정보를 저장하는 중...
+StatusRunProgram=설치를 완료하는 중...
+StatusRestartingApplications=응용프로그램을 다시 시작하는 중...
+StatusRollback=변경을 취소하는 중...
 
 ; *** Misc. errors
-ErrorInternal2=鎧採 神嫌: %1
-ErrorFunctionFailedNoCode=%1 叔鳶
-ErrorFunctionFailed=%1 叔鳶 ; code %2
-ErrorFunctionFailedWithMessage=%1 叔鳶, 坪球: %2.%n%3 ; code %2.%n%3
-ErrorExecutingProgram=督析 叔楳 神嫌:%n%1
+ErrorInternal2=내부 오류: %1
+ErrorFunctionFailedNoCode=%1 실패
+ErrorFunctionFailed=%1 실패 ; code %2
+ErrorFunctionFailedWithMessage=%1 실패, 코드: %2.%n%3 ; code %2.%n%3
+ErrorExecutingProgram=파일 실행 오류:%n%1
 
 ; *** Registry errors
-ErrorRegOpenKey=傾走什闘軒 徹 伸奄 神嫌:%n%1\%2
-ErrorRegCreateKey=傾走什闘軒 徹 持失 神嫌:%n%1\%2
-ErrorRegWriteKey=傾走什闘軒 徹 床奄 神嫌:%n%1\%2
+ErrorRegOpenKey=레지스트리 키 열기 오류:%n%1\%2
+ErrorRegCreateKey=레지스트리 키 생성 오류:%n%1\%2
+ErrorRegWriteKey=레지스트리 키 쓰기 오류:%n%1\%2
 
 ; *** INI errors
-ErrorIniEntry=%1 督析拭 INI 牌鯉 幻級奄 神嫌脊艦陥.
+ErrorIniEntry=%1 파일에 INI 항목 만들기 오류입니다.
 
 ; *** File copying errors
-FileAbortRetryIgnoreSkipNotRecommended=戚 督析聖 闇格玖(&S) (映舌馬走 省柔艦陥)
-FileAbortRetryIgnoreIgnoreNotRecommended=神嫌研 巷獣馬壱 遭楳(&I) (映舌馬走 省柔艦陥)
-SourceIsCorrupted=据沙 督析戚 謝雌喫
-SourceDoesntExist=据沙 督析 %1戚(亜) 糎仙馬走 省製
-ExistingFileReadOnly2=奄糎 督析精 石奄 穿遂戚奄凶庚拭 企端拝 呪 蒸柔艦陥.
-ExistingFileReadOnlyRetry=石奄 穿遂 紗失聖 背薦馬壱 陥獣 獣亀馬形檎(&R)
-ExistingFileReadOnlyKeepExisting=奄糎 督析聖 政走(&K)
-ErrorReadingExistingDest=奄糎 督析聖 石澗 疑照 神嫌 降持:
-FileExists=督析戚 戚耕 糎仙杯艦陥.%n%n督析聖 気嬢床獣畏柔艦猿?
-ExistingFileNewer=奄糎 督析戚 竺帖馬形壱 馬澗 督析左陥 歯 督析脊艦陥, 奄糎 督析聖 政走馬獣奄 郊遇艦陥.%n%n奄糎 督析聖 政走馬獣畏柔艦猿?
-ErrorChangingAttr=奄糎 督析税 紗失聖 痕井馬澗 疑照 神嫌 降持:
-ErrorCreatingTemp=企雌 虹希拭 督析聖 幻球澗 疑照 神嫌 降持:
-ErrorReadingSource=据沙 督析聖 石澗 疑照 神嫌 降持:
-ErrorCopying=督析聖 差紫馬澗 疑照 神嫌 降持:
-ErrorReplacingExistingFile=奄糎 督析聖 嘘端馬澗 疑照 神嫌 降持:
-ErrorRestartReplace=RestartReplace 叔鳶:
-ErrorRenamingTemp=企雌 虹希 鎧税 督析 戚硯聖 郊荷澗 疑照 神嫌 降持:
-ErrorRegisterServer=DLL/OCX 去系 叔鳶: %1
-ErrorRegSvr32Failed=RegSvr32亜 陥製 曽戟 坪球稽 叔鳶: %1
-ErrorRegisterTypeLib=陥製 政莫税 虞戚崎君軒 去系拭 叔鳶: %1
+FileAbortRetryIgnoreSkipNotRecommended=이 파일을 건너띔(&S) (권장하지 않습니다)
+FileAbortRetryIgnoreIgnoreNotRecommended=오류를 무시하고 진행(&I) (권장하지 않습니다)
+SourceIsCorrupted=원본 파일이 손상됨
+SourceDoesntExist=원본 파일 %1이(가) 존재하지 않음
+ExistingFileReadOnly2=기존 파일은 읽기 전용이기때문에 대체할 수 없습니다.
+ExistingFileReadOnlyRetry=읽기 전용 속성을 해제하고 다시 시도하려면(&R)
+ExistingFileReadOnlyKeepExisting=기존 파일을 유지(&K)
+ErrorReadingExistingDest=기존 파일을 읽는 동안 오류 발생:
+FileExists=파일이 이미 존재합니다.%n%n파일을 덮어쓰시겠습니까?
+ExistingFileNewer=기존 파일이 설치하려고 하는 파일보다 새 파일입니다, 기존 파일을 유지하시기 바랍니다.%n%n기존 파일을 유지하시겠습니까?
+ErrorChangingAttr=기존 파일의 속성을 변경하는 동안 오류 발생:
+ErrorCreatingTemp=대상 폴더에 파일을 만드는 동안 오류 발생:
+ErrorReadingSource=원본 파일을 읽는 동안 오류 발생:
+ErrorCopying=파일을 복사하는 동안 오류 발생:
+ErrorReplacingExistingFile=기존 파일을 교체하는 동안 오류 발생:
+ErrorRestartReplace=RestartReplace 실패:
+ErrorRenamingTemp=대상 폴더 내의 파일 이름을 바꾸는 동안 오류 발생:
+ErrorRegisterServer=DLL/OCX 등록 실패: %1
+ErrorRegSvr32Failed=RegSvr32가 다음 종료 코드로 실패: %1
+ErrorRegisterTypeLib=다음 유형의 라이브러리 등록에 실패: %1
 
 ; *** Uninstall display name markings
 ; used for example as 'My Program (32-bit)'
 UninstallDisplayNameMark=%1 (%2)
 ; used for example as 'My Program (32-bit, All users)'
 UninstallDisplayNameMarks=%1 (%2, %3)
-UninstallDisplayNameMark32Bit=32搾闘
-UninstallDisplayNameMark64Bit=64搾闘
-UninstallDisplayNameMarkAllUsers=乞窮 紫遂切
-UninstallDisplayNameMarkCurrentUser=薄仙 紫遂切
+UninstallDisplayNameMark32Bit=32비트
+UninstallDisplayNameMark64Bit=64비트
+UninstallDisplayNameMarkAllUsers=모든 사용자
+UninstallDisplayNameMarkCurrentUser=현재 사용자
 
 ; *** Post-installation errors
-ErrorOpeningReadme=README 督析聖 食澗 掻 神嫌亜 降持梅柔艦陥.
-ErrorRestartingComputer=陳濃斗研 陥獣 獣拙拝 呪 蒸柔艦陥, 呪疑生稽 陥獣 獣拙馬淑獣神.
+ErrorOpeningReadme=README 파일을 여는 중 오류가 발생했습니다.
+ErrorRestartingComputer=컴퓨터를 다시 시작할 수 없습니다, 수동으로 다시 시작하십시오.
 
 ; *** Uninstaller messages
-UninstallNotFound=督析 %1戚(亜) 糎仙馬走 省奄 凶庚拭, 薦暗研 叔楳拝 呪 蒸柔艦陥.
-UninstallOpenError=督析 %1聖(研) 伸 呪 蒸奄 凶庚拭, 薦暗研 叔楳拝 呪 蒸柔艦陥.
-UninstallUnsupportedVer=肢薦 稽益 督析 "%1"精(澗) 戚 肢薦 原狛紫稽 昔縦拝 呪 蒸澗 莫縦戚奄 凶庚拭, 薦暗研 叔楳拝 呪 蒸柔艦陥.
-UninstallUnknownEntry=硝 呪 蒸澗 牌鯉 %1戚(亜) 肢薦 稽益拭 匂敗鞠嬢 赤柔艦陥.
-ConfirmUninstall=舛源 %1人(引) 益 姥失 推社研 乞砧 薦暗馬獣畏柔艦猿?
-UninstallOnlyOnWin64=戚 覗稽益轡精 64搾闘 Windows拭辞幻 薦暗拝 呪 赤柔艦陥.
-OnlyAdminCanUninstall=戚 覗稽益轡聖 薦暗馬形檎 淫軒切 映廃戚 琶推杯艦陥.
-UninstallStatusLabel=瑛馬税 陳濃斗拭辞 %1聖(研) 薦暗馬澗 掻... 節獣 奄陥形 爽淑獣神.
-UninstalledAll=%1戚(亜) 失因旋生稽 薦暗鞠醸柔艦陥!
-UninstalledMost=%1 薦暗亜 刃戟鞠醸柔艦陥.%n%n析採 推社澗 肢薦拝 呪 蒸生艦, 呪疑生稽 薦暗馬獣奄 郊遇艦陥.
-UninstalledAndNeedsRestart=%1税 薦暗研 刃戟馬形檎, 陳濃斗研 陥獣 獣拙背醤 杯艦陥.%n%n走榎 陥獣 獣拙馬獣畏柔艦猿?
-UninstallDataCorrupted=督析 "%1"戚(亜) 謝雌鞠醸奄 凶庚拭, 薦暗研 叔楳拝 呪 蒸柔艦陥.
+UninstallNotFound=파일 %1이(가) 존재하지 않기 때문에, 제거를 실행할 수 없습니다.
+UninstallOpenError=파일 %1을(를) 열 수 없기 때문에, 제거를 실행할 수 없습니다.
+UninstallUnsupportedVer=삭제 로그 파일 "%1"은(는) 이 삭제 마법사로 인식할 수 없는 형식이기 때문에, 제거를 실행할 수 없습니다.
+UninstallUnknownEntry=알 수 없는 항목 %1이(가) 삭제 로그에 포함되어 있습니다.
+ConfirmUninstall=정말 %1와(과) 그 구성 요소를 모두 제거하시겠습니까?
+UninstallOnlyOnWin64=이 프로그램은 64비트 Windows에서만 제거할 수 있습니다.
+OnlyAdminCanUninstall=이 프로그램을 제거하려면 관리자 권한이 필요합니다.
+UninstallStatusLabel=귀하의 컴퓨터에서 %1을(를) 제거하는 중... 잠시 기다려 주십시오.
+UninstalledAll=%1이(가) 성공적으로 제거되었습니다!
+UninstalledMost=%1 제거가 완료되었습니다.%n%n일부 요소는 삭제할 수 없으니, 수동으로 제거하시기 바랍니다.
+UninstalledAndNeedsRestart=%1의 제거를 완료하려면, 컴퓨터를 다시 시작해야 합니다.%n%n지금 다시 시작하시겠습니까?
+UninstallDataCorrupted=파일 "%1"이(가) 손상되었기 때문에, 제거를 실행할 수 없습니다.
 
 ; *** Uninstallation phase messages
-ConfirmDeleteSharedFileTitle=Remove Shared File?
-ConfirmDeleteSharedFile2=The system indicates that the following shared file is no longer in use by any programs. Would you like for Uninstall to remove this shared file?%n%nIf any programs are still using this file and it is removed, those programs may not function properly. If you are unsure, choose No. Leaving the file on your system will not cause any harm.
-SharedFileNameLabel=File name:
-SharedFileLocationLabel=Location:
-WizardUninstalling=Uninstall Status
-StatusUninstalling=Uninstalling %1...
+ConfirmDeleteSharedFileTitle=공유 파일을 제거하시겠습니까?
+ConfirmDeleteSharedFile2=시스템의 어떤 프로그램도 다음 공유 파일을 사용하지 않습니다, 이 공유 파일을 삭제하시겠습니까?%n%n이 파일을 다른 프로그램이 공유하고 있는 상태에서 이 파일을 제거할 경우, 해당 프로그램이 제대로 작동하지 않을 수 있으니, 확신이 없으면 "아니오"를 선택하셔도 됩니다. 시스템에 파일이 남아 있어도 문제가 되진 않습니다.
+SharedFileNameLabel=파일 이름:
+SharedFileLocationLabel=위치:
+WizardUninstalling=제거 상태
+StatusUninstalling=%1을(를) 제거하는 중...
 
 ; *** Shutdown block reasons
-ShutdownBlockReasonInstallingApp=Installing %1.
-ShutdownBlockReasonUninstallingApp=Uninstalling %1.
+ShutdownBlockReasonInstallingApp=%1을(를) 설치하는 중입니다.
+ShutdownBlockReasonUninstallingApp=%1을(를) 제거하는 중입니다.
 
 ; The custom messages below aren't used by Setup itself, but if you make
 ; use of them in your scripts, you'll want to translate them.
 
 [CustomMessages]
 
-NameAndVersion=%1 version %2
-AdditionalIcons=Additional shortcuts:
-CreateDesktopIcon=Create a &desktop shortcut
-CreateQuickLaunchIcon=Create a &Quick Launch shortcut
-ProgramOnTheWeb=%1 on the Web
-UninstallProgram=Uninstall %1
-LaunchProgram=Launch %1
-AssocFileExtension=&Associate %1 with the %2 file extension
-AssocingFileExtension=Associating %1 with the %2 file extension...
-AutoStartProgramGroupDescription=Startup:
-AutoStartProgram=Automatically start %1
-AddonHostProgramNotFound=%1 could not be located in the folder you selected.%n%nDo you want to continue anyway?"
+NameAndVersion=%1 버전 %2
+AdditionalIcons=아이콘 추가:
+CreateDesktopIcon=바탕 화면에 바로가기 만들기(&D)
+CreateQuickLaunchIcon=빠른 실행 아이콘 만들기(&Q)
+ProgramOnTheWeb=%1 웹페이지
+UninstallProgram=%1 제거
+LaunchProgram=%1 실행
+AssocFileExtension=파일 확장자 %2을(를) %1에 연결합니다.
+AssocingFileExtension=파일 확장자 %2을(를) %1에 연결하는 중...
+AutoStartProgramGroupDescription=시작:
+AutoStartProgram=%1을(를) 자동으로 시작
+AddonHostProgramNotFound=%1은(는) 선택한 폴더에 위치할 수 없습니다.%n%n그래도 계속하시겠습니까?
+
 
 
 

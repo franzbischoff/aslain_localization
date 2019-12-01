@@ -13,7 +13,7 @@
 ; understand the '[LangOptions] section' topic in the help file.
 LanguageName=简体中文
 LanguageID=$0004
-LanguageCodePage=936
+LanguageCodePage=0
 ; If the language you are translating to requires special font faces or
 ; sizes, uncomment any of the following entries and change them accordingly.
 DialogFontName=Tahoma
@@ -151,7 +151,7 @@ WizardSelectDir=选择目标位置
 SelectDirDesc=您想将 [name] 安装在什么地方？
 SelectDirLabel3=安装程序将安装 [name] 到下列文件夹中。
 SelectDirBrowseLabel=单击“下一步”继续。如果您想选择其它文件夹，单击“浏览”。
-DiskSpaceGBLabel=At least [gb] GB of free disk space is required.
+DiskSpaceGBLabel=至少需要有 [gb] GB 的可用磁盘空间。
 DiskSpaceMBLabel=至少需要有 [mb] MB 的可用磁盘空间。
 CannotInstallToNetworkDrive=安装程序无法安装到一个网络驱动器。
 CannotInstallToUNCPath=安装程序无法安装到一个UNC路径。
@@ -179,7 +179,7 @@ NoUninstallWarningTitle=组件存在
 NoUninstallWarning=安装程序侦测到下列组件已在您的电脑中安装。:%n%n%1%n%n取消选定这些组件将不能卸载它们。%n%n您一定要继续吗？
 ComponentSize1=%1 KB
 ComponentSize2=%1 MB
-ComponentsDiskSpaceGBLabel=Current selection requires at least [gb] GB of disk space.
+ComponentsDiskSpaceGBLabel=当前选择的组件至少需要 [gb] GB 的磁盘空间。
 ComponentsDiskSpaceMBLabel=当前选择的组件至少需要 [mb] MB 的磁盘空间。
 
 ; *** "Select Additional Tasks" wizard page
@@ -220,7 +220,7 @@ ApplicationsFound2=下列应用程序正在使用的文件需要更新设置。�
 CloseApplications=自动关闭该应用程序(&A)
 DontCloseApplications=不要关闭该应用程序(D)
 ErrorCloseApplications=安装程序无法自动关闭所有应用程序。在继续之前，我们建议您关闭所有使用需要更新的安装程序文件。
-PrepareToInstallNeedsRestart=Setup must restart your computer. After restarting your computer, run Setup again to complete the installation of [name].%n%nWould you like to restart now?
+PrepareToInstallNeedsRestart=安装程序必须重新启动您的计算机。重新启动计算机后，再次运行安装程序以完成 [name] 的安装。%n%n您想现在重新启动吗？
 
 ; *** "Installing" wizard page
 WizardInstalling=正在安装
@@ -334,34 +334,35 @@ UninstalledAndNeedsRestart=要完成 %1 的卸载，您的电脑必须重新启�
 UninstallDataCorrupted=“%1”文件被破坏，不能卸载
 
 ; *** Uninstallation phase messages
-ConfirmDeleteSharedFileTitle=Remove Shared File?
-ConfirmDeleteSharedFile2=The system indicates that the following shared file is no longer in use by any programs. Would you like for Uninstall to remove this shared file?%n%nIf any programs are still using this file and it is removed, those programs may not function properly. If you are unsure, choose No. Leaving the file on your system will not cause any harm.
-SharedFileNameLabel=File name:
-SharedFileLocationLabel=Location:
-WizardUninstalling=Uninstall Status
-StatusUninstalling=Uninstalling %1...
+ConfirmDeleteSharedFileTitle=删除共享文件吗？
+ConfirmDeleteSharedFile2=系统中包含的下列共享文件已经不被其它程序使用。您想要卸载程序删除这些共享文件吗？%n%n如果这些文件被删除，但还有程序正在使用这些文件，这些程序可能不能正确执行。如果您不能确定，选择“否”。把这些文件保留在系统中以免引起问题。
+SharedFileNameLabel=文件名:
+SharedFileLocationLabel=位置:
+WizardUninstalling=卸载状态
+StatusUninstalling=正在卸载 %1...
 
 ; *** Shutdown block reasons
-ShutdownBlockReasonInstallingApp=Installing %1.
-ShutdownBlockReasonUninstallingApp=Uninstalling %1.
+ShutdownBlockReasonInstallingApp=正在安装 %1.
+ShutdownBlockReasonUninstallingApp=正在卸载 %1.
 
 ; The custom messages below aren't used by Setup itself, but if you make
 ; use of them in your scripts, you'll want to translate them.
 
 [CustomMessages]
 
-NameAndVersion=%1 version %2
-AdditionalIcons=Additional shortcuts:
-CreateDesktopIcon=Create a &desktop shortcut
-CreateQuickLaunchIcon=Create a &Quick Launch shortcut
-ProgramOnTheWeb=%1 on the Web
-UninstallProgram=Uninstall %1
-LaunchProgram=Launch %1
-AssocFileExtension=&Associate %1 with the %2 file extension
-AssocingFileExtension=Associating %1 with the %2 file extension...
-AutoStartProgramGroupDescription=Startup:
-AutoStartProgram=Automatically start %1
-AddonHostProgramNotFound=%1 could not be located in the folder you selected.%n%nDo you want to continue anyway?"
+NameAndVersion=%1 版本 %2
+AdditionalIcons=附加快捷方式:
+CreateDesktopIcon=创建桌面快捷方式(&D)
+CreateQuickLaunchIcon=创建快速运行栏快捷方式(&Q)
+ProgramOnTheWeb=%1 网站
+UninstallProgram=卸载 %1
+LaunchProgram=运行 %1
+AssocFileExtension=将 %2 文件扩展名与 %1 建立关联(&A)
+AssocingFileExtension=正在将 %2 文件扩展名与 %1 建立关联...
+AutoStartProgramGroupDescription=启动组:
+AutoStartProgram=自动启动 %1
+AddonHostProgramNotFound=%1无法找到您所选择的文件夹。%n%n您想要继续吗？
+
 
 
 

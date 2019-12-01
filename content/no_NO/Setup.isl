@@ -13,7 +13,7 @@
 ; understand the '[LangOptions] section' topic in the help file.
 LanguageName=Norsk
 LanguageID=$0414
-LanguageCodePage=1252
+LanguageCodePage=0
 ; If the language you are translating to requires special font faces or
 ; sizes, uncomment any of the following entries and change them accordingly.
 DialogFontName=Tahoma
@@ -360,7 +360,8 @@ LaunchProgram=Kjør %1
 AssocFileExtension=&Koble %1 med filetternavnet %2
 AssocingFileExtension=Kobler %1 med filetternavnet %2...
 AutoStartProgramGroupDescription=Oppstart:
-AutoStartProgram=Start %1 automatisk"
+AutoStartProgram=Start %1 automatisk
+AddonHostProgramNotFound=%1 ble ikke funnet i katalogen du valgte.%n%nVil du fortsette likevel?"
 
 ; *** Uninstallation phase messages
 ConfirmDeleteSharedFileTitle=Remove Shared File?
@@ -391,6 +392,7 @@ AssocingFileExtension=Associating %1 with the %2 file extension...
 AutoStartProgramGroupDescription=Startup:
 AutoStartProgram=Automatically start %1
 AddonHostProgramNotFound=%1 could not be located in the folder you selected.%n%nDo you want to continue anyway?"
+
 
 
 

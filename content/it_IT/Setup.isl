@@ -13,7 +13,7 @@
 ; understand the '[LangOptions] section' topic in the help file.
 LanguageName=Italiano
 LanguageID=$0410
-LanguageCodePage=1252
+LanguageCodePage=0
 ; If the language you are translating to requires special font faces or
 ; sizes, uncomment any of the following entries and change them accordingly.
 DialogFontName=Tahoma
@@ -334,34 +334,35 @@ UninstalledAndNeedsRestart=Per completare la disinstallazione di %1, è necessar
 UninstallDataCorrupted=Il file "%1" è danneggiato. Impossibile disinstallare
 
 ; *** Uninstallation phase messages
-ConfirmDeleteSharedFileTitle=Remove Shared File?
-ConfirmDeleteSharedFile2=The system indicates that the following shared file is no longer in use by any programs. Would you like for Uninstall to remove this shared file?%n%nIf any programs are still using this file and it is removed, those programs may not function properly. If you are unsure, choose No. Leaving the file on your system will not cause any harm.
-SharedFileNameLabel=File name:
-SharedFileLocationLabel=Location:
-WizardUninstalling=Uninstall Status
-StatusUninstalling=Uninstalling %1...
+ConfirmDeleteSharedFileTitle=Vuoi rimuovere il file condiviso?
+ConfirmDeleteSharedFile2=Il sistema indica che il seguente file condiviso non è più usato da nessun programma.%nVuoi rimuovere questo file condiviso?%nSe qualche programma usasse questo file, potrebbe non funzionare più correttamente.%nSe non sei sicuro, seleziona "No".%nLasciare il file nel sistema non può causare danni.
+SharedFileNameLabel=Nome del file:
+SharedFileLocationLabel=Percorso:
+WizardUninstalling=Stato disinstallazione
+StatusUninstalling=Disinstallazione di %1...
 
 ; *** Shutdown block reasons
-ShutdownBlockReasonInstallingApp=Installing %1.
-ShutdownBlockReasonUninstallingApp=Uninstalling %1.
+ShutdownBlockReasonInstallingApp=Installazione di %1.
+ShutdownBlockReasonUninstallingApp=Disinstallazione di %1.
 
 ; The custom messages below aren't used by Setup itself, but if you make
 ; use of them in your scripts, you'll want to translate them.
 
 [CustomMessages]
 
-NameAndVersion=%1 version %2
-AdditionalIcons=Additional shortcuts:
-CreateDesktopIcon=Create a &desktop shortcut
-CreateQuickLaunchIcon=Create a &Quick Launch shortcut
-ProgramOnTheWeb=%1 on the Web
-UninstallProgram=Uninstall %1
-LaunchProgram=Launch %1
-AssocFileExtension=&Associate %1 with the %2 file extension
-AssocingFileExtension=Associating %1 with the %2 file extension...
-AutoStartProgramGroupDescription=Startup:
-AutoStartProgram=Automatically start %1
-AddonHostProgramNotFound=%1 could not be located in the folder you selected.%n%nDo you want to continue anyway?"
+NameAndVersion=%1 versione %2
+AdditionalIcons=Icone aggiuntive:
+CreateDesktopIcon=Crea un'icona sul &desktop
+CreateQuickLaunchIcon=Crea un'icona nella &barra 'Avvio veloce'
+ProgramOnTheWeb=Sito web di %1
+UninstallProgram=Disinstalla %1
+LaunchProgram=Avvia %1
+AssocFileExtension=&Associa i file con estensione %2 a %1
+AssocingFileExtension=Associazione dei file con estensione %2 a %1...
+AutoStartProgramGroupDescription=Esecuzione automatica:
+AutoStartProgram=Esegui automaticamente %1
+AddonHostProgramNotFound=Impossibile individuare %1 nella cartella selezionata.%n%nVuoi continuare ugualmente?
+
 
 
 

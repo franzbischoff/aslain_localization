@@ -334,12 +334,12 @@ UninstalledAndNeedsRestart=Untuk melengkapkan pengeluaran %1, komputer anda mest
 UninstallDataCorrupted=Fail "%1" didapati rosak. Pengeluaran tidak boleh dilakukan.
 
 ; *** Uninstallation phase messages
-ConfirmDeleteSharedFileTitle=Remove Shared File?
-ConfirmDeleteSharedFile2=The system indicates that the following shared file is no longer in use by any programs. Would you like for Uninstall to remove this shared file?%n%nIf any programs are still using this file and it is removed, those programs may not function properly. If you are unsure, choose No. Leaving the file on your system will not cause any harm.
-SharedFileNameLabel=File name:
-SharedFileLocationLabel=Location:
-WizardUninstalling=Uninstall Status
-StatusUninstalling=Uninstalling %1...
+ConfirmDeleteSharedFileTitle=Keluarkan Fail Kongsi?
+ConfirmDeleteSharedFile2=Sistem telah mengenal pasti bahawa Fail berikut tidak lagi digunakan oleh mana-mana program. Adakah anda mahu mengeluarkan Fail ini?%n%nJika ada mana-mana perisian menggunakan Fail ini dan ianya telah dikeluarkan dari sistem, perisian tersebut mungkin tidak dapat berfungsi dengan baik atau tidak berfungsi langsung. Jika tidak pasti sila klik Tidak, membiarkan Fail ini pada sistem anda tidak akan memberi sebarang kesan.
+SharedFileNameLabel=Nama Fail:
+SharedFileLocationLabel=Lokasi:
+WizardUninstalling=Status Pengeluaran
+StatusUninstalling=%1 dikeluarkan...
 
 ; *** Shutdown block reasons
 ShutdownBlockReasonInstallingApp=Installing %1.
@@ -350,18 +350,19 @@ ShutdownBlockReasonUninstallingApp=Uninstalling %1.
 
 [CustomMessages]
 
-NameAndVersion=%1 version %2
-AdditionalIcons=Additional shortcuts:
-CreateDesktopIcon=Create a &desktop shortcut
-CreateQuickLaunchIcon=Create a &Quick Launch shortcut
-ProgramOnTheWeb=%1 on the Web
+NameAndVersion=%1 versi %2
+AdditionalIcons=Ikon tambahan:
+CreateDesktopIcon=Hasilkan ikon &desktop
+CreateQuickLaunchIcon=Hasilkan ikon &Lancar Pantas
+ProgramOnTheWeb=%1 di Internet
 UninstallProgram=Uninstall %1
-LaunchProgram=Launch %1
-AssocFileExtension=&Associate %1 with the %2 file extension
-AssocingFileExtension=Associating %1 with the %2 file extension...
+LaunchProgram=Jalankan perisian %1
+AssocFileExtension=&Kaitkan %1 dengan akhiran fail %2
+AssocingFileExtension=Mengaitkan %1 dengan akhiran fail %2 ...
 AutoStartProgramGroupDescription=Startup:
 AutoStartProgram=Automatically start %1
 AddonHostProgramNotFound=%1 could not be located in the folder you selected.%n%nDo you want to continue anyway?"
+
 
 
 

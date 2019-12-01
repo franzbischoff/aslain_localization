@@ -11,9 +11,9 @@
 [LangOptions]
 ; The following three entries are very important. Be sure to read and
 ; understand the '[LangOptions] section' topic in the help file.
-LanguageName=<0411><0435><043B><0430><0440><0443><0441><043A><0430><044F>
+LanguageName=Беларус
 LanguageID=$0423
-LanguageCodePage=1251
+LanguageCodePage=0
 ; If the language you are translating to requires special font faces or
 ; sizes, uncomment any of the following entries and change them accordingly.
 DialogFontName=Tahoma
@@ -28,282 +28,282 @@ CopyrightFontSize=8
 [Messages]
 
 ; *** Application titles
-SetupAppTitle=Óñòàëÿâàííå
-SetupWindowTitle=Óñòàëÿâàííå  %1
-UninstallAppTitle=Äý¢ñòàëÿâàííå
-UninstallAppFullTitle=Äý¢ñòàëÿâàííå  %1
+SetupAppTitle=Усталяванне
+SetupWindowTitle=Усталяванне — %1
+UninstallAppTitle=Дэўсталяванне
+UninstallAppFullTitle=Дэўсталяванне — %1
 
 ; *** Misc. common
-InformationTitle=²íôàðìàöûÿ
-ConfirmTitle=Çàïûòàííå
-ErrorTitle=Àáìûëà
+InformationTitle=Інфармацыя
+ConfirmTitle=Запытанне
+ErrorTitle=Абмыла
 
 ; *** SetupLdr messages
-SetupLdrStartupMessage=Ãýòà ïðàãðàìà ¢ñòàëþå %1. Æàäàåöå ïðàöÿãíóöü?
-LdrCannotCreateTemp=Íå ìàãó ñòâàðûöü ÷àñîâû ôàéë. Óñòàëÿâàííå ñïûíåíà
-LdrCannotExecTemp=Íå ìàãó çàïóñö³öü ôàéë ó ÷àñîâàé òý÷öû. Óñòàë¸¢êà ñïûíåíà
+SetupLdrStartupMessage=Гэта праграма ўсталюе %1. Жадаеце працягнуць?
+LdrCannotCreateTemp=Не магу стварыць часовы файл. Усталяванне спынена
+LdrCannotExecTemp=Не магу запусціць файл у часовай тэчцы. Усталёўка спынена
 HelpTextNote=
 
 ; *** Startup error messages
-LastErrorMessage=%1.%n%nÀáìûëà %2: %3
-SetupFileMissing=Ôàéëà %1 íÿìà ¢ òý÷öû ¢ñòàëÿâàííÿ. Êàë³ ëàñêà, âûðàøûöå ïðàáëåìó, àáî àòðûìàéöå íîâóþ âåðñ³þ ïðàãðàìû.
-SetupFileCorrupt=Ôàéëû ¢ñòàë¸¢ê³ ïàøêîäæàíûÿ. Êàë³ ëàñêà, àòðûìàéöå íîâóþ êîï³þ ïðàãðàìû.
-SetupFileCorruptOrWrongVer=Ôàéëû ¢ñòàë¸¢ê³ ïàøêîäæàíûÿ ö³ íåñóìåñíûÿ ç äàäçåíàé âåðñ³ÿé ïðàãðàìû ¢ñòàë¸¢ê³. Êàë³ ëàñêà, âûðàøûöå ãýòó ïðàáëåìó, àáî àòðûìàéöå íîâóþ êîï³þ ïðàãðàìû.
-InvalidParameter=Êàìàíäíû ðàäîê çìÿø÷àå íåâÿäîìû ïàðàìåòð:%n%n%1
-SetupAlreadyRunning=Óñòàëÿâàííå ¢æî çàïóø÷àíà.
-WindowsVersionNotSupported=Ãýòà ïðàãðàìà íå ñóìÿø÷àëüíàÿ ç âåðñ³ÿé Windows íà Âàøûì êàìïóòàðû.
-WindowsServicePackRequired=Ãýòà ïðàãðàìà ïàòðàáóå %1 Service Pack %2 ö³ áîëüø íîâóþ âåðñ³þ.
-NotOnThisPlatform=Ïðàãðàìó íåëüãà çàïóñö³öü íà %1.
-OnlyOnThisPlatform=Ïðàãðàìó òðýáà çàïóñêàöü íà %1.
-OnlyOnTheseArchitectures=Ãýòó ïðàãðàìó ìîæíà ¢ñòàëÿâàöü òîëüê³ íà Windows ç ïàäòðûìêàé íàñòóïíûõ ïðàöýñàðíûõ àðõ³òýêòóðà¢:%n%n%1
-WinVersionTooLowError=Ãýòà ïðàãðàìà ïàòðàáóå %1 âåðñ³³ %2 ö³ áîëüø íîâóþ.
-WinVersionTooHighError=Ãýòó ïðàãðàìó íåëüãà ¢ñòàëÿâàöü íà %1 âåðñ³³ %2 ö³ áîëüø íîâàé.
-AdminPrivilegesRequired=Êàá óñòàëÿâàöü ïðàãðàìó, Âû ïàâ³ííû ¢âàéñö³ ¢ ñ³ñòýìó ÿê àäì³í³ñòðàòàð.
-PowerUserPrivilegesRequired=Êàá óñòàëÿâàöü ïðàãðàìó, óâàéäç³öå ¢ ñ³ñòýìó ÿê àäì³í³ñòðàòàð ö³ ÷àëåö ñóïîëê³ «Äàñâåä÷àíûÿ êàðûñòà÷û».
-SetupAppRunningError=Óâàãà, öÿïåð çàïóø÷àíà ïðàãðàìà «%1»!%n%nÇà÷ûí³öå ¢ñå ÿå âîêíû, ³ íàö³ñí³öå Äîáðà êàá ïðàöÿãíóöü, àáî Àäìåíà - êàá âûéñö³.
-UninstallAppRunningError=Óâàãà, öÿïåð çàïóø÷àíà «%1»!%n%nÊàë³ ëàñêà, çà÷ûí³öå ¢ñå âîêíû ãýòàé ïðàãðàìû, ³ íàö³ñí³öå êíîïêó Äîáðà êàá ïðàöÿãíóöü, àáî Àäìåíà - êàá âûéñö³ ç ïðàãðàìû ¢ñòàëÿâàííÿ.
+LastErrorMessage=%1.%n%nАбмыла %2: %3
+SetupFileMissing=Файла %1 няма ў тэчцы ўсталявання. Калі ласка, вырашыце праблему, або атрымайце новую версію праграмы.
+SetupFileCorrupt=Файлы ўсталёўкі пашкоджаныя. Калі ласка, атрымайце новую копію праграмы.
+SetupFileCorruptOrWrongVer=Файлы ўсталёўкі пашкоджаныя ці несумесныя з дадзенай версіяй праграмы ўсталёўкі. Калі ласка, вырашыце гэту праблему, або атрымайце новую копію праграмы.
+InvalidParameter=Камандны радок змяшчае невядомы параметр:%n%n%1
+SetupAlreadyRunning=Усталяванне ўжо запушчана.
+WindowsVersionNotSupported=Гэта праграма не сумяшчальная з версіяй Windows на Вашым кампутары.
+WindowsServicePackRequired=Гэта праграма патрабуе %1 Service Pack %2 ці больш новую версію.
+NotOnThisPlatform=Праграму нельга запусціць на %1.
+OnlyOnThisPlatform=Праграму трэба запускаць на %1.
+OnlyOnTheseArchitectures=Гэту праграму можна ўсталяваць толькі на Windows з падтрымкай наступных працэсарных архітэктураў:%n%n%1
+WinVersionTooLowError=Гэта праграма патрабуе %1 версіі %2 ці больш новую.
+WinVersionTooHighError=Гэту праграму нельга ўсталяваць на %1 версіі %2 ці больш новай.
+AdminPrivilegesRequired=Каб усталяваць праграму, Вы павінны ўвайсці ў сістэму як адміністратар.
+PowerUserPrivilegesRequired=Каб усталяваць праграму, увайдзіце ў сістэму як адміністратар ці чалец суполкі «Дасведчаныя карыстачы».
+SetupAppRunningError=Увага, цяпер запушчана праграма «%1»!%n%nЗачыніце ўсе яе вокны, і націсніце Добра каб працягнуць, або Адмена - каб выйсці.
+UninstallAppRunningError=Увага, цяпер запушчана «%1»!%n%nКалі ласка, зачыніце ўсе вокны гэтай праграмы, і націсніце кнопку Добра каб працягнуць, або Адмена - каб выйсці з праграмы ўсталявання.
 
 ; *** Startup questions
 PrivilegesRequiredOverrideTitle=Абярыце рэжым ўстаноўкі
-PrivilegesRequiredOverrideInstruction=Select install mode
-PrivilegesRequiredOverrideText1=%1 can be installed for all users (requires administrative privileges), or for you only.
-PrivilegesRequiredOverrideText2=%1 can be installed for you only, or for all users (requires administrative privileges).
-PrivilegesRequiredOverrideAllUsers=Install for &all users
-PrivilegesRequiredOverrideAllUsersRecommended=Install for &all users (recommended)
-PrivilegesRequiredOverrideCurrentUser=Install for &me only
-PrivilegesRequiredOverrideCurrentUserRecommended=Install for &me only (recommended)
+PrivilegesRequiredOverrideInstruction=Абярыце рэжым ўстаноўкі
+PrivilegesRequiredOverrideText1=%1 можа быць усталяваны для ўсіх карыстальнікаў (патрабуе адміністрацыйных правоў) альбо толькі для вас.
+PrivilegesRequiredOverrideText2=%1 можа быць усталяваны толькі для вас альбо для ўсіх карыстальнікаў (неабходныя адміністрацыйныя правы).
+PrivilegesRequiredOverrideAllUsers=Усталяваць для &ўсіх карыстальнікаў
+PrivilegesRequiredOverrideAllUsersRecommended=Усталяваць для &ўсіх карыстальнікаў (рэкамендуецца)
+PrivilegesRequiredOverrideCurrentUser=Усталюйце толькі для &мяне
+PrivilegesRequiredOverrideCurrentUserRecommended=Усталюйце толькі для &мяне (рэкамендуецца)
 
 ; *** Misc. errors
-ErrorCreatingDir=Íå ìàãó ñòâàðûöü òý÷êó «%1»
-ErrorTooManyFilesInDir=Íå ìàãó ñòâàðûöü ôàéë ó òý÷öû «%1», áî ÿíà çìÿø÷àå çàøìàò ôàéëà¢
+ErrorCreatingDir=Не магу стварыць тэчку «%1»
+ErrorTooManyFilesInDir=Не магу стварыць файл у тэчцы «%1», бо яна змяшчае зашмат файлаў
 
 ; *** Setup common messages
-ExitSetupTitle=Ñïûí³öü óñòàëÿâàííå
-ExitSetupMessage=Óñòàëÿâàííå íå çàâåðøàíà. Êàë³ Âû âûéäçåöå çàðàç, Âû íå çìîæàöå êàðûñòàööà ïðàãðàìàé.%n%nÀëå Âû ìîæàöå çàïóñö³öü óñòàë¸¢í³ê ³íøûì ðàçàì, êàá óñòàëÿâàöü ãýòó ïðàãðàìó.%n%nÂûéñö³ ç óñòàë¸¢í³êà?
-AboutSetupMenuItem=Ïðà ïðàãðàìó...
-AboutSetupTitle=Ïðà ïðàãðàìó
-AboutSetupMessage=%1, âåðñ³ÿ %2%n%3%n%nÑàéò %1:%n%4
+ExitSetupTitle=Спыніць усталяванне
+ExitSetupMessage=Усталяванне не завершана. Калі Вы выйдзеце зараз, Вы не зможаце карыстацца праграмай.%n%nАле Вы можаце запусціць усталёўнік іншым разам, каб усталяваць гэту праграму.%n%nВыйсці з усталёўніка?
+AboutSetupMenuItem=Пра праграму...
+AboutSetupTitle=Пра праграму
+AboutSetupMessage=%1, версія %2%n%3%n%nСайт %1:%n%4
 AboutSetupNote=
 TranslatorNote=
 
 ; *** Buttons
-ButtonBack=< &Íàçàä
-ButtonNext=&Äàëåé >
-ButtonInstall=&Óñòàëÿâàöü
-ButtonOK=Äîáðà
-ButtonCancel=Àäìåíà
-ButtonYes=&Òàê
-ButtonYesToAll=Òàê äëÿ &¢ñ³õ
-ButtonNo=&Íå
-ButtonNoToAll=Í&å äëÿ ¢ñ³õ
-ButtonFinish=Ãàòîâà
-ButtonBrowse=&Àãëÿä...
-ButtonWizardBrowse=À&ãëÿä...
-ButtonNewFolder=&Ñòâàðûöü òý÷êó
+ButtonBack=< &Назад
+ButtonNext=&Далей >
+ButtonInstall=&Усталяваць
+ButtonOK=Добра
+ButtonCancel=Адмена
+ButtonYes=&Так
+ButtonYesToAll=Так для &ўсіх
+ButtonNo=&Не
+ButtonNoToAll=Н&е для ўсіх
+ButtonFinish=Гатова
+ButtonBrowse=&Агляд...
+ButtonWizardBrowse=А&гляд...
+ButtonNewFolder=&Стварыць тэчку
 
 ; *** "Select Language" dialog messages
-SelectLanguageTitle=Àáÿðûöå ìîâó ¢ñòàë¸¢ê³
-SelectLanguageLabel=Âûçíà÷öå ìîâó äëÿ âûêàðûñòàííÿ ïàä÷àñ ¢ñòàëÿâàííÿ:
+SelectLanguageTitle=Абярыце мову ўсталёўкі
+SelectLanguageLabel=Вызначце мову для выкарыстання падчас ўсталявання:
 
 ; *** Common wizard text
-ClickNext=Íàö³ñí³öå Äàëåé êàá ïðàöÿãíóöü, ö³ Àäìåíà - êàá âûéñö³ ç ïðàãðàìû ¢ñòàëÿâàííÿ.
+ClickNext=Націсніце Далей каб працягнуць, ці Адмена - каб выйсці з праграмы ўсталявання.
 BeveledLabel=
-BrowseDialogTitle=Àãëÿä òý÷êà¢
-BrowseDialogLabel=Àáÿðûöå òý÷êó ¢ ñï³ñå ³ íàö³ñí³öå Äîáðà.
-NewFolderName=Íîâàÿ òý÷êà
+BrowseDialogTitle=Агляд тэчкаў
+BrowseDialogLabel=Абярыце тэчку ў спісе і націсніце Добра.
+NewFolderName=Новая тэчка
 
 ; *** "Welcome" wizard page
-WelcomeLabel1=Âàñ â³òàå Ìàéñòàð óñòàëÿâàííÿ [name]
-WelcomeLabel2=Ïðàãðàìà ¢ñòàëþå [name/ver] íà Âàø êàìïóòàð.%n%nÐýêàìåíäóþ çàêðûöü ³íøûÿ ïðàãðàìû ïåðàä òûì, ÿê ïðàöÿãíóöü.
+WelcomeLabel1=Вас вітае Майстар усталявання [name]
+WelcomeLabel2=Праграма ўсталюе [name/ver] на Ваш кампутар.%n%nРэкамендую закрыць іншыя праграмы перад тым, як працягнуць.
 
 ; *** "Password" wizard page
-WizardPassword=Ïàðîëü
-PasswordLabel1=Óñòàë¸¢êà çàñöÿðîæàíà ïàðîëåì.
-PasswordLabel3=Óâÿäç³öå ïàðîëü, çàòûì íàö³ñí³öå Äàëåé. Ïàðîëü àä÷óâàëüíû äà ðýã³ñòðó ë³òàðà¢.
-PasswordEditLabel=&Ïàðîëü:
-IncorrectPassword=Õ³áíû ïàðîëü. Ïàñïðàáóéöå çíî¢.
+WizardPassword=Пароль
+PasswordLabel1=Усталёўка засцярожана паролем.
+PasswordLabel3=Увядзіце пароль, затым націсніце Далей. Пароль адчувальны да рэгістру літараў.
+PasswordEditLabel=&Пароль:
+IncorrectPassword=Хібны пароль. Паспрабуйце зноў.
 
 ; *** "License Agreement" wizard page
-WizardLicense=Ë³öýíç³éíàÿ äàìîâà
-LicenseLabel=Ïåðàä òûì, ÿê ïà÷àöü óñòàëÿâàííå, ïðà÷ûòàéöå íàñòóïíóþ ³íôàðìàöûþ.
-LicenseLabel3=Êàë³ ëàñêà, ïðà÷ûòàéöå íàñòóïíóþ ë³öýíç³éíóþ äàìîâó. Êàá óñòàëÿâàöü ïðàãðàìó Âû ïàâ³ííû ïðûíÿöü óìîâû ãýòàãà ïàãàäåííÿ.
-LicenseAccepted=ß &ïðûìàþ äàìîâó
-LicenseNotAccepted=ß &íå ïðûìàþ äàìîâó
+WizardLicense=Ліцэнзійная дамова
+LicenseLabel=Перад тым, як пачаць усталяванне, прачытайце наступную інфармацыю.
+LicenseLabel3=Калі ласка, прачытайце наступную ліцэнзійную дамову. Каб усталяваць праграму Вы павінны прыняць умовы гэтага пагадення.
+LicenseAccepted=Я &прымаю дамову
+LicenseNotAccepted=Я &не прымаю дамову
 
 ; *** "Information" wizard pages
-WizardInfoBefore=Çâåñòê³
-InfoBeforeLabel=Ïðà÷ûòàéöå íàñòóïíóþ ³íôàðìàöûþ ïåðàä ïðàöÿãàì óñòàëÿâàííÿ.
-InfoBeforeClickLabel=Êàë³ áóäçåöå ãàòîâû ïðàöÿãíóöü óñòàëÿâàííå, íàö³ñí³öå Äàëåé.
-WizardInfoAfter=Çâåñòê³
-InfoAfterLabel=Ïðà÷ûòàéöå íàñòóïíóþ ³íôàðìàöûþ ïåðàä çàâÿðøýííåì óñòàëÿâàííÿ.
-InfoAfterClickLabel=Êàë³ áóäçåöå ãàòîâû ïðàöÿãíóöü óñòàëÿâàííå, íàö³ñí³öå Äàëåé.
+WizardInfoBefore=Звесткі
+InfoBeforeLabel=Прачытайце наступную інфармацыю перад працягам усталявання.
+InfoBeforeClickLabel=Калі будзеце гатовы працягнуць усталяванне, націсніце Далей.
+WizardInfoAfter=Звесткі
+InfoAfterLabel=Прачытайце наступную інфармацыю перад завяршэннем усталявання.
+InfoAfterClickLabel=Калі будзеце гатовы працягнуць усталяванне, націсніце Далей.
 
 ; *** "User Information" wizard page
-WizardUserInfo=Çâåñòê³ ïðà êàðûñòàëüí³êà
-UserInfoDesc=Êàë³ ëàñêà, óâÿäç³öå ³íôàðìàöûþ ïðà ñÿáå.
-UserInfoName=²ìÿ ³ ïðîçâ³ø÷à êàðûñòà÷à:
-UserInfoOrg=&Àðãàí³çàöûÿ:
-UserInfoSerial=&Ñåðûéíû íóìàð:
-UserInfoNameRequired=Âû ïàâ³ííû ¢âåñö³ ñâà¸ ³ìÿ.
+WizardUserInfo=Звесткі пра карыстальніка
+UserInfoDesc=Калі ласка, увядзіце інфармацыю пра сябе.
+UserInfoName=Імя і прозвішча карыстача:
+UserInfoOrg=&Арганізацыя:
+UserInfoSerial=&Серыйны нумар:
+UserInfoNameRequired=Вы павінны ўвесці сваё імя.
 
 ; *** "Select Destination Location" wizard page
-WizardSelectDir=Òý÷êà ïðûçíà÷ýííÿ
-SelectDirDesc=Êóäû óñòàëÿâàöü ïðàãðàìó «[name]»?
-SelectDirLabel3=Ïðàãðàìà «[name]» áóäçå ¢ñòàëÿâàíà ¢ íàñòóïíóþ òý÷êó:
-SelectDirBrowseLabel=Íàö³ñí³öå Äàëåé äëÿ ïðàöÿãó. Êàë³ Âû æàäàåöå àáðàöü ³íøóþ òý÷êó, òî íàö³ñí³öå Àãëÿä.
-DiskSpaceGBLabel=At least [gb] GB of free disk space is required.
-DiskSpaceMBLabel=Ïðàãðàìà ïàòðàáóå íå ìåíø çà [mb] Ìá âîëüíàé äûñêàâàé ïðàñòîðû.
-CannotInstallToNetworkDrive=Íå ìàãó ¢ñòàëÿâàöü ïðàãðàìó íà ñåòêàâû äûñê.
-CannotInstallToUNCPath=Íå ìàãó ¢ñòàëÿâàöü ïðàãðàìó ¢ òý÷êó ïà UNC-øëÿõó.
-InvalidPath=Íåàáõîäíà àçíà÷ûöü ïî¢íû ñåòêàâû øëÿõ ç ë³òàðàé ïðûëàäû, íàïðûêëàä:%n%nC:\APP%n%nö³ ¢ ôîðìå UNC:%n%n\\ñåðâåð\ðýñóðñ ; for example:%n%nC:\APP%n%nor a UNC path in the form:%n%n\\server\share
-InvalidDrive=Àáðàíû Âàì³ äûñê ö³ ñåòêàâû øëÿõ íå ³ñíóå ö³ íåäàñòóïíû. Êàë³ ëàñêà, àçíà÷öå ³íøû.
-DiskSpaceWarningTitle=Íå õàïàå ìåñöà íà äûñêó
-DiskSpaceWarning=Óñòàë¸¢í³ê ïàòðàáóå %1 Êá âîëüíàé ïðàñòîðû, à íà àáðàíûì äûñêó ¸ñöü òîëüê³ %2 Êá.%n%nÂû ¢ñ¸ ðî¢íà æàäàåöå ïðàöÿãíóöü óñòàëÿâàííå?
-DirNameTooLong=²ìÿ òý÷ê³ ö³ øëÿõ äà ÿå çàäî¢ã³ÿ.
-InvalidDirName=Íàçâà òý÷ê³ õ³áíàÿ.
-BadDirName32=Íàçâà òý÷ê³ íÿ ìîæà çìÿø÷àöü çíàê³:%n%n%1
-DirExistsTitle=Òý÷êà ³ñíóå
-DirExists=Òý÷êà:%n%n%1%n%nóæî ³ñíóå. Óñ¸ ðî¢íà ¢ñòàëÿâàöü ó ãýòó òý÷êó?
-DirDoesntExistTitle=Òý÷êà íå ³ñíóå
-DirDoesntExist=Òý÷êà:%n%n%1%n%níå ³ñíóå. Ñòâàðûöü ÿå?
+WizardSelectDir=Тэчка прызначэння
+SelectDirDesc=Куды усталяваць праграму «[name]»?
+SelectDirLabel3=Праграма «[name]» будзе ўсталявана ў наступную тэчку:
+SelectDirBrowseLabel=Націсніце Далей для працягу. Калі Вы жадаеце абраць іншую тэчку, то націсніце Агляд.
+DiskSpaceGBLabel=Патрабуецца як мінімум [gb] ГБ вольнага месца на дыску.
+DiskSpaceMBLabel=Праграма патрабуе не менш за [mb] Мб вольнай дыскавай прасторы.
+CannotInstallToNetworkDrive=Не магу ўсталяваць праграму на сеткавы дыск.
+CannotInstallToUNCPath=Не магу ўсталяваць праграму ў тэчку па UNC-шляху.
+InvalidPath=Неабходна азначыць поўны сеткавы шлях з літарай прылады, напрыклад:%n%nC:\APP%n%nці ў форме UNC:%n%n\\сервер\рэсурс ; for example:%n%nC:\APP%n%nor a UNC path in the form:%n%n\\server\share
+InvalidDrive=Абраны Вамі дыск ці сеткавы шлях не існуе ці недаступны. Калі ласка, азначце іншы.
+DiskSpaceWarningTitle=Не хапае месца на дыску
+DiskSpaceWarning=Усталёўнік патрабуе %1 Кб вольнай прасторы, а на абраным дыску ёсць толькі %2 Кб.%n%nВы ўсё роўна жадаеце працягнуць усталяванне?
+DirNameTooLong=Імя тэчкі ці шлях да яе задоўгія.
+InvalidDirName=Назва тэчкі хібная.
+BadDirName32=Назва тэчкі ня можа змяшчаць знакі:%n%n%1
+DirExistsTitle=Тэчка існуе
+DirExists=Тэчка:%n%n%1%n%nужо існуе. Усё роўна ўсталяваць у гэту тэчку?
+DirDoesntExistTitle=Тэчка не існуе
+DirDoesntExist=Тэчка:%n%n%1%n%nне існуе. Стварыць яе?
 
 ; *** "Select Components" wizard page
-WizardSelectComponents=Àáðàííå ñêëàäí³êà¢
-SelectComponentsDesc=ßê³ÿ ñêëàäí³ê³ òðýáà ¢ñòàëÿâàöü?
-SelectComponentsLabel2=Ïàçíà÷öå ñêëàäí³ê³, ÿê³ÿ òðýáà ¢ñòàë¸¢âàöü ; clear the components you do not want to install. Click Next when you are ready to continue.
-FullInstallation=Óñòàëÿâàöü öàëêàì
+WizardSelectComponents=Абранне складнікаў
+SelectComponentsDesc=Якія складнікі трэба ўсталяваць?
+SelectComponentsLabel2=Пазначце складнікі, якія трэба ўсталёўваць ; clear the components you do not want to install. Click Next when you are ready to continue.
+FullInstallation=Усталяваць цалкам
 ; if possible don't translate 'Compact' as 'Minimal' (I mean 'Minimal' in your language)
-CompactInstallation=Êàìïàêòíàå ¢ñòàëÿâàííå
-CustomInstallation=Âûáàðêîâàå ¢ñòàëÿâàííå
-NoUninstallWarningTitle=Óñòàëÿâàíûÿ ñêëàäí³ê³
-NoUninstallWarning=Óâàãà, íàñòóïíûÿ ñêëàäí³ê³ ¢æî ¸ñöü íà Âàøûì êàìïóòàðû:%n%n%1%n%nÊàë³ Âû íå ïàçíà÷ûöå ³õ çàðàç, ÿíû íå áóäóöü âûäàëåíûÿ.%n%nÏðàöÿãíóöü óñ¸ ðî¢íà?
-ComponentSize1=%1 Êá
-ComponentSize2=%1 Ìá
-ComponentsDiskSpaceGBLabel=Current selection requires at least [gb] GB of disk space.
-ComponentsDiskSpaceMBLabel=Áÿãó÷û âûáàð ïàòðàáóå íå ìåíø çà [mb] Ìá íà äûñêó.
+CompactInstallation=Кампактнае ўсталяванне
+CustomInstallation=Выбарковае ўсталяванне
+NoUninstallWarningTitle=Усталяваныя складнікі
+NoUninstallWarning=Увага, наступныя складнікі ўжо ёсць на Вашым кампутары:%n%n%1%n%nКалі Вы не пазначыце іх зараз, яны не будуць выдаленыя.%n%nПрацягнуць усё роўна?
+ComponentSize1=%1 Кб
+ComponentSize2=%1 Мб
+ComponentsDiskSpaceGBLabel=Для выбару патрабуецца па меншай меры [gb] Gб дыскавай прасторы.
+ComponentsDiskSpaceMBLabel=Бягучы выбар патрабуе не менш за [mb] Мб на дыску.
 
 ; *** "Select Additional Tasks" wizard page
-WizardSelectTasks=Äàäàòêîâà
-SelectTasksDesc=ßê³ÿ äàäàòêîâûÿ äçåÿíí³ òðýáà âûêàíàöü?
-SelectTasksLabel2=Ïàçíà÷öå äàäàòêîâûÿ äçåÿíí³, ÿê³ÿ áóäóöü âûêàíàíûÿ ïàä÷àñ ¢ñòàëÿâàííÿ ïðàãðàìû «[name]», ³ íàö³ñí³öå Äàëåé.
+WizardSelectTasks=Дадаткова
+SelectTasksDesc=Якія дадатковыя дзеянні трэба выканаць?
+SelectTasksLabel2=Пазначце дадатковыя дзеянні, якія будуць выкананыя падчас ўсталявання праграмы «[name]», і націсніце Далей.
 
 ; *** "Select Start Menu Folder" wizard page
-WizardSelectProgramGroup=Àáðàííå òý÷ê³ ¢ ìåíþ Ïóñê
-SelectStartMenuFolderDesc=Àáÿðûöå òý÷êó ¢ ìåíþ Ïóñê, äçå áóäóöü ñòâîðàíû öýòë³ê³ äëÿ ïðàãðàìû.
-SelectStartMenuFolderLabel3=Öýòë³ê³ ïðàãðàìû áóäóöü ñòâîðàíû ¢ íàñòóïíàé òý÷öû ìåíþ Ïóñê.
-SelectStartMenuFolderBrowseLabel=Êàá ïðàöÿãíóöü - íàö³ñí³öå Äàëåé. Êàë³ Âû æàäàåöå àáðàöü ³íøóþ òý÷êó - íàö³ñí³öå Àãëÿä.
-MustEnterGroupName=Âû ïàâ³ííû ¢âåñö³ ³ìÿ òý÷ê³.
-GroupNameTooLong=Íàçâà òý÷ê³ ö³ øëÿõ çàäî¢ã³ÿ.
-InvalidGroupName=Íàçâà òý÷ê³ õ³áíàÿ.
-BadGroupName=Íàçâà òý÷ê³ íÿ ìîæà ìåöü íàñòóïíûÿ çíàê³:%n%n%1
-NoProgramGroupCheck2=&Íå ñòâàðàöü òý÷êó ¢ ìåíþ Ïóñê
+WizardSelectProgramGroup=Абранне тэчкі ў меню Пуск
+SelectStartMenuFolderDesc=Абярыце тэчку ў меню Пуск, дзе будуць створаны цэтлікі для праграмы.
+SelectStartMenuFolderLabel3=Цэтлікі праграмы будуць створаны ў наступнай тэчцы меню Пуск.
+SelectStartMenuFolderBrowseLabel=Каб працягнуць - націсніце Далей. Калі Вы жадаеце абраць іншую тэчку - націсніце Агляд.
+MustEnterGroupName=Вы павінны ўвесці імя тэчкі.
+GroupNameTooLong=Назва тэчкі ці шлях задоўгія.
+InvalidGroupName=Назва тэчкі хібная.
+BadGroupName=Назва тэчкі ня можа мець наступныя знакі:%n%n%1
+NoProgramGroupCheck2=&Не ствараць тэчку ў меню Пуск
 
 ; *** "Ready to Install" wizard page
-WizardReady=Óñ¸ ãàòîâà äà ¢ñòàëÿâàííÿ
-ReadyLabel1=Óñ¸ ãàòîâà äà ¢ñòàëÿâàííÿ ïðàãðàìû «[name]» íà Âàø êàìïóòàð.
-ReadyLabel2a=Íàö³ñí³öå ¡ñòàëÿâàöü êàá ïðàöÿãíóöü óñòàëÿâàííå, àáî Íàçàä - êàë³ Âû æàäàåöå çìÿí³öü íàëàäû.
-ReadyLabel2b=Íàö³ñí³öå ¡ñòàëÿâàöü êàá ïðàöÿãíóöü óñòàëÿâàííå.
-ReadyMemoUserInfo=Çâåñòê³ ïðà êàðûñòà÷à:
-ReadyMemoDir=Òý÷êà ïðûçíà÷ýííÿ:
-ReadyMemoType=Òûï óñòàë¸¢ê³:
-ReadyMemoComponents=Àáðàíûÿ ñêëàäí³ê³:
-ReadyMemoGroup=Òý÷êà ¢ ìåíþ Ïóñê:
-ReadyMemoTasks=Äàäàòêîâûÿ äçåÿíí³:
+WizardReady=Усё гатова да ўсталявання
+ReadyLabel1=Усё гатова да ўсталявання праграмы «[name]» на Ваш кампутар.
+ReadyLabel2a=Націсніце Ўсталяваць каб працягнуць усталяванне, або Назад - калі Вы жадаеце змяніць налады.
+ReadyLabel2b=Націсніце Ўсталяваць каб працягнуць усталяванне.
+ReadyMemoUserInfo=Звесткі пра карыстача:
+ReadyMemoDir=Тэчка прызначэння:
+ReadyMemoType=Тып усталёўкі:
+ReadyMemoComponents=Абраныя складнікі:
+ReadyMemoGroup=Тэчка ў меню Пуск:
+ReadyMemoTasks=Дадатковыя дзеянні:
 
 ; *** "Preparing to Install" wizard page
-WizardPreparing=Ïàäðûõòî¢êà äà ¢ñòàëÿâàííÿ
-PreparingDesc=Ïðàãðàìà ¢ñòàëÿâàííÿ ðûõòóåööà óñòàëÿâàöü «[name]» íà Âàø êàìïóòàð.
-PreviousInstallNotCompleted=Óñòàëÿâàííå ö³ âûäàëåííå ³íøàé ïðàãðàìû íå áûëî ñêîí÷àíà. Âû ïàâ³ííû ïåðàçàïóñö³öü êàìïóòàð, êàá ñêîí÷ûöü òîå ¢ñòàëÿâàííå.%n%nÏàñëÿ ïåðàçàãðóçê³ çàïóñö³öå ãýòû ¢ñòàë¸¢í³ê ÿø÷ý ðàç, êàá óñòàëÿâàöü «[name]».
-CannotContinue=Íå ìàãó ïðàöÿãíóöü óñòàëÿâàííå. Íàö³ñí³öå Àäìåíà êàá âûéñö³ ç ïðàãðàìû.
-ApplicationsFound=Íàñòóïíûÿ ïðàãðàìû çàõàï³ë³ ôàéëû, ÿê³ÿ ¢ñòàë¸¢í³ê ïàâ³íåí àáíàâ³öü. Ðýêàìåíäóþ äàçâîë³öü ¢ñòàë¸¢í³êó ñàìàñòîéíà çàêðûöü ãýòûÿ ïðàãðàìû.
-ApplicationsFound2=Íàñòóïíûÿ ïðàãðàìû çàõàï³ë³ ôàéëû, ÿê³ÿ ¢ñòàë¸¢í³ê ïàâ³íåí àáíàâ³öü. Ðýêàìåíäóþ äàçâîë³öü ¢ñòàë¸¢í³êó ñàìàñòîéíà çàêðûöü ãýòûÿ ïðàãðàìû. Êàë³ ¢ñòàëÿâàííå áóäçå ñêîí÷àíà, óñòàë¸¢í³ê ïàñïðàáóå çíî¢ çàïóñö³öü ³õ.
-CloseApplications=&À¢òàìàòû÷íà çàêðûöü ãýòûÿ ïðàãðàìû
-DontCloseApplications=&Íå çàêðûâàöü ãýòûÿ ïðàãðàìû
-ErrorCloseApplications=Óñòàë¸¢í³ê íå çìîã ñàìàñòîéíà çàêðûöü óñå ïðàãðàìû. Ðýêàìåíäóþ çàêðûöü óñå ïðàãðàìû, øòî çàõàï³ë³ ïàäëåãëûÿ àáíà¢ëåííþ ôàéëû, ïåðø ÷ûì ïðàöÿãíóöü óñòàëÿâàííå.
-PrepareToInstallNeedsRestart=Setup must restart your computer. After restarting your computer, run Setup again to complete the installation of [name].%n%nWould you like to restart now?
+WizardPreparing=Падрыхтоўка да ўсталявання
+PreparingDesc=Праграма ўсталявання рыхтуецца усталяваць «[name]» на Ваш кампутар.
+PreviousInstallNotCompleted=Усталяванне ці выдаленне іншай праграмы не было скончана. Вы павінны перазапусціць кампутар, каб скончыць тое ўсталяванне.%n%nПасля перазагрузкі запусціце гэты ўсталёўнік яшчэ раз, каб усталяваць «[name]».
+CannotContinue=Не магу працягнуць усталяванне. Націсніце Адмена каб выйсці з праграмы.
+ApplicationsFound=Наступныя праграмы захапілі файлы, якія ўсталёўнік павінен абнавіць. Рэкамендую дазволіць ўсталёўніку самастойна закрыць гэтыя праграмы.
+ApplicationsFound2=Наступныя праграмы захапілі файлы, якія ўсталёўнік павінен абнавіць. Рэкамендую дазволіць ўсталёўніку самастойна закрыць гэтыя праграмы. Калі ўсталяванне будзе скончана, усталёўнік паспрабуе зноў запусціць іх.
+CloseApplications=&Аўтаматычна закрыць гэтыя праграмы
+DontCloseApplications=&Не закрываць гэтыя праграмы
+ErrorCloseApplications=Усталёўнік не змог самастойна закрыць усе праграмы. Рэкамендую закрыць усе праграмы, што захапілі падлеглыя абнаўленню файлы, перш чым працягнуць усталяванне.
+PrepareToInstallNeedsRestart=Праграма павінна перазагрузіць кампутар. Пасля перазагрузкі кампутара запусціце праграму Настройка яшчэ раз, каб завяршыць усталяванне [name].%n%nВы хацелі б перазапусціць зараз?
 
 ; *** "Installing" wizard page
-WizardInstalling=Óñòàëÿâàííå ïðàãðàìû
-InstallingLabel=×àêàéöå, ïàêóëü ïðàãðàìà «[name]» óñòàë¸¢âàåööà íà Âàø êàìïóòàð.
+WizardInstalling=Усталяванне праграмы
+InstallingLabel=Чакайце, пакуль праграма «[name]» усталёўваецца на Ваш кампутар.
 
 ; *** "Setup Completed" wizard page
-FinishedHeadingLabel=Çàêàí÷ýííå ¢ñòàëÿâàííÿ «[name]».
-FinishedLabelNoIcons=Óñòàëÿâàííå ïðàãðàìû «[name]» ñêîí÷àíà.
-FinishedLabel=Óñòàëÿâàííå ïðàãðàìû «[name]» ñêîí÷àíà. ßå ìîæíà çàïóñö³öü óñòàëÿâàíàé ñïàñûëêàé.
-ClickFinish=Íàö³ñí³öå Ãàòîâà, êàá âûéñö³ ç óñòàë¸¢í³êà.
-FinishedRestartLabel=Êàá ñêîí÷ûöü óñòàëÿâàííå ïðàãðàìû «[name]» òðýáà ïåðàçàïóñö³öü Âàø êàìïóòàð. Ïåðàçàïóñö³öü çàðàç?
-FinishedRestartMessage=Êàá ñêîí÷ûöü óñòàëÿâàííå ïðàãðàìû «[name]» òðýáà ïåðàçàïóñö³öü Âàø êàìïóòàð.%n%nÏåðàçàïóñö³öü çàðàç?
-ShowReadmeCheck=ß æàäàþ ïà÷ûòàöü äàäàòêîâóþ ³íôàðìàöûþ
-YesRadio=&Òàê, ïåðàçàïóñö³ êàìïóòàð çàðàç
-NoRadio=&Íå, ÿ ïåðàçàïóø÷ó ïàçíåé
+FinishedHeadingLabel=Заканчэнне ўсталявання «[name]».
+FinishedLabelNoIcons=Усталяванне праграмы «[name]» скончана.
+FinishedLabel=Усталяванне праграмы «[name]» скончана. Яе можна запусціць усталяванай спасылкай.
+ClickFinish=Націсніце Гатова, каб выйсці з усталёўніка.
+FinishedRestartLabel=Каб скончыць усталяванне праграмы «[name]» трэба перазапусціць Ваш кампутар. Перазапусціць зараз?
+FinishedRestartMessage=Каб скончыць усталяванне праграмы «[name]» трэба перазапусціць Ваш кампутар.%n%nПеразапусціць зараз?
+ShowReadmeCheck=Я жадаю пачытаць дадатковую інфармацыю
+YesRadio=&Так, перазапусці кампутар зараз
+NoRadio=&Не, я перазапушчу пазней
 ; used for example as 'Run MyProg.exe'
-RunEntryExec=Âûêàíàöü %1
+RunEntryExec=Выканаць %1
 ; used for example as 'View Readme.txt'
-RunEntryShellExec=Ïðàãëåäçåöü %1
+RunEntryShellExec=Прагледзець %1
 
 ; *** "Setup Needs the Next Disk" stuff
-ChangeDiskTitle=Ïàòðàáóåööà íàñòóïíû äûñê
-SelectDiskLabel2=Óñòà¢öå äûñê %1 ³ íàö³ñí³öå Äîáðà.%n%nÊàë³ ôàéëû íà ãýòûì äûñêó çíàõîäçÿööà ¢ òý÷öû, ÿêàÿ àäðîçí³âàåööà àä ïàêàçàíàé í³æýé, òî àçíà÷öå ñëóøíû øëÿõ, ö³ íàö³ñí³öå Àãëÿä.
-PathLabel=&Øëÿõ:
-FileNotInDir2=Ôàéë «%1» íÿ çíîéäçåíû ¢ «%2». Óñòà¢öå ïàòðýáíû äûñê ö³ àçíà÷öå ³íøóþ òý÷êó.
-SelectDirectoryLabel=Àçíà÷öå ìåñöàâàííå íàñòóïíàãà äûñêà.
+ChangeDiskTitle=Патрабуецца наступны дыск
+SelectDiskLabel2=Устаўце дыск %1 і націсніце Добра.%n%nКалі файлы на гэтым дыску знаходзяцца ў тэчцы, якая адрозніваецца ад паказанай ніжэй, то азначце слушны шлях, ці націсніце Агляд.
+PathLabel=&Шлях:
+FileNotInDir2=Файл «%1» ня знойдзены ў «%2». Устаўце патрэбны дыск ці азначце іншую тэчку.
+SelectDirectoryLabel=Азначце месцаванне наступнага дыска.
 
 ; *** Installation phase messages
-SetupAborted=Óñòàëÿâàííå íå ñêîí÷àíà.%n%nÊàë³ ëàñêà, âûðàøûöå ïðàáëåìó ³ çàïóñö³öå ¢ñòàë¸¢í³ê ³çíî¢
-AbortRetryIgnoreSelectAction=Select action
-AbortRetryIgnoreRetry=&Try again
-AbortRetryIgnoreIgnore=&Ignore the error and continue
-AbortRetryIgnoreCancel=Cancel installation
+SetupAborted=Усталяванне не скончана.%n%nКалі ласка, вырашыце праблему і запусціце ўсталёўнік ізноў
+AbortRetryIgnoreSelectAction=Абярыце дзеянне
+AbortRetryIgnoreRetry=&Паспрабуй яшчэ
+AbortRetryIgnoreIgnore=&Праігнаруйце памылку і працягвайце
+AbortRetryIgnoreCancel=Адмяніць ўстаноўку
 
 ; *** Installation status messages
-StatusClosingApplications=Çàêðûöö¸ ïðàãðàìà¢...
-StatusCreateDirs=Ñòâàðýííå òý÷êà¢...
-StatusExtractFiles=Ðàñïàêàâàííå ôàéëà¢...
-StatusCreateIcons=Ñòâàðýííå öýòë³êà¢...
-StatusCreateIniEntries=Ñòâàðýííå INI-ôàéëà¢...
-StatusCreateRegistryEntries=Ñòâàðýííå çàï³ñà¢ ðýåñòðó...
-StatusRegisterFiles=Ðýã³ñòðàöûÿ ôàéëà¢...
-StatusSavingUninstall=Çàõàâàííå ³íôàðìàöû³ äëÿ äý¢ñòàëÿâàííÿ...
-StatusRunProgram=Çàêàí÷ýííå ¢ñòàëÿâàííÿ...
-StatusRestartingApplications=Ïåðàçàïóñê ïðàãðàìà¢...
-StatusRollback=Àäêàò çìåíà¢...
+StatusClosingApplications=Закрыццё праграмаў...
+StatusCreateDirs=Стварэнне тэчкаў...
+StatusExtractFiles=Распакаванне файлаў...
+StatusCreateIcons=Стварэнне цэтлікаў...
+StatusCreateIniEntries=Стварэнне INI-файлаў...
+StatusCreateRegistryEntries=Стварэнне запісаў рэестру...
+StatusRegisterFiles=Рэгістрацыя файлаў...
+StatusSavingUninstall=Захаванне інфармацыі для дэўсталявання...
+StatusRunProgram=Заканчэнне ўсталявання...
+StatusRestartingApplications=Перазапуск праграмаў...
+StatusRollback=Адкат зменаў...
 
 ; *** Misc. errors
-ErrorInternal2=Óíóòðàíû çáîé %1
-ErrorFunctionFailedNoCode=%1: çáîé
-ErrorFunctionFailed=%1: çáîé ; code %2
-ErrorFunctionFailedWithMessage=%1: çáîé ; code %2.%n%3
-ErrorExecutingProgram=Íå ìàãó âûêàíàöü ôàéë:%n%1
+ErrorInternal2=Унутраны збой %1
+ErrorFunctionFailedNoCode=%1: збой
+ErrorFunctionFailed=%1: збой ; code %2
+ErrorFunctionFailedWithMessage=%1: збой ; code %2.%n%3
+ErrorExecutingProgram=Не магу выканаць файл:%n%1
 
 ; *** Registry errors
-ErrorRegOpenKey=Íå ìàãó àäêðûöü êëþ÷ ðýåñòðà:%n%1\%2
-ErrorRegCreateKey=Íå ìàãó ñòâàðûöü êëþ÷ ðýåñòðà:%n%1\%2
-ErrorRegWriteKey=Íå ìàãó çàï³ñàöü ó êëþ÷ ðýåñòðà:%n%1\%2
+ErrorRegOpenKey=Не магу адкрыць ключ рэестра:%n%1\%2
+ErrorRegCreateKey=Не магу стварыць ключ рэестра:%n%1\%2
+ErrorRegWriteKey=Не магу запісаць у ключ рэестра:%n%1\%2
 
 ; *** INI errors
-ErrorIniEntry=Íå ìàãó ñòâàðûöü ñåêöûþ ¢ INI-ôàéëå «%1».
+ErrorIniEntry=Не магу стварыць секцыю ў INI-файле «%1».
 
 ; *** File copying errors
-FileAbortRetryIgnoreSkipNotRecommended=&Skip this file (not recommended)
-FileAbortRetryIgnoreIgnoreNotRecommended=&Ignore the error and continue (not recommended)
-SourceIsCorrupted=Âûòî÷íû ôàéë ïàøêîäæàíû.
-SourceDoesntExist=Âûòî÷íû ôàéë «%1» íå ³ñíóå.
-ExistingFileReadOnly2=The existing file could not be replaced because it is marked read-only.
-ExistingFileReadOnlyRetry=&Remove the read-only attribute and try again
-ExistingFileReadOnlyKeepExisting=&Keep the existing file
-ErrorReadingExistingDest=Àäáû¢ñÿ çáîé ïðû ñïðîáå ÷ûòàííÿ ³ñíàãà ôàéëà:
-FileExists=Ôàéë óæî ³ñíóå.%n%nÏåðàçàï³ñàöü ÿãî?
-ExistingFileNewer=²ñíû ôàéë íàâåéøû çà òîé, øòî óñòàë¸¢âàåööà. Ðåêàìåíäóþ ïàê³íóöü ³ñíû ôàéë.%n%nÏàê³íóöü ³ñíû ôàéë?
-ErrorChangingAttr=Çáîé ïàä÷àñ ñïðîáû çìåíû àòðûáóòà¢ ³ñíàãà ôàéëà:
-ErrorCreatingTemp=Çáîé ïàä÷àñ ñïðîáû ñòâàðýííÿ ôàéëà ¢ òý÷öû ïðûçíà÷ýííÿ:
-ErrorReadingSource=Çáîé ïàä÷àñ ñïðîáû ÷ûòàííÿ âûòî÷íàãà ôàéëà:
-ErrorCopying=Çáîé ïàä÷àñ ñïðîáû êàï³ÿâàííÿ ôàéëà:
-ErrorReplacingExistingFile=Çáîé ïàä÷àñ ñïðîáû çàìåíû ³ñíàãà ôàéëà:
-ErrorRestartReplace=Ïà¢òîðíàå êàï³ÿâàííå íå àäáûëîñÿ:
-ErrorRenamingTemp=Çáîé ïàä÷àñ ñïðîáû ïåðàíàçâàííÿ ôàéëà ¢ òý÷öû ïðûçíà÷ýííÿ:
-ErrorRegisterServer=Íå ìàãó çàðýã³ñòðàâàöü DLL/OCX: %1
-ErrorRegSvr32Failed=Çáîé ïðàöû RegSvr32, êîä çâàðîòó %1
-ErrorRegisterTypeLib=Íå ìàãó çàðýã³ñòðàâàöü á³áë³ÿòýêó òûïà¢: %1
+FileAbortRetryIgnoreSkipNotRecommended=&Прапусціць гэты файл (не рэкамендуецца)
+FileAbortRetryIgnoreIgnoreNotRecommended=&Ігнаруйце памылку і працягвайце (не рэкамендуецца)
+SourceIsCorrupted=Выточны файл пашкоджаны.
+SourceDoesntExist=Выточны файл «%1» не існуе.
+ExistingFileReadOnly2=Існуючы файл нельга замяніць, бо ён пазначаны толькі для чытання.
+ExistingFileReadOnlyRetry=&Выдаліце атрыбут толькі для чытання і паспрабуйце яшчэ раз
+ExistingFileReadOnlyKeepExisting=&Захоўвайце існуючы файл
+ErrorReadingExistingDest=Адбыўся збой пры спробе чытання існага файла:
+FileExists=Файл ужо існуе.%n%nПеразапісаць яго?
+ExistingFileNewer=Існы файл навейшы за той, што усталёўваецца. Рекамендую пакінуць існы файл.%n%nПакінуць існы файл?
+ErrorChangingAttr=Збой падчас спробы змены атрыбутаў існага файла:
+ErrorCreatingTemp=Збой падчас спробы стварэння файла ў тэчцы прызначэння:
+ErrorReadingSource=Збой падчас спробы чытання выточнага файла:
+ErrorCopying=Збой падчас спробы капіявання файла:
+ErrorReplacingExistingFile=Збой падчас спробы замены існага файла:
+ErrorRestartReplace=Паўторнае капіяванне не адбылося:
+ErrorRenamingTemp=Збой падчас спробы пераназвання файла ў тэчцы прызначэння:
+ErrorRegisterServer=Не магу зарэгістраваць DLL/OCX: %1
+ErrorRegSvr32Failed=Збой працы RegSvr32, код звароту %1
+ErrorRegisterTypeLib=Не магу зарэгістраваць бібліятэку тыпаў: %1
 
 ; *** Uninstall display name markings
 ; used for example as 'My Program (32-bit)'
@@ -312,56 +312,57 @@ UninstallDisplayNameMark=%1 (%2)
 UninstallDisplayNameMarks=%1 (%2, %3)
 UninstallDisplayNameMark32Bit=32-bit
 UninstallDisplayNameMark64Bit=64-bit
-UninstallDisplayNameMarkAllUsers=All users
-UninstallDisplayNameMarkCurrentUser=Current user
+UninstallDisplayNameMarkAllUsers=Усе карыстальнікі
+UninstallDisplayNameMarkCurrentUser=Бягучы карыстальнік
 
 ; *** Post-installation errors
-ErrorOpeningReadme=Çáîé ïàä÷àñ ñïðîáû àäêðûööÿ ôàéëà README:
-ErrorRestartingComputer=Óñòàë¸¢í³ê íÿ ìîæà ïåðàçàïóñö³öü êàìïóòàð. Ïåðàçàãðóç³öå ¢ðó÷íóþ.
+ErrorOpeningReadme=Збой падчас спробы адкрыцця файла README:
+ErrorRestartingComputer=Усталёўнік ня можа перазапусціць кампутар. Перазагрузіце ўручную.
 
 ; *** Uninstaller messages
-UninstallNotFound=Ôàéë «%1» íå ³ñíóå, äý¢ñòàëÿâàííå íåìàã÷ûìà.
-UninstallOpenError=Íåëüãà àäêðûöü ôàéë «%1», äý¢ñòàëÿâàííå íåìàã÷ûìà.
-UninstallUnsupportedVer=Ôàðìàò ïðàòàêîëà äý¢ñòàëÿâàííÿ «%1» íå ðàñïàçíàíû ãýòàé âåðñ³ÿé äý¢ñòàë¸¢í³êà. Äý¢ñòàëÿâàííå íåìàã÷ûìà.
-UninstallUnknownEntry=Íåâÿäîìû çàï³ñ (%1) áû¢ çíîéäçåíû ¢ ôàéëå ïðàòàêîëà äý¢ñòàëÿâàííÿ
-ConfirmUninstall=Âû ñàïðà¢äû æàäàåöå âûäàë³öü «%1» ³ ¢ñå ñêëàäí³ê³ ïðàãðàìû?
-UninstallOnlyOnWin64=Ãýòó ïðàãðàìó ìîæíà äý¢ñòàëÿâàöü òîëüê³ ¢ àñÿðîääç³ 64-á³òíàé Windows.
-OnlyAdminCanUninstall=Ãýòà ïðàãðàìà ìîæà áûöü äý¢ñòàëÿâàíà òîëüê³ êàðûñòà÷îì ç ïðàâàì³ àäì³í³ñòðàòàðà.
-UninstallStatusLabel=Ïà÷àêàéöå, ïàêóëü «%1» âûäàëÿåööà ç êàìïóòàðà.
-UninstalledAll=Ïðàãðàìà «%1» ïàñïÿõîâà âûäàëåíà ç êàìïóòàðà.
-UninstalledMost=Âûäàëåííå ïðàãðàìû «%1» ñêîí÷àíà.%n%nÍåêàòîðûÿ ýëåìåíòû íå âûäàëåíûÿ. ²õ ìîæíà âûäàë³öü ñàìàñòîéíà.
-UninstalledAndNeedsRestart=Êàá ñêîí÷ûöü äý¢ñòàëÿâàííå «%1», òðýáà ïåðàçàïóñö³öü êàìïóòàð.%n%nÖ³ æàäàåöå çðàá³öü ãýòà çàðàç?
-UninstallDataCorrupted=Ôàéë «%1» ïàøêîäæàíû. Äý¢ñòàëÿâàííå íåìàã÷ûìà.
+UninstallNotFound=Файл «%1» не існуе, дэўсталяванне немагчыма.
+UninstallOpenError=Нельга адкрыць файл «%1», дэўсталяванне немагчыма.
+UninstallUnsupportedVer=Фармат пратакола дэўсталявання «%1» не распазнаны гэтай версіяй дэўсталёўніка. Дэўсталяванне немагчыма.
+UninstallUnknownEntry=Невядомы запіс (%1) быў знойдзены ў файле пратакола дэўсталявання
+ConfirmUninstall=Вы сапраўды жадаеце выдаліць «%1» і ўсе складнікі праграмы?
+UninstallOnlyOnWin64=Гэту праграму можна дэўсталяваць толькі ў асяроддзі 64-бітнай Windows.
+OnlyAdminCanUninstall=Гэта праграма можа быць дэўсталявана толькі карыстачом з правамі адміністратара.
+UninstallStatusLabel=Пачакайце, пакуль «%1» выдаляецца з кампутара.
+UninstalledAll=Праграма «%1» паспяхова выдалена з кампутара.
+UninstalledMost=Выдаленне праграмы «%1» скончана.%n%nНекаторыя элементы не выдаленыя. Іх можна выдаліць самастойна.
+UninstalledAndNeedsRestart=Каб скончыць дэўсталяванне «%1», трэба перазапусціць кампутар.%n%nЦі жадаеце зрабіць гэта зараз?
+UninstallDataCorrupted=Файл «%1» пашкоджаны. Дэўсталяванне немагчыма.
 
 ; *** Uninstallation phase messages
-ConfirmDeleteSharedFileTitle=Remove Shared File?
-ConfirmDeleteSharedFile2=The system indicates that the following shared file is no longer in use by any programs. Would you like for Uninstall to remove this shared file?%n%nIf any programs are still using this file and it is removed, those programs may not function properly. If you are unsure, choose No. Leaving the file on your system will not cause any harm.
-SharedFileNameLabel=File name:
-SharedFileLocationLabel=Location:
-WizardUninstalling=Uninstall Status
-StatusUninstalling=Uninstalling %1...
+ConfirmDeleteSharedFileTitle=Выдаліць сумесна карыстаны файл?
+ConfirmDeleteSharedFile2=Сістэма паказвае, што наступны сумесна карыстаны файл больш не патрэбны іншым праграмам. Пацвярджаеце выдаленне файла?%n%nКалі нейкія праграмы ўсё яшчэ карыстаюцца гэтым файлам, і ён будзе выдалены, яны ня змогуць працаваць правільна. Калі Вы ня ўпэўнены - абярыце Не. Пакінуты файл не нашкодзіць Вашай сістэме.
+SharedFileNameLabel=Назва файла:
+SharedFileLocationLabel=Месцаванне:
+WizardUninstalling=Стан працэсу выдалення
+StatusUninstalling=Дэўсталяванне %1...
 
 ; *** Shutdown block reasons
-ShutdownBlockReasonInstallingApp=Installing %1.
-ShutdownBlockReasonUninstallingApp=Uninstalling %1.
+ShutdownBlockReasonInstallingApp=Усталяванне %1.
+ShutdownBlockReasonUninstallingApp=Дэўсталяванне %1.
 
 ; The custom messages below aren't used by Setup itself, but if you make
 ; use of them in your scripts, you'll want to translate them.
 
 [CustomMessages]
 
-NameAndVersion=%1 version %2
-AdditionalIcons=Additional shortcuts:
-CreateDesktopIcon=Create a &desktop shortcut
-CreateQuickLaunchIcon=Create a &Quick Launch shortcut
-ProgramOnTheWeb=%1 on the Web
-UninstallProgram=Uninstall %1
-LaunchProgram=Launch %1
-AssocFileExtension=&Associate %1 with the %2 file extension
-AssocingFileExtension=Associating %1 with the %2 file extension...
-AutoStartProgramGroupDescription=Startup:
-AutoStartProgram=Automatically start %1
-AddonHostProgramNotFound=%1 could not be located in the folder you selected.%n%nDo you want to continue anyway?"
+NameAndVersion=%1, версія %2
+AdditionalIcons=Дадатковыя цэтлікі:
+CreateDesktopIcon=Стварыць цэтлік на &працоўным стале
+CreateQuickLaunchIcon=Стварыць цэтлік у панэлі &хуткага запуску
+ProgramOnTheWeb=Сайт %1 у Сеціве
+UninstallProgram=Дэўсталяваць %1
+LaunchProgram=Запусціць %1
+AssocFileExtension=&Звязаць %1 з тыпамі файлаў %2
+AssocingFileExtension=Звязанне %1 з тыпамі файлаў %2...
+AutoStartProgramGroupDescription=Аўтазапуск:
+AutoStartProgram=Аўтаматычна запускаць %1
+AddonHostProgramNotFound=%1 не знойдзены ў азначанай Вамі тэчцы.%n%nУсё адно хочаце працягнуць?
+
 
 
 
