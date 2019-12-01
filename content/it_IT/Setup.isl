@@ -1,5 +1,4 @@
-﻿; bovirus@gmail.com
-; *** Inno Setup version 6.0.3+ Italian messages ***
+; *** Inno Setup version 6.0.3+ English messages ***
 ;
 ; To download user-contributed translations of this file, go to:
 ;   http://www.jrsoftware.org/files/istrans/
@@ -8,29 +7,23 @@
 ; messages that didn't have them already, because on those messages Inno
 ; Setup adds the periods automatically (appending a period would result in
 ; two periods being displayed).
-;
-; Italian.isl - Last Update: 03.10.2019  by bovirus (bovirus@gmail.com)
-;
-; Translator name:   bovirus
-; Translator e-mail: bovirus@gmail.com
-; Based on previous translations of Rinaldo M. aka Whiteshark (based on ale5000 5.1.11+ translation)
-;
+
 [LangOptions]
-; The following three entries are very important. Be sure to read and 
+; The following three entries are very important. Be sure to read and
 ; understand the '[LangOptions] section' topic in the help file.
 LanguageName=Italiano
 LanguageID=$0410
 LanguageCodePage=1252
 ; If the language you are translating to requires special font faces or
 ; sizes, uncomment any of the following entries and change them accordingly.
-;DialogFontName=
-;DialogFontSize=8
-;WelcomeFontName=Verdana
-;WelcomeFontSize=12
-;TitleFontName=Arial
-;TitleFontSize=29
-;CopyrightFontName=Arial
-;CopyrightFontSize=8
+DialogFontName=Tahoma
+TitleFontName=Arial
+WelcomeFontName=Verdana
+CopyrightFontName=Arial
+DialogFontSize=8
+TitleFontSize=29
+WelcomeFontSize=12
+CopyrightFontSize=8
 
 [Messages]
 
@@ -49,6 +42,7 @@ ErrorTitle=Errore
 SetupLdrStartupMessage=Questa è l'installazione di %1.%n%nVuoi continuare?
 LdrCannotCreateTemp=Impossibile creare un file temporaneo.%n%nInstallazione annullata.
 LdrCannotExecTemp=Impossibile eseguire un file nella cartella temporanea.%n%nInstallazione annullata.
+HelpTextNote=
 
 ; *** Startup error messages
 LastErrorMessage=%1.%n%nErrore %2: %3
@@ -90,7 +84,7 @@ AboutSetupMenuItem=&Informazioni sull'installazione...
 AboutSetupTitle=Informazioni sull'installazione
 AboutSetupMessage=%1 versione %2%n%3%n%n%1 sito web:%n%4
 AboutSetupNote=
-TranslatorNote=Traduzione italiana a cura di Rinaldo M. aka Whiteshark e bovirus (v. 11.09.2018)
+TranslatorNote=
 
 ; *** Buttons
 ButtonBack=< &Indietro
@@ -133,7 +127,7 @@ IncorrectPassword=La password inserita non è corretta. Riprova.
 WizardLicense=Contratto di licenza
 LicenseLabel=Prima di procedere leggi con attenzione le informazioni che seguono.
 LicenseLabel3=Leggi il seguente contratto di licenza.%nPer procedere con l'installazione è necessario accettare tutti i termini del contratto.
-LicenseAccepted=Accetto i termini del &contratto di licenza 
+LicenseAccepted=Accetto i termini del &contratto di licenza
 LicenseNotAccepted=&Non accetto i termini del contratto di licenza
 
 ; *** "Information" wizard pages
@@ -161,7 +155,7 @@ DiskSpaceGBLabel=Sono richiesti almeno [gb] GB di spazio libero nel disco.
 DiskSpaceMBLabel=Sono richiesti almeno [mb] MB di spazio libero nel disco.
 CannotInstallToNetworkDrive=Non è possibile effettuare l'installazione in un disco in rete.
 CannotInstallToUNCPath=Non è possibile effettuare l'installazione in un percorso UNC.
-InvalidPath=Va inserito un percorso completo di lettera di unità; per esempio:%n%nC:\APP%n%no un percorso di rete nella forma:%n%n\\server\condivisione
+InvalidPath=Va inserito un percorso completo di lettera di unità ; for example:%n%nC:\APP%n%nor a UNC path in the form:%n%n\\server\share
 InvalidDrive=L'unità o il percorso di rete selezionato non esiste o non è accessibile.%n%nSelezionane un altro.
 DiskSpaceWarningTitle=Spazio su disco insufficiente
 DiskSpaceWarning=L'installazione richiede per eseguire l'installazione almeno %1 KB di spazio libero, ma l'unità selezionata ha solo %2 KB disponibili.%n%nVuoi continuare comunque?
@@ -176,7 +170,7 @@ DirDoesntExist=La cartella%n%n  %1%n%nnon esiste. Vuoi creare la cartella?
 ; *** "Select Components" wizard page
 WizardSelectComponents=Selezione componenti
 SelectComponentsDesc=Quali componenti vuoi installare?
-SelectComponentsLabel2=Seleziona i componenti da installare, deseleziona quelli che non vuoi installare.%nPer continuare seleziona "Avanti".
+SelectComponentsLabel2=Seleziona i componenti da installare, deseleziona quelli che non vuoi installare.%nPer continuare seleziona "Avanti". ; clear the components you do not want to install. Click Next when you are ready to continue.
 FullInstallation=Installazione completa
 ; if possible don't translate 'Compact' as 'Minimal' (I mean 'Minimal' in your language)
 CompactInstallation=Installazione compatta
@@ -277,8 +271,8 @@ StatusRollback=Recupero delle modifiche...
 ; *** Misc. errors
 ErrorInternal2=Errore interno %1
 ErrorFunctionFailedNoCode=%1 fallito
-ErrorFunctionFailed=%1 fallito; codice %2
-ErrorFunctionFailedWithMessage=%1 fallito; codice %2.%n%3
+ErrorFunctionFailed=%1 fallito ; code %2
+ErrorFunctionFailedWithMessage=%1 fallito ; code %2.%n%3
 ErrorExecutingProgram=Impossibile eseguire il file:%n%1
 
 ; *** Registry errors
@@ -337,34 +331,4 @@ UninstallStatusLabel=Attendi fino a che %1 è stato rimosso dal computer.
 UninstalledAll=Disinstallazione di %1 completata.
 UninstalledMost=Disinstallazione di %1 completata.%n%nAlcuni elementi non possono essere rimossi.%n%nDovranno essere rimossi manualmente.
 UninstalledAndNeedsRestart=Per completare la disinstallazione di %1, è necessario riavviare il sistema.%n%nVuoi riavviare il sistema adesso?
-UninstallDataCorrupted=Il file "%1" è danneggiato. Impossibile disinstallare
-
-; *** Uninstallation phase messages
-ConfirmDeleteSharedFileTitle=Vuoi rimuovere il file condiviso?
-ConfirmDeleteSharedFile2=Il sistema indica che il seguente file condiviso non è più usato da nessun programma.%nVuoi rimuovere questo file condiviso?%nSe qualche programma usasse questo file, potrebbe non funzionare più correttamente.%nSe non sei sicuro, seleziona "No".%nLasciare il file nel sistema non può causare danni.
-SharedFileNameLabel=Nome del file:
-SharedFileLocationLabel=Percorso:
-WizardUninstalling=Stato disinstallazione
-StatusUninstalling=Disinstallazione di %1...
-
-; *** Shutdown block reasons
-ShutdownBlockReasonInstallingApp=Installazione di %1.
-ShutdownBlockReasonUninstallingApp=Disinstallazione di %1.
-
-; The custom messages below aren't used by Setup itself, but if you make
-; use of them in your scripts, you'll want to translate them.
-
-[CustomMessages]
-
-NameAndVersion=%1 versione %2
-AdditionalIcons=Icone aggiuntive:
-CreateDesktopIcon=Crea un'icona sul &desktop
-CreateQuickLaunchIcon=Crea un'icona nella &barra 'Avvio veloce'
-ProgramOnTheWeb=Sito web di %1
-UninstallProgram=Disinstalla %1
-LaunchProgram=Avvia %1
-AssocFileExtension=&Associa i file con estensione %2 a %1
-AssocingFileExtension=Associazione dei file con estensione %2 a %1...
-AutoStartProgramGroupDescription=Esecuzione automatica:
-AutoStartProgram=Esegui automaticamente %1
-AddonHostProgramNotFound=Impossibile individuare %1 nella cartella selezionata.%n%nVuoi continuare ugualmente?
+UninstallDataCorrupted="Il file \"%1\" è danneggiato. Impossibile disinstallare"
