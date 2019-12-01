@@ -334,3 +334,4 @@ UninstalledAndNeedsRestart=Komputer musi zostaæ ponownie uruchomiony, aby zako�
 UninstallDataCorrupted="Plik \"%1\" jest uszkodzony. Nie mo¿na przeprowadziæ dezinstalacji."
 
 
+
