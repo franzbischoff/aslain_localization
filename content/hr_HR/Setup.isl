@@ -1,4 +1,4 @@
-; *** Inno Setup version 6.0.3+ English messages ***
+﻿; *** Inno Setup version 6.0.3+ English messages ***
 ;
 ; To download user-contributed translations of this file, go to:
 ;   http://www.jrsoftware.org/files/istrans/
