@@ -334,3 +334,4 @@ UninstalledAndNeedsRestart=För att slutföra avinstallationen av %1 måste dato
 UninstallDataCorrupted="Filen \"%1\" är felaktig. Kan inte avinstallera"
 
 
+

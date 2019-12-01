@@ -334,3 +334,4 @@ UninstalledAndNeedsRestart=Kone täytyy käynnistää uudelleen, jotta %1 voidaa
 UninstallDataCorrupted="Tiedosto \"%1\" on vaurioitunut. Asennuksen poisto ei onnistu."
 
 
+

@@ -334,3 +334,4 @@ UninstalledAndNeedsRestart=要完成 %1 的卸载，您的电脑必须重新启�
 UninstallDataCorrupted="“%1”文件被破坏，不能卸载"
 
 
+

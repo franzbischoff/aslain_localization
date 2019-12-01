@@ -334,3 +334,4 @@ UninstalledAndNeedsRestart=Êàá ñêîí÷ûöü äý¢ñòàëÿâàííå «
 UninstallDataCorrupted="Ôàéë «%1» ïàøêîäæàíû. Äý¢ñòàëÿâàííå íåìàã÷ûìà."
 
 
+

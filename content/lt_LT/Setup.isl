@@ -334,3 +334,4 @@ UninstalledAndNeedsRestart=%1 paðalinimui uþbaigti Jûsø kompiuteris turi
 UninstallDataCorrupted="%1 failas yra sugadintas. Programos paðalinti neámanoma."
 
 
+

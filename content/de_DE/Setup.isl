@@ -34,7 +34,7 @@ UninstallAppTitle=Entfernen
 UninstallAppFullTitle=%1 entfernen
 
 ; *** Misc. common
-InformationTitle=Information
+InformationTitle=Informationen
 ConfirmTitle=Bestätigen
 ErrorTitle=Fehler
 
@@ -49,7 +49,7 @@ LastErrorMessage=%1.%n%nFehler %2: %3
 SetupFileMissing=Die Datei %1 fehlt im Installations-Ordner. Bitte beheben Sie das Problem, oder besorgen Sie sich eine neue Kopie des Programms.
 SetupFileCorrupt=Die Setup-Dateien sind beschädigt. Besorgen Sie sich bitte eine neue Kopie des Programms.
 SetupFileCorruptOrWrongVer=Die Setup-Dateien sind beschädigt oder inkompatibel zu dieser Version des Setups. Bitte beheben Sie das Problem, oder besorgen Sie sich eine neue Kopie des Programms.
-InvalidParameter=Ein ungültiger Paramter wurde auf der Kommandozeile übergeben:%n%n%1
+InvalidParameter=Ein ungültiger Parameter wurde auf der Kommandozeile übergeben:%n%n%1
 SetupAlreadyRunning=Setup läuft bereits.
 WindowsVersionNotSupported=Dieses Programm unterstützt die auf Ihrem Computer installierte Windows-Version nicht.
 WindowsServicePackRequired=Dieses Programm benötigt %1 Service Pack %2 oder höher.
@@ -111,8 +111,8 @@ BeveledLabel=
 BrowseDialogTitle=Ordner suchen
 BrowseDialogLabel=Wählen Sie einen Ordner aus, und klicken Sie danach auf "
 BeveledLabel=
-BrowseDialogTitle=Browse For Folder
-BrowseDialogLabel=Select a folder in the list below, then click OK.
+BrowseDialogTitle=Ordner durchsuchen
+BrowseDialogLabel=Wählen Sie einen Ordner in der Liste unten, dann klicken Sie auf OK.
 NewFolderName=Neuer Ordner
 
 ; *** "Welcome" wizard page
@@ -134,10 +134,10 @@ LicenseAccepted=Ich &akzeptiere die Vereinbarung
 LicenseNotAccepted=Ich &lehne die Vereinbarung ab
 
 ; *** "Information" wizard pages
-WizardInfoBefore=Information
+WizardInfoBefore=Informationen
 InfoBeforeLabel=Lesen Sie bitte folgende, wichtige Informationen bevor Sie fortfahren.
 InfoBeforeClickLabel=Klicken Sie auf "Weiter", sobald Sie bereit sind mit dem Setup fortzufahren.
-WizardInfoAfter=Information
+WizardInfoAfter=Informationen
 InfoAfterLabel=Lesen Sie bitte folgende, wichtige Informationen bevor Sie fortfahren.
 InfoAfterClickLabel=Klicken Sie auf "Weiter", sobald Sie bereit sind mit dem Setup fortzufahren.
 
@@ -223,7 +223,7 @@ ApplicationsFound2=Die folgenden Anwendungen benutzen Dateien, die aktualisiert 
 CloseApplications=&Schließe die Anwendungen automatisch
 DontCloseApplications=Schließe die A&nwendungen nicht
 ErrorCloseApplications=Das Setup konnte nicht alle Anwendungen automatisch schließen. Es wird empfohlen, alle Anwendungen zu schließen, die Dateien benutzen, die vom Setup vor einer Fortsetzung aktualisiert werden müssen.
-PrepareToInstallNeedsRestart=Setup must restart your computer. After restarting your computer, run Setup again to complete the installation of [name].%n%nWould you like to restart now?
+PrepareToInstallNeedsRestart=Setup muss Ihren Computer neu starten. Nach dem Neustart des Computers starten Sie Setup erneut, um die Installation von [name] abzuschließen.%n%nMöchten Sie jetzt neu starten?
 
 ; *** "Installing" wizard page
 WizardInstalling=Installiere ...
@@ -324,10 +324,10 @@ ErrorRestartingComputer=Das Setup konnte den Computer nicht neu starten. Bitte f
 
 ; *** Uninstaller messages
 UninstallNotFound=Die Datei "
-ErrorRenamingTemp=An error occurred while trying to rename a file in the destination directory:
-ErrorRegisterServer=Unable to register the DLL/OCX: %1
-ErrorRegSvr32Failed=RegSvr32 failed with exit code %1
-ErrorRegisterTypeLib=Unable to register the type library: %1
+ErrorRenamingTemp=Fehler beim Versuch, eine Datei im Zielverzeichnis umzubenennen:
+ErrorRegisterServer=DLL/OCX konnte nicht registriert werden: %1
+ErrorRegSvr32Failed=RegSvr32 fehlgeschlagen mit Exit-Code %1
+ErrorRegisterTypeLib=Die Typ-Bibliothek konnte nicht registriert werden: %1
 
 ; *** Uninstall display name markings
 ; used for example as 'My Program (32-bit)'
@@ -336,15 +336,15 @@ UninstallDisplayNameMark=%1 (%2)
 UninstallDisplayNameMarks=%1 (%2, %3)
 UninstallDisplayNameMark32Bit=32-bit
 UninstallDisplayNameMark64Bit=64-bit
-UninstallDisplayNameMarkAllUsers=All users
-UninstallDisplayNameMarkCurrentUser=Current user
+UninstallDisplayNameMarkAllUsers=Alle Benutzer
+UninstallDisplayNameMarkCurrentUser=Aktueller Benutzer
 
 ; *** Post-installation errors
-ErrorOpeningReadme=An error occurred while trying to open the README file.
-ErrorRestartingComputer=Setup was unable to restart the computer. Please do this manually.
+ErrorOpeningReadme=Fehler beim Versuch, die README-Datei zu öffnen.
+ErrorRestartingComputer=Die Einrichtung konnte den Computer nicht neu starten. Bitte tun Sie dies manuell.
 
 ; *** Uninstaller messages
-UninstallNotFound=File "%1" does not exist. Cannot uninstall.
+UninstallNotFound=Datei "%1" existiert nicht. Deinstallation nicht möglich.
 UninstallOpenError=Die Datei "%1" konnte nicht geöffnet werden. Entfernen der Anwendung fehlgeschlagen.
 UninstallUnsupportedVer=Das Format der Deinstallations-Datei "%1" konnte nicht erkannt werden. Entfernen der Anwendung fehlgeschlagen
 UninstallUnknownEntry=In der Deinstallations-Datei wurde ein unbekannter Eintrag (%1) gefunden
@@ -360,5 +360,6 @@ UninstallDataCorrupted="%1\"-Datei ist beschädigt. Entfernen der Anwendung fehl
 ; *** Uninstallation phase messages
 ConfirmDeleteSharedFileTitle=Gemeinsame Datei entfernen?
 ConfirmDeleteSharedFile2=Das System zeigt an, dass die folgende gemeinsame Datei von keinem anderen Programm mehr benutzt wird. Möchten Sie diese Datei entfernen lassen?%nSollte es doch noch Programme geben, die diese Datei benutzen, und sie wird entfernt, funktionieren diese Programme vielleicht nicht mehr richtig. Wenn Sie unsicher sind, wählen Sie "
+
 
 

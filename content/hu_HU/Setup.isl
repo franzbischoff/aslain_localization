@@ -334,3 +334,4 @@ UninstalledAndNeedsRestart=A(z) %1 eltávolításának befejezéséhez újra kel
 UninstallDataCorrupted="A(z) \"%1\" fájl sérült. Nem távolítható el."
 
 
+

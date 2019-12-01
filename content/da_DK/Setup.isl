@@ -334,3 +334,4 @@ UninstalledAndNeedsRestart=Computeren skal genstartes for at fuldføre afinstall
 UninstallDataCorrupted="Filen \"%1\" er beskadiget. Kan ikke afinstallere"
 
 
+
