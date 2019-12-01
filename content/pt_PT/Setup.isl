@@ -60,8 +60,8 @@ WinVersionTooLowError=Este programa necessita do %1 versão %2 ou mais recente.
 WinVersionTooHighError=Este programa não pode ser instalado no %1 versão %2 ou mais recente.
 AdminPrivilegesRequired=Deve iniciar sessão como administrador para instalar este programa.
 PowerUserPrivilegesRequired=Deve iniciar sessão como administrador ou membro do grupo de Super Utilizadores para instalar este programa.
-SetupAppRunningError=O Assistente de Instalação detectou que o %1 está em execução. Feche-o e de seguida clique em OK para continuar, ou clique em Cancelar para cancelar a instalação.
-UninstallAppRunningError=O Assistente de Desinstalação detectou que o %1 está em execução. Feche-o e de seguida clique em OK para continuar, ou clique em Cancelar para cancelar a desinstalação.
+SetupAppRunningError=O Assistente de Instalação detectou que o %1 está em execução.%n%nFeche-o e de seguida clique em OK para continuar, ou clique em Cancelar para cancelar a instalação.
+UninstallAppRunningError=O Assistente de Desinstalação detectou que o %1 está em execução.%n%nFeche-o e de seguida clique em OK para continuar, ou clique em Cancelar para cancelar a desinstalação.
 
 ; *** Startup questions
 PrivilegesRequiredOverrideTitle=Seleccione o Modo de Instalação
@@ -170,7 +170,7 @@ DirDoesntExist=A pasta:%n%n%1%n%nnão existe. Pretende que esta pasta seja criad
 ; *** "Select Components" wizard page
 WizardSelectComponents=Seleccione os componentes
 SelectComponentsDesc=Que componentes deverão ser instalados?
-SelectComponentsLabel2=Seleccione os componentes que quer instalar e desseleccione os componentes que não quer instalar. Clique em Seguinte quando estiver pronto para continuar. ; clear the components you do not want to install. Click Next when you are ready to continue.
+SelectComponentsLabel2=Seleccione os componentes que quer instalar ; clear the components you do not want to install. Click Next when you are ready to continue.
 FullInstallation=Instalação Completa
 ; if possible don't translate 'Compact' as 'Minimal' (I mean 'Minimal' in your language)
 CompactInstallation=Instalação Compacta
@@ -321,7 +321,7 @@ ErrorRestartingComputer=O Assistente de Instalação não consegue reiniciar o c
 
 ; *** Uninstaller messages
 UninstallNotFound=O ficheiro "%1" não existe. Não é possível desinstalar.
-UninstallOpenError=Não foi possível abrir o ficheiro "%1". Não é possível desinstalar.
+UninstallOpenError=Não foi possível abrir o ficheiro "%1". Não é possível desinstalar
 UninstallUnsupportedVer=O ficheiro log de desinstalação "%1" está num formato que não é reconhecido por esta versão do desinstalador. Não é possível desinstalar
 UninstallUnknownEntry=Foi encontrada uma entrada desconhecida (%1) no ficheiro log de desinstalação
 ConfirmUninstall=Tem a certeza que deseja remover completamente o %1 e todos os seus componentes?
