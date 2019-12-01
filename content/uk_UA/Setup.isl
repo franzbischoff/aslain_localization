@@ -11,9 +11,9 @@
 [LangOptions]
 ; The following three entries are very important. Be sure to read and
 ; understand the '[LangOptions] section' topic in the help file.
-LanguageName=<0423><043A><0440><0430><0457><043D><0441><044C><043A><0430>
-LanguageID=$0422
-LanguageCodePage=1251
+LanguageName=English
+LanguageID=$0409
+LanguageCodePage=0
 ; If the language you are translating to requires special font faces or
 ; sizes, uncomment any of the following entries and change them accordingly.
 DialogFontName=Tahoma
@@ -28,310 +28,340 @@ CopyrightFontSize=8
 [Messages]
 
 ; *** Application titles
-SetupAppTitle=Âñòàíîâëåííÿ
-SetupWindowTitle=Âñòàíîâëåííÿ  %1
-UninstallAppTitle=Âèäàëåííÿ
-UninstallAppFullTitle=Âèäàëåííÿ  %1
+SetupAppTitle=Setup
+SetupWindowTitle=Setup - %1
+UninstallAppTitle=Uninstall
+UninstallAppFullTitle=%1 Uninstall
 
 ; *** Misc. common
-InformationTitle=²íôîðìàö³ÿ
-ConfirmTitle=Ï³äòâåðäæåííÿ
-ErrorTitle=Ïîìèëêà
+InformationTitle=Information
+ConfirmTitle=Confirm
+ErrorTitle=Error
 
 ; *** SetupLdr messages
-SetupLdrStartupMessage=Öÿ ïðîãðàìà âñòàíîâèòü %1 íà âàø êîìï'þòåð, áàæàºòå ïðîäîâæèòè?
-LdrCannotCreateTemp=Íåìîæëèâî ñòâîðèòè òèì÷àñîâèé ôàéë. Âñòàíîâëåííÿ ïåðåðâàíî
-LdrCannotExecTemp=Íåìîæëèâî âèêîíàòè ôàéë â òèì÷àñîâ³é ïàïö³. Âñòàíîâëåííÿ ïåðåðâàíî
+SetupLdrStartupMessage=This will install %1. Do you wish to continue?
+LdrCannotCreateTemp=Unable to create a temporary file. Setup aborted
+LdrCannotExecTemp=Unable to execute file in the temporary directory. Setup aborted
 HelpTextNote=
 
 ; *** Startup error messages
-LastErrorMessage=%1.%n%nÏîìèëêà %2: %3
-SetupFileMissing=Ôàéë %1 â³äñóòí³é â ïàïö³ âñòàíîâëåííÿ. Áóäü ëàñêà, âèïðàâòå öþ ïîìèëêó àáî îòðèìàéòå íîâó êîï³þ ïðîãðàìè.
-SetupFileCorrupt=Ôàéëè âñòàíîâëåííÿ ïîøêîäæåí³. Áóäü ëàñêà, îòðèìàéòå íîâó êîï³þ ïðîãðàìè.
-SetupFileCorruptOrWrongVer=Ôàéëè âñòàíîâëåííÿ ïîøêîäæåí³ àáî íåñóì³ñí³ ç ö³ºþ âåðñ³ºþ ïðîãðàìè âñòàíîâëåííÿ. Áóäü ëàñêà, âèïðàâòå öþ ïîìèëêó àáî îòðèìàéòå íîâó êîï³þ ïðîãðàìè.
-InvalidParameter=Êîìàíäíèé ðÿäîê ì³ñòèòü íåäîïóñòèìèé ïàðàìåòð:%n%n%1
-SetupAlreadyRunning=Ïðîãðàìà âñòàíîâëåííÿ âæå çàïóùåíà.
-WindowsVersionNotSupported=Öÿ ïðîãðàìà íå ï³äòðèìóº âåðñ³þ Windows, âñòàíîâëåíó íà öüîìó êîìï'þòåð³.
-WindowsServicePackRequired=Öÿ ïðîãðàìà âèìàãàº %1 Service Pack %2 àáî á³ëüø ï³çíþ âåðñ³þ.
-NotOnThisPlatform=Öÿ ïðîãðàìà íå áóäå ïðàöþâàòè ï³ä %1.
-OnlyOnThisPlatform=Öÿ ïðîãðàìà ïîâèííà áóòè â³äêðèòà ï³ä %1.
-OnlyOnTheseArchitectures=Öÿ ïðîãðàìà ìîæå áóòè âñòàíîâëåíà ëèøå íà êîìï'þòåðàõ ï³ä óïðàâë³ííÿì Windows äëÿ íàñòóïíèõ àðõ³òåêòóð ïðîöåñîð³â:%n%n%1
-WinVersionTooLowError=Öÿ ïðîãðàìà âèìàãàº %1 âåðñ³¿ %2 àáî á³ëüø ï³çíþ âåðñ³þ.
-WinVersionTooHighError=Öÿ ïðîãðàìà íå ìîæå áóòè âñòàíîâëåíà íà %1 âåðñ³¿ %2 àáî á³ëüø ï³çíþ âåðñ³þ.
-AdminPrivilegesRequired=Ùîá âñòàíîâèòè öþ ïðîãðàìó âè ïîâèíí³ óâ³éòè äî ñèñòåìè ÿê àäì³í³ñòðàòîð.
-PowerUserPrivilegesRequired=Ùîá âñòàíîâèòè öþ ïðîãðàìó âè ïîâèíí³ óâ³éòè äî ñèñòåìè ÿê àäì³í³ñòðàòîð àáî ÿê ÷ëåí ãðóïè «Äîñâ³ä÷åí³ êîðèñòóâà÷³».
-SetupAppRunningError=Âèÿâëåíî, ùî %1 âæå â³äêðèòà.%n%nÁóäü ëàñêà, çàêðèéòå âñ³ êîï³¿ ïðîãðàìè òà íàòèñí³òü «OK» äëÿ ïðîäîâæåííÿ, àáî «Ñêàñóâàòè» äëÿ âèõîäó.
-UninstallAppRunningError=Âèÿâëåíî, ùî %1 âæå â³äêðèòà.%n%nÁóäü ëàñêà, çàêðèéòå âñ³ êîï³¿ ïðîãðàìè òà íàòèñí³òü «OK» äëÿ ïðîäîâæåííÿ, àáî «Ñêàñóâàòè» äëÿ âèõîäó.
+LastErrorMessage=%1.%n%nError %2: %3
+SetupFileMissing=The file %1 is missing from the installation directory. Please correct the problem or obtain a new copy of the program.
+SetupFileCorrupt=The setup files are corrupted. Please obtain a new copy of the program.
+SetupFileCorruptOrWrongVer=The setup files are corrupted, or are incompatible with this version of Setup. Please correct the problem or obtain a new copy of the program.
+InvalidParameter=An invalid parameter was passed on the command line:%n%n%1
+SetupAlreadyRunning=Setup is already running.
+WindowsVersionNotSupported=This program does not support the version of Windows your computer is running.
+WindowsServicePackRequired=This program requires %1 Service Pack %2 or later.
+NotOnThisPlatform=This program will not run on %1.
+OnlyOnThisPlatform=This program must be run on %1.
+OnlyOnTheseArchitectures=This program can only be installed on versions of Windows designed for the following processor architectures:%n%n%1
+WinVersionTooLowError=This program requires %1 version %2 or later.
+WinVersionTooHighError=This program cannot be installed on %1 version %2 or later.
+AdminPrivilegesRequired=You must be logged in as an administrator when installing this program.
+PowerUserPrivilegesRequired=You must be logged in as an administrator or as a member of the Power Users group when installing this program.
+SetupAppRunningError=Setup has detected that %1 is currently running.%n%nPlease close all instances of it now, then click OK to continue, or Cancel to exit.
+UninstallAppRunningError=Uninstall has detected that %1 is currently running.%n%nPlease close all instances of it now, then click OK to continue, or Cancel to exit.
 
 ; *** Startup questions
-PrivilegesRequiredOverrideTitle=Âèá³ð ðåæèìó âñòàíîâëåííÿ
-PrivilegesRequiredOverrideInstruction=Âèáåð³òü ðåæèì âñòàíîâëåííÿ
-PrivilegesRequiredOverrideText1=%1 ìîæå áóòè âñòàíîâëåíî äëÿ âñ³õ êîðèñòóâà÷³â (ïîòðåáóº ïðàâà àäì³í³ñòðàòîðà), àáî ò³ëüêè äëÿ âàñ.
-PrivilegesRequiredOverrideText2=%1 ìîæå áóòè âñòàíîâëåíî ò³ëüêè äëÿ âàñ, àáî äëÿ âñ³õ êîðèñòóâà÷³â (ïîòðåáóº ïðàâà àäì³í³ñòðàòîðà).
-PrivilegesRequiredOverrideAllUsers=Âñòàíîâèòè äëÿ &âñ³õ êîðèñòóâà÷³â
-PrivilegesRequiredOverrideAllUsersRecommended=Âñòàíîâèòè äëÿ &âñ³õ êîðèñòóâà÷³â (ðåêîìåíäóºòüñÿ)
-PrivilegesRequiredOverrideCurrentUser=Âñòàíîâèòè ò³ëüêè äëÿ ìåíå
-PrivilegesRequiredOverrideCurrentUserRecommended=Âñòàíîâèòè ò³ëüêè äëÿ &ìåíå (ðåêîìåíäóºòüñÿ)
+PrivilegesRequiredOverrideTitle=Select Setup Install Mode
+PrivilegesRequiredOverrideInstruction=Select install mode
+PrivilegesRequiredOverrideText1=%1 can be installed for all users (requires administrative privileges), or for you only.
+PrivilegesRequiredOverrideText2=%1 can be installed for you only, or for all users (requires administrative privileges).
+PrivilegesRequiredOverrideAllUsers=Install for &all users
+PrivilegesRequiredOverrideAllUsersRecommended=Install for &all users (recommended)
+PrivilegesRequiredOverrideCurrentUser=Install for &me only
+PrivilegesRequiredOverrideCurrentUserRecommended=Install for &me only (recommended)
 
 ; *** Misc. errors
-ErrorCreatingDir=Ïðîãðàì³ âñòàíîâëåííÿ íå âäàëîñÿ ñòâîðèòè ïàïêó "%1"
-ErrorTooManyFilesInDir=Ïðîãðàì³ âñòàíîâëåííÿ íå âäàëîñÿ ñòâîðèòè ôàéë â ïàïö³ "%1", òîìó ùî â íüîìó çàíàäòî áàãàòî ôàéë³â
+ErrorCreatingDir=Setup was unable to create the directory "%1"
+ErrorTooManyFilesInDir=Unable to create a file in the directory "%1" because it contains too many files
 
 ; *** Setup common messages
-ExitSetupTitle=Âèõ³ä ç ïðîãðàìè âñòàíîâëåííÿ
-ExitSetupMessage=Âñòàíîâëåííÿ íå çàê³í÷åíî. ßêùî âè âèéäåòå çàðàç, ïðîãðàìó íå áóäå âñòàíîâëåíî.%n%nÂè ìîæåòå â³äêðèòè ïðîãðàìó âñòàíîâëåííÿ â ³íøèé ÷àñ.%n%nÂèéòè ç ïðîãðàìè âñòàíîâëåííÿ?
-AboutSetupMenuItem=&Ïðî ïðîãðàìó âñòàíîâëåííÿ...
-AboutSetupTitle=Ïðî ïðîãðàìó âñòàíîâëåííÿ
-AboutSetupMessage=%1 âåðñ³ÿ %2%n%3%n%n%1 äîìàøíÿ ñòîð³íêà:%n%4
+ExitSetupTitle=Exit Setup
+ExitSetupMessage=Setup is not complete. If you exit now, the program will not be installed.%n%nYou may run Setup again at another time to complete the installation.%n%nExit Setup?
+AboutSetupMenuItem=&About Setup...
+AboutSetupTitle=About Setup
+AboutSetupMessage=%1 version %2%n%3%n%n%1 home page:%n%4
 AboutSetupNote=
 TranslatorNote=
 
 ; *** Buttons
-ButtonBack=< &Íàçàä
-ButtonNext=&Äàë³ >
-ButtonInstall=&Âñòàíîâèòè
+ButtonBack=< &Back
+ButtonNext=&Next >
+ButtonInstall=&Install
 ButtonOK=OK
-ButtonCancel=Ñêàñóâàòè
-ButtonYes=&Òàê
-ButtonYesToAll=Òàê äëÿ &Âñ³õ
-ButtonNo=&Í³
-ButtonNoToAll=Í&³ äëÿ Âñ³õ
-ButtonFinish=&Ãîòîâî
-ButtonBrowse=&Îãëÿä...
-ButtonWizardBrowse=Î&ãëÿä...
-ButtonNewFolder=&Ñòâîðèòè ïàïêó
+ButtonCancel=Cancel
+ButtonYes=&Yes
+ButtonYesToAll=Yes to &All
+ButtonNo=&No
+ButtonNoToAll=N&o to All
+ButtonFinish=&Finish
+ButtonBrowse=&Browse...
+ButtonWizardBrowse=B&rowse...
+ButtonNewFolder=&Make New Folder
 
 ; *** "Select Language" dialog messages
-SelectLanguageTitle=Âèáåð³òü ìîâó âñòàíîâëåííÿ
-SelectLanguageLabel=Âèáåð³òü ìîâó, ÿêà áóäå âèêîðèñòîâóâàòèñÿ ï³ä ÷àñ âñòàíîâëåííÿ.
+SelectLanguageTitle=Select Setup Language
+SelectLanguageLabel=Select the language to use during the installation.
 
 ; *** Common wizard text
-ClickNext=Íàòèñí³òü «Äàë³», ùîá ïðîäîâæèòè, àáî «Ñêàñóâàòè» äëÿ âèõîäó ç ïðîãðàìè âñòàíîâëåííÿ.
+ClickNext=Click Next to continue, or Cancel to exit Setup.
 BeveledLabel=
-BrowseDialogTitle=Îãëÿä ïàïîê
-BrowseDialogLabel=Âèáåð³òü ïàïêó ç³ ñïèñêó òà íàòèñí³òü «ÎÊ».
-NewFolderName=Íîâà ïàïêà
+BrowseDialogTitle=Browse For Folder
+BrowseDialogLabel=Select a folder in the list below, then click OK.
+NewFolderName=New Folder
 
 ; *** "Welcome" wizard page
-WelcomeLabel1=Ëàñêàâî ïðîñèìî äî ïðîãðàìè âñòàíîâëåííÿ [name].
-WelcomeLabel2=Öÿ ïðîãðàìà âñòàíîâèòü [name/ver] íà âàø êîìïþòåð.%n%nÐåêîìåíäóºòüñÿ çàêðèòè âñ³ ³íø³ ïðîãðàìè ïåðåä ïðîäîâæåííÿì.
+WelcomeLabel1=Welcome to the [name] Setup Wizard
+WelcomeLabel2=This will install [name/ver] on your computer.%n%nIt is recommended that you close all other applications before continuing.
 
 ; *** "Password" wizard page
-WizardPassword=Ïàðîëü
-PasswordLabel1=Öÿ ïðîãðàìà âñòàíîâëåííÿ çàõèùåíà ïàðîëåì.
-PasswordLabel3=Áóäü ëàñêà, ââåä³òü ïàðîëü òà íàòèñí³òü «Äàë³», ùîá ïðîäîâæèòè. Ïàðîëü ÷óòëèâèé äî ðåã³ñòðó.
-PasswordEditLabel=&Ïàðîëü:
-IncorrectPassword=Âè ââåëè íåïðàâèëüíèé ïàðîëü. Áóäü ëàñêà, ñïðîáóéòå ùå ðàç.
+WizardPassword=Password
+PasswordLabel1=This installation is password protected.
+PasswordLabel3=Please provide the password, then click Next to continue. Passwords are case-sensitive.
+PasswordEditLabel=&Password:
+IncorrectPassword=The password you entered is not correct. Please try again.
 
 ; *** "License Agreement" wizard page
-WizardLicense=Ë³öåíç³éíà óãîäà
-LicenseLabel=Áóäü ëàñêà, ïðî÷èòàéòå ë³öåíç³éíó óãîäó.
-LicenseLabel3=Áóäü ëàñêà, ïðî÷èòàéòå ë³öåíç³éíó óãîäó. Âè ïîâèíí³ ïðèéíÿòè óìîâè ö³º¿ óãîäè, ïåðø í³æ ïðîäîâæèòè âñòàíîâëåííÿ.
-LicenseAccepted=ß &ïðèéìàþ óìîâè óãîäè
-LicenseNotAccepted=ß &íå ïðèéìàþ óìîâè óãîäè
+WizardLicense=License Agreement
+LicenseLabel=Please read the following important information before continuing.
+LicenseLabel3=Please read the following License Agreement. You must accept the terms of this agreement before continuing with the installation.
+LicenseAccepted=I &accept the agreement
+LicenseNotAccepted=I &do not accept the agreement
 
 ; *** "Information" wizard pages
-WizardInfoBefore=²íôîðìàö³ÿ
-InfoBeforeLabel=Áóäü ëàñêà, ïðî÷èòàéòå íàñòóïíó âàæëèâó ³íôîðìàö³þ, ïåðø í³æ ïðîäîâæèòè.
-InfoBeforeClickLabel=ßêùî âè ãîòîâ³ ïðîäîâæèòè âñòàíîâëåííÿ, íàòèñí³òü «Äàë³».
-WizardInfoAfter=²íôîðìàö³ÿ
-InfoAfterLabel=Áóäü ëàñêà, ïðî÷èòàéòå íàñòóïíó âàæëèâó ³íôîðìàö³þ, ïåðø í³æ ïðîäîâæèòè.
-InfoAfterClickLabel=ßêùî âè ãîòîâ³ ïðîäîâæèòè âñòàíîâëåííÿ, íàòèñí³òü «Äàë³».
+WizardInfoBefore=Information
+InfoBeforeLabel=Please read the following important information before continuing.
+InfoBeforeClickLabel=When you are ready to continue with Setup, click Next.
+WizardInfoAfter=Information
+InfoAfterLabel=Please read the following important information before continuing.
+InfoAfterClickLabel=When you are ready to continue with Setup, click Next.
 
 ; *** "User Information" wizard page
-WizardUserInfo=²íôîðìàö³ÿ ïðî êîðèñòóâà÷à
-UserInfoDesc=Áóäü ëàñêà, ââåä³òü äàí³ ïðî ñåáå.
-UserInfoName=&²ìÿ êîðèñòóâà÷à:
-UserInfoOrg=&Îðãàí³çàö³ÿ:
-UserInfoSerial=&Ñåð³éíèé íîìåð:
-UserInfoNameRequired=Âè ïîâèíí³ ââåñòè ³ì'ÿ.
+WizardUserInfo=User Information
+UserInfoDesc=Please enter your information.
+UserInfoName=&User Name:
+UserInfoOrg=&Organization:
+UserInfoSerial=&Serial Number:
+UserInfoNameRequired=You must enter a name.
 
 ; *** "Select Destination Location" wizard page
-WizardSelectDir=Âèá³ð øëÿõó âñòàíîâëåííÿ
-SelectDirDesc=Êóäè âè áàæàºòå âñòàíîâèòè [name]?
-SelectDirLabel3=Ïðîãðàìà âñòàíîâèòü [name] ó íàñòóïíó ïàïêó.
-SelectDirBrowseLabel=Íàòèñí³òü «Äàë³», ùîá ïðîäîâæèòè. ßêùî âè áàæàºòå âèáðàòè ³íøó ïàïêó, íàòèñí³òü «Îãëÿä».
-DiskSpaceGBLabel=Íåîáõ³äíî ÿê ì³í³ìóì [gb] Ãá â³ëüíîãî äèñêîâîãî ïðîñòîðó.
-DiskSpaceMBLabel=Íåîáõ³äíî ÿê ì³í³ìóì [mb] Má â³ëüíîãî äèñêîâîãî ïðîñòîðó.
-CannotInstallToNetworkDrive=Âñòàíîâëåííÿ íå ìîæå ïðîâîäèòèñÿ íà ìåðåæåâèé äèñê.
-CannotInstallToUNCPath=Âñòàíîâëåííÿ íå ìîæå ïðîâîäèòèñÿ ïî ìåðåæåâîìó øëÿõó.
-InvalidPath=Âè ïîâèíí³ âêàçàòè ïîâíèé øëÿõ ç áóêâîþ äèñêó, íàïðèêëàä:%n%nC:\APP%n%nàáî â ôîðìàò³ UNC:%n%n\\ñåðâåð\ðåñóðñ ; for example:%n%nC:\APP%n%nor a UNC path in the form:%n%n\\server\share
-InvalidDrive=Îáðàíèé Âàìè äèñê ÷è ìåðåæåâèé øëÿõ íå ³ñíóº, àáî íå äîñòóïíèé. Áóäü ëàñêà, âèáåð³òü ³íøèé.
-DiskSpaceWarningTitle=Íåäîñòàòíüî äèñêîâîãî ïðîñòîðó
-DiskSpaceWarning=Äëÿ âñòàíîâëåííÿ íåîáõ³äíî ÿê ì³í³ìóì %1 Êá â³ëüíîãî ïðîñòîðó, à íà âèáðàíîìó äèñêó äîñòóïíî ëèøå %2 Êá.%n%nÂè âñå îäíî áàæàºòå ïðîäîâæèòè?
-DirNameTooLong=²ì'ÿ ïàïêè àáî øëÿõ äî íå¿ ïåðåâèùóþòü äîïóñòèìó äîâæèíó.
-InvalidDirName=Âêàçàíå ³ìÿ ïàïêè íåäîïóñòèìå.
-BadDirName32=²ì'ÿ ïàïêè íå ìîæå âêëþ÷àòè íàñòóïí³ ñèìâîëè:%n%n%1
-DirExistsTitle=Ïàïêà ³ñíóº
-DirExists=Ïàïêà:%n%n%1%n%nâæå ³ñíóº. Âè âñå îäíî áàæàºòå âñòàíîâèòè â öþ ïàïêó?
-DirDoesntExistTitle=Ïàïêà íå ³ñíóº
-DirDoesntExist=Ïàïêà:%n%n%1%n%níå ³ñíóº. Âè áàæàºòå ñòâîðèòè ¿¿?
+WizardSelectDir=Select Destination Location
+SelectDirDesc=Where should [name] be installed?
+SelectDirLabel3=Setup will install [name] into the following folder.
+SelectDirBrowseLabel=To continue, click Next. If you would like to select a different folder, click Browse.
+DiskSpaceGBLabel=At least [gb] GB of free disk space is required.
+DiskSpaceMBLabel=At least [mb] MB of free disk space is required.
+CannotInstallToNetworkDrive=Setup cannot install to a network drive.
+CannotInstallToUNCPath=Setup cannot install to a UNC path.
+InvalidPath=You must enter a full path with drive letter ; for example:%n%nC:\APP%n%nor a UNC path in the form:%n%n\\server\share
+InvalidDrive=The drive or UNC share you selected does not exist or is not accessible. Please select another.
+DiskSpaceWarningTitle=Not Enough Disk Space
+DiskSpaceWarning=Setup requires at least %1 KB of free space to install, but the selected drive only has %2 KB available.%n%nDo you want to continue anyway?
+DirNameTooLong=The folder name or path is too long.
+InvalidDirName=The folder name is not valid.
+BadDirName32=Folder names cannot include any of the following characters:%n%n%1
+DirExistsTitle=Folder Exists
+DirExists=The folder:%n%n%1%n%nalready exists. Would you like to install to that folder anyway?
+DirDoesntExistTitle=Folder Does Not Exist
+DirDoesntExist=The folder:%n%n%1%n%ndoes not exist. Would you like the folder to be created?
 
 ; *** "Select Components" wizard page
-WizardSelectComponents=Âèá³ð êîìïîíåíò³â
-SelectComponentsDesc=ßê³ êîìïîíåíòè âè áàæàºòå âñòàíîâèòè?
-SelectComponentsLabel2=Âèáåð³òü êîìïîíåíòè ÿê³ âè áàæàºòå âñòàíîâèòè ; clear the components you do not want to install. Click Next when you are ready to continue.
-FullInstallation=Ïîâíå âñòàíîâëåííÿ
+WizardSelectComponents=Select Components
+SelectComponentsDesc=Which components should be installed?
+SelectComponentsLabel2=Select the components you want to install ; clear the components you do not want to install. Click Next when you are ready to continue.
+FullInstallation=Full installation
 ; if possible don't translate 'Compact' as 'Minimal' (I mean 'Minimal' in your language)
-CompactInstallation=Êîìïàêòíå âñòàíîâëåííÿ
-CustomInstallation=Âèá³ðêîâå âñòàíîâëåííÿ
-NoUninstallWarningTitle=Êîìïîíåíòè ³ñíóþòü
-NoUninstallWarning=Âèÿâëåíî, ùî íàñòóïí³ êîìïîíåíòè âæå âñòàíîâëåíí³ íà âàøîìó êîìïþòåð³:%n%n%1%n%nÂ³äì³íà âèáîðó öèõ êîìïîíåíò³â íå âèäàëèòü ¿õ.%n%nÂè áàæàºòå ïðîäîâæèòè?
-ComponentSize1=%1 Ká
-ComponentSize2=%1 Má
-ComponentsDiskSpaceGBLabel=Äàíèé âèá³ð âèìàãàº ÿê ì³í³ìóì [gb] Ãá äèñêîâîãî ïðîñòîðó.
-ComponentsDiskSpaceMBLabel=Äàíèé âèá³ð âèìàãàº ÿê ì³í³ìóì [mb] Má äèñêîâîãî ïðîñòîðó.
+CompactInstallation=Compact installation
+CustomInstallation=Custom installation
+NoUninstallWarningTitle=Components Exist
+NoUninstallWarning=Setup has detected that the following components are already installed on your computer:%n%n%1%n%nDeselecting these components will not uninstall them.%n%nWould you like to continue anyway?
+ComponentSize1=%1 KB
+ComponentSize2=%1 MB
+ComponentsDiskSpaceGBLabel=Current selection requires at least [gb] GB of disk space.
+ComponentsDiskSpaceMBLabel=Current selection requires at least [mb] MB of disk space.
 
 ; *** "Select Additional Tasks" wizard page
-WizardSelectTasks=Âèá³ð äîäàòêîâèõ çàâäàíü
-SelectTasksDesc=ßê³ äîäàòêîâ³ çàâäàííÿ âè áàæàºòå âèêîíàòè?
-SelectTasksLabel2=Âèáåð³òü äîäàòêîâ³ çàâäàííÿ ÿê³ ïðîãðàìà âñòàíîâëåííÿ [name] ïîâèííà âèêîíàòè, ïîò³ì íàòèñí³òü «Äàë³».
+WizardSelectTasks=Select Additional Tasks
+SelectTasksDesc=Which additional tasks should be performed?
+SelectTasksLabel2=Select the additional tasks you would like Setup to perform while installing [name], then click Next.
 
 ; *** "Select Start Menu Folder" wizard page
-WizardSelectProgramGroup=Âèá³ð ïàïêè â ìåíþ «Ïóñê»
-SelectStartMenuFolderDesc=Äå âè áàæàºòå ñòâîðèòè ÿðëèêè?
-SelectStartMenuFolderLabel3=Ïðîãðàìà âñòàíîâëåííÿ ñòâîðèòü ÿðëèêè ó íàñòóïí³é ïàïö³ ìåíþ «Ïóñê».
-SelectStartMenuFolderBrowseLabel=Íàòèñí³òü «Äàë³», ùîá ïðîäîâæèòè. ßêùî âè áàæàºòå âèáðàòè ³íøó ïàïêó, íàòèñí³òü «Îãëÿä».
-MustEnterGroupName=Âè ïîâèíí³ ââåñòè ³ì'ÿ ïàïêè.
-GroupNameTooLong=²ìÿ ïàïêè àáî øëÿõ äî íå¿ ïåðåâèùóþòü äîïóñòèìó äîâæèíó.
-InvalidGroupName=Âêàçàíå ³ìÿ ïàïêè íåäîïóñòèìå.
-BadGroupName=²ì'ÿ ïàïêè íå ìîæå âêëþ÷àòè íàñòóïí³ ñèìâîëè:%n%n%1
-NoProgramGroupCheck2=&Íå ñòâîðþâàòè ïàïêó â ìåíþ «Ïóñê»
+WizardSelectProgramGroup=Select Start Menu Folder
+SelectStartMenuFolderDesc=Where should Setup place the program's shortcuts?
+SelectStartMenuFolderLabel3=Setup will create the program's shortcuts in the following Start Menu folder.
+SelectStartMenuFolderBrowseLabel=To continue, click Next. If you would like to select a different folder, click Browse.
+MustEnterGroupName=You must enter a folder name.
+GroupNameTooLong=The folder name or path is too long.
+InvalidGroupName=The folder name is not valid.
+BadGroupName=The folder name cannot include any of the following characters:%n%n%1
+NoProgramGroupCheck2=&Don't create a Start Menu folder
 
 ; *** "Ready to Install" wizard page
-WizardReady=Óñå ãîòîâî äî âñòàíîâëåííÿ
-ReadyLabel1=Ïðîãðàìà ãîòîâà ðîçïî÷àòè âñòàíîâëåííÿ [name] íà âàø êîìïþòåð.
-ReadyLabel2a=Íàòèñí³òü «Âñòàíîâèòè» äëÿ ïðîäîâæåííÿ âñòàíîâëåííÿ, àáî «Íàçàä», ÿêùî âè áàæàºòå ïåðåãëÿíóòè àáî çì³íèòè íàëàøòóâàííÿ âñòàíîâëåííÿ.
-ReadyLabel2b=Íàòèñí³òü «Âñòàíîâèòè» äëÿ ïðîäîâæåííÿ.
-ReadyMemoUserInfo=Äàí³ ïðî êîðèñòóâà÷à:
-ReadyMemoDir=Øëÿõ âñòàíîâëåííÿ:
-ReadyMemoType=Òèï âñòàíîâëåííÿ:
-ReadyMemoComponents=Âèáðàí³ êîìïîíåíòè:
-ReadyMemoGroup=Ïàïêà â ìåíþ «Ïóñê»:
-ReadyMemoTasks=Äîäàòêîâ³ çàâäàííÿ:
+WizardReady=Ready to Install
+ReadyLabel1=Setup is now ready to begin installing [name] on your computer.
+ReadyLabel2a=Click Install to continue with the installation, or click Back if you want to review or change any settings.
+ReadyLabel2b=Click Install to continue with the installation.
+ReadyMemoUserInfo=User information:
+ReadyMemoDir=Destination location:
+ReadyMemoType=Setup type:
+ReadyMemoComponents=Selected components:
+ReadyMemoGroup=Start Menu folder:
+ReadyMemoTasks=Additional tasks:
 
 ; *** "Preparing to Install" wizard page
-WizardPreparing=Ï³äãîòîâêà äî âñòàíîâëåííÿ
-PreparingDesc=Ïðîãðàìà âñòàíîâëåííÿ ãîòóºòüñÿ äî âñòàíîâëåííÿ [name] íà âàø êîìïþòåð.
-PreviousInstallNotCompleted=Âñòàíîâëåííÿ àáî âèäàëåííÿ ïîïåðåäíüî¿ ïðîãðàìè íå áóëî çàê³í÷åíî. Âàì ïîòð³áíî ïåðåçàâàíòàæèòè âàø êîìïþòåð äëÿ çàâåðøåííÿ ìèíóëîãî âñòàíîâëåííÿ.%n%nÏ³ñëÿ ïåðåçàâàíòàæåííÿ â³äêðèéòå ïðîãðàìó âñòàíîâëåííÿ çíîâó, ùîá çàâåðøèòè âñòàíîâëåííÿ [name].
-CannotContinue=Âñòàíîâëåííÿ íåìîæëèâî ïðîäîâæèòè. Áóäü ëàñêà, íàòèñí³òü «Ñêàñóâàòè» äëÿ âèõîäó.
-ApplicationsFound=Íàñòóïí³ ïðîãðàìè âèêîðèñòîâóþòü ôàéëè, ÿê³ ïîâèíí³ áóòè îíîâëåí³ ïðîãðàìîþ âñòàíîâëåííÿ. Ðåêîìåíäóºòüñÿ äîçâîëèëè ïðîãðàì³ âñòàíîâëåííÿ àâòîìàòè÷íî çàêðèòè ö³ ïðîãðàìè.
-ApplicationsFound2=Íàñòóïí³ ïðîãðàìè âèêîðèñòîâóþòü ôàéëè, ÿê³ ïîâèíí³ áóòè îíîâëåí³ ïðîãðàìîþ âñòàíîâëåííÿ. Ðåêîìåíäóºòüñÿ äîçâîëèëè ïðîãðàì³ âñòàíîâëåííÿ àâòîìàòè÷íî çàêðèòè ö³ ïðîãðàìè. Ï³ñëÿ çàâåðøåííÿ âñòàíîâëåííÿ, ïðîãðàìà âñòàíîâëåííÿ ñïðîáóº çíîâó çàïóñòèòè ¿õ.
-CloseApplications=&Àâòîìàòè÷íî çàêðèòè ïðîãðàìè
-DontCloseApplications=&Íå çàêðèâàòè ïðîãðàìè
-ErrorCloseApplications=Ïðîãðàìà âñòàíîâëåííÿ íå ìîæå àâòîìàòè÷íî çàêðèòè âñ³ ïðîãðàìè. Ðåêîìåíäóºòüñÿ çàêðèòè âñ³ ïðîãðàìè, ùî âèêîðèñòîâóþòü ôàéëè, ÿê³ ïîâèíí³ áóòè îíîâëåí³ ïðîãðàìîþ âñòàíîâëåííÿ, ïåðø í³æ ïðîäîâæèòè.
-PrepareToInstallNeedsRestart=Ïðîãðàì³ âñòàíîâëåííÿ íåîáõ³äíî ïåðåçàâàíòàæèòè âàø ÏÊ. Ï³ñëÿ ïåðåçàâàíòàæåííÿ ÏÊ, çàïóñò³òü âñòàíîâëåííÿ çíîâó äëÿ çàâåðøåííÿ âñòàíîâëåííÿ [name]%n%nÂè áàæàºòå ïåðåçàâàíòàæèòè çàðàç?
+WizardPreparing=Preparing to Install
+PreparingDesc=Setup is preparing to install [name] on your computer.
+PreviousInstallNotCompleted=The installation/removal of a previous program was not completed. You will need to restart your computer to complete that installation.%n%nAfter restarting your computer, run Setup again to complete the installation of [name].
+CannotContinue=Setup cannot continue. Please click Cancel to exit.
+ApplicationsFound=The following applications are using files that need to be updated by Setup. It is recommended that you allow Setup to automatically close these applications.
+ApplicationsFound2=The following applications are using files that need to be updated by Setup. It is recommended that you allow Setup to automatically close these applications. After the installation has completed, Setup will attempt to restart the applications.
+CloseApplications=&Automatically close the applications
+DontCloseApplications=&Do not close the applications
+ErrorCloseApplications=Setup was unable to automatically close all applications. It is recommended that you close all applications using files that need to be updated by Setup before continuing.
+PrepareToInstallNeedsRestart=Setup must restart your computer. After restarting your computer, run Setup again to complete the installation of [name].%n%nWould you like to restart now?
 
 ; *** "Installing" wizard page
-WizardInstalling=Âñòàíîâëåííÿ
-InstallingLabel=Áóäü ëàñêà, çà÷åêàéòå, ïîêè [name] âñòàíîâèòüñÿ íà âàø êîìï'þòåð.
+WizardInstalling=Installing
+InstallingLabel=Please wait while Setup installs [name] on your computer.
 
 ; *** "Setup Completed" wizard page
-FinishedHeadingLabel=Çàâåðøåííÿ âñòàíîâëåííÿ [name]
-FinishedLabelNoIcons=Âñòàíîâëåííÿ [name] íà âàø êîìïþòåð çàê³í÷åíî.
-FinishedLabel=Âñòàíîâëåííÿ [name] íà âàø êîìïþòåð çàê³í÷åíî. Âñòàíîâëåí³ ïðîãðàìè ìîæíà â³äêðèòè çà äîïîìîãîþ ñòâîðåíèõ ÿðëèê³â.
-ClickFinish=Íàòèñí³òü «Ãîòîâî» äëÿ âèõîäó ç ïðîãðàìè âñòàíîâëåííÿ.
-FinishedRestartLabel=Äëÿ çàâåðøåííÿ âñòàíîâëåííÿ [name] íåîáõ³äíî ïåðåçàâàíòàæèòè âàø êîìïþòåð. Ïåðåçàâàíòàæèòè êîìïþòåð çàðàç?
-FinishedRestartMessage=Äëÿ çàâåðøåííÿ âñòàíîâëåííÿ [name] íåîáõ³äíî ïåðåçàâàíòàæèòè âàø êîìïþòåð.%n%nÏåðåçàâàíòàæèòè êîìïþòåð çàðàç?
-ShowReadmeCheck=Òàê, ÿ õî÷ó ïåðåãëÿíóòè ôàéë README
-YesRadio=&Òàê, ïåðåçàâàíòàæèòè êîìïþòåð çàðàç
-NoRadio=&Í³, ÿ ïåðåçàâàíòàæó êîìïþòåð ï³çí³øå
+FinishedHeadingLabel=Completing the [name] Setup Wizard
+FinishedLabelNoIcons=Setup has finished installing [name] on your computer.
+FinishedLabel=Setup has finished installing [name] on your computer. The application may be launched by selecting the installed shortcuts.
+ClickFinish=Click Finish to exit Setup.
+FinishedRestartLabel=To complete the installation of [name], Setup must restart your computer. Would you like to restart now?
+FinishedRestartMessage=To complete the installation of [name], Setup must restart your computer.%n%nWould you like to restart now?
+ShowReadmeCheck=Yes, I would like to view the README file
+YesRadio=&Yes, restart the computer now
+NoRadio=&No, I will restart the computer later
 ; used for example as 'Run MyProg.exe'
-RunEntryExec=Â³äêðèòè %1
+RunEntryExec=Run %1
 ; used for example as 'View Readme.txt'
-RunEntryShellExec=Ïåðåãëÿíóòè %1
+RunEntryShellExec=View %1
 
 ; *** "Setup Needs the Next Disk" stuff
-ChangeDiskTitle=Íåîáõ³äíî âñòàâèòè íàñòóïíèé äèñê
-SelectDiskLabel2=Áóäü ëàñêà, âñòàâòå äèñê %1 ³ íàòèñí³òü «OK».%n%nßêùî ïîòð³áí³ ôàéëè ìîæóòü çíàõîäèòèñÿ â ³íø³é ïàïö³, íà â³äì³íó â³ä âêàçàíî¿ íèæ÷å, ââåä³òü ïðàâèëüíèé øëÿõ àáî íàòèñí³òü «Îãëÿä».
-PathLabel=&Øëÿõ:
-FileNotInDir2=Ôàéë "%1" íå çíàéäåíèé â "%2". Áóäü ëàñêà, âñòàâòå íàëåæíèé äèñê àáî âêàæ³òü ³íøó ïàïêó.
-SelectDirectoryLabel=Áóäü ëàñêà, âêàæ³òü øëÿõ äî íàñòóïíîãî äèñêó.
+ChangeDiskTitle=Setup Needs the Next Disk
+SelectDiskLabel2=Please insert Disk %1 and click OK.%n%nIf the files on this disk can be found in a folder other than the one displayed below, enter the correct path or click Browse.
+PathLabel=&Path:
+FileNotInDir2=The file "%1" could not be located in "%2". Please insert the correct disk or select another folder.
+SelectDirectoryLabel=Please specify the location of the next disk.
 
 ; *** Installation phase messages
-SetupAborted=Âñòàíîâëåííÿ íå çàâåðøåíî.%n%nÁóäü ëàñêà, óñóíüòå ïðîáëåìó ³ â³äêðèéòå ïðîãðàìó âñòàíîâëåííÿ çíîâó.
-AbortRetryIgnoreSelectAction=Âèáåð³òü ä³þ
-AbortRetryIgnoreRetry=&Ñïðîáóâàòè çíîâó
-AbortRetryIgnoreIgnore=&²ãíîðóâàòè ïîìèëêó òà ïðîäîâæèòè
-AbortRetryIgnoreCancel=Â³äì³íèòè âñòàíîâëåííÿ
+SetupAborted=Setup was not completed.%n%nPlease correct the problem and run Setup again.
+AbortRetryIgnoreSelectAction=Select action
+AbortRetryIgnoreRetry=&Try again
+AbortRetryIgnoreIgnore=&Ignore the error and continue
+AbortRetryIgnoreCancel=Cancel installation
 
 ; *** Installation status messages
-StatusClosingApplications=Çàêðèòòÿ ïðîãðàì...
-StatusCreateDirs=Ñòâîðåííÿ ïàïîê...
-StatusExtractFiles=Ðîçïàêóâàííÿ ôàéë³â...
-StatusCreateIcons=Ñòâîðåííÿ ÿðëèê³â...
-StatusCreateIniEntries=Ñòâîðåííÿ INI çàïèñ³â...
-StatusCreateRegistryEntries=Ñòâîðåííÿ çàïèñ³â ðåºñòðó...
-StatusRegisterFiles=Ðåºñòðàö³ÿ ôàéë³â...
-StatusSavingUninstall=Çáåðåæåííÿ ³íôîðìàö³¿ äëÿ âèäàëåííÿ...
-StatusRunProgram=Çàâåðøåííÿ âñòàíîâëåííÿ...
-StatusRestartingApplications=Ïåðåçàïóñê ïðîãðàì...
-StatusRollback=Ñêàñóâàííÿ çì³í...
+StatusClosingApplications=Closing applications...
+StatusCreateDirs=Creating directories...
+StatusExtractFiles=Extracting files...
+StatusCreateIcons=Creating shortcuts...
+StatusCreateIniEntries=Creating INI entries...
+StatusCreateRegistryEntries=Creating registry entries...
+StatusRegisterFiles=Registering files...
+StatusSavingUninstall=Saving uninstall information...
+StatusRunProgram=Finishing installation...
+StatusRestartingApplications=Restarting applications...
+StatusRollback=Rolling back changes...
 
 ; *** Misc. errors
-ErrorInternal2=Âíóòð³øíÿ ïîìèëêà: %1
-ErrorFunctionFailedNoCode=%1 çá³é
-ErrorFunctionFailed=%1 çá³é ; code %2
-ErrorFunctionFailedWithMessage=%1 çá³é ; code %2.%n%3
-ErrorExecutingProgram=Íåìîæëèâî âèêîíàòè ôàéë:%n%1
+ErrorInternal2=Internal error: %1
+ErrorFunctionFailedNoCode=%1 failed
+ErrorFunctionFailed=%1 failed ; code %2
+ErrorFunctionFailedWithMessage=%1 failed ; code %2.%n%3
+ErrorExecutingProgram=Unable to execute file:%n%1
 
 ; *** Registry errors
-ErrorRegOpenKey=Ïîìèëêà â³äêðèòòÿ êëþ÷à ðåºñòðó:%n%1\%2
-ErrorRegCreateKey=Ïîìèëêà ñòâîðåííÿ êëþ÷à ðåºñòðó:%n%1\%2
-ErrorRegWriteKey=Ïîìèëêà çàïèñó â êëþ÷ ðåºñòðó:%n%1\%2
+ErrorRegOpenKey=Error opening registry key:%n%1\%2
+ErrorRegCreateKey=Error creating registry key:%n%1\%2
+ErrorRegWriteKey=Error writing to registry key:%n%1\%2
 
 ; *** INI errors
-ErrorIniEntry=Ïîìèëêà ïðè ñòâîðåíí³ çàïèñó â INI-ôàéë³ "%1".
+ErrorIniEntry=Error creating INI entry in file "%1".
 
 ; *** File copying errors
-FileAbortRetryIgnoreSkipNotRecommended=&Ïðîïóñòèòè ôàéë (íå ðåêîìåíäóºòüñÿ)
-FileAbortRetryIgnoreIgnoreNotRecommended=&²ãíîðóâàòè ïîìèëêó òà ïðîäîâæèòè (íå ðåêîìåíäóºòüñÿ)
-SourceIsCorrupted=Âèõ³äíèé ôàéë ïîøêîäæåíèé
-SourceDoesntExist=Âèõ³äíèé ôàéë "%1" íå ³ñíóº
-ExistingFileReadOnly2=Íåìîæëèâî çàì³íèòè ³ñíóþ÷èé ôàéë, îñê³ëüêè â³í ïîçíà÷åíèé ëèøå äëÿ ÷èòàííÿ.
-ExistingFileReadOnlyRetry=&Âèäàëèòè àòðèáóò "ëèøå ÷èòàííÿ" òà ñïðîáóâàòè çíîâó
-ExistingFileReadOnlyKeepExisting=&Çàëèøèòè ³ñíóþ÷èé ôàéë
-ErrorReadingExistingDest=Âèíèêëà ïîìèëêà ïðè ñïðîá³ ÷èòàííÿ ³ñíóþ÷îãî ôàéëó:
-FileExists=Ôàéë âæå ³ñíóº.%n%nÏåðåçàïèñàòè éîãî?
-ExistingFileNewer=²ñíóþ÷èé ôàéë íîâ³øèé, ÷èì âñòàíîâëþâàíèé. Ðåêîìåíäóºòüñÿ çáåðåãòè ³ñíóþ÷èé ôàéë.%n%nÂè áàæàºòå çáåðåãòè ³ñíóþ÷èé ôàéë?
-ErrorChangingAttr=Âèíèêëà ïîìèëêà ïðè ñïðîá³ çì³íè àòðèáóò³â ³ñíóþ÷îãî ôàéëó:
-ErrorCreatingTemp=Âèíèêëà ïîìèëêà ïðè ñïðîá³ ñòâîðåííÿ ôàéëó â ïàïö³ âñòàíîâëåííÿ:
-ErrorReadingSource=Âèíèêëà ïîìèëêà ïðè ñïðîá³ ÷èòàííÿ âèõ³äíîãî ôàéëó:
-ErrorCopying=Âèíèêëà ïîìèëêà ïðè ñïðîá³ êîï³þâàííÿ ôàéëó:
-ErrorReplacingExistingFile=Âèíèêëà ïîìèëêà ïðè ñïðîá³ çàì³íè ³ñíóþ÷îãî ôàéëó:
-ErrorRestartReplace=Ïîìèëêà RestartReplace:
-ErrorRenamingTemp=Âèíèêëà ïîìèëêà ïðè ñïðîá³ ïåðåéìåíóâàííÿ ôàéëó â ïàïö³ âñòàíîâëåííÿ:
-ErrorRegisterServer=Íåìîæëèâî çàðåºñòðóâàòè DLL/OCX: %1
-ErrorRegSvr32Failed=Ïîìèëêà ïðè âèêîíàíí³ RegSvr32, êîä ïîâåðíåííÿ %1
-ErrorRegisterTypeLib=Íåìîæëèâî çàðåºñòðóâàòè á³áë³îòåêó òèï³â: %1
+FileAbortRetryIgnoreSkipNotRecommended=&Skip this file (not recommended)
+FileAbortRetryIgnoreIgnoreNotRecommended=&Ignore the error and continue (not recommended)
+SourceIsCorrupted=The source file is corrupted
+SourceDoesntExist=The source file "%1" does not exist
+ExistingFileReadOnly2=The existing file could not be replaced because it is marked read-only.
+ExistingFileReadOnlyRetry=&Remove the read-only attribute and try again
+ExistingFileReadOnlyKeepExisting=&Keep the existing file
+ErrorReadingExistingDest=An error occurred while trying to read the existing file:
+FileExists=The file already exists.%n%nWould you like Setup to overwrite it?
+ExistingFileNewer=The existing file is newer than the one Setup is trying to install. It is recommended that you keep the existing file.%n%nDo you want to keep the existing file?
+ErrorChangingAttr=An error occurred while trying to change the attributes of the existing file:
+ErrorCreatingTemp=An error occurred while trying to create a file in the destination directory:
+ErrorReadingSource=An error occurred while trying to read the source file:
+ErrorCopying=An error occurred while trying to copy a file:
+ErrorReplacingExistingFile=An error occurred while trying to replace the existing file:
+ErrorRestartReplace=RestartReplace failed:
+ErrorRenamingTemp=An error occurred while trying to rename a file in the destination directory:
+ErrorRegisterServer=Unable to register the DLL/OCX: %1
+ErrorRegSvr32Failed=RegSvr32 failed with exit code %1
+ErrorRegisterTypeLib=Unable to register the type library: %1
 
 ; *** Uninstall display name markings
 ; used for example as 'My Program (32-bit)'
 UninstallDisplayNameMark=%1 (%2)
 ; used for example as 'My Program (32-bit, All users)'
 UninstallDisplayNameMarks=%1 (%2, %3)
-UninstallDisplayNameMark32Bit=32-á³ò
-UninstallDisplayNameMark64Bit=64-á³ò
-UninstallDisplayNameMarkAllUsers=Âñ³ êîðèñòóâà÷³
-UninstallDisplayNameMarkCurrentUser=Ïîòî÷íèé êîðèñòóâà÷
+UninstallDisplayNameMark32Bit=32-bit
+UninstallDisplayNameMark64Bit=64-bit
+UninstallDisplayNameMarkAllUsers=All users
+UninstallDisplayNameMarkCurrentUser=Current user
 
 ; *** Post-installation errors
-ErrorOpeningReadme=Âèíèêëà ïîìèëêà ïðè ñïðîá³ â³äêðèòòÿ ôàéëó README.
-ErrorRestartingComputer=Ïðîãðàì³ âñòàíîâëåííÿ íå âäàëîñÿ ïåðåçàâàíòàæèòè êîìï'þòåð. Áóäü ëàñêà, âèêîíàéòå öå ñàìîñò³éíî.
+ErrorOpeningReadme=An error occurred while trying to open the README file.
+ErrorRestartingComputer=Setup was unable to restart the computer. Please do this manually.
 
 ; *** Uninstaller messages
-UninstallNotFound=Ôàéë "%1" íå ³ñíóº, âèäàëåííÿ íåìîæëèâå.
-UninstallOpenError=Íåìîæëèâî â³äêðèòè ôàéë "%1". Âèäàëåííÿ íåìîæëèâå
-UninstallUnsupportedVer=Ôàéë ïðîòîêîëó äëÿ âèäàëåííÿ "%1" íå ðîçï³çíàíèé äàíîþ âåðñ³ºþ ïðîãðàìè âèäàëåííÿ. Âèäàëåííÿ íåìîæëèâå
-UninstallUnknownEntry=Íåâ³äîìèé çàïèñ (%1) â ôàéë³ ïðîòîêîëó äëÿ âèäàëåííÿ
-ConfirmUninstall=Âè âïåâíåí³, ùî áàæàºòå âèäàëèòè %1 ³ âñ³ éîãî êîìïîíåíòè?
-UninstallOnlyOnWin64=Öþ ïðîãðàìó ìîæëèâî âèäàëèòè ëèøå ó ñåðåäîâèù³ 64-á³òíî¿ âåðñ³¿ Windows.
-OnlyAdminCanUninstall=Öÿ ïðîãðàìà ìîæå áóòè âèäàëåíà ëèøå êîðèñòóâà÷åì ç ïðàâàìè àäì³í³ñòðàòîðà.
-UninstallStatusLabel=Áóäü ëàñêà, çà÷åêàéòå, ïîêè %1 âèäàëèòüñÿ ç âàøîãî êîìï'þòåðà.
-UninstalledAll=%1 óñï³øíî âèäàëåíî ç âàøîãî êîìï'þòåðà.
-UninstalledMost=Âèäàëåííÿ %1 çàê³í÷åíî.%n%nÄåÿê³ åëåìåíò íåìîæëèâî âèäàëèòè. Âè ìîæåòå âèäàëèòè ¿õ âðó÷íó.
-UninstalledAndNeedsRestart=Äëÿ çàâåðøåííÿ âèäàëåííÿ %1 íåîáõ³äíî ïåðåçàâàíòàæèòè âàø êîìïþòåð.%n%nÏåðåçàâàíòàæèòè êîìïþòåð çàðàç?
-UninstallDataCorrupted="Ôàéë \"%1\" ïîøêîäæåíèé. Âèäàëåííÿ íåìîæëèâå"
+UninstallNotFound=File "%1" does not exist. Cannot uninstall.
+UninstallOpenError=File "%1" could not be opened. Cannot uninstall
+UninstallUnsupportedVer=The uninstall log file "%1" is in a format not recognized by this version of the uninstaller. Cannot uninstall
+UninstallUnknownEntry=An unknown entry (%1) was encountered in the uninstall log
+ConfirmUninstall=Are you sure you want to completely remove %1 and all of its components?
+UninstallOnlyOnWin64=This installation can only be uninstalled on 64-bit Windows.
+OnlyAdminCanUninstall=This installation can only be uninstalled by a user with administrative privileges.
+UninstallStatusLabel=Please wait while %1 is removed from your computer.
+UninstalledAll=%1 was successfully removed from your computer.
+UninstalledMost=%1 uninstall complete.%n%nSome elements could not be removed. These can be removed manually.
+UninstalledAndNeedsRestart=To complete the uninstallation of %1, your computer must be restarted.%n%nWould you like to restart now?
+
+; *** Uninstallation phase messages
+ConfirmDeleteSharedFileTitle=Remove Shared File?
+ConfirmDeleteSharedFile2=The system indicates that the following shared file is no longer in use by any programs. Would you like for Uninstall to remove this shared file?%n%nIf any programs are still using this file and it is removed, those programs may not function properly. If you are unsure, choose No. Leaving the file on your system will not cause any harm.
+SharedFileNameLabel=File name:
+SharedFileLocationLabel=Location:
+WizardUninstalling=Uninstall Status
+StatusUninstalling=Uninstalling %1...
+
+; *** Shutdown block reasons
+ShutdownBlockReasonInstallingApp=Installing %1.
+ShutdownBlockReasonUninstallingApp=Uninstalling %1.
+
+; The custom messages below aren't used by Setup itself, but if you make
+; use of them in your scripts, you'll want to translate them.
+
+[CustomMessages]
+
+NameAndVersion=%1 version %2
+AdditionalIcons=Additional shortcuts:
+CreateDesktopIcon=Create a &desktop shortcut
+CreateQuickLaunchIcon=Create a &Quick Launch shortcut
+ProgramOnTheWeb=%1 on the Web
+UninstallProgram=Uninstall %1
+LaunchProgram=Launch %1
+AssocFileExtension=&Associate %1 with the %2 file extension
+AssocingFileExtension=Associating %1 with the %2 file extension...
+AutoStartProgramGroupDescription=Startup:
+AutoStartProgram=Automatically start %1
+AddonHostProgramNotFound=%1 could not be located in the folder you selected.%n%nDo you want to continue anyway?"
+
 
 
 
