@@ -13,7 +13,7 @@
 ; understand the '[LangOptions] section' topic in the help file.
 LanguageName=Suomi
 LanguageID=$040B
-LanguageCodePage=1252
+LanguageCodePage=0
 ; If the language you are translating to requires special font faces or
 ; sizes, uncomment any of the following entries and change them accordingly.
 DialogFontName=Tahoma
@@ -334,34 +334,34 @@ UninstalledAndNeedsRestart=Kone täytyy käynnistää uudelleen, jotta %1 voidaa
 UninstallDataCorrupted=Tiedosto "%1" on vaurioitunut. Asennuksen poisto ei onnistu.
 
 ; *** Uninstallation phase messages
-ConfirmDeleteSharedFileTitle=Remove Shared File?
-ConfirmDeleteSharedFile2=The system indicates that the following shared file is no longer in use by any programs. Would you like for Uninstall to remove this shared file?%n%nIf any programs are still using this file and it is removed, those programs may not function properly. If you are unsure, choose No. Leaving the file on your system will not cause any harm.
-SharedFileNameLabel=File name:
-SharedFileLocationLabel=Location:
-WizardUninstalling=Uninstall Status
-StatusUninstalling=Uninstalling %1...
+ConfirmDeleteSharedFileTitle=Poistetaanko jaettu tiedosto?
+ConfirmDeleteSharedFile2=Järjestelmän mukaan seuraava jaettu tiedosto ei ole enää minkään muun sovelluksen käytössä. Poistetaanko tiedosto?%n%nJos jotkut sovellukset käyttävät vielä tätä tiedostoa ja se poistetaan, ne eivät välttämättä toimi enää kunnolla. Jos olet epävarma, valitse Ei. Tiedoston jättäminen koneelle ei aiheuta ongelmia.
+SharedFileNameLabel=Tiedoston nimi:
+SharedFileLocationLabel=Sijainti:
+WizardUninstalling=Asennuksen poiston tila
+StatusUninstalling=Poistetaan %1...
 
 ; *** Shutdown block reasons
-ShutdownBlockReasonInstallingApp=Installing %1.
-ShutdownBlockReasonUninstallingApp=Uninstalling %1.
+ShutdownBlockReasonInstallingApp=Asennetaan %1.
+ShutdownBlockReasonUninstallingApp=Poistetaan %1.
 
 ; The custom messages below aren't used by Setup itself, but if you make
 ; use of them in your scripts, you'll want to translate them.
 
 [CustomMessages]
 
-NameAndVersion=%1 version %2
-AdditionalIcons=Additional shortcuts:
-CreateDesktopIcon=Create a &desktop shortcut
-CreateQuickLaunchIcon=Create a &Quick Launch shortcut
-ProgramOnTheWeb=%1 on the Web
-UninstallProgram=Uninstall %1
-LaunchProgram=Launch %1
-AssocFileExtension=&Associate %1 with the %2 file extension
-AssocingFileExtension=Associating %1 with the %2 file extension...
-AutoStartProgramGroupDescription=Startup:
-AutoStartProgram=Automatically start %1
-AddonHostProgramNotFound=%1 could not be located in the folder you selected.%n%nDo you want to continue anyway?"
+NameAndVersion=%1 versio %2
+AdditionalIcons=Lisäkuvakkeet:
+CreateDesktopIcon=Lu&o kuvake työpöydälle
+CreateQuickLaunchIcon=Luo kuvake &pikakäynnistyspalkkiin
+ProgramOnTheWeb=%1 Internetissä
+UninstallProgram=Poista %1
+LaunchProgram=&Käynnistä %1
+AssocFileExtension=&Yhdistä %1 tiedostopäätteeseen %2
+AssocingFileExtension=Yhdistetään %1 tiedostopäätteeseen %2 ...
+AutoStartProgramGroupDescription=Käynnistys:
+AutoStartProgram=Käynnistä %1 automaattisesti
+AddonHostProgramNotFound=%1 ei ole valitsemassasi kansiossa.%n%nHaluatko jatkaa tästä huolimatta?
 
 
 
