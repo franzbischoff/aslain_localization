@@ -333,3 +333,4 @@ UninstalledMost=%1 のアンインストールが完了しました。%n%nいく
 UninstalledAndNeedsRestart=%1 の削除を完了するためには、コンピューターを再起動する必要があります。すぐに再起動しますか？
 UninstallDataCorrupted="ファイル \"%1\" が壊れています。アンインストールを実行できません。"
 
+
