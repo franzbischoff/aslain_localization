@@ -338,3 +338,4 @@ ConfirmDeleteSharedFileTitle=Ukloniti dijeljene datoteke?
 ConfirmDeleteSharedFile2=Sustav ukazuje na to, da sljedeće dijeljenu datoteku ne koristi niti jedan program. Želite li ukloniti tu dijeljenu datoteku?%n%nAko neki programi i dalje koriste tu datoteku, a ona se izbriše, ti programi neće ispravno raditi. Ako niste sigurni, odaberite "
 
 
+
