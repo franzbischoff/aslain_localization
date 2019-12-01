@@ -334,3 +334,4 @@ UninstalledAndNeedsRestart=Per completare la disinstallazione di %1, è necessar
 UninstallDataCorrupted="Il file \"%1\" è danneggiato. Impossibile disinstallare"
 
 
+
