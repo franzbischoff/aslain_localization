@@ -359,3 +359,4 @@ AssocingFileExtension=Bezig met koppelen van %1 aan de %2 bestandsextensie...
 AutoStartProgramGroupDescription=Opstarten:
 AutoStartProgram=%1 automatisch starten
 AddonHostProgramNotFound=%1 kon niet worden gevonden in de geselecteerde map.%n%nWilt u toch doorgaan?"
+
