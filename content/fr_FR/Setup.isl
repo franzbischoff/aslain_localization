@@ -1,4 +1,4 @@
-﻿; *** Inno Setup version 6.0.3+ French messages ***
+; *** Inno Setup version 6.0.3+ English messages ***
 ;
 ; To download user-contributed translations of this file, go to:
 ;   http://www.jrsoftware.org/files/istrans/
@@ -7,41 +7,23 @@
 ; messages that didn't have them already, because on those messages Inno
 ; Setup adds the periods automatically (appending a period would result in
 ; two periods being displayed).
-;
-; Maintained by Pierre Yager (pierre@levosgien.net)
-;
-; Contributors : Frédéric Bonduelle, Francis Pallini, Lumina, Pascal Peyrot
-;
-; Changes :
-; + Accents on uppercase letters
-;      http://www.academie-francaise.fr/langue/questions.html#accentuation (lumina)
-; + Typography quotes [see ISBN: 978-2-7433-0482-9]
-;      http://fr.wikipedia.org/wiki/Guillemet (lumina)
-; + Binary units (Kio, Mio) [IEC 80000-13:2008]
-;      http://fr.wikipedia.org/wiki/Octet (lumina)
-; + Reverted to standard units (Ko, Mo) to follow Windows Explorer Standard
-;      http://blogs.msdn.com/b/oldnewthing/archive/2009/06/11/9725386.aspx
-; + Use more standard verbs for click and retry
-;     "click": "Clicker" instead of "Appuyer" 
-;     "retry": "Recommencer" au lieu de "Réessayer"
-; + Added new 6.0.0 messages
 
 [LangOptions]
-; The following three entries are very important. Be sure to read and 
+; The following three entries are very important. Be sure to read and
 ; understand the '[LangOptions] section' topic in the help file.
 LanguageName=Français
 LanguageID=$040C
 LanguageCodePage=1252
 ; If the language you are translating to requires special font faces or
 ; sizes, uncomment any of the following entries and change them accordingly.
-;DialogFontName=
-;DialogFontSize=8
-;WelcomeFontName=Verdana
-;WelcomeFontSize=12
-;TitleFontName=Arial
-;TitleFontSize=29
-;CopyrightFontName=Arial
-;CopyrightFontSize=8
+DialogFontName=Tahoma
+TitleFontName=Arial
+WelcomeFontName=Verdana
+CopyrightFontName=Arial
+DialogFontSize=8
+TitleFontSize=29
+WelcomeFontSize=12
+CopyrightFontSize=8
 
 [Messages]
 
@@ -102,7 +84,7 @@ AboutSetupMenuItem=&À propos...
 AboutSetupTitle=À Propos de l'assistant d'installation
 AboutSetupMessage=%1 version %2%n%3%n%nPage d'accueil de %1 :%n%4
 AboutSetupNote=
-TranslatorNote=Traduction française maintenue par Pierre Yager (pierre@levosgien.net)
+TranslatorNote=
 
 ; *** Buttons
 ButtonBack=< &Précédent
@@ -173,7 +155,7 @@ DiskSpaceGBLabel=Le programme requiert au moins [gb] Go d'espace disque disponib
 DiskSpaceMBLabel=Le programme requiert au moins [mb] Mo d'espace disque disponible.
 CannotInstallToNetworkDrive=L'assistant ne peut pas installer sur un disque réseau.
 CannotInstallToUNCPath=L'assistant ne peut pas installer sur un chemin UNC.
-InvalidPath=Vous devez saisir un chemin complet avec sa lettre de lecteur ; par exemple :%n%nC:\APP%n%nou un chemin réseau de la forme :%n%n\\serveur\partage
+InvalidPath=Vous devez saisir un chemin complet avec sa lettre de lecteur ; for example:%n%nC:\APP%n%nor a UNC path in the form:%n%n\\server\share
 InvalidDrive=L'unité ou l'emplacement réseau que vous avez sélectionné n'existe pas ou n'est pas accessible. Veuillez choisir une autre destination.
 DiskSpaceWarningTitle=Espace disponible insuffisant
 DiskSpaceWarning=L'assistant a besoin d'au moins %1 Ko d'espace disponible pour effectuer l'installation, mais l'unité que vous avez sélectionnée ne dispose que de %2 Ko d'espace disponible.%n%nSouhaitez-vous continuer malgré tout ?
@@ -188,7 +170,7 @@ DirDoesntExist=Le dossier %n%n%1%n%nn'existe pas. Souhaitez-vous que ce dossier 
 ; *** "Select Components" wizard page
 WizardSelectComponents=Composants à installer
 SelectComponentsDesc=Quels composants de l'application souhaitez-vous installer ?
-SelectComponentsLabel2=Sélectionnez les composants que vous désirez installer ; décochez les composants que vous ne désirez pas installer. Cliquez ensuite sur Suivant pour continuer l'installation.
+SelectComponentsLabel2=Sélectionnez les composants que vous désirez installer ; clear the components you do not want to install. Click Next when you are ready to continue.
 FullInstallation=Installation complète
 ; if possible don't translate 'Compact' as 'Minimal' (I mean 'Minimal' in your language)
 CompactInstallation=Installation compacte
@@ -323,10 +305,10 @@ ErrorRegisterServer=Impossible d'enregistrer la bibliothèque DLL/OCX : %1
 ErrorRegSvr32Failed=RegSvr32 a échoué et a retourné le code d'erreur %1
 ErrorRegisterTypeLib=Impossible d'enregistrer la bibliothèque de type : %1
 
-; *** Nom d'affichage pour la désinstallaton
-; par exemple 'Mon Programme (32-bit)'
+; *** Uninstall display name markings
+; used for example as 'My Program (32-bit)'
 UninstallDisplayNameMark=%1 (%2)
-; ou par exemple 'Mon Programme (32-bit, Tous les utilisateurs)'
+; used for example as 'My Program (32-bit, All users)'
 UninstallDisplayNameMarks=%1 (%2, %3)
 UninstallDisplayNameMark32Bit=32-bit
 UninstallDisplayNameMark64Bit=64-bit
@@ -349,35 +331,4 @@ UninstallStatusLabel=Veuillez patienter pendant que %1 est retiré de votre ordi
 UninstalledAll=%1 a été correctement désinstallé de cet ordinateur.
 UninstalledMost=La désinstallation de %1 est terminée.%n%nCertains éléments n'ont pas pu être supprimés automatiquement. Vous pouvez les supprimer manuellement.
 UninstalledAndNeedsRestart=Vous devez redémarrer l'ordinateur pour terminer la désinstallation de %1.%n%nVoulez-vous redémarrer maintenant ?
-UninstallDataCorrupted=Le ficher "%1" est altéré. Impossible de désinstaller
-
-; *** Uninstallation phase messages
-ConfirmDeleteSharedFileTitle=Supprimer les fichiers partagés ?
-ConfirmDeleteSharedFile2=Le système indique que le fichier partagé suivant n'est plus utilisé par aucun programme. Souhaitez-vous que la désinstallation supprime ce fichier partagé ?%n%nSi des programmes utilisent encore ce fichier et qu'il est supprimé, ces programmes ne pourront plus fonctionner correctement. Si vous n'êtes pas sûr, choisissez Non. Laisser ce fichier dans votre système ne posera pas de problème.
-SharedFileNameLabel=Nom du fichier :
-SharedFileLocationLabel=Emplacement :
-WizardUninstalling=État de la désinstallation
-StatusUninstalling=Désinstallation de %1...
-
-; *** Shutdown block reasons
-ShutdownBlockReasonInstallingApp=Installe %1.
-ShutdownBlockReasonUninstallingApp=Désinstalle %1.
-
-; Les messages personnalisés suivants ne sont pas utilisé par l'installation
-; elle-même, mais si vous les utilisez dans vos scripts, vous devez les
-; traduire
-
-[CustomMessages]
-
-NameAndVersion=%1 version %2
-AdditionalIcons=Icônes supplémentaires :
-CreateDesktopIcon=Créer une icône sur le &Bureau
-CreateQuickLaunchIcon=Créer une icône dans la barre de &Lancement rapide
-ProgramOnTheWeb=Page d'accueil de %1
-UninstallProgram=Désinstaller %1
-LaunchProgram=Exécuter %1
-AssocFileExtension=&Associer %1 avec l'extension de fichier %2
-AssocingFileExtension=Associe %1 avec l'extension de fichier %2...
-AutoStartProgramGroupDescription=Démarrage :
-AutoStartProgram=Démarrer automatiquement %1
-AddonHostProgramNotFound=%1 n'a pas été trouvé dans le dossier que vous avez choisi.%n%nVoulez-vous continuer malgré tout ?
+UninstallDataCorrupted="Le ficher \"%1\" est altéré. Impossible de désinstaller"
