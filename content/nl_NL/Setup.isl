@@ -1,13 +1,29 @@
-﻿; *** Inno Setup version 6.0.3+ Dutch messages ***
+; *** Inno Setup version 6.0.3+ English messages ***
 ;
-; This file is based on user-contributed translations by various authors
+; To download user-contributed translations of this file, go to:
+;   http://www.jrsoftware.org/files/istrans/
 ;
-; Maintained by Martijn Laan (mlaan@jrsoftware.org)
-                                     
-[LangOptions]                
-LanguageName=Nederlands      
-LanguageID=$0413 
+; Note: When translating this text, do not add periods (.) to the end of
+; messages that didn't have them already, because on those messages Inno
+; Setup adds the periods automatically (appending a period would result in
+; two periods being displayed).
+
+[LangOptions]
+; The following three entries are very important. Be sure to read and
+; understand the '[LangOptions] section' topic in the help file.
+LanguageName=Nederlands
+LanguageID=$0413
 LanguageCodePage=1252
+; If the language you are translating to requires special font faces or
+; sizes, uncomment any of the following entries and change them accordingly.
+DialogFontName=Tahoma
+TitleFontName=Arial
+WelcomeFontName=Verdana
+CopyrightFontName=Arial
+DialogFontSize=8
+TitleFontSize=29
+WelcomeFontSize=12
+CopyrightFontSize=8
 
 [Messages]
 
@@ -26,6 +42,7 @@ ErrorTitle=Fout
 SetupLdrStartupMessage=Hiermee wordt %1 geïnstalleerd. Wilt u doorgaan?
 LdrCannotCreateTemp=Kan geen tijdelijk bestand maken. Setup wordt afgesloten
 LdrCannotExecTemp=Kan een bestand in de tijdelijke map niet uitvoeren. Setup wordt afgesloten
+HelpTextNote=
 
 ; *** Startup error messages
 LastErrorMessage=%1.%n%nFout %2: %3
@@ -67,7 +84,7 @@ AboutSetupMenuItem=&Over Setup...
 AboutSetupTitle=Over Setup
 AboutSetupMessage=%1 versie %2%n%3%n%n%1-homepage:%n%4
 AboutSetupNote=
-TranslatorNote=Dutch translation maintained by Martijn Laan (mlaan@jrsoftware.org)
+TranslatorNote=
 
 ; *** Buttons
 ButtonBack=< Vo&rige
@@ -138,7 +155,7 @@ DiskSpaceGBLabel=Er is ten minste [gb] GB vrije schijfruimte vereist.
 DiskSpaceMBLabel=Er is ten minste [mb] MB vrije schijfruimte vereist.
 CannotInstallToNetworkDrive=Setup kan niet installeren naar een netwerkstation.
 CannotInstallToUNCPath=Setup kan niet installeren naar een UNC-pad.
-InvalidPath=U moet een volledig pad met stationsletter invoeren; bijvoorbeeld:%nC:\APP%n%nof een UNC-pad zoals:%n%n\\server\share
+InvalidPath=U moet een volledig pad met stationsletter invoeren ; for example:%n%nC:\APP%n%nor a UNC path in the form:%n%n\\server\share
 InvalidDrive=Het geselecteerde station bestaat niet. Kies een ander station.
 DiskSpaceWarningTitle=Onvoldoende schijfruimte
 DiskSpaceWarning=Setup vereist ten minste %1 kB vrije schijfruimte voor het installeren, maar het geselecteerde station heeft slechts %2 kB beschikbaar.%n%nWilt u toch doorgaan?
@@ -153,8 +170,9 @@ DirDoesntExist=De map:%n%n%1%n%nbestaat niet. Wilt u de map aanmaken?
 ; *** "Select Components" wizard page
 WizardSelectComponents=Selecteer componenten
 SelectComponentsDesc=Welke componenten moeten geïnstalleerd worden?
-SelectComponentsLabel2=Selecteer de componenten die u wilt installeren. Klik op Volgende als u klaar bent om verder te gaan.
+SelectComponentsLabel2=Selecteer de componenten die u wilt installeren. Klik op Volgende als u klaar bent om verder te gaan. ; clear the components you do not want to install. Click Next when you are ready to continue.
 FullInstallation=Volledige installatie
+; if possible don't translate 'Compact' as 'Minimal' (I mean 'Minimal' in your language)
 CompactInstallation=Compacte installatie
 CustomInstallation=Aangepaste installatie
 NoUninstallWarningTitle=Component bestaat
@@ -175,7 +193,7 @@ SelectStartMenuFolderDesc=Waar moeten de snelkoppelingen van het programma gepla
 SelectStartMenuFolderLabel3=Setup plaatst de snelkoppelingen van het programma in de volgende menu Start map.
 SelectStartMenuFolderBrowseLabel=Klik op Volgende om door te gaan. Klik op Bladeren om een andere map te kiezen.
 MustEnterGroupName=U moet een mapnaam invoeren.
-GroupNameTooLong=De mapnaam of het pad is te lang. 
+GroupNameTooLong=De mapnaam of het pad is te lang.
 InvalidGroupName=De mapnaam is ongeldig.
 BadGroupName=De mapnaam mag geen van de volgende tekens bevatten:%n%n%1
 NoProgramGroupCheck2=&Geen menu Start map maken
@@ -218,7 +236,9 @@ FinishedRestartMessage=Setup moet uw computer opnieuw opstarten om de installati
 ShowReadmeCheck=Ja, ik wil het bestand Leesmij zien
 YesRadio=&Ja, start de computer nu opnieuw op
 NoRadio=&Nee, ik start de computer later opnieuw op
+; used for example as 'Run MyProg.exe'
 RunEntryExec=Start %1
+; used for example as 'View Readme.txt'
 RunEntryShellExec=Bekijk %1
 
 ; *** "Setup Needs the Next Disk" stuff
@@ -251,8 +271,8 @@ StatusRollback=Veranderingen ongedaan maken...
 ; *** Misc. errors
 ErrorInternal2=Interne fout: %1
 ErrorFunctionFailedNoCode=%1 mislukt
-ErrorFunctionFailed=%1 mislukt; code %2
-ErrorFunctionFailedWithMessage=%1 mislukt; code %2.%n%3
+ErrorFunctionFailed=%1 mislukt ; code %2
+ErrorFunctionFailedWithMessage=%1 mislukt ; code %2.%n%3
 ErrorExecutingProgram=Kan bestand niet uitvoeren:%n%1
 
 ; *** Registry errors
@@ -286,7 +306,9 @@ ErrorRegSvr32Failed=RegSvr32 mislukt met afsluitcode %1
 ErrorRegisterTypeLib=Kan de type library niet registreren: %1
 
 ; *** Uninstall display name markings
+; used for example as 'My Program (32-bit)'
 UninstallDisplayNameMark=%1 (%2)
+; used for example as 'My Program (32-bit, All users)'
 UninstallDisplayNameMarks=%1 (%2, %3)
 UninstallDisplayNameMark32Bit=32-bit
 UninstallDisplayNameMark64Bit=64-bit
@@ -299,17 +321,17 @@ ErrorRestartingComputer=Setup kan de computer niet opnieuw opstarten. Doe dit ha
 
 ; *** Uninstaller messages
 UninstallNotFound=Bestand "%1" bestaat niet. Kan het programma niet verwijderen.
+UninstallOpenError=Bestand "%1" kon niet worden geopend. Kan het verwijderen niet voltooien.
 UninstallUnsupportedVer=Het installatie-logbestand "%1" heeft een formaat dat niet herkend wordt door deze versie van het verwijderprogramma. Kan het programma niet verwijderen
 UninstallUnknownEntry=Er is een onbekend gegeven (%1) aangetroffen in het installatie-logbestand
 ConfirmUninstall=Weet u zeker dat u %1 en alle bijbehorende componenten wilt verwijderen?
 UninstallOnlyOnWin64=Deze installatie kan alleen worden verwijderd onder 64-bit Windows.
 OnlyAdminCanUninstall=Deze installatie kan alleen worden verwijderd door een gebruiker met administratieve rechten.
 UninstallStatusLabel=%1 wordt verwijderd van uw computer. Een ogenblik geduld.
-UninstallOpenError=Bestand "%1" kon niet worden geopend. Kan het verwijderen niet voltooien.
 UninstalledAll=%1 is met succes van deze computer verwijderd.
 UninstalledMost=Het verwijderen van %1 is voltooid.%n%nEnkele elementen konden niet verwijderd worden. Deze kunnen handmatig verwijderd worden.
 UninstalledAndNeedsRestart=Om het verwijderen van %1 te voltooien, moet uw computer opnieuw worden opgestart.%n%nWilt u nu opnieuw opstarten?
-UninstallDataCorrupted="%1" bestand is beschadigd. Kan verwijderen niet voltooien
+UninstallDataCorrupted="%1\" bestand is beschadigd. Kan verwijderen niet voltooien
 
 ; *** Uninstallation phase messages
 ConfirmDeleteSharedFileTitle=Gedeeld bestand verwijderen?
@@ -336,4 +358,4 @@ AssocFileExtension=&Koppel %1 aan de %2 bestandsextensie
 AssocingFileExtension=Bezig met koppelen van %1 aan de %2 bestandsextensie...
 AutoStartProgramGroupDescription=Opstarten:
 AutoStartProgram=%1 automatisch starten
-AddonHostProgramNotFound=%1 kon niet worden gevonden in de geselecteerde map.%n%nWilt u toch doorgaan?
+AddonHostProgramNotFound=%1 kon niet worden gevonden in de geselecteerde map.%n%nWilt u toch doorgaan?"

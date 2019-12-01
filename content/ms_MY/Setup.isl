@@ -1,323 +1,364 @@
-; *** Inno Setup version 5.1.0+ Malay messages ***
+; *** Inno Setup version 6.0.3+ English messages ***
 ;
 ; To download user-contributed translations of this file, go to:
-;   http://www.jrsoftware.org/is3rdparty.php
+;   http://www.jrsoftware.org/files/istrans/
 ;
 ; Note: When translating this text, do not add periods (.) to the end of
 ; messages that didn't have them already, because on those messages Inno
 ; Setup adds the periods automatically (appending a period would result in
 ; two periods being displayed).
-;
-; $jrsoftware: issrc/Files/Languages/Malaysia-5.1.0.isl,v 1.6 2005/09/17 02:23:56 smd Exp $
-;    Diterjemah oleh (Translated by):
-;    Shaiffulnizam Mohamad <shaifful at yahoo.com>
-;    019-9763528 http://www.mymambo.org
-;
 
 [LangOptions]
 ; The following three entries are very important. Be sure to read and
 ; understand the '[LangOptions] section' topic in the help file.
-LanguageName=Malay
-LanguageID=$043E
+LanguageName=English
+LanguageID=$0409
 LanguageCodePage=0
 ; If the language you are translating to requires special font faces or
 ; sizes, uncomment any of the following entries and change them accordingly.
-;DialogFontName=
-;DialogFontSize=8
-;WelcomeFontName=Verdana
-;WelcomeFontSize=12
-;TitleFontName=Arial
-;TitleFontSize=29
-;CopyrightFontName=Arial
-;CopyrightFontSize=8
+DialogFontName=Tahoma
+TitleFontName=Arial
+WelcomeFontName=Verdana
+CopyrightFontName=Arial
+DialogFontSize=8
+TitleFontSize=29
+WelcomeFontSize=12
+CopyrightFontSize=8
 
 [Messages]
 
 ; *** Application titles
-SetupAppTitle=Pemasang Perisian
-SetupWindowTitle=Pemasang Perisian - %1
-UninstallAppTitle=Mengeluarkan Perisian dari Sistem
-UninstallAppFullTitle=Mengeluarkan Perisian %1 dari Sistem
+SetupAppTitle=Setup
+SetupWindowTitle=Setup - %1
+UninstallAppTitle=Uninstall
+UninstallAppFullTitle=%1 Uninstall
 
 ; *** Misc. common
-InformationTitle=Maklumat
-ConfirmTitle=Sahkan
+InformationTitle=Information
+ConfirmTitle=Confirm
 ErrorTitle=Error
 
 ; *** SetupLdr messages
-SetupLdrStartupMessage=Program ini akan memasang perisian %1. Adakah anda mahu teruskan?
-LdrCannotCreateTemp=Tidak dapat menghasilkan fail sementara, pemasangan dihentikan!
-LdrCannotExecTemp=Tidak dapat menjalankan fail dalam direktori sementara, pemasangan dihentikan!
+SetupLdrStartupMessage=This will install %1. Do you wish to continue?
+LdrCannotCreateTemp=Unable to create a temporary file. Setup aborted
+LdrCannotExecTemp=Unable to execute file in the temporary directory. Setup aborted
+HelpTextNote=
 
 ; *** Startup error messages
 LastErrorMessage=%1.%n%nError %2: %3
-SetupFileMissing=Fail %1 didapati hilang dari direktori pemasangan. Sila perbetulkan masalah tersebut atau dapatkan salinan terbaru perisian ini.
-SetupFileCorrupt=Fail Pemasangan ini didapati Rosak. Sila dapatkan salinan terbaru perisian ini.
-SetupFileCorruptOrWrongVer=Fail Pemasangan ini didapati Rosak, atau tidak serasi dengan versi pemasangan perisian ini. Sila perbetulkan masalah tersebut atau dapatkan salinan terbaru perisian ini.
-NotOnThisPlatform=Perisian ini tidak boleh dijalankan dalam %1.
-OnlyOnThisPlatform=Perisian ini Mesti dijalankan dalam %1.
-OnlyOnTheseArchitectures=Aplikasi ini hanya boleh dipasang pada versi Windows yang dibina untuk rekabentuk pemprosesan berikut:%n%n%1
-MissingWOW64APIs=Versi Windows yang anda jalankan tidak memiliki fungsi yang dikehendaki oleh perisian pemasangan untuk melakukan pemasangan 64-bit. Untuk memperbaikinya, sila pasang Pek Khidmat %1.
-WinVersionTooLowError=Perisian ini memerlukan %1 versi %2 atau yang terkemudian.
-WinVersionTooHighError=Perisian ini tidak boleh dipasang pada %1 versi %2 atau yang terkemudian.
-AdminPrivilegesRequired=Anda mesti masuk kedalam Sistem Komputer ini sebagai pentadbir, apabila memasang perisian ini.
-PowerUserPrivilegesRequired=Anda mesti masuk kedalam Sistem Komputer ini sebagai pentadbir atau ahli dalam Kumpulan Power User, apabila memasang perisian ini.
-SetupAppRunningError=Perisian Pemasangan ini telah mendapati bahawa terdapat %1 sedang berjalan.%n%nSila tutup semua pemasangan lain tersebut, kemudian klik Ok untuk teruskan atau batal untuk Keluar.
-UninstallAppRunningError=Pengeluar Perisian ini telah mendapati bahawa terdapat %1 sedang berjalan.%n%nSila tutup semua pemasangan lain tersebut, kemudian klik Ok untuk teruskan atau batal untuk Keluar.
+SetupFileMissing=The file %1 is missing from the installation directory. Please correct the problem or obtain a new copy of the program.
+SetupFileCorrupt=The setup files are corrupted. Please obtain a new copy of the program.
+SetupFileCorruptOrWrongVer=The setup files are corrupted, or are incompatible with this version of Setup. Please correct the problem or obtain a new copy of the program.
+InvalidParameter=An invalid parameter was passed on the command line:%n%n%1
+SetupAlreadyRunning=Setup is already running.
+WindowsVersionNotSupported=This program does not support the version of Windows your computer is running.
+WindowsServicePackRequired=This program requires %1 Service Pack %2 or later.
+NotOnThisPlatform=This program will not run on %1.
+OnlyOnThisPlatform=This program must be run on %1.
+OnlyOnTheseArchitectures=This program can only be installed on versions of Windows designed for the following processor architectures:%n%n%1
+WinVersionTooLowError=This program requires %1 version %2 or later.
+WinVersionTooHighError=This program cannot be installed on %1 version %2 or later.
+AdminPrivilegesRequired=You must be logged in as an administrator when installing this program.
+PowerUserPrivilegesRequired=You must be logged in as an administrator or as a member of the Power Users group when installing this program.
+SetupAppRunningError=Setup has detected that %1 is currently running.%n%nPlease close all instances of it now, then click OK to continue, or Cancel to exit.
+UninstallAppRunningError=Uninstall has detected that %1 is currently running.%n%nPlease close all instances of it now, then click OK to continue, or Cancel to exit.
+
+; *** Startup questions
+PrivilegesRequiredOverrideTitle=Select Setup Install Mode
+PrivilegesRequiredOverrideInstruction=Select install mode
+PrivilegesRequiredOverrideText1=%1 can be installed for all users (requires administrative privileges), or for you only.
+PrivilegesRequiredOverrideText2=%1 can be installed for you only, or for all users (requires administrative privileges).
+PrivilegesRequiredOverrideAllUsers=Install for &all users
+PrivilegesRequiredOverrideAllUsersRecommended=Install for &all users (recommended)
+PrivilegesRequiredOverrideCurrentUser=Install for &me only
+PrivilegesRequiredOverrideCurrentUserRecommended=Install for &me only (recommended)
 
 ; *** Misc. errors
-ErrorCreatingDir=Pemasang Perisian ini, tidak dapat menghasilkan Direktori "%1"
-ErrorTooManyFilesInDir=tidak dapat menghasilkan Fail dalam Direktori "%1" kerana ia mempunyai terlalu banyak fail.
+ErrorCreatingDir=Setup was unable to create the directory "%1"
+ErrorTooManyFilesInDir=Unable to create a file in the directory "%1" because it contains too many files
 
 ; *** Setup common messages
-ExitSetupTitle=Keluar dari Pemasangan
-ExitSetupMessage=Pemasangan masih belum sempurna. Jika anda berhenti sekarang, Perisian ini tidak akan dipasang.%n%nAnda boleh menjalankan Pemasangan Perisian ini pada masa akan datang untuk melengkapkan pemasangan.%n%nAdakah anda pasti ingin keluar dari Pemasangan?
-AboutSetupMenuItem=&Tentang Pemasang Perisian...
-AboutSetupTitle=Tentang Pemasang Perisian
-AboutSetupMessage=%1 versi %2%n%3%n%n%1 laman web:%n%4
+ExitSetupTitle=Exit Setup
+ExitSetupMessage=Setup is not complete. If you exit now, the program will not be installed.%n%nYou may run Setup again at another time to complete the installation.%n%nExit Setup?
+AboutSetupMenuItem=&About Setup...
+AboutSetupTitle=About Setup
+AboutSetupMessage=%1 version %2%n%3%n%n%1 home page:%n%4
 AboutSetupNote=
-TranslatorNote=Dialih bahasa kepada Bahasa Melayu oleh :%nShaiffulnizam Mohamad.%nshaifful@yahoo.com%nHP : 019-9763528%n%nSila hubungi saya sekiranya and ingin ubah maksud atau ayat dalam terjemahan ini
+TranslatorNote=
 
 ; *** Buttons
-ButtonBack=< &Kembali
-ButtonNext=&Selepas >
-ButtonInstall=&Pasang
+ButtonBack=< &Back
+ButtonNext=&Next >
+ButtonInstall=&Install
 ButtonOK=OK
-ButtonCancel=&Batal
-ButtonYes=&Ya
-ButtonYesToAll=Ya Semu&a
+ButtonCancel=Cancel
+ButtonYes=&Yes
+ButtonYesToAll=Yes to &All
 ButtonNo=&No
-ButtonNoToAll=&Tidak Semua
-ButtonFinish=Se&lesai
-ButtonBrowse=Li&hat...
-ButtonWizardBrowse=Li&hat...
-ButtonNewFolder=&Hasilkan Folder Baru
+ButtonNoToAll=N&o to All
+ButtonFinish=&Finish
+ButtonBrowse=&Browse...
+ButtonWizardBrowse=B&rowse...
+ButtonNewFolder=&Make New Folder
 
 ; *** "Select Language" dialog messages
-SelectLanguageTitle=Pilih Bahasa Untuk Pemasangan
-SelectLanguageLabel=Pilih Bahasa Yang Anda ingin Guna Dalam Pemasangan:
+SelectLanguageTitle=Select Setup Language
+SelectLanguageLabel=Select the language to use during the installation.
 
 ; *** Common wizard text
-ClickNext=Klik Selepas untuk Teruskan, atau Batal untuk keluar dari Pemasangan Perisian ini.
+ClickNext=Click Next to continue, or Cancel to exit Setup.
 BeveledLabel=
-BrowseDialogTitle=Lihat untuk folder
-BrowseDialogLabel=Pilih folder dari senarai dibawah dan klik OK.
-NewFolderName=Folder Baru
+BrowseDialogTitle=Browse For Folder
+BrowseDialogLabel=Select a folder in the list below, then click OK.
+NewFolderName=New Folder
 
 ; *** "Welcome" wizard page
-WelcomeLabel1=Selamat Datang kepada Pemasang Perisian [name]
-WelcomeLabel2=Perisian ini akan memasang perisian [name/ver] pada komputer anda.%n%nAdalah dinasihatkan untuk menghentikan Perisian-perisian lain sebelum anda meneruskan Pemasangan ini.
+WelcomeLabel1=Welcome to the [name] Setup Wizard
+WelcomeLabel2=This will install [name/ver] on your computer.%n%nIt is recommended that you close all other applications before continuing.
 
 ; *** "Password" wizard page
-WizardPassword=Kata laluan
-PasswordLabel1=Pemasangan ini dilindungi dengan kata laluan.
-PasswordLabel3=Sila sediakan kata laluan, kemudian Klik Selepas untuk meneruskan pemasangan. Kata laluan adalah Huruf Sensitif. Cth : A tidak sama dengan a
-PasswordEditLabel=&Kata laluan:
-IncorrectPassword=Kata laluan yang anda berikan tidak Sah!, Sila cuba lagi.
+WizardPassword=Password
+PasswordLabel1=This installation is password protected.
+PasswordLabel3=Please provide the password, then click Next to continue. Passwords are case-sensitive.
+PasswordEditLabel=&Password:
+IncorrectPassword=The password you entered is not correct. Please try again.
 
 ; *** "License Agreement" wizard page
-WizardLicense=Lesen Perjanjian
-LicenseLabel=Sila baca Maklumat Penting berikut, sebelum anda meneruskan pemasangan perisian ini.
-LicenseLabel3=Sila baca Lesen Perjanjian berikut. Anda mesti menerima terma dalam perjanjian ini, sebelum meneruskan pemasangan.
-LicenseAccepted=Saya &Menerima Terma-terma dalam Perjanjian ini
-LicenseNotAccepted=Saya &Tidak menerima Terma-terma dalam Perjanjian ini
+WizardLicense=License Agreement
+LicenseLabel=Please read the following important information before continuing.
+LicenseLabel3=Please read the following License Agreement. You must accept the terms of this agreement before continuing with the installation.
+LicenseAccepted=I &accept the agreement
+LicenseNotAccepted=I &do not accept the agreement
 
 ; *** "Information" wizard pages
-WizardInfoBefore=Maklumat
-InfoBeforeLabel=Sila Baca Maklumat Penting Berikut, sebelum meneruskan Pemasangan.
-InfoBeforeClickLabel=Jika anda bersedia untuk meneruskan pemasangan, klik Selepas.
-WizardInfoAfter=Maklumat
-InfoAfterLabel=Sila Baca Maklumat Penting berikut, sebelum meneruskan Pemasangan.
-InfoAfterClickLabel=Jika anda bersedia untuk meneruskan Pemasangan, klik Selepas.
+WizardInfoBefore=Information
+InfoBeforeLabel=Please read the following important information before continuing.
+InfoBeforeClickLabel=When you are ready to continue with Setup, click Next.
+WizardInfoAfter=Information
+InfoAfterLabel=Please read the following important information before continuing.
+InfoAfterClickLabel=When you are ready to continue with Setup, click Next.
 
 ; *** "User Information" wizard page
-WizardUserInfo=Maklumat Pengguna
-UserInfoDesc=Sila masukkan maklumat Anda:
-UserInfoName=&Nama:
-UserInfoOrg=&Organisasi:
-UserInfoSerial=Nombor &Siri:
-UserInfoNameRequired=Anda mesti masukkan nama.
+WizardUserInfo=User Information
+UserInfoDesc=Please enter your information.
+UserInfoName=&User Name:
+UserInfoOrg=&Organization:
+UserInfoSerial=&Serial Number:
+UserInfoNameRequired=You must enter a name.
 
-; *** "Select Destination Directory" wizard page
-WizardSelectDir=Pilih Destinasi Tujuan bagi Direktori
-SelectDirDesc=Dimanakah perisian [name] akan dipasang?
-SelectDirLabel3=Setup akan memasang perisian [name] kedalam folder berikut.
-SelectDirBrowseLabel=Untuk teruskan dengan pemasangan, klik Selepas. Jika anda ingin memilih folder berlainan, klik Browse.
-DiskSpaceMBLabel=Perisian in memerlukan Sekurang-kurangnya [mb] MB ruangan Cakera Keras.
-ToUNCPathname=Pemasangan tidak boleh dilakukan pada laluan UNC. Jika anda cuba untuk memasangnya kedalam rangkaian, anda perlu memetakan pemacu rangkaian.
-InvalidPath=Anda mesti meletakkan Laluan Penuh dengan Huruf Pemacu; sebagai contoh:%n%nC:\APP%n%nataupun laluan bagi UNC dalam ruangan:%n%n\\server\share
-InvalidDrive=Pemacu atau perkongsian UNC yang anda pilih, tidak wujud atau tidak boleh diakses. Sila pilih yang lain.
-DiskSpaceWarningTitle=Ruangan Cakera Keras TIDAK MENCUKUPI!
-DiskSpaceWarning=Pemasang Perisian memerlukan sekurang-kurangnya %1 KB daripada ruangan kosong untuk pemasangan, tetapi cakera keras/pemacu yang anda pilih hanya mempunyai %2 KB sahaja.%n%nAdakah anda ingin teruskan juga?
-DirNameTooLong=Nama folder atau laluan terlalu panjang.
-InvalidDirName=Nama folder tidak sah.
-BadDirName32=Nama direktori, tidak boleh termasuk mana-mana huruf atau karektor berikut:%n%n%1
-DirExistsTitle=Direktori telah pun Wujud
-DirExists=Direktori:%n%n%1%n%ntelahpun Wujud. Adakah anda masih ingin memasang perisian ini ke Direktori tersebut?
-DirDoesntExistTitle=Direktori tidak Wujud!
-DirDoesntExist=Direktori:%n%n%1%n%ntidak Wujud!. Adakah anda ingin Direktori tersebut dihasilkan?
+; *** "Select Destination Location" wizard page
+WizardSelectDir=Select Destination Location
+SelectDirDesc=Where should [name] be installed?
+SelectDirLabel3=Setup will install [name] into the following folder.
+SelectDirBrowseLabel=To continue, click Next. If you would like to select a different folder, click Browse.
+DiskSpaceGBLabel=At least [gb] GB of free disk space is required.
+DiskSpaceMBLabel=At least [mb] MB of free disk space is required.
+CannotInstallToNetworkDrive=Setup cannot install to a network drive.
+CannotInstallToUNCPath=Setup cannot install to a UNC path.
+InvalidPath=You must enter a full path with drive letter ; for example:%n%nC:\APP%n%nor a UNC path in the form:%n%n\\server\share
+InvalidDrive=The drive or UNC share you selected does not exist or is not accessible. Please select another.
+DiskSpaceWarningTitle=Not Enough Disk Space
+DiskSpaceWarning=Setup requires at least %1 KB of free space to install, but the selected drive only has %2 KB available.%n%nDo you want to continue anyway?
+DirNameTooLong=The folder name or path is too long.
+InvalidDirName=The folder name is not valid.
+BadDirName32=Folder names cannot include any of the following characters:%n%n%1
+DirExistsTitle=Folder Exists
+DirExists=The folder:%n%n%1%n%nalready exists. Would you like to install to that folder anyway?
+DirDoesntExistTitle=Folder Does Not Exist
+DirDoesntExist=The folder:%n%n%1%n%ndoes not exist. Would you like the folder to be created?
 
 ; *** "Select Components" wizard page
-WizardSelectComponents=Pilih Komponen atau bahagian
-SelectComponentsDesc=Komponen yang manakah perlu dipasang?
-SelectComponentsLabel2=Pilih Komponen yang anda ingin pasangkan; Kosongkan Komponen yang anda tidak ingin pasangkan. Klik Selepas, jika anda telah bersedia untuk meneruskan pemasangan.
-FullInstallation=Pemasangan Penuh
+WizardSelectComponents=Select Components
+SelectComponentsDesc=Which components should be installed?
+SelectComponentsLabel2=Select the components you want to install ; clear the components you do not want to install. Click Next when you are ready to continue.
+FullInstallation=Full installation
 ; if possible don't translate 'Compact' as 'Minimal' (I mean 'Minimal' in your language)
-CompactInstallation=Pemasangan Asas
-CustomInstallation=Pemasangan atas Pilihan
-NoUninstallWarningTitle=Komponen Wujud
-NoUninstallWarning=Pemasang Perisian ini telah mendapati bahawa komponen berikut telah dipasang pada Komputer anda:%n%n%1%n%nTidak memilih Komponen ini, tidak akan menyebabkan ianya dikeluarkan dari Pemasangan.%n%nAdakah anda ingin juga teruskan?
+CompactInstallation=Compact installation
+CustomInstallation=Custom installation
+NoUninstallWarningTitle=Components Exist
+NoUninstallWarning=Setup has detected that the following components are already installed on your computer:%n%n%1%n%nDeselecting these components will not uninstall them.%n%nWould you like to continue anyway?
 ComponentSize1=%1 KB
 ComponentSize2=%1 MB
-ComponentsDiskSpaceMBLabel=Pilihan Sekarang ini memerlukan sekurang-kurangnya [mb] MB Ruangan cakera keras.
+ComponentsDiskSpaceGBLabel=Current selection requires at least [gb] GB of disk space.
+ComponentsDiskSpaceMBLabel=Current selection requires at least [mb] MB of disk space.
 
 ; *** "Select Additional Tasks" wizard page
-WizardSelectTasks=Pilih Tugas Tambahan
-SelectTasksDesc=Apakah tugas tambahan yang anda ingin perisian pemasangan ini lakukan?
-SelectTasksLabel2=Pilih Tugas Tambahan yang anda ingin lakukan semasa Proses Pemasangan [name], Kemudian pilih butang Selepas.
+WizardSelectTasks=Select Additional Tasks
+SelectTasksDesc=Which additional tasks should be performed?
+SelectTasksLabel2=Select the additional tasks you would like Setup to perform while installing [name], then click Next.
 
 ; *** "Select Start Menu Folder" wizard page
-WizardSelectProgramGroup=Pilih Folder Start Menu
-SelectStartMenuFolderDesc=Dimanakah Sepatutnya pemasang perisian ini harus meletakkan pintasan kepada Perisian ini?
-SelectStartMenuFolderLabel3=Setup akan hasilkan pintasan dalam folder menu mula berikut.
-SelectStartMenuFolderBrowseLabel=Untuk teruskan, klik selepas. Jika anda nak pilih folder berlainan, klik lihat.
-MustEnterGroupName=Anda mesti masukkan nama Folder.
-GroupNameTooLong=Nama folder atau laluan terlalu panjang.
-InvalidGroupName=Nama folder tidak SAH.
-BadGroupName=Nama folder tidak boleh mengandungi mana-mana huruf atau karektor berikut:%n%n%1
-NoProgramGroupCheck2=&Jangan hasilkan folder Start Menu
+WizardSelectProgramGroup=Select Start Menu Folder
+SelectStartMenuFolderDesc=Where should Setup place the program's shortcuts?
+SelectStartMenuFolderLabel3=Setup will create the program's shortcuts in the following Start Menu folder.
+SelectStartMenuFolderBrowseLabel=To continue, click Next. If you would like to select a different folder, click Browse.
+MustEnterGroupName=You must enter a folder name.
+GroupNameTooLong=The folder name or path is too long.
+InvalidGroupName=The folder name is not valid.
+BadGroupName=The folder name cannot include any of the following characters:%n%n%1
+NoProgramGroupCheck2=&Don't create a Start Menu folder
 
 ; *** "Ready to Install" wizard page
-WizardReady=Sedia untuk Pemasangan
-ReadyLabel1=Pemasang Perisian telah bersedia untuk memulakan pemasangan [name] kedalam sistem komputer anda.
-ReadyLabel2a=Klik Pasang untuk meneruskan Pemasangan Perisian, atau klik Kembali jika anda ingin Lihat atau Ubah mana-mana tetapan.
-ReadyLabel2b=Klik Pasang untuk meneruskan Pemasangan.
-ReadyMemoUserInfo=Maklumat Pengguna:
-ReadyMemoDir=Direktori Destinasi:
-ReadyMemoType=Jenis Pemasangan:
-ReadyMemoComponents=Komponen terpilih:
-ReadyMemoGroup=Folder Start Menu:
-ReadyMemoTasks=Tugasan tambahan:
+WizardReady=Ready to Install
+ReadyLabel1=Setup is now ready to begin installing [name] on your computer.
+ReadyLabel2a=Click Install to continue with the installation, or click Back if you want to review or change any settings.
+ReadyLabel2b=Click Install to continue with the installation.
+ReadyMemoUserInfo=User information:
+ReadyMemoDir=Destination location:
+ReadyMemoType=Setup type:
+ReadyMemoComponents=Selected components:
+ReadyMemoGroup=Start Menu folder:
+ReadyMemoTasks=Additional tasks:
 
 ; *** "Preparing to Install" wizard page
-WizardPreparing=Bersedia untuk memasang
-PreparingDesc=Pemasang Perisian [name] sedang menyediakan Sistem komputer anda untuk proses pemasangan.
-PreviousInstallNotCompleted=Pemasangan/Pengeluaran Perisian sebelumnya adalah tidak lengkap. Anda perlu memulakan kemmbali Komputer untuk menyiapkan pemasangan tersebut.%n%nSelpas memulakan kembali Komputer anda, jalankan Pemasang Perisian ini kembali untuk melengkapkan Pemasangan [name] ini.
-CannotContinue=Pemasangan tidak boleh diteruskan, Sila klik batal untuk Keluar.
+WizardPreparing=Preparing to Install
+PreparingDesc=Setup is preparing to install [name] on your computer.
+PreviousInstallNotCompleted=The installation/removal of a previous program was not completed. You will need to restart your computer to complete that installation.%n%nAfter restarting your computer, run Setup again to complete the installation of [name].
+CannotContinue=Setup cannot continue. Please click Cancel to exit.
+ApplicationsFound=The following applications are using files that need to be updated by Setup. It is recommended that you allow Setup to automatically close these applications.
+ApplicationsFound2=The following applications are using files that need to be updated by Setup. It is recommended that you allow Setup to automatically close these applications. After the installation has completed, Setup will attempt to restart the applications.
+CloseApplications=&Automatically close the applications
+DontCloseApplications=&Do not close the applications
+ErrorCloseApplications=Setup was unable to automatically close all applications. It is recommended that you close all applications using files that need to be updated by Setup before continuing.
+PrepareToInstallNeedsRestart=Setup must restart your computer. After restarting your computer, run Setup again to complete the installation of [name].%n%nWould you like to restart now?
 
 ; *** "Installing" wizard page
-WizardInstalling=Pemasangan Perisian
-InstallingLabel=Sila tunggu sementara Pemasang Perisian memasang [name] pada komputer anda.
+WizardInstalling=Installing
+InstallingLabel=Please wait while Setup installs [name] on your computer.
 
 ; *** "Setup Completed" wizard page
-FinishedHeadingLabel=Melengkapkan Pemasangan [name]
-FinishedLabelNoIcons=Pemasang Perisian telah selesai memasang perisian [name] pada komputer anda.
-FinishedLabel=Pemasang Perisian telah selesai memasang perisian [name] pada komputer anda. Perisian tersebut boleh dimulakan dengan memilih Ikon yang dipasang.
-ClickFinish=Klik Selesai untuk keluar dari Pemasang Perisian.
-FinishedRestartLabel=Untuk melengkapkan pemasangan perisian [name], Pemasang perisian mesti memulakan kembali komputer anda, adakah anda ingin Mulakan Kembali Komputer anda sekarang?
-FinishedRestartMessage=Untuk melengkapkan pemasangan perisian  [name], Pemasang perisian mesti memulakan kembali komputer anda.%n%nadakah anda mahu Mulakan Kembali Komputer anda sekarang??
-ShowReadmeCheck=Ya, Saya nak baca fail READ ME
-YesRadio=&Ya, mulakan kembali komputer ini sekarang
-NoRadio=&Tidak, Saya akan mulakan kembali Komputer saya kemudian
+FinishedHeadingLabel=Completing the [name] Setup Wizard
+FinishedLabelNoIcons=Setup has finished installing [name] on your computer.
+FinishedLabel=Setup has finished installing [name] on your computer. The application may be launched by selecting the installed shortcuts.
+ClickFinish=Click Finish to exit Setup.
+FinishedRestartLabel=To complete the installation of [name], Setup must restart your computer. Would you like to restart now?
+FinishedRestartMessage=To complete the installation of [name], Setup must restart your computer.%n%nWould you like to restart now?
+ShowReadmeCheck=Yes, I would like to view the README file
+YesRadio=&Yes, restart the computer now
+NoRadio=&No, I will restart the computer later
 ; used for example as 'Run MyProg.exe'
-RunEntryExec=Menjalankan %1
+RunEntryExec=Run %1
 ; used for example as 'View Readme.txt'
-RunEntryShellExec=Lihat %1
+RunEntryShellExec=View %1
 
 ; *** "Setup Needs the Next Disk" stuff
-ChangeDiskTitle=Pemasang perisian memerlukan cakera selepas ini
-SelectDiskLabel2=Sila masukkan cakera %1 dan Klik OK.%n%nJika fail pada Cakera @ Disk ini boleh ditemui dalam folder selain yang dinyatakan berikut, masukkan laluan yang betul atau klik lihat
-PathLabel=&Laluan:
-FileNotInDir2=Fail "%1" tidak ditemui dalam "%2". Sila masukkan Cakera yang betul atau pilih Folder lain.
-SelectDirectoryLabel=Sila berikan Lokasi Cakera@Disk selepasnya.
+ChangeDiskTitle=Setup Needs the Next Disk
+SelectDiskLabel2=Please insert Disk %1 and click OK.%n%nIf the files on this disk can be found in a folder other than the one displayed below, enter the correct path or click Browse.
+PathLabel=&Path:
+FileNotInDir2=The file "%1" could not be located in "%2". Please insert the correct disk or select another folder.
+SelectDirectoryLabel=Please specify the location of the next disk.
 
 ; *** Installation phase messages
-SetupAborted=Pemasangan Perisian tidak Lengkap.%n%nSila baiki masalah tersebut dan jalankan Pemasang Perisian  ini kembali..
-EntryAbortRetryIgnore=Klik Retry untuk mencuba sekali lagi, atau Ignore untuk teruskan sahaja, atau Abort untuk batalkan pemasangan perisian.
+SetupAborted=Setup was not completed.%n%nPlease correct the problem and run Setup again.
+AbortRetryIgnoreSelectAction=Select action
+AbortRetryIgnoreRetry=&Try again
+AbortRetryIgnoreIgnore=&Ignore the error and continue
+AbortRetryIgnoreCancel=Cancel installation
 
 ; *** Installation status messages
-StatusCreateDirs=Menghasilkan direktori...
-StatusExtractFiles=Mengekstrak Fail-fail...
-StatusCreateIcons=Menghasilkan ikon bagi perisian
-StatusCreateIniEntries=Menghasilkan kemasukkan data INI 
-StatusCreateRegistryEntries=Menghasilkan kemasukkan registry...
-StatusRegisterFiles=Mendaftarkan Fail-fail
-StatusSavingUninstall=Menyimpan maklumat pengeluaran semula...
-StatusRunProgram=Menamatkan Pemasangan...
-StatusRollback=Mengundurkan kembali semua perubahan..
+StatusClosingApplications=Closing applications...
+StatusCreateDirs=Creating directories...
+StatusExtractFiles=Extracting files...
+StatusCreateIcons=Creating shortcuts...
+StatusCreateIniEntries=Creating INI entries...
+StatusCreateRegistryEntries=Creating registry entries...
+StatusRegisterFiles=Registering files...
+StatusSavingUninstall=Saving uninstall information...
+StatusRunProgram=Finishing installation...
+StatusRestartingApplications=Restarting applications...
+StatusRollback=Rolling back changes...
 
 ; *** Misc. errors
-ErrorInternal2=Masalah Dalaman: %1
-ErrorFunctionFailedNoCode=%1 Gagal
-ErrorFunctionFailed=%1 Gagal; Kod %2
-ErrorFunctionFailedWithMessage=%1 Gagal; Kod %2.%n%3
-ErrorExecutingProgram=Tidak dapat memulakan fail program:%n%1
+ErrorInternal2=Internal error: %1
+ErrorFunctionFailedNoCode=%1 failed
+ErrorFunctionFailed=%1 failed ; code %2
+ErrorFunctionFailedWithMessage=%1 failed ; code %2.%n%3
+ErrorExecutingProgram=Unable to execute file:%n%1
 
 ; *** Registry errors
-ErrorRegOpenKey=Terdapat masalah membuka kekunci registry :%n%1\%2
-ErrorRegCreateKey=Masalah dalam menghasilkan kekunci registry:%n%1\%2
-ErrorRegWriteKey=Masalah untuk menulis kekunci registry:%n%1\%2
+ErrorRegOpenKey=Error opening registry key:%n%1\%2
+ErrorRegCreateKey=Error creating registry key:%n%1\%2
+ErrorRegWriteKey=Error writing to registry key:%n%1\%2
 
 ; *** INI errors
-ErrorIniEntry=Terdapat masalah menghasilkan kemasukan INI dalam fail "%1".
+ErrorIniEntry=Error creating INI entry in file "%1".
 
 ; *** File copying errors
-FileAbortRetryIgnore=Klik Retry untuk mencuba kembali, Ignore untuk langkau fail ini (Tidak digalakkan), atau Henti untuk Batalkan Pemasangan.
-FileAbortRetryIgnore2=Klik Retry untuk mencuba kembali, Ignore untuk teruskan juga (Tidak digalakkan), atau Henti untuk Batalkan Pemasangan.
-SourceIsCorrupted=Sumber bagi fail ini Rosak
-SourceDoesntExist=Sumber fail bagi "%1" tidak wujud
-ExistingFileReadOnly=Fail yang telah wujud ditanda sebagai Baca-sahaja atau read-only.%n%nKlik Cuba Semula untuk keluarkan attribut baca-sahaja dan cuba sekali lagi. Ignore untuk langkau Fail ini, atau Abort untuk Batalkan pemasangan perisian.
-ErrorReadingExistingDest=Masalah Berlaku apabila cuba membaca fail yang telah wujud.
-FileExists=Fail tersebut telah wujud.%n%nAdakah anda mahu pemasang perisian untuk menulisnya kembali?
-ExistingFileNewer=Fail sedia ada adalah lebih baru daripada fail yang cuba dipasang oleh pemasang perisian ini. Adalah dicadangkan supaya anda menyimpan fail sedia ada tersebut.%n%nAdakah anda ingin menyimpan fail sedia ada tersebut?
-ErrorChangingAttr=Berlaku masalah apabila cuba mengubah atribut fail sedia ada:
-ErrorCreatingTemp=Masalah berlaku apabila cuba menghasilkan fail dalam direktori destinasi:
-ErrorReadingSource=Masalah berlaku apabila cuba membaca fail sumber:
-ErrorCopying=Masalah berlaku apabila cuba menyalin fail:
-ErrorReplacingExistingFile=Masalah berlaku apabila cuba menggantikan fail sedia ada:
-ErrorRestartReplace=Gagal Mula Semula:
-ErrorRenamingTemp=Masalah berlaku apabila cuba untuk menamakan fail dalam direktori destinasi:
-ErrorRegisterServer=Tidak dapat daftarkan DLL/OCX: %1
-ErrorRegisterServerMissingExport=Eksport DllRegisterServer tidak dijumpai
-ErrorRegisterTypeLib=Tidak dapat mendaftarkan jenis library: %1
+FileAbortRetryIgnoreSkipNotRecommended=&Skip this file (not recommended)
+FileAbortRetryIgnoreIgnoreNotRecommended=&Ignore the error and continue (not recommended)
+SourceIsCorrupted=The source file is corrupted
+SourceDoesntExist=The source file "%1" does not exist
+ExistingFileReadOnly2=The existing file could not be replaced because it is marked read-only.
+ExistingFileReadOnlyRetry=&Remove the read-only attribute and try again
+ExistingFileReadOnlyKeepExisting=&Keep the existing file
+ErrorReadingExistingDest=An error occurred while trying to read the existing file:
+FileExists=The file already exists.%n%nWould you like Setup to overwrite it?
+ExistingFileNewer=The existing file is newer than the one Setup is trying to install. It is recommended that you keep the existing file.%n%nDo you want to keep the existing file?
+ErrorChangingAttr=An error occurred while trying to change the attributes of the existing file:
+ErrorCreatingTemp=An error occurred while trying to create a file in the destination directory:
+ErrorReadingSource=An error occurred while trying to read the source file:
+ErrorCopying=An error occurred while trying to copy a file:
+ErrorReplacingExistingFile=An error occurred while trying to replace the existing file:
+ErrorRestartReplace=RestartReplace failed:
+ErrorRenamingTemp=An error occurred while trying to rename a file in the destination directory:
+ErrorRegisterServer=Unable to register the DLL/OCX: %1
+ErrorRegSvr32Failed=RegSvr32 failed with exit code %1
+ErrorRegisterTypeLib=Unable to register the type library: %1
+
+; *** Uninstall display name markings
+; used for example as 'My Program (32-bit)'
+UninstallDisplayNameMark=%1 (%2)
+; used for example as 'My Program (32-bit, All users)'
+UninstallDisplayNameMarks=%1 (%2, %3)
+UninstallDisplayNameMark32Bit=32-bit
+UninstallDisplayNameMark64Bit=64-bit
+UninstallDisplayNameMarkAllUsers=All users
+UninstallDisplayNameMarkCurrentUser=Current user
 
 ; *** Post-installation errors
-ErrorOpeningReadme=Masalah berlaku apabila cuba membuka fail README.
-ErrorRestartingComputer=Pemasang Perisian tidak dapat memulakan kembali komputer ini. Sila lakukan secara manual.
+ErrorOpeningReadme=An error occurred while trying to open the README file.
+ErrorRestartingComputer=Setup was unable to restart the computer. Please do this manually.
 
 ; *** Uninstaller messages
-UninstallNotFound=Fail "%1" tidak wujud. Pengeluaran Perisian tidak boleh dilakukan.
-UninstallOpenError=Fail "%1" tidak dapat dibuka. proses mengeluarkan perisian tidak dapat dilakukan
-UninstallUnsupportedVer=Fail daftar pengeluaran "%1" berada dalam format yang tidak dikenali oleh Versi Pengeluar ini. Pengeluaran tidak boleh dilakukan
-UninstallUnknownEntry=Daftar masuk yang tidak dikenali (%1) dijumpai dalam daftar pengeluaran.
-ConfirmUninstall=Adakah anda pasti ingin mengeluarkan %1 sepenuhnya bersama kesemua komponennya?
-UninstallOnlyOnWin64=Setup ini hanya boleh melakukan pengeluaran perisian pada Windows 64-bit.
-OnlyAdminCanUninstall=Pengeluaran Perisian ini hanya boleh dilakukan oleh pengguna yang mempunyai kelebihan sebagai Pentadbir.
-UninstallStatusLabel=Sila tunggu semasa %1 idikeluarkan dari komputer anda.
-UninstalledAll=%1 Berjaya dikeluarkan dari Komputer anda.
-UninstalledMost=Pengeluaran %1 telah selesai%n%nSesetengah fail tidak boleh dikeluarkan. Ianya boleh dikeluarkan secara manual..
-UninstalledAndNeedsRestart=Untuk melengkapkan pengeluaran %1, komputer anda mesti dimulakan kembali.%n%nMahukah ada memulakan komputer kembali Sekarang?
-UninstallDataCorrupted=Fail "%1" didapati rosak. Pengeluaran tidak boleh dilakukan.
+UninstallNotFound=File "%1" does not exist. Cannot uninstall.
+UninstallOpenError=File "%1" could not be opened. Cannot uninstall
+UninstallUnsupportedVer=The uninstall log file "%1" is in a format not recognized by this version of the uninstaller. Cannot uninstall
+UninstallUnknownEntry=An unknown entry (%1) was encountered in the uninstall log
+ConfirmUninstall=Are you sure you want to completely remove %1 and all of its components?
+UninstallOnlyOnWin64=This installation can only be uninstalled on 64-bit Windows.
+OnlyAdminCanUninstall=This installation can only be uninstalled by a user with administrative privileges.
+UninstallStatusLabel=Please wait while %1 is removed from your computer.
+UninstalledAll=%1 was successfully removed from your computer.
+UninstalledMost=%1 uninstall complete.%n%nSome elements could not be removed. These can be removed manually.
+UninstalledAndNeedsRestart=To complete the uninstallation of %1, your computer must be restarted.%n%nWould you like to restart now?
+UninstallDataCorrupted="%1\" file is corrupted. Cannot uninstall
 
 ; *** Uninstallation phase messages
-ConfirmDeleteSharedFileTitle=Keluarkan Fail Kongsi?
-ConfirmDeleteSharedFile2=Sistem telah mengenal pasti bahawa Fail berikut tidak lagi digunakan oleh mana-mana program. Adakah anda mahu mengeluarkan Fail ini?%n%nJika ada mana-mana perisian menggunakan Fail ini dan ianya telah dikeluarkan dari sistem, perisian tersebut mungkin tidak dapat berfungsi dengan baik atau tidak berfungsi langsung. Jika tidak pasti sila klik Tidak, membiarkan Fail ini pada sistem anda tidak akan memberi sebarang kesan.
-SharedFileNameLabel=Nama Fail:
-SharedFileLocationLabel=Lokasi:
-WizardUninstalling=Status Pengeluaran
-StatusUninstalling=%1 dikeluarkan...
+ConfirmDeleteSharedFileTitle=Remove Shared File?
+ConfirmDeleteSharedFile2=The system indicates that the following shared file is no longer in use by any programs. Would you like for Uninstall to remove this shared file?%n%nIf any programs are still using this file and it is removed, those programs may not function properly. If you are unsure, choose No. Leaving the file on your system will not cause any harm.
+SharedFileNameLabel=File name:
+SharedFileLocationLabel=Location:
+WizardUninstalling=Uninstall Status
+StatusUninstalling=Uninstalling %1...
+
+; *** Shutdown block reasons
+ShutdownBlockReasonInstallingApp=Installing %1.
+ShutdownBlockReasonUninstallingApp=Uninstalling %1.
 
 ; The custom messages below aren't used by Setup itself, but if you make
 ; use of them in your scripts, you'll want to translate them.
 
 [CustomMessages]
 
-NameAndVersion=%1 versi %2
-AdditionalIcons=Ikon tambahan:
-CreateDesktopIcon=Hasilkan ikon &desktop
-CreateQuickLaunchIcon=Hasilkan ikon &Lancar Pantas
-ProgramOnTheWeb=%1 di Internet
+NameAndVersion=%1 version %2
+AdditionalIcons=Additional shortcuts:
+CreateDesktopIcon=Create a &desktop shortcut
+CreateQuickLaunchIcon=Create a &Quick Launch shortcut
+ProgramOnTheWeb=%1 on the Web
 UninstallProgram=Uninstall %1
-LaunchProgram=Jalankan perisian %1
-AssocFileExtension=&Kaitkan %1 dengan akhiran fail %2
-AssocingFileExtension=Mengaitkan %1 dengan akhiran fail %2 ...
+LaunchProgram=Launch %1
+AssocFileExtension=&Associate %1 with the %2 file extension
+AssocingFileExtension=Associating %1 with the %2 file extension...
+AutoStartProgramGroupDescription=Startup:
+AutoStartProgram=Automatically start %1
+AddonHostProgramNotFound=%1 could not be located in the folder you selected.%n%nDo you want to continue anyway?"
