@@ -363,3 +363,4 @@ AutoStartProgramGroupDescription=Åêêßíçóç:
 AutoStartProgram=Áõôüìáôç åêêßíçóç ôïõ %1
 AddonHostProgramNotFound=Ôï %1 äå âñÝèçêå óôï öÜêåëï ðïõ åðéëÝîáôå.%n%nÈÝëåôå íá óõíå÷ßóåôå ðáñüëá áõôÜ;"
 
+
