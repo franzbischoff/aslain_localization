@@ -332,3 +332,4 @@ UninstalledAll=%1 buvo sëkmingai paðalinta ið Jûsø kompiuterio.
 UninstalledMost=%1 paðalinimas sëkmingai baigtas.%n%nKai kurie elementai nebuvo iðtrinti - juos galite paðalinti rankiniu bûdu.
 UninstalledAndNeedsRestart=%1 paðalinimui uþbaigti Jûsø kompiuteris turi bûti perkrautas.%n%nNorite perkrauti já dabar?
 UninstallDataCorrupted="%1 failas yra sugadintas. Programos paðalinti neámanoma."
+
