@@ -65,13 +65,13 @@ UninstallAppRunningError=Увага, цяпер запушчана «%1»!%n%nК
 
 ; *** Startup questions
 PrivilegesRequiredOverrideTitle=Абярыце рэжым ўстаноўкі
-PrivilegesRequiredOverrideInstruction=Select install mode
-PrivilegesRequiredOverrideText1=%1 can be installed for all users (requires administrative privileges), or for you only.
-PrivilegesRequiredOverrideText2=%1 can be installed for you only, or for all users (requires administrative privileges).
-PrivilegesRequiredOverrideAllUsers=Install for &all users
-PrivilegesRequiredOverrideAllUsersRecommended=Install for &all users (recommended)
-PrivilegesRequiredOverrideCurrentUser=Install for &me only
-PrivilegesRequiredOverrideCurrentUserRecommended=Install for &me only (recommended)
+PrivilegesRequiredOverrideInstruction=Абярыце рэжым ўстаноўкі
+PrivilegesRequiredOverrideText1=%1 можа быць усталяваны для ўсіх карыстальнікаў (патрабуе адміністрацыйных правоў) альбо толькі для вас.
+PrivilegesRequiredOverrideText2=%1 можа быць усталяваны толькі для вас альбо для ўсіх карыстальнікаў (неабходныя адміністрацыйныя правы).
+PrivilegesRequiredOverrideAllUsers=Усталяваць для &ўсіх карыстальнікаў
+PrivilegesRequiredOverrideAllUsersRecommended=Усталяваць для &ўсіх карыстальнікаў (рэкамендуецца)
+PrivilegesRequiredOverrideCurrentUser=Усталюйце толькі для &мяне
+PrivilegesRequiredOverrideCurrentUserRecommended=Усталюйце толькі для &мяне (рэкамендуецца)
 
 ; *** Misc. errors
 ErrorCreatingDir=Не магу стварыць тэчку «%1»
@@ -151,7 +151,7 @@ WizardSelectDir=Тэчка прызначэння
 SelectDirDesc=Куды усталяваць праграму «[name]»?
 SelectDirLabel3=Праграма «[name]» будзе ўсталявана ў наступную тэчку:
 SelectDirBrowseLabel=Націсніце Далей для працягу. Калі Вы жадаеце абраць іншую тэчку, то націсніце Агляд.
-DiskSpaceGBLabel=At least [gb] GB of free disk space is required.
+DiskSpaceGBLabel=Патрабуецца як мінімум [gb] ГБ вольнага месца на дыску.
 DiskSpaceMBLabel=Праграма патрабуе не менш за [mb] Мб вольнай дыскавай прасторы.
 CannotInstallToNetworkDrive=Не магу ўсталяваць праграму на сеткавы дыск.
 CannotInstallToUNCPath=Не магу ўсталяваць праграму ў тэчку па UNC-шляху.
@@ -179,7 +179,7 @@ NoUninstallWarningTitle=Усталяваныя складнікі
 NoUninstallWarning=Увага, наступныя складнікі ўжо ёсць на Вашым кампутары:%n%n%1%n%nКалі Вы не пазначыце іх зараз, яны не будуць выдаленыя.%n%nПрацягнуць усё роўна?
 ComponentSize1=%1 Кб
 ComponentSize2=%1 Мб
-ComponentsDiskSpaceGBLabel=Current selection requires at least [gb] GB of disk space.
+ComponentsDiskSpaceGBLabel=Для выбару патрабуецца па меншай меры [gb] Gб дыскавай прасторы.
 ComponentsDiskSpaceMBLabel=Бягучы выбар патрабуе не менш за [mb] Мб на дыску.
 
 ; *** "Select Additional Tasks" wizard page
@@ -220,7 +220,7 @@ ApplicationsFound2=Наступныя праграмы захапілі файл
 CloseApplications=&Аўтаматычна закрыць гэтыя праграмы
 DontCloseApplications=&Не закрываць гэтыя праграмы
 ErrorCloseApplications=Усталёўнік не змог самастойна закрыць усе праграмы. Рэкамендую закрыць усе праграмы, што захапілі падлеглыя абнаўленню файлы, перш чым працягнуць усталяванне.
-PrepareToInstallNeedsRestart=Setup must restart your computer. After restarting your computer, run Setup again to complete the installation of [name].%n%nWould you like to restart now?
+PrepareToInstallNeedsRestart=Праграма павінна перазагрузіць кампутар. Пасля перазагрузкі кампутара запусціце праграму Настройка яшчэ раз, каб завяршыць усталяванне [name].%n%nВы хацелі б перазапусціць зараз?
 
 ; *** "Installing" wizard page
 WizardInstalling=Усталяванне праграмы
@@ -250,10 +250,10 @@ SelectDirectoryLabel=Азначце месцаванне наступнага д
 
 ; *** Installation phase messages
 SetupAborted=Усталяванне не скончана.%n%nКалі ласка, вырашыце праблему і запусціце ўсталёўнік ізноў
-AbortRetryIgnoreSelectAction=Select action
-AbortRetryIgnoreRetry=&Try again
-AbortRetryIgnoreIgnore=&Ignore the error and continue
-AbortRetryIgnoreCancel=Cancel installation
+AbortRetryIgnoreSelectAction=Абярыце дзеянне
+AbortRetryIgnoreRetry=&Паспрабуй яшчэ
+AbortRetryIgnoreIgnore=&Праігнаруйце памылку і працягвайце
+AbortRetryIgnoreCancel=Адмяніць ўстаноўку
 
 ; *** Installation status messages
 StatusClosingApplications=Закрыццё праграмаў...
@@ -284,13 +284,13 @@ ErrorRegWriteKey=Не магу запісаць у ключ рэестра:%n%1\
 ErrorIniEntry=Не магу стварыць секцыю ў INI-файле «%1».
 
 ; *** File copying errors
-FileAbortRetryIgnoreSkipNotRecommended=&Skip this file (not recommended)
-FileAbortRetryIgnoreIgnoreNotRecommended=&Ignore the error and continue (not recommended)
+FileAbortRetryIgnoreSkipNotRecommended=&Прапусціць гэты файл (не рэкамендуецца)
+FileAbortRetryIgnoreIgnoreNotRecommended=&Ігнаруйце памылку і працягвайце (не рэкамендуецца)
 SourceIsCorrupted=Выточны файл пашкоджаны.
 SourceDoesntExist=Выточны файл «%1» не існуе.
-ExistingFileReadOnly2=The existing file could not be replaced because it is marked read-only.
-ExistingFileReadOnlyRetry=&Remove the read-only attribute and try again
-ExistingFileReadOnlyKeepExisting=&Keep the existing file
+ExistingFileReadOnly2=Існуючы файл нельга замяніць, бо ён пазначаны толькі для чытання.
+ExistingFileReadOnlyRetry=&Выдаліце атрыбут толькі для чытання і паспрабуйце яшчэ раз
+ExistingFileReadOnlyKeepExisting=&Захоўвайце існуючы файл
 ErrorReadingExistingDest=Адбыўся збой пры спробе чытання існага файла:
 FileExists=Файл ужо існуе.%n%nПеразапісаць яго?
 ExistingFileNewer=Існы файл навейшы за той, што усталёўваецца. Рекамендую пакінуць існы файл.%n%nПакінуць існы файл?
@@ -312,8 +312,8 @@ UninstallDisplayNameMark=%1 (%2)
 UninstallDisplayNameMarks=%1 (%2, %3)
 UninstallDisplayNameMark32Bit=32-bit
 UninstallDisplayNameMark64Bit=64-bit
-UninstallDisplayNameMarkAllUsers=All users
-UninstallDisplayNameMarkCurrentUser=Current user
+UninstallDisplayNameMarkAllUsers=Усе карыстальнікі
+UninstallDisplayNameMarkCurrentUser=Бягучы карыстальнік
 
 ; *** Post-installation errors
 ErrorOpeningReadme=Збой падчас спробы адкрыцця файла README:
