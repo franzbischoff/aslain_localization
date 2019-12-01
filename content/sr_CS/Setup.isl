@@ -332,3 +332,4 @@ UninstalledAll=%1 je deinstaliran sa raèunara.
 UninstalledMost=%1 je deinstaliran.%n%nNeke komponente ipak morati sami obrisati.
 UninstalledAndNeedsRestart=Potrebno je ponovno pokretanje raèunara da bi se instalacija zavrila.%n%nelite li da ponovo pokrenete raèunar?
 UninstallDataCorrupted="Datoteka %1 je oteæena. Ne mogu da deinstaliram program."
+
