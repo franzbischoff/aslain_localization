@@ -1,7 +1,4 @@
-; *** Inno Setup version 6.0.0+ Croatian messages ***
-; Translated by: Milo Ivir (mail@milotype.de)
-; Based on translation by Elvis Gambiraža (el.gambo@gmail.com)
-; Based on translation by Krunoslav Kanjuh (krunoslav.kanjuh@zg.t-com.hr)
+; *** Inno Setup version 6.0.3+ English messages ***
 ;
 ; To download user-contributed translations of this file, go to:
 ;   http://www.jrsoftware.org/files/istrans/
@@ -19,14 +16,14 @@ LanguageID=$041a
 LanguageCodePage=1250
 ; If the language you are translating to requires special font faces or
 ; sizes, uncomment any of the following entries and change them accordingly.
-;DialogFontName=MS Shell Dlg
-;DialogFontSize=8
-;WelcomeFontName=Arial
-;WelcomeFontSize=12
-;TitleFontName=Arial
-;TitleFontSize=29
-;CopyrightFontName=Arial
-;CopyrightFontSize=8
+DialogFontName=Tahoma
+TitleFontName=Arial
+WelcomeFontName=Verdana
+CopyrightFontName=Arial
+DialogFontSize=8
+TitleFontSize=29
+WelcomeFontSize=12
+CopyrightFontSize=8
 
 [Messages]
 
@@ -87,7 +84,7 @@ AboutSetupMenuItem=&O instalaciji …
 AboutSetupTitle=O instalaciji
 AboutSetupMessage=%1 verzija %2%n%3%n%n%1 početna stranica:%n%4
 AboutSetupNote=
-TranslatorNote=Prevodioci:%n%nKrunoslav Kanjuh%n%nElvis Gambiraža%n%nMilo Ivir
+TranslatorNote=
 
 ; *** Buttons
 ButtonBack=< Na&trag
@@ -154,10 +151,11 @@ WizardSelectDir=Odaberite odredišno mjesto
 SelectDirDesc=Gdje treba instalirati [name]?
 SelectDirLabel3=Instalacija će instalirati [name] u sljedeću mapu.
 SelectDirBrowseLabel=Za nastavak kliknite na "Dalje". Ako želite odabrati drugu mapu, kliknite na "Odaberi".
+DiskSpaceGBLabel=At least [gb] GB of free disk space is required.
 DiskSpaceMBLabel=Potrebno je barem [mb] MB slobodnog prostora na disku.
 CannotInstallToNetworkDrive=Instalacija ne može instalirati na mrežnu jedinicu.
 CannotInstallToUNCPath=Instalacija ne može instalirati na UNC stazu.
-InvalidPath=Morate unijeti punu stazu zajedno sa slovom diska, npr.:%n%nC:\APP%n%nili UNC stazu u obliku:%n%n\\server\share
+InvalidPath=Morate unijeti punu stazu zajedno sa slovom diska, npr.:%n%nC:\APP%n%nili UNC stazu u obliku:%n%n\\server\share ; for example:%n%nC:\APP%n%nor a UNC path in the form:%n%n\\server\share
 InvalidDrive=Disk koji ste odabrali ne postoji. Odaberite neki drugi.
 DiskSpaceWarningTitle=Nedovoljno prostora na disku
 DiskSpaceWarning=Instalacija zahtijeva barem %1 KB slobodnog prostora, a odabrani disk ima samo %2 KB na raspolaganju.%n%nŽelite li svejedno nastaviti?
@@ -172,7 +170,7 @@ DirDoesntExist=The folder:%n%n%1%n%nne postoji. Želite li ju stvoriti?
 ; *** "Select Components" wizard page
 WizardSelectComponents=Odaberite komponente
 SelectComponentsDesc=Koje komponente želite instalirati?
-SelectComponentsLabel2=Odaberite komponente koje želite instalirati, isključite komponente koje ne želite instalirati. Za nastavak kliknite na "Dalje".
+SelectComponentsLabel2=Odaberite komponente koje želite instalirati, isključite komponente koje ne želite instalirati. Za nastavak kliknite na "Dalje". ; clear the components you do not want to install. Click Next when you are ready to continue.
 FullInstallation=Kompletna instalacija
 ; if possible don't translate 'Compact' as 'Minimal' (I mean 'Minimal' in your language)
 CompactInstallation=Kompaktna instalacija
@@ -181,6 +179,7 @@ NoUninstallWarningTitle=Postojeće komponente
 NoUninstallWarning=Instalacija je utvrdila da na vašem računalu već postoje sljedeće komponente:%n%n%1%n%nIsključivanjem tih komponenata, one neće biti deinstalirane.%n%nŽelite li ipak nastaviti?
 ComponentSize1=%1 KB
 ComponentSize2=%1 MB
+ComponentsDiskSpaceGBLabel=Current selection requires at least [gb] GB of disk space.
 ComponentsDiskSpaceMBLabel=Trenutačni odabir zahtijeva barem [mb] MB na disku.
 
 ; *** "Select Additional Tasks" wizard page
@@ -221,6 +220,7 @@ ApplicationsFound2=Sljedeći programi koriste datoteke koje instalacija mora akt
 CloseApplications=&Zatvori programe automatski
 DontCloseApplications=&Ne zatvaraj programe
 ErrorCloseApplications=Instalacija nij uspjela automatski zatvoriti programe. Preporučamo da zatvorite sve programe koji koriste datoteke, koje se moraju aktulaizirati.
+PrepareToInstallNeedsRestart=Setup must restart your computer. After restarting your computer, run Setup again to complete the installation of [name].%n%nWould you like to restart now?
 
 ; *** "Installing" wizard page
 WizardInstalling=Instaliranje
@@ -271,8 +271,8 @@ StatusRollback=Poništavanje promjena …
 ; *** Misc. errors
 ErrorInternal2=Interna greška: %1
 ErrorFunctionFailedNoCode=%1 nije uspjelo
-ErrorFunctionFailed=%1 nije uspjelo; kod %2
-ErrorFunctionFailedWithMessage=%1 failed; kod %2.%n%3
+ErrorFunctionFailed=%1 nije uspjelo ; code %2
+ErrorFunctionFailedWithMessage=%1 failed ; code %2.%n%3
 ErrorExecutingProgram=Nije moguće pokrenuti datoteku:%n%1
 
 ; *** Registry errors
@@ -331,34 +331,8 @@ UninstallStatusLabel=Pričekajte dok se %1 uklanja s vašeg računala.
 UninstalledAll=%1 je uspješno uklonjen s vašeg računala.
 UninstalledMost=Deinstaliranje programa %1 je završeno.%n%nNeke elemente nije bilo moguće ukloniti. Mogu se ukloniti ručno.
 UninstalledAndNeedsRestart=Kako biste završili deinstalirati %1, morate ponovo pokrenuti vaše računalo%n%nŽelite li to sad učiniti?
-UninstallDataCorrupted="%1" datoteka je oštećena. Deinstaliranje nije moguće
+UninstallDataCorrupted="%1\" datoteka je oštećena. Deinstaliranje nije moguće
 
 ; *** Uninstallation phase messages
 ConfirmDeleteSharedFileTitle=Ukloniti dijeljene datoteke?
-ConfirmDeleteSharedFile2=Sustav ukazuje na to, da sljedeće dijeljenu datoteku ne koristi niti jedan program. Želite li ukloniti tu dijeljenu datoteku?%n%nAko neki programi i dalje koriste tu datoteku, a ona se izbriše, ti programi neće ispravno raditi. Ako niste sigurni, odaberite "Ne". Datoteka neće štetiti vašem sustavu.
-SharedFileNameLabel=Datoteka:
-SharedFileLocationLabel=Mjesto:
-WizardUninstalling=Stanje deinstalacije
-StatusUninstalling=%1 deinstaliranje …
-
-; *** Shutdown block reasons
-ShutdownBlockReasonInstallingApp=%1 instaliranje.
-ShutdownBlockReasonUninstallingApp=%1 deinstaliranje.
-
-; The custom messages below aren't used by Setup itself, but if you make
-; use of them in your scripts, you'll want to translate them.
-
-[CustomMessages]
-
-NameAndVersion=%1 verzija %2
-AdditionalIcons=Dodatni prečaci:
-CreateDesktopIcon=Stvori prečac na ra&dnoj površini
-CreateQuickLaunchIcon=Stvori prečac u traci za &brzo pokretanje
-ProgramOnTheWeb=%1 na internetu
-UninstallProgram=Deinstaliraj %1
-LaunchProgram=Pokreni %1
-AssocFileExtension=&Poveži program %1 s datotečnim nastavkom %2
-AssocingFileExtension=Povezivanje programa %1 s datotečnim nastavkom %2 …
-AutoStartProgramGroupDescription=Pokretanje:
-AutoStartProgram=Automatski pokreni %1
-AddonHostProgramNotFound=%1 nije nađen u odabranoj mapi.%n%nŽelite li svejedno nastaviti?
+ConfirmDeleteSharedFile2=Sustav ukazuje na to, da sljedeće dijeljenu datoteku ne koristi niti jedan program. Želite li ukloniti tu dijeljenu datoteku?%n%nAko neki programi i dalje koriste tu datoteku, a ona se izbriše, ti programi neće ispravno raditi. Ako niste sigurni, odaberite "
