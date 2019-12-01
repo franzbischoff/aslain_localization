@@ -1,47 +1,29 @@
-﻿; ******************************************************
-; ***                                                ***
-; *** Inno Setup version 6.0.3+ German messages      ***
-; ***                                                ***
-; *** Changes 6.0.0+ Author:                         ***
-; ***                                                ***
-; ***   Jens Brand (jens.brand@wolf-software.de)     ***
-; ***                                                ***
-; *** Original Authors:                              ***
-; ***                                                ***
-; ***   Peter Stadler (Peter.Stadler@univie.ac.at)   ***
-; ***   Michael Reitz (innosetup@assimilate.de)      ***
-; ***                                                ***
-; *** Contributors:                                  ***
-; ***                                                ***
-; ***   Roland Ruder (info@rr4u.de)                  ***
-; ***   Hans Sperber (Hans.Sperber@de.bosch.com)     ***
-; ***   LaughingMan (puma.d@web.de)                  ***
-; ***                                                ***
-; ******************************************************
+; *** Inno Setup version 6.0.3+ English messages ***
 ;
-; Diese Übersetzung hält sich an die neue deutsche Rechtschreibung.
-
+; To download user-contributed translations of this file, go to:
+;   http://www.jrsoftware.org/files/istrans/
+;
 ; Note: When translating this text, do not add periods (.) to the end of
 ; messages that didn't have them already, because on those messages Inno
 ; Setup adds the periods automatically (appending a period would result in
 ; two periods being displayed).
 
 [LangOptions]
-; The following three entries are very important. Be sure to read and 
+; The following three entries are very important. Be sure to read and
 ; understand the '[LangOptions] section' topic in the help file.
 LanguageName=Deutsch
 LanguageID=$0407
 LanguageCodePage=1252
 ; If the language you are translating to requires special font faces or
 ; sizes, uncomment any of the following entries and change them accordingly.
-;DialogFontName=
-;DialogFontSize=8
-;WelcomeFontName=Verdana
-;WelcomeFontSize=12
-;TitleFontName=Arial
-;TitleFontSize=29
-;CopyrightFontName=Arial
-;CopyrightFontSize=8
+DialogFontName=Tahoma
+TitleFontName=Arial
+WelcomeFontName=Verdana
+CopyrightFontName=Arial
+DialogFontSize=8
+TitleFontSize=29
+WelcomeFontSize=12
+CopyrightFontSize=8
 
 [Messages]
 
@@ -102,7 +84,7 @@ AboutSetupMenuItem=&Über das Setup ...
 AboutSetupTitle=Über das Setup
 AboutSetupMessage=%1 Version %2%n%3%n%n%1 Internet-Seite:%n%4
 AboutSetupNote=
-TranslatorNote=German translation maintained by Jens Brand (jens.brand@wolf-software.de)
+TranslatorNote=
 
 ; *** Buttons
 ButtonBack=< &Zurück
@@ -124,10 +106,13 @@ SelectLanguageTitle=Setup-Sprache auswählen
 SelectLanguageLabel=Wählen Sie die Sprache aus, die während der Installation benutzt werden soll:
 
 ; *** Common wizard text
-ClickNext="Weiter" zum Fortfahren, "Abbrechen" zum Verlassen.
+ClickNext="Weiter\" zum Fortfahren, \"Abbrechen\" zum Verlassen.
 BeveledLabel=
 BrowseDialogTitle=Ordner suchen
-BrowseDialogLabel=Wählen Sie einen Ordner aus, und klicken Sie danach auf "OK".
+BrowseDialogLabel=Wählen Sie einen Ordner aus, und klicken Sie danach auf "
+BeveledLabel=
+BrowseDialogTitle=Browse For Folder
+BrowseDialogLabel=Select a folder in the list below, then click OK.
 NewFolderName=Neuer Ordner
 
 ; *** "Welcome" wizard page
@@ -173,7 +158,7 @@ DiskSpaceGBLabel=Mindestens [gb] GB freier Speicherplatz ist erforderlich.
 DiskSpaceMBLabel=Mindestens [mb] MB freier Speicherplatz ist erforderlich.
 CannotInstallToNetworkDrive=Das Setup kann nicht in einen Netzwerk-Pfad installieren.
 CannotInstallToUNCPath=Das Setup kann nicht in einen UNC-Pfad installieren. Wenn Sie auf ein Netzlaufwerk installieren möchten, müssen Sie dem Netzwerkpfad einen Laufwerksbuchstaben zuordnen.
-InvalidPath=Sie müssen einen vollständigen Pfad mit einem Laufwerksbuchstaben angeben; z.B.:%n%nC:\Beispiel%n%noder einen UNC-Pfad in der Form:%n%n\\Server\Freigabe
+InvalidPath=Sie müssen einen vollständigen Pfad mit einem Laufwerksbuchstaben angeben ; for example:%n%nC:\APP%n%nor a UNC path in the form:%n%n\\server\share
 InvalidDrive=Das angegebene Laufwerk bzw. der UNC-Pfad existiert nicht oder es kann nicht darauf zugegriffen werden. Wählen Sie bitte einen anderen Ordner.
 DiskSpaceWarningTitle=Nicht genug freier Speicherplatz
 DiskSpaceWarning=Das Setup benötigt mindestens %1 KB freien Speicherplatz zum Installieren, aber auf dem ausgewählten Laufwerk sind nur %2 KB verfügbar.%n%nMöchten Sie trotzdem fortfahren?
@@ -188,7 +173,7 @@ DirDoesntExist=Der Ordner:%n%n%1%n%nist nicht vorhanden. Soll der Ordner erstell
 ; *** "Select Components" wizard page
 WizardSelectComponents=Komponenten auswählen
 SelectComponentsDesc=Welche Komponenten sollen installiert werden?
-SelectComponentsLabel2=Wählen Sie die Komponenten aus, die Sie installieren möchten. Klicken Sie auf "Weiter", wenn Sie bereit sind fortzufahren.
+SelectComponentsLabel2=Wählen Sie die Komponenten aus, die Sie installieren möchten. Klicken Sie auf "Weiter", wenn Sie bereit sind fortzufahren. ; clear the components you do not want to install. Click Next when you are ready to continue.
 FullInstallation=Vollständige Installation
 ; if possible don't translate 'Compact' as 'Minimal' (I mean 'Minimal' in your language)
 CompactInstallation=Kompakte Installation
@@ -237,7 +222,7 @@ ApplicationsFound=Die folgenden Anwendungen benutzen Dateien, die aktualisiert w
 ApplicationsFound2=Die folgenden Anwendungen benutzen Dateien, die aktualisiert werden müssen. Es wird empfohlen, Setup zu erlauben, diese Anwendungen zu schließen. Nachdem die Installation fertiggestellt wurde, versucht Setup diese Anwendungen wieder zu starten.
 CloseApplications=&Schließe die Anwendungen automatisch
 DontCloseApplications=Schließe die A&nwendungen nicht
-ErrorCloseApplications=Das Setup konnte nicht alle Anwendungen automatisch schließen. Es wird empfohlen, alle Anwendungen zu schließen, die Dateien benutzen, die vom Setup vor einer Fortsetzung aktualisiert werden müssen.  
+ErrorCloseApplications=Das Setup konnte nicht alle Anwendungen automatisch schließen. Es wird empfohlen, alle Anwendungen zu schließen, die Dateien benutzen, die vom Setup vor einer Fortsetzung aktualisiert werden müssen.
 PrepareToInstallNeedsRestart=Setup must restart your computer. After restarting your computer, run Setup again to complete the installation of [name].%n%nWould you like to restart now?
 
 ; *** "Installing" wizard page
@@ -289,8 +274,8 @@ StatusRollback=Änderungen werden rückgängig gemacht ...
 ; *** Misc. errors
 ErrorInternal2=Interner Fehler: %1
 ErrorFunctionFailedNoCode=%1 schlug fehl
-ErrorFunctionFailed=%1 schlug fehl; Code %2
-ErrorFunctionFailedWithMessage=%1 schlug fehl; Code %2.%n%3
+ErrorFunctionFailed=%1 schlug fehl ; code %2
+ErrorFunctionFailedWithMessage=%1 schlug fehl ; code %2.%n%3
 ErrorExecutingProgram=Datei kann nicht ausgeführt werden:%n%1
 
 ; *** Registry errors
@@ -317,7 +302,7 @@ ErrorCreatingTemp=Fehler beim Erstellen einer Datei im Ziel-Ordner:
 ErrorReadingSource=Fehler beim Lesen der Quelldatei:
 ErrorCopying=Fehler beim Kopieren einer Datei:
 ErrorReplacingExistingFile=Fehler beim Ersetzen einer vorhandenen Datei:
-ErrorRestartReplace="Ersetzen nach Neustart" fehlgeschlagen:
+ErrorRestartReplace="Ersetzen nach Neustart\" fehlgeschlagen:
 ErrorRenamingTemp=Fehler beim Umbenennen einer Datei im Ziel-Ordner:
 ErrorRegisterServer=DLL/OCX konnte nicht registriert werden: %1
 ErrorRegSvr32Failed=RegSvr32-Aufruf scheiterte mit Exit-Code %1
@@ -338,7 +323,28 @@ ErrorOpeningReadme=Fehler beim Öffnen der LIESMICH-Datei.
 ErrorRestartingComputer=Das Setup konnte den Computer nicht neu starten. Bitte führen Sie den Neustart manuell durch.
 
 ; *** Uninstaller messages
-UninstallNotFound=Die Datei "%1" existiert nicht. Entfernen der Anwendung fehlgeschlagen.
+UninstallNotFound=Die Datei "
+ErrorRenamingTemp=An error occurred while trying to rename a file in the destination directory:
+ErrorRegisterServer=Unable to register the DLL/OCX: %1
+ErrorRegSvr32Failed=RegSvr32 failed with exit code %1
+ErrorRegisterTypeLib=Unable to register the type library: %1
+
+; *** Uninstall display name markings
+; used for example as 'My Program (32-bit)'
+UninstallDisplayNameMark=%1 (%2)
+; used for example as 'My Program (32-bit, All users)'
+UninstallDisplayNameMarks=%1 (%2, %3)
+UninstallDisplayNameMark32Bit=32-bit
+UninstallDisplayNameMark64Bit=64-bit
+UninstallDisplayNameMarkAllUsers=All users
+UninstallDisplayNameMarkCurrentUser=Current user
+
+; *** Post-installation errors
+ErrorOpeningReadme=An error occurred while trying to open the README file.
+ErrorRestartingComputer=Setup was unable to restart the computer. Please do this manually.
+
+; *** Uninstaller messages
+UninstallNotFound=File "%1" does not exist. Cannot uninstall.
 UninstallOpenError=Die Datei "%1" konnte nicht geöffnet werden. Entfernen der Anwendung fehlgeschlagen.
 UninstallUnsupportedVer=Das Format der Deinstallations-Datei "%1" konnte nicht erkannt werden. Entfernen der Anwendung fehlgeschlagen
 UninstallUnknownEntry=In der Deinstallations-Datei wurde ein unbekannter Eintrag (%1) gefunden
@@ -349,35 +355,8 @@ UninstallStatusLabel=Warten Sie bitte, während %1 von Ihrem Computer entfernt w
 UninstalledAll=%1 wurde erfolgreich von Ihrem Computer entfernt.
 UninstalledMost=Entfernen von %1 beendet.%n%nEinige Komponenten konnten nicht entfernt werden. Diese können von Ihnen manuell gelöscht werden.
 UninstalledAndNeedsRestart=Um die Deinstallation von %1 abzuschließen, muss Ihr Computer neu gestartet werden.%n%nMöchten Sie jetzt neu starten?
-UninstallDataCorrupted="%1"-Datei ist beschädigt. Entfernen der Anwendung fehlgeschlagen.
+UninstallDataCorrupted="%1\"-Datei ist beschädigt. Entfernen der Anwendung fehlgeschlagen.
 
 ; *** Uninstallation phase messages
 ConfirmDeleteSharedFileTitle=Gemeinsame Datei entfernen?
-ConfirmDeleteSharedFile2=Das System zeigt an, dass die folgende gemeinsame Datei von keinem anderen Programm mehr benutzt wird. Möchten Sie diese Datei entfernen lassen?%nSollte es doch noch Programme geben, die diese Datei benutzen, und sie wird entfernt, funktionieren diese Programme vielleicht nicht mehr richtig. Wenn Sie unsicher sind, wählen Sie "Nein" um die Datei im System zu belassen. Es schadet Ihrem System nicht, wenn Sie die Datei behalten.
-SharedFileNameLabel=Dateiname:
-SharedFileLocationLabel=Ordner:
-WizardUninstalling=Entfernen (Status)
-StatusUninstalling=Entferne %1 ...
-
-; *** Shutdown block reasons
-ShutdownBlockReasonInstallingApp=Installation von %1.
-ShutdownBlockReasonUninstallingApp=Deinstallation von %1.
-
-; The custom messages below aren't used by Setup itself, but if you make
-; use of them in your scripts, you'll want to translate them.
-
-[CustomMessages]
-
-NameAndVersion=%1 Version %2
-AdditionalIcons=Zusätzliche Symbole:
-CreateDesktopIcon=&Desktop-Symbol erstellen
-CreateQuickLaunchIcon=Symbol in der Schnellstartleiste erstellen
-ProgramOnTheWeb=%1 im Internet
-UninstallProgram=%1 entfernen
-LaunchProgram=%1 starten
-AssocFileExtension=&Registriere %1 mit der %2-Dateierweiterung
-AssocingFileExtension=%1 wird mit der %2-Dateierweiterung registriert...
-AutoStartProgramGroupDescription=Beginn des Setups:
-AutoStartProgram=Starte automatisch%1
-AddonHostProgramNotFound=%1 konnte im ausgewählten Ordner nicht gefunden werden.%n%nMöchten Sie dennoch fortfahren?
-
+ConfirmDeleteSharedFile2=Das System zeigt an, dass die folgende gemeinsame Datei von keinem anderen Programm mehr benutzt wird. Möchten Sie diese Datei entfernen lassen?%nSollte es doch noch Programme geben, die diese Datei benutzen, und sie wird entfernt, funktionieren diese Programme vielleicht nicht mehr richtig. Wenn Sie unsicher sind, wählen Sie "
