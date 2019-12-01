@@ -334,3 +334,4 @@ UninstalledAndNeedsRestart=K dokonèení odinstalace produktu %1 je nezbytné, a
 UninstallDataCorrupted="Soubor \"%1\" je pokozen. Produkt nelze odinstalovat"
 
 
+
