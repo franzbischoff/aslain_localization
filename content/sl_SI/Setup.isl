@@ -333,3 +333,4 @@ UninstalledMost=Odstranjevanje programa %1 je konèano.%n%nNekatere datoteke nis
 UninstalledAndNeedsRestart=Za dokonèanje odstranitve programa %1 morate raèunalnik znova zagnati.%n%nAli ga elite znova zagnati zdaj?
 UninstallDataCorrupted="Datoteka »%1« je okvarjena. Odstranitev ni mona"
 
+
