@@ -151,7 +151,7 @@ WizardSelectDir=Selecione o Local de Destino
 SelectDirDesc=Aonde o [name] deve ser instalado?
 SelectDirLabel3=O Instalador instalará o [name] na seguinte pasta.
 SelectDirBrowseLabel=Pra continuar clique em Próximo. Se você gostaria de selecionar uma pasta diferente, clique em Procurar.
-DiskSpaceGBLabel=At least [gb] GB of free disk space is required.
+DiskSpaceGBLabel=Pelo menos [gb] GB de espaço livre em disco é necessário.
 DiskSpaceMBLabel=Pelo menos [mb] MBs de espaço livre em disco são requeridos.
 CannotInstallToNetworkDrive=O instalador não pode instalar em um drive de rede.
 CannotInstallToUNCPath=O instalador não pode instalar em um caminho UNC.
@@ -179,7 +179,7 @@ NoUninstallWarningTitle=O Componente Existe
 NoUninstallWarning=O Instalador detectou que os seguintes componentes já estão instalados no seu computador:%n%n%1%n%nNão selecionar estes componentes não desinstalará eles.%n%nVocê gostaria de continuar de qualquer maneira?
 ComponentSize1=%1 KBs
 ComponentSize2=%1 MBs
-ComponentsDiskSpaceGBLabel=Current selection requires at least [gb] GB of disk space.
+ComponentsDiskSpaceGBLabel=A selecção atual necessita de pelo menos [gb] GB de espaço em disco.
 ComponentsDiskSpaceMBLabel=A seleção atual requer pelo menos [mb] MBs de espaço em disco.
 
 ; *** "Select Additional Tasks" wizard page
