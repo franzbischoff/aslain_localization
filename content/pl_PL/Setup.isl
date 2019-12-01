@@ -332,3 +332,4 @@ UninstalledAll=Aplikacja %1 zosta³a usuniêta z komputera.
 UninstalledMost=Dezinstalacja aplikacji %1 zakoñczy³a siê.%n%nNiektóre elementy nie mog³y zostaæ usuniête. Nale¿y usun¹æ je samodzielnie.
 UninstalledAndNeedsRestart=Komputer musi zostaæ ponownie uruchomiony, aby zakoñczyæ proces dezinstalacji aplikacji %1.%n%nCzy chcesz teraz ponownie uruchomiæ komputer?
 UninstallDataCorrupted="Plik \"%1\" jest uszkodzony. Nie mo¿na przeprowadziæ dezinstalacji."
+
