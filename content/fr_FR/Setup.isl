@@ -13,7 +13,7 @@
 ; understand the '[LangOptions] section' topic in the help file.
 LanguageName=Français
 LanguageID=$040C
-LanguageCodePage=1252
+LanguageCodePage=0
 ; If the language you are translating to requires special font faces or
 ; sizes, uncomment any of the following entries and change them accordingly.
 DialogFontName=Tahoma
@@ -334,16 +334,16 @@ UninstalledAndNeedsRestart=Vous devez redémarrer l'ordinateur pour terminer la 
 UninstallDataCorrupted=Le ficher "%1" est altéré. Impossible de désinstaller
 
 ; *** Uninstallation phase messages
-ConfirmDeleteSharedFileTitle=Remove Shared File?
-ConfirmDeleteSharedFile2=The system indicates that the following shared file is no longer in use by any programs. Would you like for Uninstall to remove this shared file?%n%nIf any programs are still using this file and it is removed, those programs may not function properly. If you are unsure, choose No. Leaving the file on your system will not cause any harm.
-SharedFileNameLabel=File name:
-SharedFileLocationLabel=Location:
-WizardUninstalling=Uninstall Status
-StatusUninstalling=Uninstalling %1...
+ConfirmDeleteSharedFileTitle=Supprimer les fichiers partagés ?
+ConfirmDeleteSharedFile2=Le système indique que le fichier partagé suivant n'est plus utilisé par aucun programme. Souhaitez-vous que la désinstallation supprime ce fichier partagé ?%n%nSi des programmes utilisent encore ce fichier et qu'il est supprimé, ces programmes ne pourront plus fonctionner correctement. Si vous n'êtes pas sûr, choisissez Non. Laisser ce fichier dans votre système ne posera pas de problème.
+SharedFileNameLabel=Nom du fichier :
+SharedFileLocationLabel=Emplacement :
+WizardUninstalling=État de la désinstallation
+StatusUninstalling=Désinstallation de %1...
 
 ; *** Shutdown block reasons
-ShutdownBlockReasonInstallingApp=Installing %1.
-ShutdownBlockReasonUninstallingApp=Uninstalling %1.
+ShutdownBlockReasonInstallingApp=Installe %1.
+ShutdownBlockReasonUninstallingApp=Désinstalle %1.
 
 ; The custom messages below aren't used by Setup itself, but if you make
 ; use of them in your scripts, you'll want to translate them.
@@ -351,17 +351,17 @@ ShutdownBlockReasonUninstallingApp=Uninstalling %1.
 [CustomMessages]
 
 NameAndVersion=%1 version %2
-AdditionalIcons=Additional shortcuts:
-CreateDesktopIcon=Create a &desktop shortcut
-CreateQuickLaunchIcon=Create a &Quick Launch shortcut
-ProgramOnTheWeb=%1 on the Web
-UninstallProgram=Uninstall %1
-LaunchProgram=Launch %1
-AssocFileExtension=&Associate %1 with the %2 file extension
-AssocingFileExtension=Associating %1 with the %2 file extension...
-AutoStartProgramGroupDescription=Startup:
-AutoStartProgram=Automatically start %1
-AddonHostProgramNotFound=%1 could not be located in the folder you selected.%n%nDo you want to continue anyway?"
+AdditionalIcons=Icônes supplémentaires :
+CreateDesktopIcon=Créer une icône sur le &Bureau
+CreateQuickLaunchIcon=Créer une icône dans la barre de &Lancement rapide
+ProgramOnTheWeb=Page d'accueil de %1
+UninstallProgram=Désinstaller %1
+LaunchProgram=Exécuter %1
+AssocFileExtension=&Associer %1 avec l'extension de fichier %2
+AssocingFileExtension=Associe %1 avec l'extension de fichier %2...
+AutoStartProgramGroupDescription=Démarrage :
+AutoStartProgram=Démarrer automatiquement %1
+AddonHostProgramNotFound=%1 n'a pas été trouvé dans le dossier que vous avez choisi.%n%nVoulez-vous continuer malgré tout ?
 
 
 
