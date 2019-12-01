@@ -331,7 +331,6 @@ UninstallStatusLabel=Please wait while %1 is removed from your computer.
 UninstalledAll=%1 was successfully removed from your computer.
 UninstalledMost=%1 uninstall complete.%n%nSome elements could not be removed. These can be removed manually.
 UninstalledAndNeedsRestart=To complete the uninstallation of %1, your computer must be restarted.%n%nWould you like to restart now?
-UninstallDataCorrupted="%1\" file is corrupted. Cannot uninstall
 
 ; *** Uninstallation phase messages
 ConfirmDeleteSharedFileTitle=Remove Shared File?
