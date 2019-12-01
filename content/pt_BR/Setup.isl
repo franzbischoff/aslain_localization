@@ -55,7 +55,7 @@ WindowsVersionNotSupported=Este programa não suporta a versão do Windows que s
 WindowsServicePackRequired=Este programa requer o %1 Service Pack %2 ou superior.
 NotOnThisPlatform=Este programa não executará no %1.
 OnlyOnThisPlatform=Este programa deve ser executado no %1.
-OnlyOnTheseArchitectures=Este programa só pode ser instalado em versões do Windows projetadas para as seguintes arquiteturas de processadores:%n%n% 1
+OnlyOnTheseArchitectures=Este programa só pode ser instalado em versões do Windows projetadas para as seguintes arquiteturas de processadores:%n%n%1
 WinVersionTooLowError=Este programa requer a %1 versão %2 ou superior.
 WinVersionTooHighError=Este programa não pode ser instalado na %1 versão %2 ou superior.
 AdminPrivilegesRequired=Você deve estar logado como administrador quando instalar este programa.
@@ -103,7 +103,7 @@ ButtonNewFolder=&Criar Nova Pasta
 
 ; *** "Select Language" dialog messages
 SelectLanguageTitle=Selecione o Idioma do Instalador
-SelectLanguageLabel=Selecione o idioma pra usar durante a instalação:
+SelectLanguageLabel=Selecione o idioma pra usar durante a instalação.
 
 ; *** Common wizard text
 ClickNext=Clique em Próximo pra continuar ou em Cancelar pra sair do Instalador.
@@ -152,13 +152,13 @@ SelectDirDesc=Aonde o [name] deve ser instalado?
 SelectDirLabel3=O Instalador instalará o [name] na seguinte pasta.
 SelectDirBrowseLabel=Pra continuar clique em Próximo. Se você gostaria de selecionar uma pasta diferente, clique em Procurar.
 DiskSpaceGBLabel=Pelo menos [gb] GB de espaço livre em disco é necessário.
-DiskSpaceMBLabel=Pelo menos [mb] MBs de espaço livre em disco são requeridos.
+DiskSpaceMBLabel=Pelo menos [mb] MB de espaço livre em disco são requeridos.
 CannotInstallToNetworkDrive=O instalador não pode instalar em um drive de rede.
 CannotInstallToUNCPath=O instalador não pode instalar em um caminho UNC.
 InvalidPath=Você deve inserir um caminho completo com a letra do drive ; for example:%n%nC:\APP%n%nor a UNC path in the form:%n%n\\server\share
 InvalidDrive=O drive ou compartilhamento UNC que você selecionou não existe ou não está acessível. Por favor selecione outro.
 DiskSpaceWarningTitle=Sem Espaço em Disco o Bastante
-DiskSpaceWarning=O Instalador requer pelo menos %1 KBs de espaço livre pra instalar mas o drive selecionado só tem %2 KBs disponíveis.%n%nVocê quer continuar de qualquer maneira?
+DiskSpaceWarning=O Instalador requer pelo menos %1 KB de espaço livre pra instalar mas o drive selecionado só tem %2 KBs disponíveis.%n%nVocê quer continuar de qualquer maneira?
 DirNameTooLong=O nome ou caminho da pasta é muito longo.
 InvalidDirName=O nome da pasta não é válido.
 BadDirName32=Os nomes das pastas não pode incluir quaisquer dos seguintes caracteres:%n%n%1
@@ -177,10 +177,10 @@ CompactInstallation=Instalação compacta
 CustomInstallation=Instalação personalizada
 NoUninstallWarningTitle=O Componente Existe
 NoUninstallWarning=O Instalador detectou que os seguintes componentes já estão instalados no seu computador:%n%n%1%n%nNão selecionar estes componentes não desinstalará eles.%n%nVocê gostaria de continuar de qualquer maneira?
-ComponentSize1=%1 KBs
-ComponentSize2=%1 MBs
-ComponentsDiskSpaceGBLabel=A selecção atual necessita de pelo menos [gb] GB de espaço em disco.
-ComponentsDiskSpaceMBLabel=A seleção atual requer pelo menos [mb] MBs de espaço em disco.
+ComponentSize1=%1 KB
+ComponentSize2=%1 MB
+ComponentsDiskSpaceGBLabel=A seleção atual necessita de pelo menos [gb] GB de espaço em disco.
+ComponentsDiskSpaceMBLabel=A seleção atual requer pelo menos [mb] MB de espaço em disco.
 
 ; *** "Select Additional Tasks" wizard page
 WizardSelectTasks=Selecionar Tarefas Adicionais
@@ -220,7 +220,7 @@ ApplicationsFound2=Os aplicativos a seguir estão usando arquivos que precisam s
 CloseApplications=&Fechar os aplicativos automaticamente
 DontCloseApplications=&Não fechar os aplicativos
 ErrorCloseApplications=O instalador foi incapaz de fechar automaticamente todos os aplicativos. É recomendado que você feche todos os aplicativos usando os arquivos que precisam ser atualizados pelo Instalador antes de continuar.
-PrepareToInstallNeedsRestart=Setup must restart your computer. After restarting your computer, run Setup again to complete the installation of [name].%n%nWould you like to restart now?
+PrepareToInstallNeedsRestart=O Instalador necessita reiniciar o seu computador. Depois de reiniciar o computador, execute novamente o Instalador para completar a instalação do [name].%n%nDeseja reiniciar agora?
 
 ; *** "Installing" wizard page
 WizardInstalling=Instalando
@@ -299,7 +299,7 @@ ErrorCreatingTemp=Um erro ocorreu enquanto tentava criar um arquivo no diretóri
 ErrorReadingSource=Um erro ocorreu enquanto tentava ler o arquivo de origem:
 ErrorCopying=Um erro ocorreu enquanto tentava copiar um arquivo:
 ErrorReplacingExistingFile=Um erro ocorreu enquanto tentava substituir o arquivo existente:
-ErrorRestartReplace=ReiniciarSubstituir falhou:
+ErrorRestartReplace=RestartReplace falhou:
 ErrorRenamingTemp=Um erro ocorreu enquanto tentava renomear um arquivo no diretório destino:
 ErrorRegisterServer=Incapaz de registrar a DLL/OCX: %1
 ErrorRegSvr32Failed=O RegSvr32 falhou com o código de saída %1
