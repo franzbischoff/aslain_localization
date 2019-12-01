@@ -374,3 +374,4 @@ AddonHostProgramNotFound=%1无法找到您所选择的文件夹。%n%n您想要�
 
 
 
+
