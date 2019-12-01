@@ -332,3 +332,4 @@ UninstalledAll=Program %1 je bil uspeno odstranjen iz vaega raèunalnika.
 UninstalledMost=Odstranjevanje programa %1 je konèano.%n%nNekatere datoteke niso bile odstranjene in jih lahko odstranite roèno.
 UninstalledAndNeedsRestart=Za dokonèanje odstranitve programa %1 morate raèunalnik znova zagnati.%n%nAli ga elite znova zagnati zdaj?
 UninstallDataCorrupted="Datoteka »%1« je okvarjena. Odstranitev ni mona"
+
