@@ -11,9 +11,9 @@
 [LangOptions]
 ; The following three entries are very important. Be sure to read and
 ; understand the '[LangOptions] section' topic in the help file.
-LanguageName=Espa<00F1>ol
+LanguageName=Español
 LanguageID=$0c0a
-LanguageCodePage=1252
+LanguageCodePage=0
 ; If the language you are translating to requires special font faces or
 ; sizes, uncomment any of the following entries and change them accordingly.
 DialogFontName=Tahoma
@@ -334,34 +334,34 @@ UninstalledAndNeedsRestart=Para completar la desinstalación de %1, su sistema d
 UninstallDataCorrupted=El archivo "%1" está dañado. No puede desinstalarse
 
 ; *** Uninstallation phase messages
-ConfirmDeleteSharedFileTitle=Remove Shared File?
-ConfirmDeleteSharedFile2=The system indicates that the following shared file is no longer in use by any programs. Would you like for Uninstall to remove this shared file?%n%nIf any programs are still using this file and it is removed, those programs may not function properly. If you are unsure, choose No. Leaving the file on your system will not cause any harm.
-SharedFileNameLabel=File name:
-SharedFileLocationLabel=Location:
-WizardUninstalling=Uninstall Status
-StatusUninstalling=Uninstalling %1...
+ConfirmDeleteSharedFileTitle=¿Eliminar Archivo Compartido?
+ConfirmDeleteSharedFile2=El sistema indica que el siguiente archivo compartido no es utilizado por ningún otro programa. ¿Desea eliminar este archivo compartido?%n%nSi elimina el archivo y hay programas que lo utilizan, esos programas podrían dejar de funcionar correctamente. Si no está seguro, elija No. Dejar el archivo en su sistema no producirá ningún daño.
+SharedFileNameLabel=Archivo:
+SharedFileLocationLabel=Ubicación:
+WizardUninstalling=Estado de la Desinstalación
+StatusUninstalling=Desinstalando %1...
 
 ; *** Shutdown block reasons
-ShutdownBlockReasonInstallingApp=Installing %1.
-ShutdownBlockReasonUninstallingApp=Uninstalling %1.
+ShutdownBlockReasonInstallingApp=Instalando %1.
+ShutdownBlockReasonUninstallingApp=Desinstalando %1.
 
 ; The custom messages below aren't used by Setup itself, but if you make
 ; use of them in your scripts, you'll want to translate them.
 
 [CustomMessages]
 
-NameAndVersion=%1 version %2
-AdditionalIcons=Additional shortcuts:
-CreateDesktopIcon=Create a &desktop shortcut
-CreateQuickLaunchIcon=Create a &Quick Launch shortcut
-ProgramOnTheWeb=%1 on the Web
-UninstallProgram=Uninstall %1
-LaunchProgram=Launch %1
-AssocFileExtension=&Associate %1 with the %2 file extension
-AssocingFileExtension=Associating %1 with the %2 file extension...
-AutoStartProgramGroupDescription=Startup:
-AutoStartProgram=Automatically start %1
-AddonHostProgramNotFound=%1 could not be located in the folder you selected.%n%nDo you want to continue anyway?"
+NameAndVersion=%1 versión %2
+AdditionalIcons=Accesos directos adicionales:
+CreateDesktopIcon=Crear un acceso directo en el &escritorio
+CreateQuickLaunchIcon=Crear un acceso directo en &Inicio Rápido
+ProgramOnTheWeb=%1 en la Web
+UninstallProgram=Desinstalar %1
+LaunchProgram=Ejecutar %1
+AssocFileExtension=&Asociar %1 con la extensión de archivo %2
+AssocingFileExtension=Asociando %1 con la extensión de archivo %2...
+AutoStartProgramGroupDescription=Inicio:
+AutoStartProgram=Iniciar automáticamente %1
+AddonHostProgramNotFound=%1 no pudo ser localizado en la carpeta seleccionada.%n%n¿Desea continuar de todas formas?
 
 
 
