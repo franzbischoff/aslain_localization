@@ -357,3 +357,4 @@ AssocFileExtension=&მიაბი %1-ის გაფართოება  %2
 AssocingFileExtension=ვაბამ %1-ს %2-ზე..."
 
 
+
