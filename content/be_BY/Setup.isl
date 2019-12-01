@@ -64,7 +64,7 @@ SetupAppRunningError=Óâàãà, öÿïåð çàïóø÷àíà ïðàãðàìà 
 UninstallAppRunningError=Óâàãà, öÿïåð çàïóø÷àíà «%1»!%n%nÊàë³ ëàñêà, çà÷ûí³öå ¢ñå âîêíû ãýòàé ïðàãðàìû, ³ íàö³ñí³öå êíîïêó Äîáðà êàá ïðàöÿãíóöü, àáî Àäìåíà - êàá âûéñö³ ç ïðàãðàìû ¢ñòàëÿâàííÿ.
 
 ; *** Startup questions
-PrivilegesRequiredOverrideTitle=Select Setup Install Mode
+PrivilegesRequiredOverrideTitle=Абярыце рэжым ўстаноўкі
 PrivilegesRequiredOverrideInstruction=Select install mode
 PrivilegesRequiredOverrideText1=%1 can be installed for all users (requires administrative privileges), or for you only.
 PrivilegesRequiredOverrideText2=%1 can be installed for you only, or for all users (requires administrative privileges).
