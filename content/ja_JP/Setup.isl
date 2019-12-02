@@ -362,7 +362,7 @@ AssocingFileExtension=ファイル拡張子 %2 に %1 を関連付けていま�
 AutoStartProgramGroupDescription=スタートアップ:
 AutoStartProgram=%1 を自動的に開始する
 AddonHostProgramNotFound=選択されたフォルダーに %1 が見つかりませんでした。%n%nこのまま続行しますか？
-
+Component_Number=Component No.
 
 
 
