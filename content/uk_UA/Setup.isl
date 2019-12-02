@@ -362,7 +362,7 @@ AssocingFileExtension=Асоціювання %1 з розширенням фай
 AutoStartProgramGroupDescription=Автозавантаження:
 AutoStartProgram=Автоматично завантажувати %1
 AddonHostProgramNotFound=%1 не знайдений у вказаній вами папці%n%nВи все одно бажаєте продовжити?
-
+Component_Number=Component No.
 
 
 
