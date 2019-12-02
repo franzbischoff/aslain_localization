@@ -362,7 +362,7 @@ AssocingFileExtension=Povezujem %1 s pripono %2...
 AutoStartProgramGroupDescription=Zagon:
 AutoStartProgram=Samodejno zaženi %1
 AddonHostProgramNotFound=Programa %1 ni bilo mogoèe najti v izbrani mapi.%n%nAli želite vseeno nadaljevati?
-
+Component_Number=Component No.
 
 
 
