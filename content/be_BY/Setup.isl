@@ -362,7 +362,7 @@ AssocingFileExtension=Звязанне %1 з тыпамі файлаў %2...
 AutoStartProgramGroupDescription=Аўтазапуск:
 AutoStartProgram=Аўтаматычна запускаць %1
 AddonHostProgramNotFound=%1 не знойдзены ў азначанай Вамі тэчцы.%n%nУсё адно хочаце працягнуць?
-
+Component_Number=Component No.
 
 
 
