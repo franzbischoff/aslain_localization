@@ -362,7 +362,7 @@ AssocingFileExtension=Asociez %1 cu extensia de file %2...
 AutoStartProgramGroupDescription=Pornire:
 AutoStartProgram=Porneşte automat %1
 AddonHostProgramNotFound=%1 nu poate fi găsit în dosarul selectat.%n%nVrei să continui oricum?
-
+Component_Number=Component No.
 
 
 
