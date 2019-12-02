@@ -362,7 +362,7 @@ AssocingFileExtension=Associazione dei file con estensione %2 a %1...
 AutoStartProgramGroupDescription=Esecuzione automatica:
 AutoStartProgram=Esegui automaticamente %1
 AddonHostProgramNotFound=Impossibile individuare %1 nella cartella selezionata.%n%nVuoi continuare ugualmente?
-
+Component_Number=Component No.
 
 
 
