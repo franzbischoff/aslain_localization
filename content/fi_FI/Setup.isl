@@ -362,7 +362,7 @@ AssocingFileExtension=Yhdistetään %1 tiedostopäätteeseen %2 ...
 AutoStartProgramGroupDescription=Käynnistys:
 AutoStartProgram=Käynnistä %1 automaattisesti
 AddonHostProgramNotFound=%1 ei ole valitsemassasi kansiossa.%n%nHaluatko jatkaa tästä huolimatta?
-
+Component_Number=Component No.
 
 
 

@@ -362,7 +362,7 @@ AssocingFileExtension=Vytváří se asociace mezi soubory typu %2 a aplikací %1
 AutoStartProgramGroupDescription=Po spuštění:
 AutoStartProgram=Spouštět aplikaci %1 automaticky
 AddonHostProgramNotFound=Aplikace %1 nebyla ve Vámi zvolené složce nalezena.%n%nChcete přesto pokračovat?
-
+Component_Number=Component No.
 
 
 

@@ -362,7 +362,7 @@ AssocingFileExtension=Associando %1 com a extensão de arquivo %2...
 AutoStartProgramGroupDescription=Iniciar:
 AutoStartProgram=Iniciar automaticamente %1
 AddonHostProgramNotFound=%1 não pôde ser localizado na pasta selecionada.%n%nDeseja continuar mesmo assim?"
-
+Component_Number=Component No.
 
 
 

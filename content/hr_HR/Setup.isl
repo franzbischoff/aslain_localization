@@ -366,7 +366,7 @@ AssocingFileExtension=Povezivanje programa %1 s datotečnim nastavkom %2 …
 AutoStartProgramGroupDescription=Pokretanje:
 AutoStartProgram=Automatski pokreni %1
 AddonHostProgramNotFound=%1 nije nađen u odabranoj mapi.%n%nŽelite li svejedno nastaviti?
-
+Component_Number=Component No.
 
 
 

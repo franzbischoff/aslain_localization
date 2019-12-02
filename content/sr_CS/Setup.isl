@@ -362,7 +362,7 @@ AssocingFileExtension=Povezujem %1 sa formatom %2…
 AutoStartProgramGroupDescription=Pokretanje:
 AutoStartProgram=Automatski pokreni %1
 AddonHostProgramNotFound=%1 se ne nalazi u navedenoj fascikli.%n%nŽelite li ipak da nastavite?
-
+Component_Number=Component No.
 
 
 

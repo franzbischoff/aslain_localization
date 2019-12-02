@@ -362,7 +362,7 @@ AssocingFileExtension=Sammenkæder %1 med filtypen %2...
 AutoStartProgramGroupDescription=Start:
 AutoStartProgram=Start automatisk %1
 AddonHostProgramNotFound=%1 blev ikke fundet i den valgte mappe.%n%nVil du alligevel fortsætte?
-
+Component_Number=Component No.
 
 
 

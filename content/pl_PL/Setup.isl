@@ -362,7 +362,7 @@ AssocingFileExtension=Przypisywanie aplikacji %1 do rozszerzenia pliku %2...
 AutoStartProgramGroupDescription=Autostart:
 AutoStartProgram=Automatycznie uruchamiaj aplikację %1
 AddonHostProgramNotFound=Aplikacja %1 nie została znaleziona we wskazanym przez Ciebie folderze.%n%nCzy pomimo tego chcesz kontynuować?
-
+Component_Number=Component No.
 
 
 
