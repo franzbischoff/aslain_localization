@@ -375,5 +375,3 @@ AddonHostProgramNotFound=Programa %1 ni bilo mogoèe najti v izbrani mapi.%n%nAl
 
 
 
-
-

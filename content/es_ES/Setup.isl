@@ -375,5 +375,3 @@ AddonHostProgramNotFound=%1 no pudo ser localizado en la carpeta seleccionada.%n
 
 
 
-
-

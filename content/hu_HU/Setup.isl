@@ -375,5 +375,3 @@ AddonHostProgramNotFound=A(z) %1 nem található a kiválasztott mappában.%n%nM
 
 
 
-
-
