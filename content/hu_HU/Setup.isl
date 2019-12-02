@@ -362,7 +362,7 @@ AssocingFileExtension=A(z) %1 társítása a(z) %2 fájlkiterjesztéssel...
 AutoStartProgramGroupDescription=Indítópult:
 AutoStartProgram=%1 automatikus indítása
 AddonHostProgramNotFound=A(z) %1 nem található a kiválasztott mappában.%n%nMindenképpen folytatni kívánja?
-
+Component_Number=Component No.
 
 
 
