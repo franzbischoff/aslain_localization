@@ -1,4 +1,4 @@
-; *** Inno Setup version 6.0.3+ English messages ***
+﻿; *** Inno Setup version 6.0.3+ English messages ***
 ;
 ; To download user-contributed translations of this file, go to:
 ;   http://www.jrsoftware.org/files/istrans/
@@ -362,9 +362,6 @@ AssocingFileExtension=„%1“ programa susiejama su failo plėtiniu %2...
 AutoStartProgramGroupDescription=Atomatinė paleistis:
 AutoStartProgram=Atomatiškai paleisti „%1“
 AddonHostProgramNotFound=„%1“ nerasta Jūsų nurodytame kataloge.%n%nVis tiek norite tęsti?
-
-
-
 
 
 

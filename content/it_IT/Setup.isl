@@ -1,4 +1,4 @@
-; *** Inno Setup version 6.0.3+ English messages ***
+﻿; *** Inno Setup version 6.0.3+ English messages ***
 ;
 ; To download user-contributed translations of this file, go to:
 ;   http://www.jrsoftware.org/files/istrans/
@@ -362,9 +362,6 @@ AssocingFileExtension=Associazione dei file con estensione %2 a %1...
 AutoStartProgramGroupDescription=Esecuzione automatica:
 AutoStartProgram=Esegui automaticamente %1
 AddonHostProgramNotFound=Impossibile individuare %1 nella cartella selezionata.%n%nVuoi continuare ugualmente?
-
-
-
 
 
 

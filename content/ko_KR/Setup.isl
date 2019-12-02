@@ -1,4 +1,4 @@
-; *** Inno Setup version 6.0.3+ English messages ***
+﻿; *** Inno Setup version 6.0.3+ English messages ***
 ;
 ; To download user-contributed translations of this file, go to:
 ;   http://www.jrsoftware.org/files/istrans/
@@ -363,9 +363,6 @@ AssocingFileExtension=파일 확장자 %2을(를) %1에 연결하는 중...
 AutoStartProgramGroupDescription=시작:
 AutoStartProgram=%1을(를) 자동으로 시작
 AddonHostProgramNotFound=%1은(는) 선택한 폴더에 위치할 수 없습니다.%n%n그래도 계속하시겠습니까?
-
-
-
 
 
 
