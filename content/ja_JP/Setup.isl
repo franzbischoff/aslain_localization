@@ -1,4 +1,4 @@
-﻿; *** Inno Setup version 6.0.3+ English messages ***
+; *** Inno Setup version 6.0.3+ English messages ***
 ;
 ; To download user-contributed translations of this file, go to:
 ;   http://www.jrsoftware.org/files/istrans/
@@ -363,6 +363,9 @@ AutoStartProgramGroupDescription=スタートアップ:
 AutoStartProgram=%1 を自動的に開始する
 AddonHostProgramNotFound=選択されたフォルダーに %1 が見つかりませんでした。%n%nこのまま続行しますか？
 Component_Number=Component No.
+
+
+
 
 
 
