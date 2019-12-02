@@ -362,7 +362,7 @@ AssocingFileExtension=„%1“ programa susiejama su failo plėtiniu %2...
 AutoStartProgramGroupDescription=Atomatinė paleistis:
 AutoStartProgram=Atomatiškai paleisti „%1“
 AddonHostProgramNotFound=„%1“ nerasta Jūsų nurodytame kataloge.%n%nVis tiek norite tęsti?
-
+Component_Number=Component No.
 
 
 
