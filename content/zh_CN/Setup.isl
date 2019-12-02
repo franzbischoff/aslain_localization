@@ -1,4 +1,4 @@
-﻿; *** Inno Setup version 6.0.3+ English messages ***
+; *** Inno Setup version 6.0.3+ English messages ***
 ;
 ; To download user-contributed translations of this file, go to:
 ;   http://www.jrsoftware.org/files/istrans/
@@ -363,6 +363,9 @@ AutoStartProgramGroupDescription=启动组:
 AutoStartProgram=自动启动 %1
 AddonHostProgramNotFound=%1无法找到您所选择的文件夹。%n%n您想要继续吗？
 Component_Number=Component No.
+
+
+
 
 
 
