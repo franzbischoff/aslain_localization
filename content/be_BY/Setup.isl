@@ -361,12 +361,6 @@ AddonHostProgramNotFound=%1 не знойдзены ў азначанай Вам
 
 ; Aslain Custom Messages
 
-ColoredMessages_en=Беларус
-crewVoices_en=Беларус
-Customsubtitle=Перад тым, як пачаць усталяванне, прачытайце наступную інфармацыю.
-customversion=Выбарковае ўсталяванне
-LicenseLabel3=Калі будзеце гатовы працягнуць усталяванне, націсніце Далей.
-WizardLicense=Інфармацыя
 
 
 
