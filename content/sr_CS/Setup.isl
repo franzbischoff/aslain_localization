@@ -361,12 +361,6 @@ AddonHostProgramNotFound=%1 se ne nalazi u navedenoj fascikli.%n%nŽelite li ipa
 
 ; Aslain Custom Messages
 
-ColoredMessages_en=Srpski
-crewVoices_en=Srpski
-Customsubtitle=Pažljivo pročitajte sledeće pre nego što nastavite.
-customversion=Prilagođena instalacija
-LicenseLabel3=Kada budete spremni da nastavite instalaciju, kliknite na „Dalje“.
-WizardLicense=Podaci
 
 
 
