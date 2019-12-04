@@ -361,12 +361,6 @@ AddonHostProgramNotFound=%1 ei ole valitsemassasi kansiossa.%n%nHaluatko jatkaa 
 
 ; Aslain Custom Messages
 
-ColoredMessages_en=Suomi
-crewVoices_en=Suomi
-Customsubtitle=Lue seuraava tärkeä tiedotus ennen kuin jatkat.
-customversion=Mukautettu asennus
-LicenseLabel3=Kun olet valmis jatkamaan asentamista, valitse Seuraava.
-WizardLicense=Ilmoitus
 
 
 
