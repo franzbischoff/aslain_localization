@@ -3697,7 +3697,7 @@ desc_Link_CustomLoginScreens_Aslain=http://aslain.com
 desc_Link_CustomLoginScreens_R0BERT_PL=http://forum.worldoftanks.eu/index.php?/topic/640455-robert-kowalczyk-tapety-world-of-tanks/
 desc_Link_CustomLoginScreensHistorical=http://forum.worldoftanks.eu/index.php?/topic/469197-
 desc_Link_damageCounters=https://koreanrandom.com/forum/topic/35173-totalefficiency
-desc_Link_damageCounters_onTop="http://forum.worldoftanks.ru/index.php?/topic/1594349-damagelog-%d0%bb%d0%be%d0%b3-%d0%bf%d0%be%d0%bb%d1%83%d1%87%d0%b5%d0%bd%d0%bd%d0%be%d0%b3%d0%be-%d0%b7%d0%b0%d0%b1%d0%bb%d0%be%d0%ba%d0%b8%d1%80%d0%be%d0%b2%d0%b0%d0%bd%d0%bd%d0%be%d0%b3%d0%be-%d0%b8-%d0%bd%d0%b0%d0%bd%d0%b5%d1%81%d0%b5%d0%bd/page__st__3160__pid__44745274#entry44745274"
+desc_Link_damageCounters_onTop="http://forum.worldoftanks.ru/index.php?/topic/1594349-damagelog-%d0%bb%d0%be%d0%b3-%d0%bf%d0%be%d0%bb%d1%83%d1%87%d0%b5%d0%bd%d0%bd%d0%be%d0%b3%d0%be-%d0%b7%d0%b0%d0%b1%d0%bb%d0%be%d0%ba%d0%b8%d1%80%d0%be%d0%b2%d0%b0%d0%bd%d0%bd%d0%be%d0%b3%d0%be-%d0%b8-%d0%bd%d0%b0%d0%bd%d0%b5%d1%81%d0%b5%d0%bd / page__st__3160__pid__44745274 # entry44745274"
 desc_Link_damageCounters_overDamagePanel=https://koreanrandom.com/forum/topic/35173-totalefficiency
 desc_Link_damagelogGambiter=http://forum.worldoftanks.ru/index.php?/topic/1594349-
 desc_Link_damagelogGambiter_namesOFF=http://forum.worldoftanks.ru/index.php?/topic/1594349-
@@ -3715,10 +3715,10 @@ desc_Link_damagePanel_Retro=http://worldof-tanks.com/retro-damage-panel/
 desc_Link_damagePanel_Shtys=https://wotsite.net/paneli-povrezhdenij/6683-danno-panel-wot-4-varianta.html
 desc_Link_damagePanel_xbox=https://wotsite.net/paneli-povrezhdenij/11605-panel-povrezhdenij-playstation-dlya-world-of-tanks.html
 desc_Link_DamagePanelWithAngles=https://wotsite.net/paneli-povrezhdenij/9225-panel-povrezhdeniya-s-uglami-navodki.html
-desc_Link_DamagePanelWithTimer="http://forum.worldoftanks.ru/index.php?/topic/1594349-damagelog-%d0%bb%d0%be%d0%b3-%d0%bf%d0%be%d0%bb%d1%83%d1%87%d0%b5%d0%bd%d0%bd%d0%be%d0%b3%d0%be-%d0%b7%d0%b0%d0%b1%d0%bb%d0%be%d0%ba%d0%b8%d1%80%d0%be%d0%b2%d0%b0%d0%bd%d0%bd%d0%be%d0%b3%d0%be-%d0%b8-%d0%bd%d0%b0%d0%bd%d0%b5%d1%81%d0%b5%d0%bd/page__st__3020__pid__44480211#entry44480211"
-desc_Link_DamagePanelWithTimerRepair=http://forum.worldoftanks.ru/index.php?/topic/1830435-0916-%d0%b4%d0%b0%d0%bc%d0%b0%d0%b3-%d0%bf%d0%b0%d0%bd%d0%b5%d0%bb%d1%8c-%d1%80%d0%be%d0%b7%d0%b0-%d1%80%d0%b5%d0%bc%d0%be%d0%bd%d1%82%d0%b0-%d0%b1%d0%b5%d1%85-xvm-2711/
-desc_Link_DamagePanelWithTimerRepair_angles=http://forum.worldoftanks.ru/index.php?/topic/1830435-0916-%d0%b4%d0%b0%d0%bc%d0%b0%d0%b3-%d0%bf%d0%b0%d0%bd%d0%b5%d0%bb%d1%8c-%d1%80%d0%be%d0%b7%d0%b0-%d1%80%d0%b5%d0%bc%d0%be%d0%bd%d1%82%d0%b0-%d0%b1%d0%b5%d1%85-xvm-2711/
-desc_Link_DamagePanelWithTimerRepair_bp_bar=http://forum.worldoftanks.ru/index.php?/topic/1830435-0916-%d0%b4%d0%b0%d0%bc%d0%b0%d0%b3-%d0%bf%d0%b0%d0%bd%d0%b5%d0%bb%d1%8c-%d1%80%d0%be%d0%b7%d0%b0-%d1%80%d0%b5%d0%bc%d0%be%d0%bd%d1%82%d0%b0-%d0%b1%d0%b5%d1%85-xvm-2711/
+desc_Link_DamagePanelWithTimer="http://forum.worldoftanks.ru/index.php?/topic/1594349-damagelog-%d0%bb%d0%be%d0%b3-%d0%bf%d0%be%d0%bb%d1%83%d1%87%d0%b5%d0%bd%d0%bd%d0%be%d0%b3%d0%be-%d0%b7%d0%b0%d0%b1%d0%bb%d0%be%d0%ba%d0%b8%d1%80%d0%be%d0%b2%d0%b0%d0%bd%d0%bd%d0%be%d0%b3%d0%be-%d0%b8-%d0%bd%d0%b0%d0%bd%d0%b5%d1%81%d0%b5%d0%bd / page__st__3020__pid__44480211 # entry44480211"
+desc_Link_DamagePanelWithTimerRepair=http://forum.worldoftanks.ru/index.php?/topic/1830435-0916-%d0%b4%d0%b0%d0%bc%d0%b0%d0%b3-%d0%bf%d0%b0%d0%bd%d0%b5%d0%bb%d1%8c-%d1%80%d0%be%d0%b7%d0%b0-%d1%80%d0%b5%d0%bc%d0%be%d0%bd%d1%82%d0%b0-%d0%b1%d0%b5%d1%85-xvm-2711 /
+desc_Link_DamagePanelWithTimerRepair_angles=http://forum.worldoftanks.ru/index.php?/topic/1830435-0916-%d0%b4%d0%b0%d0%bc%d0%b0%d0%b3-%d0%bf%d0%b0%d0%bd%d0%b5%d0%bb%d1%8c-%d1%80%d0%be%d0%b7%d0%b0-%d1%80%d0%b5%d0%bc%d0%be%d0%bd%d1%82%d0%b0-%d0%b1%d0%b5%d1%85-xvm-2711 /
+desc_Link_DamagePanelWithTimerRepair_bp_bar=http://forum.worldoftanks.ru/index.php?/topic/1830435-0916-%d0%b4%d0%b0%d0%bc%d0%b0%d0%b3-%d0%bf%d0%b0%d0%bd%d0%b5%d0%bb%d1%8c-%d1%80%d0%be%d0%b7%d0%b0-%d1%80%d0%b5%d0%bc%d0%be%d0%bd%d1%82%d0%b0-%d0%b1%d0%b5%d1%85-xvm-2711 /
 desc_Link_Danger_Lights=https://wotsite.net/mody-dlya-world-of-tanks/12160-mod-atas-dlya-wot.html
 desc_Link_DarkestDungeon_crewvoices=http://aslain.com/index.php?/topic/10208-bring-back-the-darkest-dungeon-voicepack-mod-mod-prego/
 desc_Link_DebugPanel_Harpoon=http://forum.worldoftanks.ru/index.php?/topic/1419789-
@@ -3993,7 +3993,7 @@ desc_Link_SingleToneCamouflages=http://forum.worldoftanks.eu/index.php?/topic/59
 desc_Link_SixSense_sound_SupriceMotherflocker=http://aslain.com/index.php?/topic/9350-sixthsense-sound-sorpresa-madre/
 desc_Link_SixSense_sound_UciekajDlugie=https://www.twitch.tv/dziabu
 desc_Link_SixSense_sound_UciekajKrotkie=https://www.twitch.tv/dziabu
-desc_Link_SixthSenseDuration_PMOD=http://forum.worldoftanks.ru/index.php?/topic/1172523-0915-pmod-%D0%BF%D0%B0%D0%BA%D0%B5%D1%82-%D1%81-%D0%BF%D1%80%D1%8F%D0%BD%D0%B8%D0%BA%D0%B0%D0%BC%D0%B8-25052016-0915-22-1/
+desc_Link_SixthSenseDuration_PMOD=http://forum.worldoftanks.ru/index.php?/topic/1172523-0915-pmod-%D0%BF%D0%B0%D0%BA%D0%B5%D1%82-%D1%81-%D0%BF%D1%80%D1%8F%D0%BD%D0%B8%D0%BA%D0%B0%D0%BC%D0%B8-25052016-0915-22-1 /
 desc_Link_skin_Deus_Vult_KV_2=https://wgmods.net/1189/dettagli
 desc_Link_skin_StarWars_Badger=https://wgmods.net/476/details
 desc_Link_skin_StarWars_IS_3=https://wgmods.net/476/details
@@ -4154,14 +4154,14 @@ desc_Link_XVM_debugPanel_v6=http://aslain.com/index.php?/topic/11762-1022
 desc_Link_XVM_debugPanel_v7=http://aslain.com/index.php?/topic/11762-1022
 desc_Link_XVM_debugPanel_v8=http://aslain.com/index.php?/topic/11762-1022
 desc_Link_XVM_debugPanel_v9=http://aslain.com/index.php?/topic/11762-1022
-desc_Link_XVM_fragCorrelation_style_alt=https://koreanrandom.com/forum/topic/40350-%D0%BA%D0%BE%D0%BD%D1%84%D0%B8%D0%B3%D1%83%D1%80%D0%B0%D1%86%D0%B8%D0%B8-totalhp-%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0%D0%BC%D0%B8-xvm/
-desc_Link_XVM_fragCorrelation_style_main=https://koreanrandom.com/forum/topic/40350-%D0%BA%D0%BE%D0%BD%D1%84%D0%B8%D0%B3%D1%83%D1%80%D0%B0%D1%86%D0%B8%D0%B8-totalhp-%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0%D0%BC%D0%B8-xvm/
-desc_Link_XVM_fragCorrelation_style_main_w_alt=https://koreanrandom.com/forum/topic/40350-%D0%BA%D0%BE%D0%BD%D1%84%D0%B8%D0%B3%D1%83%D1%80%D0%B0%D1%86%D0%B8%D0%B8-totalhp-%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0%D0%BC%D0%B8-xvm/
+desc_Link_XVM_fragCorrelation_style_alt=https://koreanrandom.com/forum/topic/40350-%D0%BA%D0%BE%D0%BD%D1%84%D0%B8%D0%B3%D1%83%D1%80%D0%B0%D1%86%D0%B8%D0%B8-totalhp-%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0%D0%BC%D0%B8-xvm /
+desc_Link_XVM_fragCorrelation_style_main=https://koreanrandom.com/forum/topic/40350-%D0%BA%D0%BE%D0%BD%D1%84%D0%B8%D0%B3%D1%83%D1%80%D0%B0%D1%86%D0%B8%D0%B8-totalhp-%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0%D0%BC%D0%B8-xvm /
+desc_Link_XVM_fragCorrelation_style_main_w_alt=https://koreanrandom.com/forum/topic/40350-%D0%BA%D0%BE%D0%BD%D1%84%D0%B8%D0%B3%D1%83%D1%80%D0%B0%D1%86%D0%B8%D0%B8-totalhp-%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0%D0%BC%D0%B8-xvm /
 desc_Link_XVM_Sight=https://koreanrandom.com/forum/topic/37259--
-desc_Link_XVM_Team_WN8="https://koreanrandom.com/forum/topic/39066-team-wn8-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%BD%D1%8B%D0%B9-wn8/#entry389040"
-desc_Link_XVM_Team_WN8_position_1="https://koreanrandom.com/forum/topic/39066-team-wn8-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%BD%D1%8B%D0%B9-wn8/#entry389040"
-desc_Link_XVM_Team_WN8_position_2="https://koreanrandom.com/forum/topic/39066-team-wn8-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%BD%D1%8B%D0%B9-wn8/#entry389040"
-desc_Link_XVM_Team_WN8_position_3="https://koreanrandom.com/forum/topic/39066-team-wn8-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%BD%D1%8B%D0%B9-wn8/#entry389040"
+desc_Link_XVM_Team_WN8="https://koreanrandom.com/forum/topic/39066-team-wn8-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%BD%D1%8B%D0%B9-wn8 / # entry389040"
+desc_Link_XVM_Team_WN8_position_1="https://koreanrandom.com/forum/topic/39066-team-wn8-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%BD%D1%8B%D0%B9-wn8 / # entry389040"
+desc_Link_XVM_Team_WN8_position_2="https://koreanrandom.com/forum/topic/39066-team-wn8-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%BD%D1%8B%D0%B9-wn8 / # entry389040"
+desc_Link_XVM_Team_WN8_position_3="https://koreanrandom.com/forum/topic/39066-team-wn8-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%BD%D1%8B%D0%B9-wn8 / # entry389040"
 desc_Link_YasenKrasen=http://forum.worldoftanks.eu/index.php?/topic/583433-09
 desc_Link_YasenKrasen_Backgrounds_v1=http://forum.worldoftanks.eu/index.php?/topic/583433-09
 desc_Link_YasenKrasen_Backgrounds_v2=http://forum.worldoftanks.eu/index.php?/topic/583433-09
@@ -5482,7 +5482,7 @@ des_Desc_OTM_OverHpBarField_stats_4stars="info max come 4 stelle%n%n1st = Totale
 des_Desc_skins_PolishArmoredForces="Questo progetto mira a scambiare carri azionari WoT con carri armati usati dalle Forze Corazzate Polacche: forze polacche PL-01 Concept, forze polacche T-55A, Le forze polacche ASU-85, i ribelli polacchi Panther \"PUDEL\", T-34-85 RUDY dal potente film \"Czterej Pancerni i Pies\", 10TP, 7TP, TK-S. HN: TYPE-59 => T-55A%nUSSR: T-54 => T-55A%nUSSR: SU-122-44, SU-85 => ASU-85%nUSSR: T-34-85 => T-34-85 RUDY%nUSSR: T-26 => 7TP%nUSSR: BT-7 => 10TP%nUK: UC2 Pdr. => TK-S%nGERMAN: VK 30.02 (M), Panther => Panther polacco \"PUDEL\"%n%n%nAutori: GrumpySanger, RazNak, atacms, vlss, Loonar"
 desc_Link_skins_Milkym4n_SwissG13="https://wgmods.net/search/?owner=1893dettagli"
 desc_Link_CustomLoginScreensLegendary="http://legendarystoner.us/viewtopic.php?f=21&t=13"
-desc_Link_contourIcons_Octagon="http://www.inven.co.kr/board/powerbbs.php?come_idx=3211&name=nicname&keyword=%EC%A0%88%EB%8C%80%EA%B7%B9%EC%95%85&eq=1&iskin"
+desc_Link_contourIcons_Octagon="http://www.inven.co.kr/board/powerbbs.php?come_idx=3211&name=nicname&keyword=%EC%A0%88%EB%8C%80%EA%B7%B9%EC%95%85& eq = 1 & iskin"
 desc_Link_crew_voices_Faja="https://www.youtube.com/watch?v=35rcmkTplMQ"
 desc_Link_panels_Quickbaby="https://www.youtube.com/watch?v=EKj0-FH894c"
 desc_Link_GirlsUndPanzerCrewSwimsuit="http://wotmods.hopto.me: 9000/owncloud/public.php?service=files&t=cd49722ca45bc40033f1941890851334"
