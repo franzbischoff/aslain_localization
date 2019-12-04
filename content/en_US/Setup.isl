@@ -42,7 +42,6 @@ ErrorTitle=Error
 SetupLdrStartupMessage=This will install %1. Do you wish to continue?
 LdrCannotCreateTemp=Unable to create a temporary file. Setup aborted
 LdrCannotExecTemp=Unable to execute file in the temporary directory. Setup aborted
-HelpTextNote=
 
 ; *** Startup error messages
 LastErrorMessage=%1.%n%nError %2: %3
@@ -83,8 +82,6 @@ ExitSetupMessage=Setup is not complete. If you exit now, the program will not be
 AboutSetupMenuItem=&About Setup...
 AboutSetupTitle=About Setup
 AboutSetupMessage=%1 version %2%n%3%n%n%1 home page:%n%4
-AboutSetupNote=
-TranslatorNote=
 
 ; *** Buttons
 ButtonBack=< &Back
@@ -107,7 +104,6 @@ SelectLanguageLabel=Select the language to use during the installation.
 
 ; *** Common wizard text
 ClickNext=Click Next to continue, or Cancel to exit Setup.
-BeveledLabel=
 BrowseDialogTitle=Browse For Folder
 BrowseDialogLabel=Select a folder in the list below, then click OK.
 NewFolderName=New Folder
@@ -4179,7 +4175,6 @@ DescButtonH=Hide Descriptions
 DescButtonS=Show Descriptions
 DescLinkName=Visit this mod's website
 DescriptionText2=Left click on a component to see its description.
-DescriptionTitle=
 DescriptionTitleText=There is no description for this component
 destroyedObjectsSoundsVito=Destroyed objects sounds by vito74m
 destroyedvehicleAngelWings=Angel Wings for both enemies, and allies
