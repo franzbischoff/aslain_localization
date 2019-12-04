@@ -361,12 +361,6 @@ AddonHostProgramNotFound=„%1“ nerasta Jūsų nurodytame kataloge.%n%nVis tie
 
 ; Aslain Custom Messages
 
-ColoredMessages_en=Lietuvių
-crewVoices_en=Lietuvių
-Customsubtitle=Perskaitykite šią informaciją prieš tęsdami diegimą.
-customversion=Pasirinktinis diegimas
-LicenseLabel3=Kai būsite pasiruošęs tęsti diegimą, spauskite „Pirmyn“.
-WizardLicense=Informacija
 
 
 
