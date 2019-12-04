@@ -361,12 +361,6 @@ AddonHostProgramNotFound=選択されたフォルダーに %1 が見つかりま
 
 ; Aslain Custom Messages
 
-ColoredMessages_en=日本人
-crewVoices_en=日本人
-Customsubtitle=続行する前に以下の重要な情報をお読みください。
-customversion=カスタムインストール
-LicenseLabel3=セットアップを続行するには「次へ」をクリックしてください。
-WizardLicense=情報
 
 
 
