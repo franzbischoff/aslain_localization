@@ -361,12 +361,6 @@ AddonHostProgramNotFound=%1 nu poate fi găsit în dosarul selectat.%n%nVrei să
 
 ; Aslain Custom Messages
 
-ColoredMessages_en=Română
-crewVoices_en=Română
-Customsubtitle=Citeşte informaţiile următoare înainte de a continua, sînt importante.
-customversion=Instalare Personalizată
-LicenseLabel3=Cînd eşti gata de a trece la Instalare, clichează pe Continuă.
-WizardLicense=Informaţii
 
 
 
