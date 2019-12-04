@@ -361,12 +361,6 @@ AddonHostProgramNotFound=%1 kunde inte hittas i katalogen du valde.%n%nVill du f
 
 ; Aslain Custom Messages
 
-ColoredMessages_en=Svenska
-crewVoices_en=Svenska
-Customsubtitle=Var god och läs följande viktiga information innan du fortsätter.
-customversion=Anpassad installation
-LicenseLabel3=När du är klar att fortsätta med installationen klickar du på Nästa.
-WizardLicense=Information
 
 
 
