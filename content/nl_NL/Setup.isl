@@ -388,12 +388,6 @@ AddonHostProgramNotFound=%1 could not be located in the folder you selected.%n%n
 
 ; Aslain Custom Messages
 
-ColoredMessages_en=Nederlands
-crewVoices_en=Nederlands
-Customsubtitle=Lees de volgende belangrijke informatie voordat u verder gaat.
-customversion=Aangepaste installatie
-LicenseLabel3=Klik op Volgende als u gereed bent om verder te gaan met Setup.
-WizardLicense=Informatie
 
 
 
