@@ -361,12 +361,6 @@ AddonHostProgramNotFound=Programa %1 ni bilo mogoèe najti v izbrani mapi.%n%nAl
 
 ; Aslain Custom Messages
 
-ColoredMessages_en=Slovenski
-crewVoices_en=Slovenski
-Customsubtitle=Pred nadaljevanjem preberite licenèno pogodbo za uporabo programa.
-customversion=Namestitev po meri
-LicenseLabel3=Ko boste pripravljeni na nadaljevanje namestitve, kliknite Naprej.
-WizardLicense=Informacija
 
 
 
