@@ -361,12 +361,6 @@ AddonHostProgramNotFound=Impossibile individuare %1 nella cartella selezionata.%
 
 ; Aslain Custom Messages
 
-ColoredMessages_en=Italiano
-crewVoices_en=Italiano
-Customsubtitle=Prima di procedere leggi con attenzione le informazioni che seguono.
-customversion=Installazione personalizzata
-LicenseLabel3=Quando sei pronto per proseguire, seleziona "Avanti".
-WizardLicense=Informazioni
 
 
 
