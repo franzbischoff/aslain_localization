@@ -362,12 +362,6 @@ AddonHostProgramNotFound=%1은(는) 선택한 폴더에 위치할 수 없습니�
 
 ; Aslain Custom Messages
 
-ColoredMessages_en=Korean
-crewVoices_en=Korean
-Customsubtitle=계속하기 전에 다음의 중요 정보를 읽어보십시오.
-customversion=사용자 지정 설치
-LicenseLabel3=설치를 계속하려면 "다음"을 클릭하십시오.
-WizardLicense=정보
 
 
 
