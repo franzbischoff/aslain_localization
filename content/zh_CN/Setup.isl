@@ -365,12 +365,10 @@ armorcalc1=TD 和 SPG 的额外枪约束标尺。
 claniconsAS=ASIA 区域图标
 claniconsNA=NA 区域图标
 claniconsRU=RU区域图标
-ColoredMessages_en=简体中文
 contouricons_Witblitz_CompactVibrant=女巫：紧凑的颜色（冒险着色）
 contouricons_Witblitz_CompactVibrant_AslainsStyle=女巫：紧凑（七面颜色）（备用）
 contourIconsMode_NonXVM=Non-XVM (检查 - 如果您没有安装 XVM)
 copy_GUI_icons=复制图标到最初的 WOT 位置(在车库和其他地方显示自定义图标)
-crewVoices_en=简体中文
 crewvoices_GuP_YukariAkiyama=( 女 ) 潘泽船员的声音
 crewvoices_leviathan_v1=Leviathan Spooky 拉丁语音（2017年万圣节）
 crewvoices_WWIIHWA=WWIIHWA (伤残)机组人员的声音
@@ -379,10 +377,6 @@ crosshair_Devastator=十字头: Devastator
 crosshair_Fatality=交叉表: 死亡
 crosshair_Giacint=交叉: Giacint
 crosshair_Hardscope=交叉: HARDscope
-Customsubtitle=继续安装前请阅读下列重要信息。
-customversion=自定义安装
-LicenseLabel3=如果您想继续安装，单击“下一步”。
-WizardLicense=信息
 
 
 
