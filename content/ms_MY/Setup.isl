@@ -361,12 +361,6 @@ AddonHostProgramNotFound=%1 could not be located in the folder you selected.%n%n
 
 ; Aslain Custom Messages
 
-ColoredMessages_en=Malay
-crewVoices_en=Malay
-Customsubtitle=Sila baca Maklumat Penting berikut, sebelum anda meneruskan pemasangan perisian ini.
-customversion=Pemasangan atas Pilihan
-LicenseLabel3=Jika anda bersedia untuk meneruskan pemasangan, klik Selepas.
-WizardLicense=Maklumat
 
 
 
