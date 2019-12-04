@@ -391,12 +391,6 @@ AddonHostProgramNotFound=%1 could not be located in the folder you selected.%n%n
 
 ; Aslain Custom Messages
 
-ColoredMessages_en=Ελληνικά
-crewVoices_en=Ελληνικά
-Customsubtitle=Παρακαλώ διαβάστε προσεκτικά τις παρακάτω πληροφορίες πριν συνεχίσετε.
-customversion=Προσαρμοσμένη Εγκατάσταση
-LicenseLabel3=Όταν είστε έτοιμοι να συνεχίσετε με την Εγκατάσταση, πατήστε Επόμενο.
-WizardLicense=Πληροφορίες
 
 
 
